@@ -1,0 +1,1634 @@
+#LyX 1.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 220
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\newcommand\kreis[1]{\ensuremath{%
+\mathbin{\settowidth{\dimen7}{\mbox{$\bigcirc$}}%
+              \makebox[0pt][l]{$\bigcirc$}\makebox[\dimen7]{#1}}}}
+%\usepackage{indentfirst}
+\usepackage{textcomp}
+\newcommand{\rem}[1]{}
+\end_preamble
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\paperfontsize 12
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 0
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+
+\layout Title
+
+Полезные советы по LyX
+\layout Date
+
+14.06.02
+\layout Author
+
+Russian LyX User Group (vitlav@mail.ru)
+\layout Abstract
+
+Мы хотели бы собирать здесь советы, как делать в LyX некоторые вещи оптимальным
+ образом, а так же рассмотреть вопросы, возникающие у новоначального пользовател
+я.
+ В поле 
+\begin_inset Quotes eld
+\end_inset 
+
+Недостатки
+\begin_inset Quotes erd
+\end_inset 
+
+ указываются те особенности реализации, которые, на взгляд авторов, следовало
+ бы устранить.
+\layout Section
+
+
+\begin_inset LatexCommand \label{ОбщиеСведения}
+
+\end_inset 
+
+Общие сведения
+\layout Standard
+
+Команда TeX вводится как обыкновенный текст в документ, далее выделяется
+ мышкой и нажимается красная кнопочка на панели инструментов с надписью
+ TeX.
+ При этом команда становится записанной красным шрифтом.
+\layout Standard
+
+Чтобы подключить для использования тот или иной 
+\emph on 
+пакет
+\emph default 
+, необходимо в меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Преамбула\SpecialChar ~
+LaTeX
+\family default 
+ вписать строчку 
+\family sans 
+
+\backslash 
+usepackage{имя_пакета}
+\family default 
+.
+ Внимание! Клавиша 
+\family sans 
+Del
+\family default 
+ при редактировании преамбулы стирает 
+\size large 
+\emph on 
+слева
+\size default 
+\emph default 
+ от курсора.
+\layout Section
+
+Документ
+\layout Standard
+
+В общем вид документа на печати зависит от примененного 
+\emph on 
+стиля
+\emph default 
+ документа.
+ Стиль может быть article (статья), report (отчет), book (книга).
+ Для оформления текстовой документации по ГОСТ используется стиль ГОСТ,
+ в оформлении которого учтены все требования ГОСТ к оформлению и нижеперечисленн
+ые советы практически не требуются.
+\layout Subsection
+
+Номер на странице
+\layout Standard
+
+Чтобы убрать вывод номера на определённой странице, нужно в начале текста
+ на странице написать команду TeX:
+\family typewriter 
+ 
+\backslash 
+thispagestyle{empty}
+\layout Standard
+
+Чтобы не показывать номера вообще, необходимо вставить следующий код в преамбулу
+:
+\layout LyX-Code
+
+
+\size small 
+
+\backslash 
+let
+\backslash 
+ps@plain
+\backslash 
+ps@empty 
+\layout LyX-Code
+
+
+\size small 
+
+\backslash 
+ps@empty
+\layout Standard
+
+или применить пакет 
+\family typewriter 
+nopageno
+\family default 
+ (см.
+ раздел 
+\begin_inset LatexCommand \vref{ОбщиеСведения}
+
+\end_inset 
+
+)
+\family typewriter 
+.
+\layout Standard
+
+Если вы хотите видеть нумерацию вида 
+\begin_inset Quotes eld
+\end_inset 
+
+3 из 12
+\begin_inset Quotes erd
+\end_inset 
+
+, примените пакет 
+\family typewriter 
+lastpage
+\family default 
+.
+ В преамбуле:
+\layout LyX-Code
+
+
+\backslash 
+usepackage{lastpage}
+\layout LyX-Code
+
+
+\backslash 
+renewcommand
+\backslash 
+thepage{
+\backslash 
+arabic{page} из 
+\backslash 
+pageref{LastPage}}
+\layout Standard
+
+30.06.01 Lav
+\layout Subsection
+
+Поля документа
+\layout Standard
+
+Если вы решили поменять поля документа, не забудьте указать единицы измерения
+ вводимых отступов (например, 20mm --- mm 
+\emph on 
+не
+\emph default 
+ русские буквы).
+ Поля меняются в меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Документ
+\family default 
+.
+ А самое главное --- что нужно поставить галочку 
+\family sans 
+Использовать пакет геометрии
+\family default 
+.
+\layout Standard
+
+01.07.01, 08.12.01 Lav
+\layout Subsection
+
+Добавление строки в содержание
+\layout Standard
+
+По умолчанию в содержание добавляются только разделы, имеющие нумерацию
+ (Section, SubSection и пр.
+ --- те, которые без звездочек).
+ Если необходимо добавить ещё пункт Введение или Послесловие, которые не
+ должны иметь нумерации, но быть отражены в содержании, применяется команда
+\layout LyX-Code
+
+
+\backslash 
+addcontentsline{toc}{section}{Название пункта}
+\layout Standard
+
+Причем её нужно указывать в тексте раздела, сразу после названия раздела.
+ Например:
+\layout Section*
+
+Введение
+\layout LyX-Code
+
+
+\backslash 
+addcontentsline{toc}{section}{Введение}
+\layout Standard
+
+Вместо section указывается окружение, в уровень которого нужно поместить
+ указанную строку.
+\layout Standard
+
+01.07.01 Lav
+\layout Subsection
+
+Проблемы с русским в LyX (LaTeX)
+\layout Standard
+
+Для нормальной работы необходима правильная настройка раскладки клавиатуры
+ в X, раскладки в LyX.
+ Нужно подключить файл перекодирования lyx/bind/cyrillic.bind для использования
+ LyX со стандартным переключением в X.
+\layout Subsection
+
+Колонки текста
+\layout Subsubsection
+
+Используя пакет multicol
+\layout Standard
+
+
+\begin_inset Marginal
+collapsed true
+
+\layout Standard
+
+Эта строка специально оставлена.
+\end_inset 
+
+Мы должны указать в преамбуле 
+\backslash 
+usepackage{multicol}.
+ Ниже приведен пример, из которого должно быть всё понятно.
+ Для указания, где начать новую колонку, используем 
+\size small 
+
+\backslash 
+columnbreak.
+ Чтобы текст в колонках прижимался к верхнему краю, нужно указать 
+\backslash 
+raggedcolumns после
+\size default 
+
+\begin_inset LatexCommand \label{overhead}
+
+\end_inset 
+
+
+\backslash 
+begin{multicols}{2}.
+ Возможно, лучше после отменить действие 
+\size small 
+
+\backslash 
+raggedcolumns с помощью 
+\backslash 
+flushcolumns.
+\layout Standard
+
+
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+begin{multicols}{2} 
+\backslash 
+raggedcolumns
+\end_inset 
+
+
+\layout Standard
+
+
+\size small 
+\lang english
+It was in the spring of the year 1894 that all London was interested, and
+ the fashionable world dismayed, by the murder of the Honourable Ronald
+ Adair under most unusual and inexplicable circumstances.
+\layout Standard
+
+
+\size small 
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+columnbreak
+\end_inset 
+
+
+\layout Standard
+
+
+\size small 
+\lang english
+The public has already learned those particulars of the crime which came
+ out in the police investigation, but a good deal was suppressed upon that
+ occasion, since the case for the prosecution was so overwhelmingly strong
+ that it was not necessary to bring forward all the facts.
+ 
+\layout Standard
+
+
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+end{multicols}
+\end_inset 
+
+
+\layout Subsubsection
+
+Используя министраницы 
+\layout Standard
+
+Текст, который нам нужно расположить в две колонки, выделяем и идем в 
+\family sans 
+Формат\SpecialChar \menuseparator
+Абзац.
+
+\family default 
+ Закладка Extra.
+ Там ставим галочку Министраницы, Вертикальный клей между министраницами.
+ Указываем ширину в процентах (например, 45).
+ Нажимаем
+\family sans 
+ ОК 
+\family default 
+:).
+ Далее снимаем выделение и указываем абзац, с которого нужно начать новую
+ колонку.
+ Опять идем в 
+\family sans 
+Формат\SpecialChar \menuseparator
+Абзац
+\family default 
+, ставим галочку Начать новую министраницу.
+ Всё.
+ Далее, 
+\begin_inset LatexCommand \vpageref{minipage}
+
+\end_inset 
+
+ --- пример.
+\begin_inset Marginal
+collapsed true
+
+\layout Standard
+
+Видите, почему-то не на одном уровне.
+\end_inset 
+
+ 
+\layout Standard
+
+
+\begin_inset Minipage
+position 0
+inner_position 0
+height "0pt"
+width "49col%"
+collapsed false
+
+\layout Standard
+
+
+\begin_inset LatexCommand \label{minipage}
+
+\end_inset 
+
+1.
+ Текст, который нам
+\layout Standard
+
+2.
+ нужно расположить
+\end_inset 
+
+
+\begin_inset Minipage
+position 0
+inner_position 0
+height "0pt"
+width "49col%"
+collapsed false
+
+\layout Standard
+
+3.
+ А здесь уже другая колонка
+\layout Standard
+
+4.
+ Продолжаем
+\layout Standard
+
+5.
+ Ещё немного...
+\layout Standard
+
+6.
+ Вот и всё.
+\end_inset 
+
+
+\layout Description
+
+Недостатки.
+ Для версии LyX 1.1.6fix2.
+ Не стоит использовать внутри министраницы стили нумерации и пр.
+ (Enumerate, Itemize, List, etc) --- с такими окружениями министраница не
+ реагирует на принудительное начало новой колонки (пункт Начать новую министрани
+цу).
+ И ещё --- если вставить метку в первую строчку текста в министранице ---
+ она немного сдвигается вниз и выглядит так, как мы видим.
+ 
+\layout Subsection
+
+Принудительный разрыв страницы 
+\layout Standard
+
+Принудительный разрыв страницы осуществляется через меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Абзац
+\family default 
+.
+ А там выставляется галочка разрыв страницы перед и/или после абзаца.
+\layout Standard
+
+Если вы хотите получить отдельную титульную страницу, напишите titlepage
+ в меню
+\family sans 
+ Формат\SpecialChar \menuseparator
+Документ,
+\family default 
+ закладка Документы, пункт Доп.параметры.
+\layout Section
+
+Абзац
+\layout Subsection
+
+Продолжение нумерации
+\layout Standard
+
+Часто бывает нужно написать нумерованный список, давая пояснения к некоторым
+ пунктам.
+ Например:
+\layout Standard
+
+
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+begin{multicols}{2}
+\end_inset 
+
+
+\layout Enumerate
+
+Пункт
+\layout Enumerate
+
+Пункт
+\layout Enumerate
+
+Пункт
+\layout Standard
+
+Если вы захотите добавить абзац во второй пункт, скорее всего, у вас получится
+ вот так:
+\layout Enumerate
+
+Пункт
+\layout Enumerate
+
+Пункт
+\layout Standard
+
+Вот такой абзац.
+\layout Enumerate
+
+Пункт
+\layout Standard
+
+
+\size small 
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+columnbreak
+\end_inset 
+
+
+\size default 
+\lang russian
+ При этом нумерация далее началась сначала.
+ Но вам нужно просто изменить уровень окружения.
+\layout Enumerate
+
+Пункт
+\layout Enumerate
+
+Пункт
+\begin_deeper 
+\layout Standard
+
+Для этого нужно нажать Alt-Shift-стрелку вправо
+\end_deeper 
+\layout Enumerate
+
+Пункт
+\layout Standard
+
+
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+end{multicols}
+\end_inset 
+
+
+\layout Subsection
+
+Первый абзацный отступ
+\layout Standard
+
+Для того, чтобы в первом абзаце после заголовка появился абзацный отступ
+ необходимо в преамбуле указать 
+\backslash 
+usepackage{indentfirst}.
+\layout Description
+
+Недостатки.
+ Перестает раскрываться содержание в печатном документе (заголовок есть,
+ а содержимого нет).
+ (Lav: Вроде бы всё нормально, только начинаются проблемы с обновлением
+ того, что будет на печати --- в общем, проявляется не во всех ситуациях).
+\layout Subsection
+
+Строки, по ширине не влезающие на страницу
+\layout Standard
+
+При использовании в тексте длинных последовательностей символов, которые
+ не могут переносится (длинное число или английское слово в русском тексте,
+ про которое не указано, что оно на английском), строка может вылезать за
+ поля страницы (см абзац в разделе 
+\begin_inset LatexCommand \vref{overhead}
+
+\end_inset 
+
+).
+ Это возникает из-за того, что при перенесении целиком этого проблемного
+ слова между словами возникли бы слишком большие расстояния, что TeX не
+ может позволить из соображений красоты.
+ В общем, чтобы это не происходило, нужно указать 
+\family typewriter 
+
+\backslash 
+sloppy
+\family default 
+ в преамбуле, или ограничить проблемный абзац командами 
+\family typewriter 
+\lang english
+
+\backslash 
+begin{sloppypar}
+\family default 
+\lang russian
+ \SpecialChar \ldots{}
+ 
+\family typewriter 
+\lang english
+
+\backslash 
+end{sloppypar}
+\family default 
+\lang russian
+.
+\layout Subsection
+
+Нумерация по-русски
+\layout Standard
+
+Как заcтавить 
+\family typewriter 
+enumerate
+\family default 
+ нyмеpовать 
+\family typewriter 
+
+\backslash 
+item
+\family default 
+'ы и приложения по-pyccки
+\layout Standard
+
+Маленькие бyквы:
+\layout LyX-Code
+
+
+\backslash 
+renewcommand{
+\backslash 
+theenumi}{
+\backslash 
+asbuk{enumi}}
+\layout Standard
+
+Большие бyквы:
+\layout LyX-Code
+
+
+\backslash 
+renewcommand{
+\backslash 
+theenumi}{
+\backslash 
+Asbuk{enumi}}
+\layout Standard
+
+Это на веpхнем ypовне вложенноcти.
+ На cледyющем идyт enumii, enumiii, enumiv.
+\layout Standard
+
+А для нyмеpации пpиложений pyccкими бyквами (некотоpые как pаз любят латинcкие)
+ можно напиcать
+\layout LyX-Code
+
+
+\backslash 
+makeatletter 
+\layout LyX-Code
+
+
+\backslash 
+renewcommand
+\backslash 
+appendix{
+\backslash 
+par 
+\backslash 
+setcounter{section}{0}% 
+\backslash 
+setcounter{subsection}{0}% 
+\backslash 
+gdef
+\backslash 
+thesection{
+\backslash 
+@Asbuk
+\backslash 
+c@section}} 
+\backslash 
+makeatother
+\layout Section
+
+Символ
+\layout Subsection
+
+Какое тире ставить
+\layout Standard
+
+Для указывания знака 
+\begin_inset Quotes eld
+\end_inset 
+
+тире
+\begin_inset Quotes erd
+\end_inset 
+
+ (
+\begin_inset Quotes eld
+\end_inset 
+
+---
+\begin_inset Quotes erd
+\end_inset 
+
+) используется три поставленных знака 
+\begin_inset Quotes eld
+\end_inset 
+
+минуса
+\begin_inset Quotes erd
+\end_inset 
+
+ (
+\begin_inset Quotes eld
+\end_inset 
+
+-
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+/
+\end_inset 
+
+-
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+/
+\end_inset 
+
+-
+\begin_inset Quotes erd
+\end_inset 
+
+) подряд --- вот так.
+\layout Standard
+
+Если вы пишете что-то типа 
+\begin_inset Quotes eld
+\end_inset 
+
+я приду через 15--20 минут
+\begin_inset Quotes erd
+\end_inset 
+
+ --- ставьте два знака 
+\begin_inset Quotes eld
+\end_inset 
+
+минус
+\begin_inset Quotes erd
+\end_inset 
+
+ подряд (
+\begin_inset Quotes eld
+\end_inset 
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+-
+\backslash 
+/-
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+).
+\layout Standard
+
+Если вы просто что-то пишете, и перед 
+\begin_inset Quotes eld
+\end_inset 
+
+то
+\begin_inset Quotes erd
+\end_inset 
+
+ нужно поставить чёрточку, ставьте один 
+\begin_inset Quotes eld
+\end_inset 
+
+минус
+\begin_inset Quotes erd
+\end_inset 
+
+ (
+\begin_inset Quotes eld
+\end_inset 
+
+-
+\begin_inset Quotes erd
+\end_inset 
+
+).
+\layout Subsection
+
+Знаки номера и температуры
+\layout Standard
+
+Чтобы получить красивый номер, просто напишите 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\backslash 
+No
+\begin_inset Quotes erd
+\end_inset 
+
+ в режиме TeX, и получите знак: 
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+No
+\end_inset 
+
+.
+\layout Standard
+
+Для различных других символов существует пакет textcomp, который подключается
+ в преамбуле
+\layout LyX-Code
+
+
+\backslash 
+usepackage{textcomp}
+\layout Standard
+
+Чтобы написать: 
+\begin_inset Quotes eld
+\end_inset 
+
+сейчас 27
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+textcelsius{}
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+, вставьте в нужном месте 
+\family typewriter 
+
+\backslash 
+textcelsius
+\family default 
+{} 
+\family typewriter 
+.
+\layout Subsection
+
+Знаки ударения
+\layout Standard
+
+Неизвестен способ, который позволяет ввести букву с ударением, кроме как
+ сл
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+'
+\end_inset 
+
+едующий: нужно ввести 
+\backslash 
+' в режиме команд LaTeX перед буквой, требующей ударения.
+\layout Subsection
+
+Символы копирайта и пр.
+\layout Standard
+
+Одним из вариантов является следующий.
+ В преамбуле надо написать
+\layout LyX-Code
+
+
+\backslash 
+newcommand
+\backslash 
+kreis[1]{
+\backslash 
+ensuremath{%
+\layout LyX-Code
+
+
+\backslash 
+mathbin{
+\backslash 
+settowidth{
+\backslash 
+dimen7}{
+\backslash 
+mbox{$
+\backslash 
+bigcirc$}}%
+\layout LyX-Code
+
+
+\backslash 
+makebox[0pt][l]{$
+\backslash 
+bigcirc$}
+\backslash 
+makebox[
+\backslash 
+dimen7]{#1}}}}
+\layout Standard
+
+Далее в тексте пишем
+\backslash 
+kreis{
+\size small 
+R
+\size default 
+}и получаем
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+ 
+\backslash 
+kreis{R}
+\end_inset 
+
+.
+ К сожалению, размер буквы внутри слишком большой.
+ Нужно указать, как уменьшить букву.
+ К тому же, как выяснилось, помещение указанного определения в преамбулу
+ делает невозможным преобразования файла в html.
+\layout Standard
+
+Как выяснилось, для достижения того же эффекта можно использовать 
+\backslash 
+textcircled{R} и мы получим также 
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+textcircled{R}
+\end_inset 
+
+.
+ Но это не совсем то, что мы бы хотели видеть.
+\layout Standard
+
+
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+begin{sloppypar}
+\layout Standard
+
+\backslash 
+DeclareInputText{174}{
+\backslash 
+textregistered}
+\end_inset 
+
+
+\layout Standard
+
+Однако можно просто ввести символ с кодом 174 (не знаю, как) или скопировать
+ из какого нибудь файла (например, отсюда:╝).
+ В том LaTeX'е, который я использую (из дистрибутива Mandrake RE Spring
+ 20001), нужно добавить строчку 
+\backslash 
+DeclareInputText{174}{
+\backslash 
+textregistered} в файл
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+Возможно, просто в преамбулу документа
+\end_inset 
+
+ /usr/share/texmf/tex/latex/cyrillic/koi8-r.def, чтобы этот символ мог быть
+ обработан, или просто в документ перед первым использованием.
+\layout Standard
+
+
+\lang english
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+end{sloppypar}
+\end_inset 
+
+
+\layout Standard
+
+Также эти символы можно ввести с помощью команд LaTeX
+\layout Standard
+
+
+\backslash 
+copyright --- 
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+copyright
+\end_inset 
+
+
+\layout Standard
+
+
+\backslash 
+textregistered --- 
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+textregistered
+\end_inset 
+
+
+\layout Section
+
+Рисунки и таблицы
+\layout Subsection
+
+Подписи рисунков и таблиц
+\layout Standard
+
+Заменяем для pиcyнков ':' поcле номеpа pиcyнка на '.' 
+\layout Standard
+
+(т.e.
+ 'Риc.1:' на 'Риc.1.')
+\layout LyX-Code
+
+
+\backslash 
+usepackage{caption2}%
+\layout LyX-Code
+
+
+\backslash 
+renewcommand{
+\backslash 
+captionlabeldelim}{.}
+\layout Standard
+
+Для того, чтобы подписи не центрировались, а выравнивались по левому краю
+\layout LyX-Code
+
+
+\backslash 
+renewcommand
+\backslash 
+captionmargin{1cm}
+\layout Subsection
+
+Длинные таблицы
+\layout Standard
+
+Для таблиц, имеющих длину более страницы, существует галочка 
+\family sans 
+Длинная таблица
+\family default 
+ в меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Таблица.
+ 
+\layout Standard
+
+Важно! Длинная таблица 
+\emph on 
+не должна
+\emph default 
+ быть плавающим объектом.
+ Но при этом нельзя указать номера таблицы.
+ Я поступаю следующим образом.
+ Создаю плавающий объект таблица, но таблицы в него не помещаю.
+ Получается номер таблицы, только он располагается на некотором отдалении
+ от таблицы.
+ Чтобы это скорректировать, предлается в формате абзаца номера таблицы указать
+ интервал после абзаца 
+\begin_inset Formula $-8mm$
+\end_inset 
+
+ (отрицательный).
+ Мы будем искать лучшие решения.
+\layout Standard
+
+Некоторые строки таблицы надо пометить в меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Таблица, 
+\family default 
+закладка
+\family sans 
+ Длинная\SpecialChar ~
+таблица.
+\layout Standard
+
+Внимание! В LyX версии 1.1.6fix3 есть ошибка, из-за которой при создании длинных
+ таблиц далее требуется ручная корректировка, так что нижеследующие ухищрения
+ в общем не имеют смысла.
+ Нужно указывать все правильно, а потом в файле исправить отрицательные
+ номера строк на положительные (обращайтесь с вопросами к группе поддержки).
+\layout Standard
+
+Строка таблицы, которая будет на 
+\emph on 
+каждой странице
+\emph default 
+ с таблицей (кроме первой, например, надпись 
+\begin_inset Quotes eld
+\end_inset 
+
+продолжение таблицы
+\begin_inset Quotes erd
+\end_inset 
+
+), должна идти первой в таблице (и помечена как 
+\family sans 
+Шапка в начале таблицы
+\family default 
+), за ней помещается строка, которая будет в 
+\emph on 
+самом начале таблицы
+\emph default 
+ (она должна быть помечена как 
+\family sans 
+Шапка каждой страницы
+\family default 
+.
+ 
+\layout Standard
+
+Внимание! Тут есть некоторое несоответствие, но если указать именно так,
+ то всё работает.
+ См.
+ пример в 
+\family typewriter 
+DOCS/LyX/Пример длинной таблицы.lyx
+\layout Standard
+
+06.08.01 Lav
+\layout Standard
+
+Чтобы пронумеровать длинные таблицы, нужно прибегнуть к следующему рецепту:
+\family typewriter 
+ 
+\layout Standard
+
+
+\family typewriter 
+В преамбулу вписать 
+\backslash 
+newcommand{
+\backslash 
+rem}[1]{}
+\layout Standard
+
+Первую ячейку таблицы оформить как показано в примере:
+\layout Standard
+
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="3" columns="5">
+<features islongtable="true">
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+caption{The caption}
+\backslash 
+rem{
+\end_inset 
+
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+}
+\end_inset 
+
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+1
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+
+\lang english
+2
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+
+\lang english
+3
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+
+\lang english
+4
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+
+\lang english
+5
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\layout Subsection
+
+Размещение таблиц
+\layout Standard
+
+Для того, чтобы таблицы произвольно не путешествовали по страницам, необходимо
+ зайти в меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Документ
+\family default 
+ закладка Extro и в поле 
+\family sans 
+Размещение плавающих кадров
+\family default 
+ ввести h.
+\layout Subsection
+
+Как вставить обтекаемый рисунок
+\layout Subsubsection
+
+Через LyX
+\layout Standard
+
+Стандартным способ является описанный в документации.
+ Обычным путём вставляете плавающий рисунок, далее нужно поставить курсор
+ сразу 
+\emph on 
+перед 
+\emph default 
+рисунком, зайти в меню Формат\SpecialChar \menuseparator
+Абзац, в закладке Extra поставить галочку Плавающий
+ кадр и указать правее его ширину.
+ К сожалению, иногда рисунок обтекает только первый абзац, следующим сразу
+ после рисунка.
+ Следующие абзацы накладываются на рисунок.
+\layout Subsubsection
+
+Используя пакет wrapfig
+\layout Standard
+
+Указываем в преамбуле 
+\backslash 
+usepackage{wrapfig}.
+ Далее в тексте, там где надо поместить рисунок, пишем следующий TeX-код:
+\layout LyX-Code
+
+
+\backslash 
+begin{wrapfigure}[]{o}[0pt]{6cm}
+\layout LyX-Code
+
+
+\emph on 
+сюда вставляется рисунок (не плавающий)
+\layout LyX-Code
+
+
+\backslash 
+caption{ Здесь пишется название рисунка }
+\layout LyX-Code
+
+
+\backslash 
+end{wrapfigure}
+\layout Standard
+
+Параметр 6cm определяет ширину области, оставленной под рисунок.
+ Подробнее о параметрах можно почитать в документации к wrapfig (поиск файла
+ wrapfig.sty в /usr/share/texmf).
+\layout Section
+
+Математические формулы
+\layout Subsection
+
+Русские буквы в формулах
+\layout Standard
+
+К сожалению, пока нам неизвестно, как вводить русские буквы в формулах.
+ Я просто составляю текст так, чтобы русский текст можно было написать вне
+ формулы.
+ Например: 
+\begin_inset Formula $l^{2}$
+\end_inset 
+
+м
+\begin_inset Formula $^{2}$
+\end_inset 
+
+.
+\layout Section
+
+Полезные клавиши
+\layout Description
+
+C Ctrl
+\layout Description
+
+M Alt
+\layout Description
+
+S Shift
+\layout Description
+
+C-e,b,u Соответственно, выделенный, жирный, подчеркнутый шрифт
+\layout Description
+
+M-c\SpecialChar ~
+m Перейти в режим написания формул
+\layout Description
+
+M-c\SpecialChar ~
+x где x может быть следующим (и действует на указанное слово или выделенный
+ текст):
+\layout Description
+
+b полужирный шрифт
+\layout Description
+
+e выделительный шрифт
+\layout Description
+
+s стандартный (романский) шрифт
+\layout Description
+
+пробел снимает всё оформление с выделенного текста
+\layout Description
+
+M-p\SpecialChar ~
+x где x --- тип окружения, как указано ниже, и далее по аналогии
+\begin_deeper 
+\layout Description
+
+c LyX-code
+\layout Description
+
+s Standart
+\layout Description
+
+2 Section
+\layout Description
+
+3 Subsection
+\end_deeper 
+\layout Description
+
+M-S-стрелки меняют уровень окружения (влево --- меньше, вправо --- больше)
+\layout Section
+
+Содержание
+\layout Subsection
+
+Вставка содержания
+\layout Standard
+
+Для того, что бы вставить содержание выберите меню 
+\family sans 
+Вставить\SpecialChar \menuseparator
+Списки & Содержания \SpecialChar \menuseparator
+Содержание
+\layout Standard
+
+Если хотите изменить глубину содержания, 
+\family sans 
+Формат\SpecialChar \menuseparator
+Документ\SpecialChar \menuseparator
+Дополнительно 
+\family default 
+и изменяете уровень глубины.
+\layout Standard
+
+К примеру получится:
+\layout Standard
+
+
+\begin_inset LatexCommand \tableofcontents{}
+
+\end_inset 
+
+
+\layout Standard
+
+По Российским Гостам цифры нумерации должны находиться друг под другом :)
+ чтож, это можно сделать.
+\layout LyX-Code
+
+
+\backslash 
+renewcommand{
+\backslash 
+l@subsection}{
+\backslash 
+@dottedtocline{1}{0em}{2.3em}}
+\layout LyX-Code
+
+
+\backslash 
+renewcommand{
+\backslash 
+l@subsubsection}{
+\backslash 
+@dottedtocline{1}{0em}{3.2em}}
+\layout Standard
+
+Обратите внимание на второй параметр {0em}.
+ Этот параметр задает отступ справа (в данном случае ноль, значит отступа
+ не будет), третий параметр задает ширину поля для цифр нумерации.
+ Если у вас нет третьего уровня вложенности 
+\series bold 
+\noun on 
+subsubsection 
+\series default 
+\noun default 
+то вторую строчку не пишите.
+\the_end

@@ -1,0 +1,291 @@
+#LyX 1.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 220
+\textclass article
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\paperfontsize 12
+\spacing single 
+\papersize a4paper
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+
+\layout Title
+
+Как напечатать брошюру с использованием LyX\SpecialChar ~
+(LaTeX)
+\newline 
+(Краткий курс)
+\layout Author
+
+Виталий Липатов <vitlav@mail.ru>
+\layout Date
+
+11.12.01
+\layout Standard
+
+Поскольку я не встретил в Сети сколь либо исчерпывающего все мои вопросы
+ описания, пришлось изучать самостоятельно, натыкаться самому на все проблемы
+ и решать их.
+\layout Standard
+
+Итак, порядок действий таков:
+\layout Enumerate
+
+Вы должны создать в LyX (LaTeX) --- в зависимости от личных предпочтений
+ --- документ на формате А5 (в латехе он называется 
+\family typewriter 
+a5paper
+\family default 
+, в LyX выбирается в меню 
+\family sans 
+Формат\SpecialChar \menuseparator
+Документ
+\family default 
+).
+\layout Enumerate
+
+Далее, в процессе подготовки к печати, текст обычно претерпевает следующие
+ изменения.
+ TeX формирует 
+\family typewriter 
+dvi
+\family default 
+-файл, который обычно преобразуется в PostScript
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+textregistered{} 
+\end_inset 
+
+программой 
+\family typewriter 
+dvips
+\family default 
+.
+ При выборе меню 
+\family sans 
+Файл\SpecialChar \menuseparator
+Экспортировать, экспортировать в LaTeX
+\family default 
+, это происходит автоматически.
+ Тут следует обратить внимание на то, что 
+\family typewriter 
+dvips
+\family default 
+ смогла понять формат бумаги, который ей передаёт LyX.
+ Если просмотреть полученный файл, то 
+\family typewriter 
+gv
+\family default 
+ должен показывать A5 формат, в противном случае дальнейшая корректная работа
+ с документом невозможна (
+\family typewriter 
+dvips
+\family default 
+, не распознав формат бумаги, который ему предложили, выведет ваш текст
+ на листы формата A4, где-нибудь в уголке.
+
+\family typewriter 
+ 
+\family default 
+Если вы используете какой-либо другой формат, не поленитесь добавить его
+ в файл
+\family typewriter 
+ /usr/share/texmf/dvips/config/config.ps.
+\layout Enumerate
+
+Тут начинается самое интересное.
+ Удостоверившись, что мы получили 
+\family typewriter 
+ps
+\family default 
+-файл со страницами нужного нам формата, начинаем его преобразовывать.
+\layout Enumerate
+
+Чтобы напечатать брошюру, необходимо переставить страницы так, чтобы при
+ последующей печати по две исходных страницы на каждую сторону листа A4
+ формата и брошюровании этих листов в получившейся книжке листы шли по порядку.
+ Ниже на рисунке показано, в каком порядке следует разместить 8 страничек
+ на 2 листах, чтобы сложив листы, получить маленькую книжечку.
+\layout Standard
+\added_space_bottom smallskip \align center 
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features>
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+8
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+1
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+ 
+\begin_inset  Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features>
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+2
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+7
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\layout Standard
+\align center 
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features>
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+6
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+3
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+ 
+\begin_inset  Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features>
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+4
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Standard
+
+5
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\layout Standard
+
+В пакете 
+\family typewriter 
+psutils
+\family default 
+ есть две программы, которые берут на себя этот труд.
+ Запускаем
+\layout Standard
+
+
+\family typewriter 
+# psbook < infile.ps | psnup -2 -PA5 -pA4 > outfile.ps
+\layout Standard
+
+и получаем из файла 
+\family typewriter 
+infile.ps 
+\family default 
+выходной файл 
+\family typewriter 
+outfile.ps
+\family default 
+, готовый к печати.
+ Обратите внимание на поля, чтобы поля были и на четных и на нечетных страницах
+ были одинаковые.
+\layout Standard
+
+Обычно печатают сначала только нечетные страницы входного файла, потом получившу
+юся пачку бумаги вновь кладут во входной лоток принтера и печатают нечетные.
+ Одни принтеры выдают листы в прямом порядке, другие --- в обратном, поэтому
+ может потребоваться изменение порядка страниц.
+ Обратный порядок делается совсем просто, командой
+\layout Standard
+
+
+\family typewriter 
+# psselect -r <infile.ps > outfile.ps
+\layout Standard
+
+Готовый скрипт, формирующий два файла, для распечатки на одной стороне бумаги
+ и на другой, называется ps2booklet.sh.
+\layout Standard
+\added_space_top bigskip 
+На этом пока всё :)
+\the_end

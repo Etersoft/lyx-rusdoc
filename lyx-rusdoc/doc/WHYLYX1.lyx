@@ -1,0 +1,309 @@
+#LyX 1.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 220
+\textclass article
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\paperfontsize 12
+\spacing single 
+\papersize a4paper
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+
+\layout Title
+
+Почему мы используем LyX
+\layout Author
+
+Виталий Липатов
+\layout Date
+
+07.08.2001, 11.12.2001
+\layout Enumerate
+
+LyX (произносится 
+\size large 
+
+\begin_inset Quotes eld
+\end_inset 
+
+ликс
+\begin_inset Quotes erd
+\end_inset 
+
+
+\size default 
+) --- это свободная программа со всеми вытекающими из свободы последствиями.
+ Это свобода мыслить, свобода говорить, свобода печатать.
+ LyX можно использовать с чистой совестью, не ожидая, что кто-то попросит
+ номер лицензии на использования, или донесёт в Microsoft (Microsoft собирает
+ доносы о нелегальном использовании её продуктов\SpecialChar ~
+--- обращайтесь по адресу
+ 
+\begin_inset LatexCommand \url{http://www.microsoft.com/rus/antipiracy/reporting/default.asp}
+
+\end_inset 
+
+).
+\layout Enumerate
+
+LyX использует для подготовки документа к печати LaTeX (произносится 
+\size large 
+
+\begin_inset Quotes eld
+\end_inset 
+
+лат
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+'
+\end_inset 
+
+ех
+\begin_inset Quotes erd
+\end_inset 
+
+
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+Вы полагаете, что в Word можно ставить ударения? А в какой версии?
+\end_inset 
+
+
+\size default 
+)\SpecialChar ~
+--- профессиональную издательскую систему, разработка которой завершена
+ многие годы назад, которая не имеет ошибок (поскольку не находится в стадии
+ развития, как большинство программ), и воплощает в себя все механизмы,
+ необходимые в издательском деле, при профессиональной подготовке издания
+ к печати.
+\layout Enumerate
+
+LyX/LaTeX изначально разработаны для Unix-платформы.
+ Для Linux (произносится 
+\size large 
+
+\begin_inset Quotes eld
+\end_inset 
+
+л
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+'
+\end_inset 
+
+инукс
+\begin_inset Quotes erd
+\end_inset 
+
+
+\size default 
+), который мы используем
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+см.
+ статью 
+\begin_inset Quotes eld
+\end_inset 
+
+Почему мы используем Linux
+\begin_inset Quotes erd
+\end_inset 
+
+
+\end_inset 
+
+ в качестве основной платформы для нашей работы, выбрать LyX для документировани
+я является естественным путём.
+\layout Enumerate
+
+LyX и LaTeX --- надёжные и стабильные программы.
+ Их используют в своей повседневной работе
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+Кстати, Unix --- основа университетского образования в США.
+\end_inset 
+
+ математики, преподаватели, студенты и писатели.
+ 
+\layout Enumerate
+
+LyX/LaTeX имеют определённую концепцию, которой авторы строго следовали,
+ создавая свои программы.
+\layout Enumerate
+
+В LyX есть всё необходимое для написания документации, так почему его не
+ использовать для этого?
+\layout Enumerate
+
+LyX имеет отлично написанную документацию, целью которой является донести
+ до пользователя сведения, а не получить за документацию деньги.
+ Мы надеемся, что через несколько месяцев появится и русский вариант документаци
+и, и это сделает LyX ещё более доступным в России.
+\layout Enumerate
+
+LyX разрабатывается людьми для людей, отвечая их реальным потребностям,
+ а не маркетинговым соображениям и условиям игры в бизнес.
+ Каждый может внести свой вклад в разработку или участвовать в обсуждении
+ тех или иных нововведений в программу.
+\layout Enumerate
+
+Любой вопрос по использованию LyX можно задать специалистам по LyX в список
+ рассылки 
+\begin_inset LatexCommand \url{Lyx Users <lyx-users@lists.lyx.org>}
+
+\end_inset 
+
+ и получить исчерпывающий ответ из Германии или Италии в течение нескольких
+ часов.
+ 
+\layout Enumerate
+
+LaTeX позволяет запрограммировать большинство правил оформления текста,
+ в том числе и оформления текстовой документации согласно ГОСТ.
+ Уже готова первая версия класса ГОСТ для LyX, выведенная по каждому пункту
+ 
+\begin_inset Quotes eld
+\end_inset 
+
+Общих требований к текстовым документам
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ Теперь 
+\emph on 
+каждый
+\emph default 
+ сможет работать над документацией, не изучая досконально ГОСТ'ы и не переделыва
+я полностью документ после посещения нормоконтроля.
+ Просто будет очень сложно написать что-либо не по ГОСТ'у.
+\begin_deeper 
+\layout Standard
+
+Использование LyX позволит создать единый для организации 
+\begin_inset Quotes eld
+\end_inset 
+
+фирменный
+\begin_inset Quotes erd
+\end_inset 
+
+ стиль оформления документации, безукоризненный как эстетически, так и в
+ плане соответствия стандартам.
+\end_deeper 
+\layout Enumerate
+
+Использование LyX для подготовки документации позволяет в дальнейшем перевести
+ ее в 
+\emph on 
+любой 
+\emph default 
+формат
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+Например, HTML, PDF, LaTeX, Простой текст.
+\end_inset 
+
+ с 
+\emph on 
+минимальными 
+\emph default 
+потерями в оформлении.
+ Также возможен импорт документов в LyX из таких форматов как Microsoft\SpecialChar ~
+Word.
+\layout Enumerate
+
+Мы хотим, чтобы тупую рутинную работу за нас выполнял компьютер, а мы думали
+ головой.
+ Использование программ, подобных LyX, развивает человека и ведёт к его
+ совершенствованию во всех отношениях.
+\layout Enumerate
+
+Единственным
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+
+\emph on 
+От автора:
+\emph default 
+ Если вы знаете ещё, сообщите пожалуйста, я дополню настоящий документ.
+\end_inset 
+
+ серьёзным аргументом против использования LyX является то, что он --- новая
+ для нас программа.
+ Но ведь когда-то надо отказываться от старого и идти вперёд.
+ Технический прогресс в теории имеет своей целью повышение производительности
+ труда и улучшение условий труда.
+ Мы разве к этому не стремимся?
+\layout Standard
+\added_space_top vfill 
+
+\shape smallcaps 
+\size larger 
+P.S.
+
+\shape default 
+\size default 
+ 
+\newline 
+За то время, что я использовал LyX, я ознакомился с его достоинствами и
+ недостатками (зачастую недостатками мнимыми), создал класс документа 
+\begin_inset Quotes eld
+\end_inset 
+
+ГОСТ
+\begin_inset Quotes erd
+\end_inset 
+
+ для оформления документации, написал десятки документов, прочитал сотни
+ писем, в которых пользователи LyX делятся своим опытом и своими проблемами,
+ контактировал непосредственно с разработчиками и специалистами по LyX (например
+, с 
+\noun on 
+Mike Ressler, Herbert Voss, John Weiss).
+
+\noun default 
+ Полученные мною знания и опыт позволяют с уверенностью утверждать, что
+ LyX --- это лучший вариант на сегодняшний день в наших условиях (и надеюсь,
+ таким останется всегда в любых условиях).
+ Лучшим подтверждением сказанному будет документация, изготовленная к проекту
+ по гидрографическому судну.
+\the_end

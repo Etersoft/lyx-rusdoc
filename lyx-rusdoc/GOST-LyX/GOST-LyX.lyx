@@ -1,0 +1,2164 @@
+#LyX 1.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 220
+\textclass gost
+\begin_preamble
+\renewcommand{\gostnewpage}{}
+\end_preamble
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\float_placement !h
+\paperfontsize 12
+\spacing single 
+\papersize a4paper
+\paperpackage a4
+\use_geometry 0
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 4
+\tocdepth 4
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+
+\layout НаимОрганизации
+
+Балабанов Б.А.
+\layout НаимИзделия
+
+
+\begin_inset Quotes eld
+\end_inset 
+
+С ЧЕГО НАЧИНАЕТСЯ LyX?
+\begin_inset Quotes erd
+\end_inset 
+
+
+\layout НаимДокумента
+
+Вводный курс по LyX
+\layout ДатаДокумента
+
+2001
+\layout Обычный
+
+
+\begin_inset LatexCommand \tableofcontents{}
+
+\end_inset 
+
+
+\layout Раздел*
+
+Введение
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+
+\backslash 
+addcontentsline{toc}{section}{Введение}
+\end_inset 
+
+
+\layout Обычный
+
+Здравствуй, потенциальный пользователь LyX'а! Рекомендую сохранить в памяти
+ это мгновение.
+ В дальнейшем, ты не раз его вспомнишь.
+ С этого момента русло твоей работы повернется в сторону эффективного, оптимальн
+ого использования временных и трудовых ресурсов.
+ Ведь LyX собирается возложить на свои плечи всю рутинную оформительскую
+ часть при создании текстовой документации, а тебе --- предоставить возможность
+ сосредоточиться на содержании.
+\layout Обычный
+
+Итак, начнём с самого главного\SpecialChar \ldots{}
+
+\layout Раздел
+
+Начало работы
+\layout Подраздел
+
+Запуск LyX
+\layout Обычный
+
+
+\begin_inset Note
+collapsed true
+
+\layout Обычный
+
+По сути своей LyX не самостоятельный текстовый процессор, а графическая
+ надстройка над широко известной издательской системой TeX (в варианте TeX
+ --- LaTeX).
+\layout Обычный
+
+Для запуска LyX необходимо набрать lyx в командной строке графической оболочки
+ X Window.
+\end_inset 
+
+
+\layout Обычный
+
+Как правило кнопка вызова меню программ в любой графической оболочке находится
+ в левом нижнем углу экрана и выглядит как небольшая картинка.
+ Нажмите на неё мышкой, выберите раздел 
+\family sans 
+Офис (
+\lang english
+Office
+\lang russian
+)
+\family default 
+, и в нём выберите LyX.
+\layout Подраздел
+
+Окно LyX
+\layout Обычный
+
+После запуска вы увидите окно программы LyX, которое при создании нового
+ документа будет выглядеть так, как показано на рисунке 
+\begin_inset LatexCommand \ref{InterfaceLyX}
+
+\end_inset 
+
+.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename InterfaceLyX.png
+	display color
+	size_type 1
+	width 90col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 267pt
+	lyxheight 148pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{InterfaceLyX}
+
+\end_inset 
+
+Окно LyX
+\end_inset 
+
+
+\layout Обычный
+
+Окно LyX состоит из следующих элементов:
+\layout Перечисление
+
+Строка меню предоставляет доступ ко всем функциям, необходимым для работы
+ с LyX.
+\layout Перечисление
+
+Панель инструментов предназначена для быстрого доступа к некоторым наиболее
+ часто используемым командам LyX.
+\layout Перечисление
+
+Область редактирования документа.
+\layout Перечисление
+
+Строка состояния отображает текущее состояние документа.
+\layout Раздел
+
+Базовые операции при работе с текстовым документом
+\layout Подраздел
+
+Создание документа и его класс
+\layout Обычный
+
+При создании нового документа необходимо установить его класс.
+ Под классом понимается общий стиль оформления документа.
+ Это может быть служебная записка, письмо, ГОСТ
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+Текстовый документ, оформленный с учетом требований ГОСТ 2.105-95
+\end_inset 
+
+ и т.д.
+\layout Обычный
+
+Данное руководство ориентировано на класс ГОСТ.
+ Но основные принципы работы являются общими для документов различных классов.
+ 
+\layout Обычный
+
+При выборе класса ГОСТ в документ автоматически будут вставлены рамки с
+ соответствующими основными надписями для титульного, второго и последующих
+ листов (см.
+ рисунок 
+\begin_inset LatexCommand \ref{Ramki}
+
+\end_inset 
+
+).
+ Будут установлены в соответствии с требованиями ГОСТ 2.105-95 поля документа,
+ отступы, шрифты, межстрочные расстояния.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\hfill 
+
+\begin_inset Graphics FormatVersion 1
+	filename gost_frame1.eps
+	display color
+	size_type 1
+	width 30col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 89pt
+	lyxheight 127pt
+\end_inset 
+
+
+\hfill 
+
+\begin_inset Graphics FormatVersion 1
+	filename gost_frame2.eps
+	display color
+	size_type 1
+	width 30col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 89pt
+	lyxheight 127pt
+\end_inset 
+
+
+\hfill 
+
+\begin_inset Graphics FormatVersion 1
+	filename gost_frame3.eps
+	display color
+	size_type 1
+	width 30col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 89pt
+	lyxheight 127pt
+\end_inset 
+
+
+\hfill 
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{Ramki}
+
+\end_inset 
+
+Рамки с основными надписями по ГОСТ 2.105-95
+\end_inset 
+
+
+\layout Обычный
+
+Для создания нового документа и установки его класса необходимо произвести
+ следующие действия:
+\layout Перечисление
+
+через меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+Н
+\bar default 
+овый
+\family default 
+...
+\begin_inset Note
+collapsed true
+
+\layout Обычный
+
+Основным пунктам меню соответствуют иконки, вынесенные на панель инструментов.
+\end_inset 
+
+ создайте новый документ;
+\layout Перечисление
+
+вызовите диалоговое окно 
+\family sans 
+Формат\SpecialChar ~
+документа 
+\family default 
+(см.
+ рисунок 
+\begin_inset LatexCommand \ref{FormatDokumentaClass}
+
+\end_inset 
+
+) воспользовавшись меню
+\family sans 
+\bar under 
+ Ф
+\bar default 
+ормат\SpecialChar \menuseparator
+
+\bar under 
+Д
+\bar default 
+окумент...;
+\layout Перечисление
+
+в поле 
+\family sans 
+Класс 
+\family default 
+закладки 
+\family sans 
+Документы
+\family default 
+ выберите из разворачивающегося списка требуемый класс документа;
+\layout Перечисление
+
+ответьте на заданный вопрос об использовании некоторых установок по умолчанию
+\family sans 
+ Да;
+\layout Перечисление
+
+нажмите кнопку 
+\family sans 
+Закрыть
+\family default 
+.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename FormatDokumentaClass.png
+	display color
+	size_type 1
+	width 75col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 223pt
+	lyxheight 223pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{FormatDokumentaClass}
+
+\end_inset 
+
+Диалоговое окно общих установок документа
+\end_inset 
+
+
+\layout Подраздел
+
+Шаблон
+\layout Обычный
+
+При создании однотипных документов очень удобно использовать шаблоны.
+ Это избавит вас, уважаемый пользователь LyX'а, от многоразового набора
+ и форматирования одной и той же информации.
+ 
+\layout Обычный
+
+Создание документа на основе шаблона осуществляется посредством меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+Н
+\bar default 
+овый\SpecialChar ~
+из\SpecialChar ~
+шаблона.
+
+\family default 
+ Далее, из предложенного списка шаблонов (см.
+ рисунок 
+\begin_inset LatexCommand \ref{Shablon}
+
+\end_inset 
+
+) нужно выбрать необходимый.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename Shablon.png
+	display color
+	size_type 1
+	width 72col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 214pt
+	lyxheight 192pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{Shablon}
+
+\end_inset 
+
+Окно выбора шаблона документа
+\end_inset 
+
+
+\layout Обычный
+
+Например, при использовании шаблона 
+\family typewriter 
+ГОСТ.lyx
+\family default 
+ вам не придется заниматься созданием титульного листа, а просто заполнить
+ необходимые поля в уже готовом листе (название документа, обозначение и
+ т.д.), выполненном по ГОСТ 2.105-95.
+ 
+\layout Подраздел
+
+Основные операции с файлом документа
+\layout Обычный
+
+В меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл
+\family default 
+ содержаться следующие основные команды для работы с файлами:
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+О
+\bar default 
+ткрыть
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+З
+\bar default 
+акрыть
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+С
+\bar default 
+охранить
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+С
+\bar default 
+охранить как
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+В
+\bar default 
+ернуться к сохранённому
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+Р
+\bar default 
+аспечатать...
+\layout Перечисление
+
+
+\family sans 
+\bar under 
+В
+\bar default 
+ыйти
+\layout Обычный
+
+Команды 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+О
+\bar default 
+ткрыть,
+\bar under 
+ Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+С
+\bar default 
+охранить 
+\family default 
+и
+\family sans 
+\bar under 
+ Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+С
+\bar default 
+охранить\SpecialChar ~
+как 
+\family default 
+являются стандартными для большинства программ и несут ту же функциональную
+ нагрузку.
+ Поэтому не будем останавливаться на их рассмотрении.
+\layout Обычный
+
+Команда 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+В
+\bar default 
+ернуться\SpecialChar ~
+к\SpecialChar ~
+сохранённому
+\family default 
+ используется когда несколько человек одновременно работают с одним и тем
+ же документом.
+ Она просто перезагрузит документ с диска.
+ Также эта команда используется, когда внесенные в документ изменения не
+ устраивают и необходимо вернуться к последней сохраненной версии документа.
+\layout Обычный
+
+Посредством команды 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+Р
+\bar default 
+аспечатать 
+\family default 
+осуществляется распечатка документа.
+ Непосредственно перед распечаткой появится диалоговое окно показанное на
+ рисунке\SpecialChar ~
+
+\begin_inset LatexCommand \ref{Pechat}
+
+\end_inset 
+
+.
+ При печати на принтер, необходимо указать его имя в соответствующем поле.
+ Воспользовавшись меню 
+\family sans 
+\bar under 
+П
+\bar default 
+росмотреть\SpecialChar \menuseparator
+
+\bar under 
+P
+\bar default 
+ostscript
+\family default 
+ можно посмотреть как будет выглядеть документ при печати.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename Pechat.png
+	display color
+	size_type 1
+	width 55.5col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 165pt
+	lyxheight 182pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{Pechat}
+
+\end_inset 
+
+Диалоговое окно при печати
+\end_inset 
+
+
+\layout Обычный
+
+Команда 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+З
+\bar default 
+акрыть
+\family default 
+ закрывает файл текущего документа.
+ Команда 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+
+\bar under 
+В
+\bar default 
+ыход
+\family default 
+ закрывает окно LyX.
+ При попытке закрыть документ с несохраненными изменениями LyX проинформирует
+ об этом и предложит произвести сохранение (то же произойдет при попытке
+ закрыть LyX).
+\layout Раздел
+
+Структура документа
+\layout Обычный
+
+Документ состоит из различных частей, имеющих разное назначение.
+ Эти логически обособленные части документа называются 
+\emph on 
+окружениями
+\emph default 
+ (environments).
+\layout Обычный
+
+
+\emph on 
+Окружение\SpecialChar ~
+абзаца
+\emph default 
+ (paragraph environment) определяет такие свойства абзаца как стиль шрифта,
+ отступы, схема нумерации и т.д.
+ 
+\layout Обычный
+
+Название окружения
+\emph on 
+ 
+\emph default 
+абзаца, в котором находится курсор, показывается слева на панели инструментов.
+ Здесь же его можно изменить на другое.
+ Для этого нужно развернуть список окружений (см.
+ рисунок 
+\begin_inset LatexCommand \ref{SpisokOkr}
+
+\end_inset 
+
+), кликнув мышкой на стрелке, и выбрать новое для текущего абзаца.
+ 
+\layout Обычный
+
+Можно менять окружение сразу нескольких абзацев, если их предварительно
+ выделить.
+\layout Обычный
+
+Из названий окружений (раздел, подраздел, перечисление и т.д.) интуитивно
+ можно понять их назначение.
+ Поэтому не будем останавливаться на этом и подробно рассматривать каждое
+ из них.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename SpisokOkr.png
+	display color
+	size_type 1
+	width 25.5col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 75pt
+	lyxheight 186pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{SpisokOkr}
+
+\end_inset 
+
+Cписок окружений
+\end_inset 
+
+
+\layout Обычный
+
+Хотя, сделаем исключение для группы окружений класса ГОСТ отмеченных звездочкой:
+ Раздел*, Подраздел*, Подподраздел*.
+ Отличает их от одноименных окружений без звездочки следующее:
+\layout Перечисление
+
+не ставится порядковый номер;
+\layout Перечисление
+
+текст абзаца не вносится в содержание.
+\layout Обычный
+
+Как только вы установите окружение абзаца, LyX автоматически оформит его
+ в соответствии с ГОСТ 2.105-95, т.е.
+ не нужно писать слово раздел, ставить порядковый номер, подбирать отступы
+ и т.д.
+ 
+\layout Обычный
+
+По умолчанию установлено окружение абзаца 
+\family sans 
+Обычный
+\family default 
+.
+\layout Раздел
+
+Содержание
+\layout Обычный
+
+LyX автоматически формирует содержание из названий разделов и подразделов
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+По умолчанию, в документе класса ГОСТ глубина содержания ограничивается
+ двумя уровнями
+\end_inset 
+
+.
+ В документе класса ГОСТ оно формируется в соответствии с ГОСТ 2.105-95.
+ 
+\layout Обычный
+
+Пример такого содержания приведен на втором листе сего документа.
+ В исходном тексте содержание выглядит так: 
+\begin_inset Graphics FormatVersion 1
+	filename Soderzhanie.png
+	display color
+	size_type 1
+	width 13col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 38pt
+	lyxheight 8pt
+\end_inset 
+
+.
+ Кликнув на нем мышкой можно вызвать диалоговое окно 
+\family sans 
+Содержание
+\family default 
+ (см.
+ рисунок\SpecialChar ~
+
+\begin_inset LatexCommand \ref{OknoSoderzhanie}
+
+\end_inset 
+
+), с помощью которого можно переместиться в любой подраздел документа.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename OknoSoderzhanie.png
+	display color
+	size_type 1
+	width 68.5col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 203pt
+	lyxheight 172pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{OknoSoderzhanie}
+
+\end_inset 
+
+Содержание
+\end_inset 
+
+
+\layout Обычный
+
+Если в тексте не встретится ни одного абзаца с окружением Раздел, содержание
+ окажется пустым.
+\layout Обычный
+
+Шаблон ГОСТ уже содержит содержание.
+\layout Обычный
+
+Для того, чтобы создать и вставить содержание в документ необходимо произвести
+ следующие действия:
+\layout Перечисление
+
+поместить курсор в место вставки;
+\layout Перечисление
+
+через меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+С
+\bar default 
+писки\SpecialChar ~
+и\SpecialChar ~
+содержания...\SpecialChar \menuseparator
+
+\bar under 
+С
+\bar default 
+одержание 
+\family default 
+вставить содержание.
+\layout Раздел
+
+Рисунки
+\layout Обычный
+
+Вставленный в текст рисунок может иметь порядковый номер и название.
+ Также он может быть неподписанным.
+\layout Обычный
+
+Чтобы рисунок был автоматически пронумерован и имел название, его необходимо
+ вставить в 
+\emph on 
+плавающий
+\emph default 
+\SpecialChar ~
+
+\emph on 
+объект
+\emph default 
+, для этого нужно выполнить следующие действия:
+\layout Перечисление
+
+переместить курсор в место вставки рисунка;
+\layout Перечисление
+
+через меню
+\family sans 
+\bar under 
+ В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+П
+\bar default 
+лавающий\SpecialChar ~
+объект\SpecialChar \menuseparator
+
+\bar under 
+П
+\bar default 
+лавающий\SpecialChar ~
+рисунок
+\family default 
+ вставить плавающий рисунок;
+\layout Перечисление
+
+ввести название рисунка; 
+\layout Перечисление
+
+для центрирования названия надо через меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+ормат\SpecialChar \menuseparator
+
+\bar under 
+А
+\bar default 
+бзац...
+
+\family default 
+ в поле 
+\family sans 
+Выровнять 
+\family default 
+установить флажок 
+\family sans 
+По\SpecialChar ~
+центру;
+\layout Перечисление
+
+поместив курсор в начало названия рисунка нужно нажать клавишу 
+\family sans 
+Enter
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+Для того, чтобы название оказалось под рисунком
+\end_inset 
+
+
+\family default 
+;
+\layout Перечисление
+
+вставить соответствующий рисунок через меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+Р
+\bar default 
+исунок...;
+\layout Перечисление
+
+в появившемся окне
+\family sans 
+ Вставить\SpecialChar ~
+рисунок 
+\family default 
+установите требуемый флажок (см.
+ рисунок 
+\begin_inset LatexCommand \ref{OknoVstavitRisunok}
+
+\end_inset 
+
+);
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename OknoVstavitRisunok.png
+	display color
+	size_type 1
+	width 50col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 148pt
+	lyxheight 73pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{OknoVstavitRisunok}
+
+\end_inset 
+
+Окно 
+\family sans 
+Вставить\SpecialChar ~
+рисунок
+\end_inset 
+
+
+\layout Перечисление
+
+нажмите кнопку 
+\family sans 
+OK;
+\layout Перечисление
+
+в появившемся диалоговом окне 
+\family sans 
+Рисунок
+\family default 
+ (см.
+ рисунок\SpecialChar ~
+
+\begin_inset LatexCommand \ref{OknoRisunok}
+
+\end_inset 
+
+), нажав кнопку обзор, найти требуемый объект;
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename OknoRisunok.png
+	display color
+	size_type 1
+	width 70col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 208pt
+	lyxheight 202pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{OknoRisunok}
+
+\end_inset 
+
+Диалоговое окно 
+\family sans 
+Рисунок
+\end_inset 
+
+
+\layout Перечисление
+
+в том же диалоговом окне можно задать размер рисунка.
+\layout Обычный
+
+На рисунке\SpecialChar ~
+
+\begin_inset LatexCommand \ref{PlavRisunok}
+
+\end_inset 
+
+ показано, что примерно появится в исходном тексте в результате выполнения
+ вышеуказанных действий.
+ При печати, этот же рисунок будет выглядеть как показано на рисунке\SpecialChar ~
+
+\begin_inset LatexCommand \ref{platypus}
+
+\end_inset 
+
+.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename PlavRisunok.png
+	display color
+	size_type 1
+	width 100col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 297pt
+	lyxheight 52pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{PlavRisunok}
+
+\end_inset 
+
+Плавающий рисунок
+\end_inset 
+
+
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename platypus.png
+	display color
+	size_type 1
+	width 4cm
+	height 2cm
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 113pt
+	lyxheight 56pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{platypus}
+
+\end_inset 
+
+Неизвестное науке существо
+\end_inset 
+
+
+\layout Обычный
+
+Таким образом вставленный рисунок будет оформлен по ГОСТ 2.105-95.
+\layout Обычный
+
+Дополнительные настройки осуществляются через диалоговое окно 
+\family sans 
+Рисунок
+\family default 
+ вызываемое нажатием левой кнопки мыши на требуемом рисунке.
+\layout Обычный
+
+Если объект, который необходимо вставить в текст, не имеет названия или
+ подписи, то можно обойтись без плавающих объектов.
+\layout Обычный
+
+Для того, чтобы плавающий объект оказался именно в том месте текста, в которое
+ вы его поместили, необходимо через меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+ормат\SpecialChar \menuseparator
+
+\bar under 
+Д
+\bar default 
+окумент...
+
+\family default 
+ в поле 
+\family sans 
+Размещение\SpecialChar ~
+плавающих\SpecialChar ~
+объектов 
+\family default 
+закладки 
+\family sans 
+Дополнительно
+\family default 
+ вписать символ 
+\family typewriter 
+h
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+При использовании шаблона ГОСТ это сделано по умолчанию
+\end_inset 
+
+
+\family default 
+.
+\layout Раздел
+
+Таблицы
+\layout Обычный
+
+Вставленная в текст таблица может иметь порядковый номер и название.
+ Также она может быть неподписанной.
+\layout Обычный
+
+Чтобы таблица была автоматически пронумерована и имела название, её необходимо
+ вставить в 
+\emph on 
+плавающий\SpecialChar ~
+объект
+\emph default 
+, для этого нужно выполнить следующие действия:
+\layout Перечисление
+
+переместить курсор в место вставки таблицы;
+\layout Перечисление
+
+через меню
+\family sans 
+\bar under 
+ В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+П
+\bar default 
+лавающий\SpecialChar ~
+объект\SpecialChar \menuseparator
+
+\bar under 
+П
+\bar default 
+лавающую\SpecialChar ~
+таблицу
+\family default 
+ вставить плавающую таблицу;
+\layout Перечисление
+
+ввести название таблицы и нажать Enter
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+Для того, чтобы таблица оказалась под названием
+\end_inset 
+
+;
+\layout Перечисление
+
+вставить соответствующую таблицу через меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+Т
+\bar default 
+аблицу...;
+\layout Перечисление
+
+в появившемся диалоговом окне 
+\family sans 
+Вставить\SpecialChar ~
+таблицу
+\family default 
+ (см.
+ рисунок\SpecialChar ~
+
+\begin_inset LatexCommand \ref{OknoTable}
+
+\end_inset 
+
+) установить количество строк и столбцов таблицы;
+\layout Перечисление
+
+нажмите кнопку 
+\family sans 
+OK 
+\family default 
+в появившемся окне
+\family sans 
+ Вставить\SpecialChar ~
+таблицу.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename OknoTable.png
+	display color
+	size_type 1
+	width 40col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 119pt
+	lyxheight 57pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{OknoTable}
+
+\end_inset 
+
+Окно Вставить\SpecialChar ~
+таблицу
+\end_inset 
+
+
+\layout Обычный
+
+На рисунке\SpecialChar ~
+
+\begin_inset LatexCommand \ref{PlavTable}
+
+\end_inset 
+
+ показано, что примерно появится в исходном тексте в результате выполнения
+ вышеуказанных действий.
+ При печати, эта же таблица будет выглядеть как таблица\SpecialChar ~
+
+\begin_inset LatexCommand \ref{tarif}
+
+\end_inset 
+
+.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename PlavTable.png
+	display color
+	size_type 1
+	width 100col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 297pt
+	lyxheight 37pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{PlavTable}
+
+\end_inset 
+
+Плавающая таблица
+\end_inset 
+
+
+\layout Обычный
+
+
+\begin_inset Float table
+placement htbp
+wide false
+collapsed false
+
+\layout Caption
+
+
+\begin_inset LatexCommand \label{tarif}
+
+\end_inset 
+
+Тарифы
+\layout Обычный
+
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features>
+<column alignment="left" valignment="top" leftline="true" width="4cm">
+<column alignment="left" valignment="top" leftline="true" width="4cm">
+<column alignment="left" valignment="top" leftline="true" rightline="true" width="4cm">
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+День, цент
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Вечер, цент
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Ночь, цент
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+30
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+18
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+6
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\end_inset 
+
+
+\layout Обычный
+
+Для того чтобы между шапкой таблицы и таблицей не было зазора необходимо
+ сделать следующее:
+\layout Перечисление
+
+поместите курсор в первую строку таблицы и нажмите правую кнопку мыши для
+ вызова окна 
+\family sans 
+Формат\SpecialChar ~
+таблицы;
+\layout Перечисление
+
+в поле 
+\family sans 
+Линия 
+\family default 
+закладки 
+\family sans 
+Колонка/Строка 
+\family default 
+снимите флажок 
+\family sans 
+Снизу.
+\layout Обычный
+
+Таким образом вставленная таблица будет оформлена по ГОСТ 2.105-95.
+\layout Обычный
+
+Дополнительные настройки осуществляются через диалоговое окно 
+\family sans 
+Формат\SpecialChar ~
+таблицы
+\family default 
+ вызываемое нажатием правой кнопки мыши на требуемой таблице.
+\layout Раздел
+
+Длинные таблицы
+\layout Раздел
+
+Формулы
+\layout Обычный
+
+Вставка и создание математических формул осуществляется при помощи меню
+ 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+М
+\bar default 
+атематическую\SpecialChar ~
+формулу\SpecialChar ~
+на отдельной строке
+\family default 
+.
+ 
+\layout Обычный
+
+Вызвать математическую панель (см.
+ рисунок\SpecialChar ~
+
+\begin_inset LatexCommand \ref{MatPanel}
+
+\end_inset 
+
+) для выбора необходимого знака можно через меню 
+\family sans 
+\bar under 
+П
+\bar default 
+равка\SpecialChar \menuseparator
+
+\bar under 
+М
+\bar default 
+атематическая
+\family default 
+\SpecialChar ~
+
+\family sans 
+панель
+\family default 
+.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename MatPanel.png
+	display color
+	size_type 1
+	width 45col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 133pt
+	lyxheight 87pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{MatPanel}
+
+\end_inset 
+
+Математическая панель
+\end_inset 
+
+
+\layout Обычный
+
+После небольшой практики вы сможете создавать формулы наподобие указанной
+ ниже.
+\layout Обычный
+
+
+\begin_inset Formula \[
+\mathbf{A}=\left(\begin{array}{ccccc}
+ \frac{\varphi \cdot X_{n,1}}{\varphi _{1}\times \varepsilon _{1}} & (x+\varepsilon _{2})^{2} & \cdots  & (x+\varepsilon _{n-1})^{n-1} & (x+\varepsilon _{n})^{n}\\
+ \frac{\varphi \cdot X_{n,1}}{\varphi _{2}\times \varepsilon _{1}} & \frac{\varphi \cdot X_{n,2}}{\varphi _{2}\times \varepsilon _{2}} & \cdots  & (x+\varepsilon _{n-1})^{n-1} & (x+\varepsilon _{n})^{n}\\
+ \frac{\varphi \cdot X_{n,1}}{\varphi _{n}\times \varepsilon _{1}} & \frac{\varphi \cdot X_{n,2}}{\varphi _{n}\times \varepsilon _{2}} & \cdots  & \frac{\varphi \cdot X_{n,n-1}}{\varphi _{n}\times \varepsilon _{n-1}} & \frac{\varphi \cdot X_{n,n}}{\varphi _{n}\times \varepsilon _{n}}\end{array}
+\right)+\mathbf{I}_{n}\]
+
+\end_inset 
+
+
+\layout Раздел
+
+Ссылки и метки
+\layout Обычный
+
+Ссылаться можно только на объекты, имеющие метки.
+\layout Обычный
+
+Для создания метки необходимо произвести следующие действия:
+\layout Перечисление
+
+поместить курсор в исходную формулу, в абзац названия рисунка, в абзац названия
+ таблицы и т.п.;
+\layout Перечисление
+
+ввести название метки посредством меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+М
+\bar default 
+етку...
+
+\family default 
+ (см.
+ рисунок
+\family sans 
+\SpecialChar ~
+
+\begin_inset LatexCommand \ref{MetkaPanel}
+
+\end_inset 
+
+).
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename MetkaPanel.png
+	display color
+	size_type 1
+	width 55col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 163pt
+	lyxheight 55pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{MetkaPanel}
+
+\end_inset 
+
+Окно ввода метки
+\end_inset 
+
+
+\layout Обычный
+
+Для ссылки на соответствующий объект нужно выполнить следующие действия:
+\layout Перечисление
+
+поместить курсор в требуемое место;
+\layout Перечисление
+
+указать метку требуемого объекта посредством меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+П
+\bar default 
+ерекрестную\SpecialChar ~
+ссылку...
+ 
+\family default 
+(см.
+ рисунок\SpecialChar ~
+
+\begin_inset LatexCommand \ref{SsylkaPanel}
+
+\end_inset 
+
+)
+\family sans 
+.
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	filename SsylkaPanel.png
+	display color
+	size_type 1
+	width 55col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 163pt
+	lyxheight 110pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+
+\begin_inset LatexCommand \label{SsylkaPanel}
+
+\end_inset 
+
+Окно выбора метки
+\end_inset 
+
+
+\layout Обычный
+
+Названия меток произвольные, но латинскими буквами.
+ Метки формул следует начинать с
+\emph on 
+ 
+\family typewriter 
+\emph default 
+math:
+\family default 
+ .
+\layout Обычный
+
+Пример --- Метка формулы для вычисления плотности: 
+\emph on 
+math:plotnost
+\layout Обычный
+
+
+\begin_inset Formula \begin{equation}
+\rho =\frac{m}{V}\label{math:plotnost}\end{equation}
+
+\end_inset 
+
+
+\layout Обычный
+
+Вот как выглядит ссылка на формулу для вычисления плотности в исходном тексте:
+ 
+\begin_inset Graphics FormatVersion 1
+	filename Ssylka.png
+	display color
+	size_type 1
+	width 18col%
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 53pt
+	lyxheight 9pt
+\end_inset 
+
+.
+ При печати она будет выглядеть так --- 
+\begin_inset LatexCommand \ref{math:plotnost}
+
+\end_inset 
+
+.
+\layout Обычный
+
+В документе класса ГОСТ ссылки на объекты оформляются в соответствии с ГОСТ\SpecialChar ~
+2.105-
+95 автоматически.
+\layout Раздел
+
+Разное
+\layout Подраздел
+
+Минус, тире, дефис, знак переноса
+\layout Обычный
+
+Все эти определения не являются разными названиями одного и того же знака.
+ Всех их следует различать и использовать именно тот знак, который необходим
+ в данной ситуации.
+ 
+\layout Обычный
+
+Для указывания знака 
+\begin_inset Quotes eld
+\end_inset 
+
+тире
+\begin_inset Quotes erd
+\end_inset 
+
+ (
+\begin_inset Quotes eld
+\end_inset 
+
+---
+\begin_inset Quotes erd
+\end_inset 
+
+) используется три поставленных знака 
+\begin_inset Quotes eld
+\end_inset 
+
+минуса
+\begin_inset Quotes erd
+\end_inset 
+
+ (
+\begin_inset Quotes eld
+\end_inset 
+
+-
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+
+\backslash 
+/
+\end_inset 
+
+-
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+
+\backslash 
+/
+\end_inset 
+
+-
+\begin_inset Quotes erd
+\end_inset 
+
+) подряд --- вот так.
+\layout Обычный
+
+Если вы пишете что-то типа 
+\begin_inset Quotes eld
+\end_inset 
+
+я приду через 15--20 минут
+\begin_inset Quotes erd
+\end_inset 
+
+ --- ставьте два знака 
+\begin_inset Quotes eld
+\end_inset 
+
+минус
+\begin_inset Quotes erd
+\end_inset 
+
+ подряд (
+\begin_inset Quotes eld
+\end_inset 
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+-
+\backslash 
+/-
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+).
+\layout Обычный
+
+Если вы просто что-то пишете, и перед 
+\begin_inset Quotes eld
+\end_inset 
+
+то
+\begin_inset Quotes erd
+\end_inset 
+
+ нужно поставить чёрточку (дефис), ставьте один 
+\begin_inset Quotes eld
+\end_inset 
+
+минус
+\begin_inset Quotes erd
+\end_inset 
+
+ (
+\begin_inset Quotes eld
+\end_inset 
+
+-
+\begin_inset Quotes erd
+\end_inset 
+
+).
+\layout Подраздел
+
+Перенос строки
+\layout Обычный
+
+Иногда требуется перенос текста на следующую строку, в пределах абзаца.
+ Для этого необходимо нажать не ENTER, а CTRL+ENTER.
+\layout Обычный
+
+Также это можно осуществить посредством меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+С
+\bar default 
+пециальный\SpecialChar ~
+символ...\SpecialChar \menuseparator
+
+\bar under 
+Р
+\bar default 
+азрыв\SpecialChar ~
+строки.
+
+\family default 
+ 
+\layout Подраздел
+
+Вставка специальных символов
+\layout Обычный
+
+Вставка специальных символов осуществляется посредством меню 
+\family sans 
+\bar under 
+В
+\bar default 
+ставить\SpecialChar \menuseparator
+
+\bar under 
+С
+\bar default 
+пециальный\SpecialChar ~
+символ...
+
+\family default 
+ Далее необходимо выбрать интересующий символ.
+\layout Подраздел
+
+Новая страница
+\layout Обычный
+
+Как правило, вам не нужно заботиться о разбиении своего текста на страницы.
+ Но в случае необходимости начать абзац с новой страницы можно следующим
+ образом:
+\layout Перечисление
+
+поместите курсор в исходный абзац;
+\layout Перечисление
+
+войдите в меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+ормат\SpecialChar \menuseparator
+
+\bar under 
+А
+\bar default 
+бзац...
+\family default 
+;
+\layout Перечисление
+
+в поле 
+\family sans 
+Разрыв\SpecialChar ~
+страницы
+\family default 
+ установите флажок 
+\family sans 
+Перед\SpecialChar ~
+абзацем.
+\layout Обычный
+
+По умолчанию в классе ГОСТ каждый раздел начинается с новой страницы.
+ Для отмены такого поведения необходимо в преамбуле документа (меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+ормат\SpecialChar \menuseparator
+
+\bar under 
+П
+\bar default 
+реамбула\SpecialChar ~
+LaTeX
+\family default 
+) написать
+\layout Обычный
+
+
+\family typewriter 
+
+\backslash 
+renewcommand{
+\backslash 
+gostnewpage}{}
+\layout Подраздел
+
+Введение
+\layout Обычный
+
+В случае, если необходимо добавить пункт Введение (или Послесловие), который
+ не должен иметь нумерации, но должен быть отражен в содержании, применяется
+ команда 
+\layout LyX-Code
+
+
+\backslash 
+addcontentsline{toc}{section}{Название пункта}
+\layout Обычный
+
+Причем её нужно указывать в тексте раздела, сразу после названия раздела.
+ Также ее необходимо выделить и посредством меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+ормат\SpecialChar \menuseparator
+
+\bar under 
+Р
+\bar default 
+ежим\SpecialChar ~
+команд\SpecialChar ~
+LaTeX
+\family default 
+ указать, что это команда LaTeX'а.
+ Например:
+\layout LyX-Code
+
+Введение 
+\backslash 
+addcontentsline{toc}{section}{Введение}
+\layout Раздел
+
+Вопросы на доработку
+\layout Пункт
+
+Раздел начинающийся после рисунка может не начаться с новой страницы.
+\layout Пункт
+
+Пояснить, что если рисунок не появился в ожидаемом месте, его надо искать
+ в конце документа.
+ А для исправления ситуации необходимо изменить размер рисунка.
+\layout Пункт
+
+Пояснить, что при установке размера рисунка по высоте 100%, может не поместиться
+ подрисуночная надпись.
+\the_end
