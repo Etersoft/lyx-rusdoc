@@ -1,5 +1,5 @@
-#LyX 1.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 220
+#LyX 1.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 221
 \textclass gost
 \begin_preamble
 \renewcommand{\gostnewpage}{}
@@ -31,6 +31,7 @@
 \layout НаимОрганизации
 
 Балабанов Б.А.
+ <bb@etersoft.ru>
 \layout НаимИзделия
 
 
@@ -48,7 +49,7 @@
 \layout ДатаДокумента
 
 2001
-\layout Обычный
+\layout Standard
 
 
 \begin_inset LatexCommand \tableofcontents{}
@@ -56,20 +57,20 @@
 \end_inset 
 
 
-\layout Раздел*
+\layout Section*
 
 Введение
 \begin_inset ERT
 status Collapsed
 
-\layout Обычный
+\layout Standard
 
 \backslash 
 addcontentsline{toc}{section}{Введение}
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Здравствуй, потенциальный пользователь LyX'а! Рекомендую сохранить в памяти
  это мгновение.
@@ -79,35 +80,35 @@ addcontentsline{toc}{section}{Введение}
  Ведь LyX собирается возложить на свои плечи всю рутинную оформительскую
  часть при создании текстовой документации, а тебе --- предоставить возможность
  сосредоточиться на содержании.
-\layout Обычный
+\layout Standard
 
 Итак, начнём с самого главного\SpecialChar \ldots{}
 
-\layout Раздел
+\layout Section
 
 Начало работы
-\layout Подраздел
+\layout Subsection
 
 Запуск LyX
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Note
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 По сути своей LyX не самостоятельный текстовый процессор, а графическая
  надстройка над широко известной издательской системой TeX (в варианте TeX
  --- LaTeX).
-\layout Обычный
+\layout Standard
 
 Для запуска LyX необходимо набрать lyx в командной строке графической оболочки
  X Window.
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Как правило кнопка вызова меню программ в любой графической оболочке находится
  в левом нижнем углу экрана и выглядит как небольшая картинка.
@@ -120,10 +121,10 @@ Office
 )
 \family default 
 , и в нём выберите LyX.
-\layout Подраздел
+\layout Subsection
 
 Окно LyX
-\layout Обычный
+\layout Standard
 
 После запуска вы увидите окно программы LyX, которое при создании нового
  документа будет выглядеть так, как показано на рисунке 
@@ -132,7 +133,7 @@ Office
 \end_inset 
 
 .
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -140,18 +141,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename InterfaceLyX.png
+\begin_inset Graphics
+	filename img/InterfaceLyX.png
 	display color
-	size_type 1
 	width 90col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 267pt
-	lyxheight 148pt
+
 \end_inset 
 
 
@@ -166,7 +164,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Окно LyX состоит из следующих элементов:
 \layout Перечисление
@@ -183,13 +181,13 @@ collapsed false
 \layout Перечисление
 
 Строка состояния отображает текущее состояние документа.
-\layout Раздел
+\layout Section
 
 Базовые операции при работе с текстовым документом
-\layout Подраздел
+\layout Subsection
 
 Создание документа и его класс
-\layout Обычный
+\layout Standard
 
 При создании нового документа необходимо установить его класс.
  Под классом понимается общий стиль оформления документа.
@@ -197,18 +195,18 @@ collapsed false
 \begin_inset Foot
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 Текстовый документ, оформленный с учетом требований ГОСТ 2.105-95
 \end_inset 
 
  и т.д.
-\layout Обычный
+\layout Standard
 
 Данное руководство ориентировано на класс ГОСТ.
  Но основные принципы работы являются общими для документов различных классов.
  
-\layout Обычный
+\layout Standard
 
 При выборе класса ГОСТ в документ автоматически будут вставлены рамки с
  соответствующими основными надписями для титульного, второго и последующих
@@ -221,7 +219,7 @@ collapsed true
 ).
  Будут установлены в соответствии с требованиями ГОСТ 2.105-95 поля документа,
  отступы, шрифты, межстрочные расстояния.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -229,48 +227,42 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
 \hfill 
 
-\begin_inset Graphics FormatVersion 1
-	filename gost_frame1.eps
+\begin_inset Graphics
+	filename img/gost_frame1.eps
+	lyxscale 30
 	display color
-	size_type 1
 	width 30col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 89pt
-	lyxheight 127pt
+
 \end_inset 
 
 
 \hfill 
 
-\begin_inset Graphics FormatVersion 1
-	filename gost_frame2.eps
+\begin_inset Graphics
+	filename img/gost_frame2.eps
+	lyxscale 30
 	display color
-	size_type 1
 	width 30col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 89pt
-	lyxheight 127pt
+
 \end_inset 
 
 
 \hfill 
 
-\begin_inset Graphics FormatVersion 1
-	filename gost_frame3.eps
+\begin_inset Graphics
+	filename img/gost_frame3.eps
+	lyxscale 30
 	display color
-	size_type 1
 	width 30col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 89pt
-	lyxheight 127pt
+
 \end_inset 
 
 
@@ -287,7 +279,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Для создания нового документа и установки его класса необходимо произвести
  следующие действия:
@@ -309,7 +301,7 @@ collapsed false
 \begin_inset Note
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 Основным пунктам меню соответствуют иконки, вынесенные на панель инструментов.
 \end_inset 
@@ -362,7 +354,7 @@ collapsed true
 Закрыть
 \family default 
 .
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -370,18 +362,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename FormatDokumentaClass.png
+\begin_inset Graphics
+	filename img/FormatDokumentaClass.png
 	display color
-	size_type 1
 	width 75col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 223pt
-	lyxheight 223pt
+
 \end_inset 
 
 
@@ -396,16 +385,16 @@ collapsed false
 \end_inset 
 
 
-\layout Подраздел
+\layout Subsection
 
 Шаблон
-\layout Обычный
+\layout Standard
 
 При создании однотипных документов очень удобно использовать шаблоны.
  Это избавит вас, уважаемый пользователь LyX'а, от многоразового набора
  и форматирования одной и той же информации.
  
-\layout Обычный
+\layout Standard
 
 Создание документа на основе шаблона осуществляется посредством меню 
 \family sans 
@@ -429,7 +418,7 @@ collapsed false
 \end_inset 
 
 ) нужно выбрать необходимый.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -437,18 +426,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename Shablon.png
+\begin_inset Graphics
+	filename img/Shablon.png
 	display color
-	size_type 1
 	width 72col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 214pt
-	lyxheight 192pt
+
 \end_inset 
 
 
@@ -463,7 +449,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Например, при использовании шаблона 
 \family typewriter 
@@ -473,10 +459,10 @@ collapsed false
  необходимые поля в уже готовом листе (название документа, обозначение и
  т.д.), выполненном по ГОСТ 2.105-95.
  
-\layout Подраздел
+\layout Subsection
 
 Основные операции с файлом документа
-\layout Обычный
+\layout Standard
 
 В меню 
 \family sans 
@@ -542,7 +528,7 @@ collapsed false
 В
 \bar default 
 ыйти
-\layout Обычный
+\layout Standard
 
 Команды 
 \family sans 
@@ -581,7 +567,7 @@ collapsed false
 являются стандартными для большинства программ и несут ту же функциональную
  нагрузку.
  Поэтому не будем останавливаться на их рассмотрении.
-\layout Обычный
+\layout Standard
 
 Команда 
 \family sans 
@@ -602,7 +588,7 @@ collapsed false
  Она просто перезагрузит документ с диска.
  Также эта команда используется, когда внесенные в документ изменения не
  устраивают и необходимо вернуться к последней сохраненной версии документа.
-\layout Обычный
+\layout Standard
 
 Посредством команды 
 \family sans 
@@ -639,7 +625,7 @@ P
 ostscript
 \family default 
  можно посмотреть как будет выглядеть документ при печати.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -647,18 +633,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename Pechat.png
+\begin_inset Graphics
+	filename img/Pechat.png
 	display color
-	size_type 1
 	width 55.5col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 165pt
-	lyxheight 182pt
+
 \end_inset 
 
 
@@ -673,7 +656,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Команда 
 \family sans 
@@ -704,10 +687,10 @@ collapsed false
  При попытке закрыть документ с несохраненными изменениями LyX проинформирует
  об этом и предложит произвести сохранение (то же произойдет при попытке
  закрыть LyX).
-\layout Раздел
+\layout Section
 
 Структура документа
-\layout Обычный
+\layout Standard
 
 Документ состоит из различных частей, имеющих разное назначение.
  Эти логически обособленные части документа называются 
@@ -715,7 +698,7 @@ collapsed false
 окружениями
 \emph default 
  (environments).
-\layout Обычный
+\layout Standard
 
 
 \emph on 
@@ -725,7 +708,7 @@ collapsed false
  (paragraph environment) определяет такие свойства абзаца как стиль шрифта,
  отступы, схема нумерации и т.д.
  
-\layout Обычный
+\layout Standard
 
 Название окружения
 \emph on 
@@ -741,17 +724,17 @@ collapsed false
 
 ), кликнув мышкой на стрелке, и выбрать новое для текущего абзаца.
  
-\layout Обычный
+\layout Standard
 
 Можно менять окружение сразу нескольких абзацев, если их предварительно
  выделить.
-\layout Обычный
+\layout Standard
 
 Из названий окружений (раздел, подраздел, перечисление и т.д.) интуитивно
  можно понять их назначение.
  Поэтому не будем останавливаться на этом и подробно рассматривать каждое
  из них.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -759,18 +742,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename SpisokOkr.png
+\begin_inset Graphics
+	filename img/SpisokOkr.png
 	display color
-	size_type 1
 	width 25.5col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 75pt
-	lyxheight 186pt
+
 \end_inset 
 
 
@@ -785,7 +765,7 @@ Cписок окружений
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Хотя, сделаем исключение для группы окружений класса ГОСТ отмеченных звездочкой:
  Раздел*, Подраздел*, Подподраздел*.
@@ -796,30 +776,30 @@ Cписок окружений
 \layout Перечисление
 
 текст абзаца не вносится в содержание.
-\layout Обычный
+\layout Standard
 
 Как только вы установите окружение абзаца, LyX автоматически оформит его
  в соответствии с ГОСТ 2.105-95, т.е.
  не нужно писать слово раздел, ставить порядковый номер, подбирать отступы
  и т.д.
  
-\layout Обычный
+\layout Standard
 
 По умолчанию установлено окружение абзаца 
 \family sans 
 Обычный
 \family default 
 .
-\layout Раздел
+\layout Section
 
 Содержание
-\layout Обычный
+\layout Standard
 
 LyX автоматически формирует содержание из названий разделов и подразделов
 \begin_inset Foot
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 По умолчанию, в документе класса ГОСТ глубина содержания ограничивается
  двумя уровнями
@@ -828,19 +808,16 @@ collapsed true
 .
  В документе класса ГОСТ оно формируется в соответствии с ГОСТ 2.105-95.
  
-\layout Обычный
+\layout Standard
 
 Пример такого содержания приведен на втором листе сего документа.
  В исходном тексте содержание выглядит так: 
-\begin_inset Graphics FormatVersion 1
-	filename Soderzhanie.png
+\begin_inset Graphics
+	filename img/Soderzhanie.png
 	display color
-	size_type 1
 	width 13col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 38pt
-	lyxheight 8pt
+
 \end_inset 
 
 .
@@ -856,7 +833,7 @@ collapsed true
 \end_inset 
 
 ), с помощью которого можно переместиться в любой подраздел документа.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -864,18 +841,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename OknoSoderzhanie.png
+\begin_inset Graphics
+	filename img/OknoSoderzhanie.png
 	display color
-	size_type 1
 	width 68.5col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 203pt
-	lyxheight 172pt
+
 \end_inset 
 
 
@@ -890,14 +864,14 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Если в тексте не встретится ни одного абзаца с окружением Раздел, содержание
  окажется пустым.
-\layout Обычный
+\layout Standard
 
 Шаблон ГОСТ уже содержит содержание.
-\layout Обычный
+\layout Standard
 
 Для того, чтобы создать и вставить содержание в документ необходимо произвести
  следующие действия:
@@ -926,14 +900,14 @@ collapsed false
 одержание 
 \family default 
 вставить содержание.
-\layout Раздел
+\layout Section
 
 Рисунки
-\layout Обычный
+\layout Standard
 
 Вставленный в текст рисунок может иметь порядковый номер и название.
  Также он может быть неподписанным.
-\layout Обычный
+\layout Standard
 
 Чтобы рисунок был автоматически пронумерован и имел название, его необходимо
  вставить в 
@@ -1005,7 +979,7 @@ Enter
 \begin_inset Foot
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 Для того, чтобы название оказалось под рисунком
 \end_inset 
@@ -1040,7 +1014,7 @@ collapsed true
 \end_inset 
 
 );
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1048,18 +1022,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename OknoVstavitRisunok.png
+\begin_inset Graphics
+	filename img/OknoVstavitRisunok.png
 	display color
-	size_type 1
 	width 50col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 148pt
-	lyxheight 73pt
+
 \end_inset 
 
 
@@ -1096,7 +1067,7 @@ OK;
 \end_inset 
 
 ), нажав кнопку обзор, найти требуемый объект;
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1104,18 +1075,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename OknoRisunok.png
+\begin_inset Graphics
+	filename img/OknoRisunok.png
 	display color
-	size_type 1
 	width 70col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 208pt
-	lyxheight 202pt
+
 \end_inset 
 
 
@@ -1135,7 +1103,7 @@ collapsed false
 \layout Перечисление
 
 в том же диалоговом окне можно задать размер рисунка.
-\layout Обычный
+\layout Standard
 
 На рисунке\SpecialChar ~
 
@@ -1152,7 +1120,7 @@ collapsed false
 \end_inset 
 
 .
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1160,18 +1128,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename PlavRisunok.png
+\begin_inset Graphics
+	filename img/PlavRisunok.png
 	display color
-	size_type 1
 	width 100col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 297pt
-	lyxheight 52pt
+
 \end_inset 
 
 
@@ -1186,7 +1151,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1194,19 +1159,16 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename platypus.png
+\begin_inset Graphics
+	filename img/platypus.eps
 	display color
-	size_type 1
 	width 4cm
 	height 2cm
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 113pt
-	lyxheight 56pt
+
 \end_inset 
 
 
@@ -1221,21 +1183,21 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Таким образом вставленный рисунок будет оформлен по ГОСТ 2.105-95.
-\layout Обычный
+\layout Standard
 
 Дополнительные настройки осуществляются через диалоговое окно 
 \family sans 
 Рисунок
 \family default 
  вызываемое нажатием левой кнопки мыши на требуемом рисунке.
-\layout Обычный
+\layout Standard
 
 Если объект, который необходимо вставить в текст, не имеет названия или
  подписи, то можно обойтись без плавающих объектов.
-\layout Обычный
+\layout Standard
 
 Для того, чтобы плавающий объект оказался именно в том месте текста, в которое
  вы его поместили, необходимо через меню 
@@ -1267,7 +1229,7 @@ h
 \begin_inset Foot
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 При использовании шаблона ГОСТ это сделано по умолчанию
 \end_inset 
@@ -1275,14 +1237,14 @@ collapsed true
 
 \family default 
 .
-\layout Раздел
+\layout Section
 
 Таблицы
-\layout Обычный
+\layout Standard
 
 Вставленная в текст таблица может иметь порядковый номер и название.
  Также она может быть неподписанной.
-\layout Обычный
+\layout Standard
 
 Чтобы таблица была автоматически пронумерована и имела название, её необходимо
  вставить в 
@@ -1322,7 +1284,7 @@ collapsed true
 \begin_inset Foot
 collapsed true
 
-\layout Обычный
+\layout Standard
 
 Для того, чтобы таблица оказалась под названием
 \end_inset 
@@ -1366,7 +1328,7 @@ OK
 \family sans 
  Вставить\SpecialChar ~
 таблицу.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1374,18 +1336,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename OknoTable.png
+\begin_inset Graphics
+	filename img/OknoTable.png
 	display color
-	size_type 1
 	width 40col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 119pt
-	lyxheight 57pt
+
 \end_inset 
 
 
@@ -1401,7 +1360,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 На рисунке\SpecialChar ~
 
@@ -1418,7 +1377,7 @@ collapsed false
 \end_inset 
 
 .
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1426,18 +1385,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename PlavTable.png
+\begin_inset Graphics
+	filename img/PlavTable.png
 	display color
-	size_type 1
 	width 100col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 297pt
-	lyxheight 37pt
+
 \end_inset 
 
 
@@ -1452,7 +1408,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float table
@@ -1468,20 +1424,20 @@ collapsed false
 \end_inset 
 
 Тарифы
-\layout Обычный
+\layout Standard
 
 
 \begin_inset  Tabular
 <lyxtabular version="3" rows="2" columns="3">
 <features>
-<column alignment="left" valignment="top" leftline="true" width="4cm">
-<column alignment="left" valignment="top" leftline="true" width="4cm">
-<column alignment="left" valignment="top" leftline="true" rightline="true" width="4cm">
+<column alignment="block" valignment="top" leftline="true" width="4cm">
+<column alignment="block" valignment="top" leftline="true" width="4cm">
+<column alignment="block" valignment="top" leftline="true" rightline="true" width="4cm">
 <row topline="true">
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Обычный
+\layout Standard
 
 День, цент
 \end_inset 
@@ -1489,7 +1445,7 @@ collapsed false
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Обычный
+\layout Standard
 
 Вечер, цент
 \end_inset 
@@ -1497,7 +1453,7 @@ collapsed false
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Обычный
+\layout Standard
 
 Ночь, цент
 \end_inset 
@@ -1507,7 +1463,7 @@ collapsed false
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Обычный
+\layout Standard
 
 30
 \end_inset 
@@ -1515,7 +1471,7 @@ collapsed false
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Обычный
+\layout Standard
 
 18
 \end_inset 
@@ -1523,7 +1479,7 @@ collapsed false
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Обычный
+\layout Standard
 
 6
 \end_inset 
@@ -1537,7 +1493,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Для того чтобы между шапкой таблицы и таблицей не было зазора необходимо
  сделать следующее:
@@ -1561,10 +1517,10 @@ collapsed false
 снимите флажок 
 \family sans 
 Снизу.
-\layout Обычный
+\layout Standard
 
 Таким образом вставленная таблица будет оформлена по ГОСТ 2.105-95.
-\layout Обычный
+\layout Standard
 
 Дополнительные настройки осуществляются через диалоговое окно 
 \family sans 
@@ -1572,13 +1528,13 @@ collapsed false
 таблицы
 \family default 
  вызываемое нажатием правой кнопки мыши на требуемой таблице.
-\layout Раздел
+\layout Section
 
 Длинные таблицы
-\layout Раздел
+\layout Section
 
 Формулы
-\layout Обычный
+\layout Standard
 
 Вставка и создание математических формул осуществляется при помощи меню
  
@@ -1597,7 +1553,7 @@ collapsed false
 \family default 
 .
  
-\layout Обычный
+\layout Standard
 
 Вызвать математическую панель (см.
  рисунок\SpecialChar ~
@@ -1624,7 +1580,7 @@ collapsed false
 панель
 \family default 
 .
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1632,18 +1588,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename MatPanel.png
+\begin_inset Graphics
+	filename img/MatPanel.png
 	display color
-	size_type 1
 	width 45col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 133pt
-	lyxheight 87pt
+
 \end_inset 
 
 
@@ -1658,30 +1611,29 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 После небольшой практики вы сможете создавать формулы наподобие указанной
  ниже.
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Formula \[
 \mathbf{A}=\left(\begin{array}{ccccc}
- \frac{\varphi \cdot X_{n,1}}{\varphi _{1}\times \varepsilon _{1}} & (x+\varepsilon _{2})^{2} & \cdots  & (x+\varepsilon _{n-1})^{n-1} & (x+\varepsilon _{n})^{n}\\
- \frac{\varphi \cdot X_{n,1}}{\varphi _{2}\times \varepsilon _{1}} & \frac{\varphi \cdot X_{n,2}}{\varphi _{2}\times \varepsilon _{2}} & \cdots  & (x+\varepsilon _{n-1})^{n-1} & (x+\varepsilon _{n})^{n}\\
- \frac{\varphi \cdot X_{n,1}}{\varphi _{n}\times \varepsilon _{1}} & \frac{\varphi \cdot X_{n,2}}{\varphi _{n}\times \varepsilon _{2}} & \cdots  & \frac{\varphi \cdot X_{n,n-1}}{\varphi _{n}\times \varepsilon _{n-1}} & \frac{\varphi \cdot X_{n,n}}{\varphi _{n}\times \varepsilon _{n}}\end{array}
-\right)+\mathbf{I}_{n}\]
+\frac{\varphi\cdot X_{n,1}}{\varphi_{1}\times\varepsilon_{1}} & (x+\varepsilon_{2})^{2} & \cdots & (x+\varepsilon_{n-1})^{n-1} & (x+\varepsilon_{n})^{n}\\
+\frac{\varphi\cdot X_{n,1}}{\varphi_{2}\times\varepsilon_{1}} & \frac{\varphi\cdot X_{n,2}}{\varphi_{2}\times\varepsilon_{2}} & \cdots & (x+\varepsilon_{n-1})^{n-1} & (x+\varepsilon_{n})^{n}\\
+\frac{\varphi\cdot X_{n,1}}{\varphi_{n}\times\varepsilon_{1}} & \frac{\varphi\cdot X_{n,2}}{\varphi_{n}\times\varepsilon_{2}} & \cdots & \frac{\varphi\cdot X_{n,n-1}}{\varphi_{n}\times\varepsilon_{n-1}} & \frac{\varphi\cdot X_{n,n}}{\varphi_{n}\times\varepsilon_{n}}\end{array}\right)+\mathbf{I}_{n}\]
 
 \end_inset 
 
 
-\layout Раздел
+\layout Section
 
 Ссылки и метки
-\layout Обычный
+\layout Standard
 
 Ссылаться можно только на объекты, имеющие метки.
-\layout Обычный
+\layout Standard
 
 Для создания метки необходимо произвести следующие действия:
 \layout Перечисление
@@ -1713,7 +1665,7 @@ collapsed false
 \end_inset 
 
 ).
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1721,18 +1673,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename MetkaPanel.png
+\begin_inset Graphics
+	filename img/MetkaPanel.png
 	display color
-	size_type 1
 	width 55col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 163pt
-	lyxheight 55pt
+
 \end_inset 
 
 
@@ -1747,7 +1696,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Для ссылки на соответствующий объект нужно выполнить следующие действия:
 \layout Перечисление
@@ -1779,7 +1728,7 @@ collapsed false
 )
 \family sans 
 .
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Float figure
@@ -1787,18 +1736,15 @@ placement htbp
 wide false
 collapsed false
 
-\layout Обычный
+\layout Standard
 \align center 
 
-\begin_inset Graphics FormatVersion 1
-	filename SsylkaPanel.png
+\begin_inset Graphics
+	filename img/SsylkaPanel.png
 	display color
-	size_type 1
 	width 55col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 163pt
-	lyxheight 110pt
+
 \end_inset 
 
 
@@ -1813,7 +1759,7 @@ collapsed false
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Названия меток произвольные, но латинскими буквами.
  Метки формул следует начинать с
@@ -1824,33 +1770,30 @@ collapsed false
 math:
 \family default 
  .
-\layout Обычный
+\layout Standard
 
 Пример --- Метка формулы для вычисления плотности: 
 \emph on 
 math:plotnost
-\layout Обычный
+\layout Standard
 
 
 \begin_inset Formula \begin{equation}
-\rho =\frac{m}{V}\label{math:plotnost}\end{equation}
+\rho=\frac{m}{V}\label{math:plotnost}\end{equation}
 
 \end_inset 
 
 
-\layout Обычный
+\layout Standard
 
 Вот как выглядит ссылка на формулу для вычисления плотности в исходном тексте:
  
-\begin_inset Graphics FormatVersion 1
-	filename Ssylka.png
+\begin_inset Graphics
+	filename img/Ssylka.png
 	display color
-	size_type 1
 	width 18col%
 	rotateOrigin center
-	lyxsize_type 1
-	lyxwidth 53pt
-	lyxheight 9pt
+
 \end_inset 
 
 .
@@ -1860,24 +1803,24 @@ math:plotnost
 \end_inset 
 
 .
-\layout Обычный
+\layout Standard
 
 В документе класса ГОСТ ссылки на объекты оформляются в соответствии с ГОСТ\SpecialChar ~
 2.105-
 95 автоматически.
-\layout Раздел
+\layout Section
 
 Разное
-\layout Подраздел
+\layout Subsection
 
 Минус, тире, дефис, знак переноса
-\layout Обычный
+\layout Standard
 
 Все эти определения не являются разными названиями одного и того же знака.
  Всех их следует различать и использовать именно тот знак, который необходим
  в данной ситуации.
  
-\layout Обычный
+\layout Standard
 
 Для указывания знака 
 \begin_inset Quotes eld
@@ -1911,7 +1854,7 @@ math:plotnost
 \begin_inset ERT
 status Collapsed
 
-\layout Обычный
+\layout Standard
 
 \backslash 
 /
@@ -1921,7 +1864,7 @@ status Collapsed
 \begin_inset ERT
 status Collapsed
 
-\layout Обычный
+\layout Standard
 
 \backslash 
 /
@@ -1932,7 +1875,7 @@ status Collapsed
 \end_inset 
 
 ) подряд --- вот так.
-\layout Обычный
+\layout Standard
 
 Если вы пишете что-то типа 
 \begin_inset Quotes eld
@@ -1958,7 +1901,7 @@ status Collapsed
 \begin_inset ERT
 status Collapsed
 
-\layout Обычный
+\layout Standard
 -
 \backslash 
 /-
@@ -1969,7 +1912,7 @@ status Collapsed
 \end_inset 
 
 ).
-\layout Обычный
+\layout Standard
 
 Если вы просто что-то пишете, и перед 
 \begin_inset Quotes eld
@@ -1996,14 +1939,14 @@ status Collapsed
 \end_inset 
 
 ).
-\layout Подраздел
+\layout Subsection
 
 Перенос строки
-\layout Обычный
+\layout Standard
 
 Иногда требуется перенос текста на следующую строку, в пределах абзаца.
  Для этого необходимо нажать не ENTER, а CTRL+ENTER.
-\layout Обычный
+\layout Standard
 
 Также это можно осуществить посредством меню 
 \family sans 
@@ -2026,10 +1969,10 @@ status Collapsed
 
 \family default 
  
-\layout Подраздел
+\layout Subsection
 
 Вставка специальных символов
-\layout Обычный
+\layout Standard
 
 Вставка специальных символов осуществляется посредством меню 
 \family sans 
@@ -2046,10 +1989,10 @@ status Collapsed
 
 \family default 
  Далее необходимо выбрать интересующий символ.
-\layout Подраздел
+\layout Subsection
 
 Новая страница
-\layout Обычный
+\layout Standard
 
 Как правило, вам не нужно заботиться о разбиении своего текста на страницы.
  Но в случае необходимости начать абзац с новой страницы можно следующим
@@ -2083,7 +2026,7 @@ status Collapsed
 \family sans 
 Перед\SpecialChar ~
 абзацем.
-\layout Обычный
+\layout Standard
 
 По умолчанию в классе ГОСТ каждый раздел начинается с новой страницы.
  Для отмены такого поведения необходимо в преамбуле документа (меню 
@@ -2100,7 +2043,7 @@ status Collapsed
 LaTeX
 \family default 
 ) написать
-\layout Обычный
+\layout Standard
 
 
 \family typewriter 
@@ -2109,10 +2052,10 @@ LaTeX
 renewcommand{
 \backslash 
 gostnewpage}{}
-\layout Подраздел
+\layout Subsection
 
 Введение
-\layout Обычный
+\layout Standard
 
 В случае, если необходимо добавить пункт Введение (или Послесловие), который
  не должен иметь нумерации, но должен быть отражен в содержании, применяется
@@ -2122,7 +2065,7 @@ gostnewpage}{}
 
 \backslash 
 addcontentsline{toc}{section}{Название пункта}
-\layout Обычный
+\layout Standard
 
 Причем её нужно указывать в тексте раздела, сразу после названия раздела.
  Также ее необходимо выделить и посредством меню 
@@ -2146,7 +2089,7 @@ LaTeX
 Введение 
 \backslash 
 addcontentsline{toc}{section}{Введение}
-\layout Раздел
+\layout Section
 
 Вопросы на доработку
 \layout Пункт

@@ -1,18 +1,19 @@
 Name: lyx-rusdoc
-Version: 1.2
-Release: alt2
-
-Packager: Vitaly Lipatov <lav@altlinux.ru>
+Version: 1.3
+Release: alt1
 
 Summary: The documentation for LyX and GOST text class
 Summary(ru_RU.KOI8-R): Русская документация по LyX и классу текста GOST
 License: GPL
-Url: http://rulyx.narod.ru
 Group: Office
-Source: %name-%version.tar.bz2
-BuildArchitectures: noarch
+URL: http://www.etersoft.ru
 
-Requires: lyx >= 1.2.0
+Packager: Vitaly Lipatov <lav@altlinux.ru>
+
+Source: %name-%version.tar.bz2
+
+BuildArchitectures: noarch
+Requires: lyx-gost
 
 %description
 The %name package contains additional describes in russian
@@ -24,39 +25,42 @@ for LyX, and the documentation for LyX/LaTeX class GOST.
 предназначенного для подготовки технической текстовой документации
 в соответствии с ГОСТ 2.105-95.
 
+
 %prep
 %setup -q
 
 %install
+
 cd doc
-for i in *
+for i in *.lyx
 do
-	install -D -m644 $i $RPM_BUILD_ROOT/%_datadir/doc/%name-%version/$i
+	install -D -m644 $i ${RPM_BUILD_ROOT}/%{_datadir}/doc/%name-%version/$i
+done
+for i in *.sh
+do
+	install -D -m644 $i ${RPM_BUILD_ROOT}/%_bindir/$i
 done
 cd -
-cd GOST-LyX
-for i in *
-do
-	install -D -m644 $i $RPM_BUILD_ROOT/%_datadir/doc/%name-%version/GOST-LyX/$i
-done
-cd -
+
+cp -rp GOST-LyX/* ${RPM_BUILD_ROOT}/%{_datadir}/doc/%name-%version/
+
 cd lyx-ug
 for i in *
 do
-	install -D -m644 $i $RPM_BUILD_ROOT/%_datadir/doc/%name-%version/LyX-UG/$i
+	install -D -m644 $i ${RPM_BUILD_ROOT}/%{_datadir}/doc/%name-%version/LyX-UG/$i
 done
 cd -
 
-%post
-%preun
-%postun
 %files
 %docdir %_datadir/doc/%name-%version
 %_datadir/doc/%name-%version
+%_bindir/*
 
 %changelog
-* Thu Nov 14 2002 Stanislav Ievlev <inger@altlinux.ru> 1.2-alt2
-- rebuild
+* Mon Jan 05 2004 Vitaly Lipatov <lav@altlinux.ru> 1.3-alt1
+- update all files for LyX 1.3.3
+- spec cleanup
+- add scripts for PS-booklets printing
 
 * Fri Jun 14 2002 Vitaly Lipatov <lav@altlinux.ru> 1.2-alt1
 - update all files for LyX 1.2.0

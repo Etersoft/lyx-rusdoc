@@ -1,5 +1,5 @@
-#LyX 1.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 220
+#LyX 1.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 221
 \textclass article
 \language russian
 \inputencoding koi8-r
@@ -271,7 +271,7 @@ outfile.ps
  были одинаковые.
 \layout Standard
 
-Обычно печатают сначала только нечетные страницы входного файла, потом получившу
+Обычно печатают сначала только нечётные страницы входного файла, потом получившу
 юся пачку бумаги вновь кладут во входной лоток принтера и печатают нечетные.
  Одни принтеры выдают листы в прямом порядке, другие --- в обратном, поэтому
  может потребоваться изменение порядка страниц.

@@ -1,5 +1,5 @@
-#LyX 1.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 220
+#LyX 1.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 221
 \textclass article
 \begin_preamble
 \usepackage{multicol}
@@ -38,10 +38,10 @@
 Полезные советы по LyX
 \layout Date
 
-14.06.02
+30.06.01, 14.06.02, 05.01.04
 \layout Author
 
-Russian LyX User Group (vitlav@mail.ru)
+Russian LyX User Group (lav@etersoft.ru)
 \layout Abstract
 
 Мы хотели бы собирать здесь советы, как делать в LyX некоторые вещи оптимальным
@@ -59,12 +59,31 @@ Russian LyX User Group (vitlav@mail.ru)
  бы устранить.
 \layout Section
 
+Благодарности
+\layout Standard
+
+Во многом при написании этих советов мне помогли LyXTips, созданные Herbert
+ Voss 
+\layout Section
+
 
 \begin_inset LatexCommand \label{ОбщиеСведения}
 
 \end_inset 
 
 Общие сведения
+\layout Standard
+
+Так как в предыдущих версиях LyX было много недочётов, которые исправлены
+ в настоящей версии, мы настоятельно рекомендуем вам выполнить обновление
+ LyX до версии 1.3.3.
+ Вы можете получить новую сборку в обновлениях от вашего поставщика дистрибутива
+ или с сайта 
+\begin_inset LatexCommand \url{www.lyx.org}
+
+\end_inset 
+
+.
 \layout Standard
 
 Команда TeX вводится как обыкновенный текст в документ, далее выделяется
@@ -81,7 +100,9 @@ Russian LyX User Group (vitlav@mail.ru)
 \family sans 
 Формат\SpecialChar \menuseparator
 Преамбула\SpecialChar ~
-LaTeX
+LaTeX (Формат\SpecialChar \menuseparator
+Документ,\SpecialChar ~
+Преамбула)
 \family default 
  вписать строчку 
 \family sans 
@@ -112,9 +133,17 @@ Del
 \emph default 
  документа.
  Стиль может быть article (статья), report (отчет), book (книга).
- Для оформления текстовой документации по ГОСТ используется стиль ГОСТ,
+ Для оформления текстовой документации по ГОСТ используется класс GOST,
  в оформлении которого учтены все требования ГОСТ к оформлению и нижеперечисленн
 ые советы практически не требуются.
+ Вы можете получить класс GOST из пакета lyx-gost-koi8-r или lyx-gost-cp1251
+ (Если вы используете ALT Linux), или найдя соответствующие пакеты, например,
+ через 
+\begin_inset LatexCommand \url{filesearch.ru}
+
+\end_inset 
+
+.
 \layout Subsection
 
 Номер на странице
@@ -195,34 +224,23 @@ thepage{
 arabic{page} из 
 \backslash 
 pageref{LastPage}}
-\layout Standard
-
-30.06.01 Lav
 \layout Subsection
 
 Поля документа
 \layout Standard
 
-Если вы решили поменять поля документа, не забудьте указать единицы измерения
- вводимых отступов (например, 20mm --- mm 
-\emph on 
-не
-\emph default 
- русские буквы).
- Поля меняются в меню 
+Поля меняются в меню 
 \family sans 
 Формат\SpecialChar \menuseparator
 Документ
 \family default 
 .
- А самое главное --- что нужно поставить галочку 
+ Закладка 
 \family sans 
-Использовать пакет геометрии
-\family default 
-.
+Бумага.
 \layout Standard
 
-01.07.01, 08.12.01 Lav
+01.07.01, 08.12.01, 05.07.02 Lav
 \layout Subsection
 
 Добавление строки в содержание
@@ -254,9 +272,6 @@ addcontentsline{toc}{section}{Введение}
 
 Вместо section указывается окружение, в уровень которого нужно поместить
  указанную строку.
-\layout Standard
-
-01.07.01 Lav
 \layout Subsection
 
 Проблемы с русским в LyX (LaTeX)
@@ -266,6 +281,15 @@ addcontentsline{toc}{section}{Введение}
  в X, раскладки в LyX.
  Нужно подключить файл перекодирования lyx/bind/cyrillic.bind для использования
  LyX со стандартным переключением в X.
+\layout Standard
+
+В общем, проблем с русским в LyX и LaTeX при использовании сборок от ALT
+ Linux (
+\begin_inset LatexCommand \url{ftp://ftp.altlinux.ru}
+
+\end_inset 
+
+) не будет.
 \layout Subsection
 
 Колонки текста
@@ -379,47 +403,32 @@ end{multicols}
 
 \layout Subsubsection
 
-Используя министраницы 
+Используя мини-страницы 
 \layout Standard
 
-Текст, который нам нужно расположить в две колонки, выделяем и идем в 
+Через меню 
 \family sans 
-Формат\SpecialChar \menuseparator
-Абзац.
-
+Вставить
 \family default 
- Закладка Extra.
- Там ставим галочку Министраницы, Вертикальный клей между министраницами.
- Указываем ширину в процентах (например, 45).
+\SpecialChar \menuseparator
+
+\family sans 
+Мини-страницу
+\family default 
+ вставляем необходимое количество мини-страниц.
+ Нажав на заголовок рамки каждой мини-страницы правую кнопку мыши, указываем
+ ширину в процентах (например, 45).
  Нажимаем
 \family sans 
  ОК 
 \family default 
 :).
- Далее снимаем выделение и указываем абзац, с которого нужно начать новую
- колонку.
- Опять идем в 
-\family sans 
-Формат\SpecialChar \menuseparator
-Абзац
-\family default 
-, ставим галочку Начать новую министраницу.
- Всё.
- Далее, 
+ 
 \begin_inset LatexCommand \vpageref{minipage}
 
 \end_inset 
 
  --- пример.
-\begin_inset Marginal
-collapsed true
-
-\layout Standard
-
-Видите, почему-то не на одном уровне.
-\end_inset 
-
- 
 \layout Standard
 
 
@@ -430,7 +439,7 @@ height "0pt"
 width "49col%"
 collapsed false
 
-\layout Standard
+\layout Enumerate
 
 
 \begin_inset LatexCommand \label{minipage}
@@ -439,7 +448,7 @@ collapsed false
 
 1.
  Текст, который нам
-\layout Standard
+\layout Enumerate
 
 2.
  нужно расположить
@@ -453,36 +462,25 @@ height "0pt"
 width "49col%"
 collapsed false
 
-\layout Standard
+\layout Enumerate
 
 3.
  А здесь уже другая колонка
-\layout Standard
+\layout Enumerate
 
 4.
  Продолжаем
-\layout Standard
+\layout Enumerate
 
 5.
  Ещё немного...
-\layout Standard
+\layout Enumerate
 
 6.
  Вот и всё.
 \end_inset 
 
 
-\layout Description
-
-Недостатки.
- Для версии LyX 1.1.6fix2.
- Не стоит использовать внутри министраницы стили нумерации и пр.
- (Enumerate, Itemize, List, etc) --- с такими окружениями министраница не
- реагирует на принудительное начало новой колонки (пункт Начать новую министрани
-цу).
- И ещё --- если вставить метку в первую строчку текста в министранице ---
- она немного сдвигается вниз и выглядит так, как мы видим.
- 
 \layout Subsection
 
 Принудительный разрыв страницы 
@@ -494,7 +492,7 @@ collapsed false
 Абзац
 \family default 
 .
- А там выставляется галочка разрыв страницы перед и/или после абзаца.
+ А там отмечаете, выполнять разрыв страницы до и/или после абзаца.
 \layout Standard
 
 Если вы хотите получить отдельную титульную страницу, напишите titlepage
@@ -584,7 +582,12 @@ columnbreak
 \begin_deeper 
 \layout Standard
 
-Для этого нужно нажать Alt-Shift-стрелку вправо
+Для этого нужно нажать Alt-Shift-стрелку вправо (или изменить глубину окружения
+ через меню 
+\family sans 
+Формат
+\family default 
+)
 \end_deeper 
 \layout Enumerate
 
@@ -609,17 +612,10 @@ end{multicols}
 Первый абзацный отступ
 \layout Standard
 
-Для того, чтобы в первом абзаце после заголовка появился абзацный отступ
+Для того, чтобы в первом абзаце после заголовка появился абзацный отступ,
  необходимо в преамбуле указать 
 \backslash 
 usepackage{indentfirst}.
-\layout Description
-
-Недостатки.
- Перестает раскрываться содержание в печатном документе (заголовок есть,
- а содержимого нет).
- (Lav: Вроде бы всё нормально, только начинаются проблемы с обновлением
- того, что будет на печати --- в общем, проявляется не во всех ситуациях).
 \layout Subsection
 
 Строки, по ширине не влезающие на страницу
@@ -923,7 +919,7 @@ textcelsius{}
 \backslash 
 textcelsius
 \family default 
-{} 
+{}
 \family typewriter 
 .
 \layout Subsection
@@ -950,139 +946,7 @@ status Collapsed
 Символы копирайта и пр.
 \layout Standard
 
-Одним из вариантов является следующий.
- В преамбуле надо написать
-\layout LyX-Code
-
-
-\backslash 
-newcommand
-\backslash 
-kreis[1]{
-\backslash 
-ensuremath{%
-\layout LyX-Code
-
-
-\backslash 
-mathbin{
-\backslash 
-settowidth{
-\backslash 
-dimen7}{
-\backslash 
-mbox{$
-\backslash 
-bigcirc$}}%
-\layout LyX-Code
-
-
-\backslash 
-makebox[0pt][l]{$
-\backslash 
-bigcirc$}
-\backslash 
-makebox[
-\backslash 
-dimen7]{#1}}}}
-\layout Standard
-
-Далее в тексте пишем
-\backslash 
-kreis{
-\size small 
-R
-\size default 
-}и получаем
-\begin_inset ERT
-status Collapsed
-
-\layout Standard
- 
-\backslash 
-kreis{R}
-\end_inset 
-
-.
- К сожалению, размер буквы внутри слишком большой.
- Нужно указать, как уменьшить букву.
- К тому же, как выяснилось, помещение указанного определения в преамбулу
- делает невозможным преобразования файла в html.
-\layout Standard
-
-Как выяснилось, для достижения того же эффекта можно использовать 
-\backslash 
-textcircled{R} и мы получим также 
-\begin_inset ERT
-status Collapsed
-
-\layout Standard
-
-\backslash 
-textcircled{R}
-\end_inset 
-
-.
- Но это не совсем то, что мы бы хотели видеть.
-\layout Standard
-
-
-\lang english
-
-\begin_inset ERT
-status Collapsed
-
-\layout Standard
-
-\backslash 
-begin{sloppypar}
-\layout Standard
-
-\backslash 
-DeclareInputText{174}{
-\backslash 
-textregistered}
-\end_inset 
-
-
-\layout Standard
-
-Однако можно просто ввести символ с кодом 174 (не знаю, как) или скопировать
- из какого нибудь файла (например, отсюда:╝).
- В том LaTeX'е, который я использую (из дистрибутива Mandrake RE Spring
- 20001), нужно добавить строчку 
-\backslash 
-DeclareInputText{174}{
-\backslash 
-textregistered} в файл
-\begin_inset Foot
-collapsed true
-
-\layout Standard
-
-Возможно, просто в преамбулу документа
-\end_inset 
-
- /usr/share/texmf/tex/latex/cyrillic/koi8-r.def, чтобы этот символ мог быть
- обработан, или просто в документ перед первым использованием.
-\layout Standard
-
-
-\lang english
-
-\begin_inset ERT
-status Collapsed
-
-\layout Standard
-
-\backslash 
-end{sloppypar}
-\end_inset 
-
-
-\layout Standard
-
-Также эти символы можно ввести с помощью команд LaTeX
+Эти символы можно ввести с помощью команд LaTeX
 \layout Standard
 
 
@@ -1148,6 +1012,10 @@ captionlabeldelim}{.}
 renewcommand
 \backslash 
 captionmargin{1cm}
+\layout Standard
+
+Вы можете посмотреть, как это решено в пакете GOST, или воспользоваться
+ им для оформления своего документа.
 \layout Subsection
 
 Длинные таблицы
@@ -1170,17 +1038,7 @@ captionmargin{1cm}
 \emph default 
  быть плавающим объектом.
  Но при этом нельзя указать номера таблицы.
- Я поступаю следующим образом.
- Создаю плавающий объект таблица, но таблицы в него не помещаю.
- Получается номер таблицы, только он располагается на некотором отдалении
- от таблицы.
- Чтобы это скорректировать, предлается в формате абзаца номера таблицы указать
- интервал после абзаца 
-\begin_inset Formula $-8mm$
-\end_inset 
-
- (отрицательный).
- Мы будем искать лучшие решения.
+ 
 \layout Standard
 
 Некоторые строки таблицы надо пометить в меню 
@@ -1192,52 +1050,6 @@ captionmargin{1cm}
 \family sans 
  Длинная\SpecialChar ~
 таблица.
-\layout Standard
-
-Внимание! В LyX версии 1.1.6fix3 есть ошибка, из-за которой при создании длинных
- таблиц далее требуется ручная корректировка, так что нижеследующие ухищрения
- в общем не имеют смысла.
- Нужно указывать все правильно, а потом в файле исправить отрицательные
- номера строк на положительные (обращайтесь с вопросами к группе поддержки).
-\layout Standard
-
-Строка таблицы, которая будет на 
-\emph on 
-каждой странице
-\emph default 
- с таблицей (кроме первой, например, надпись 
-\begin_inset Quotes eld
-\end_inset 
-
-продолжение таблицы
-\begin_inset Quotes erd
-\end_inset 
-
-), должна идти первой в таблице (и помечена как 
-\family sans 
-Шапка в начале таблицы
-\family default 
-), за ней помещается строка, которая будет в 
-\emph on 
-самом начале таблицы
-\emph default 
- (она должна быть помечена как 
-\family sans 
-Шапка каждой страницы
-\family default 
-.
- 
-\layout Standard
-
-Внимание! Тут есть некоторое несоответствие, но если указать именно так,
- то всё работает.
- См.
- пример в 
-\family typewriter 
-DOCS/LyX/Пример длинной таблицы.lyx
-\layout Standard
-
-06.08.01 Lav
 \layout Standard
 
 Чтобы пронумеровать длинные таблицы, нужно прибегнуть к следующему рецепту:
@@ -1428,9 +1240,9 @@ status Collapsed
 Формат\SpecialChar \menuseparator
 Документ
 \family default 
- закладка Extro и в поле 
+ и в поле 
 \family sans 
-Размещение плавающих кадров
+Размещение плавающих объектов
 \family default 
  ввести h.
 \layout Subsection
@@ -1441,7 +1253,15 @@ status Collapsed
 Через LyX
 \layout Standard
 
-Стандартным способ является описанный в документации.
+Для версии 1.3.3: Меню 
+\family sans 
+Вставить\SpecialChar \menuseparator
+Плавающий\SpecialChar ~
+объект\SpecialChar \menuseparator
+Плавающее изображение.
+\layout Standard
+
+Описание для версии 1.1.6: Стандартным способом является описанный в документации.
  Обычным путём вставляете плавающий рисунок, далее нужно поставить курсор
  сразу 
 \emph on 
@@ -1495,18 +1315,10 @@ end{wrapfigure}
 Русские буквы в формулах
 \layout Standard
 
-К сожалению, пока нам неизвестно, как вводить русские буквы в формулах.
- Я просто составляю текст так, чтобы русский текст можно было написать вне
- формулы.
- Например: 
-\begin_inset Formula $l^{2}$
-\end_inset 
-
-м
-\begin_inset Formula $^{2}$
-\end_inset 
-
-.
+Чтобы ввести формулы, можно нажать Alt-M.
+ Чтобы ввести русские буквы, которые потом отобразятся в DVI/PS, нужно перейти
+ в текстовый режим, нажав Alt-M, M.
+ При этом с букв снимется синий цвет и курсив, но они будут видны.
 \layout Section
 
 Полезные клавиши
