@@ -1,5 +1,5 @@
 Name: lyx-rusdoc
-Version: 1.3
+Version: 1.3.4
 Release: alt1
 
 Summary: The documentation for LyX and GOST text class
@@ -34,20 +34,20 @@ for LyX, and the documentation for LyX/LaTeX class GOST.
 cd doc
 for i in *.lyx
 do
-	install -D -m644 $i ${RPM_BUILD_ROOT}/%{_datadir}/doc/%name-%version/$i
+	install -D -m644 $i ${RPM_BUILD_ROOT}/%_datadir/doc/%name-%version/$i
 done
 for i in *.sh
 do
-	install -D -m644 $i ${RPM_BUILD_ROOT}/%_bindir/$i
+	install -D -m755 $i ${RPM_BUILD_ROOT}/%_bindir/`basename $i .sh`
 done
 cd -
 
-cp -rp GOST-LyX/* ${RPM_BUILD_ROOT}/%{_datadir}/doc/%name-%version/
+cp -rp GOST-LyX/* ${RPM_BUILD_ROOT}/%_datadir/doc/%name-%version/
 
 cd lyx-ug
 for i in *
 do
-	install -D -m644 $i ${RPM_BUILD_ROOT}/%{_datadir}/doc/%name-%version/LyX-UG/$i
+	install -D -m644 $i ${RPM_BUILD_ROOT}/%_datadir/doc/%name-%version/LyX-UG/$i
 done
 cd -
 
@@ -57,6 +57,10 @@ cd -
 %_bindir/*
 
 %changelog
+* Fri Jun 18 2004 Vitaly Lipatov <lav@altlinux.ru> 1.3.4-alt1
+- update LyX-GOST for last LyX features
+- rename scripts and set execute permission on it
+
 * Mon Jan 05 2004 Vitaly Lipatov <lav@altlinux.ru> 1.3-alt1
 - update all files for LyX 1.3.3
 - spec cleanup

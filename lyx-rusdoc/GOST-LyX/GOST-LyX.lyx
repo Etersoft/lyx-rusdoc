@@ -32,6 +32,18 @@
 
 Балабанов Б.А.
  <bb@etersoft.ru>
+\newline 
+Липатов В.А.
+ <lav@etersoft.ru>
+\begin_inset Note
+collapsed false
+
+\layout Standard
+
+Описание адаптировано под современные версии LyX.
+\end_inset 
+
+
 \layout НаимИзделия
 
 
@@ -48,7 +60,7 @@
 Вводный курс по LyX
 \layout ДатаДокумента
 
-2001
+2001, 2004
 \layout Standard
 
 
@@ -233,7 +245,7 @@ collapsed false
 \hfill 
 
 \begin_inset Graphics
-	filename img/gost_frame1.eps
+	filename /usr/share/lyx/clipart/gost_frame1.eps
 	lyxscale 30
 	display color
 	width 30col%
@@ -245,7 +257,7 @@ collapsed false
 \hfill 
 
 \begin_inset Graphics
-	filename img/gost_frame2.eps
+	filename /usr/share/lyx/clipart/gost_frame2.eps
 	lyxscale 30
 	display color
 	width 30col%
@@ -257,7 +269,7 @@ collapsed false
 \hfill 
 
 \begin_inset Graphics
-	filename img/gost_frame3.eps
+	filename /usr/share/lyx/clipart/gost_frame3.eps
 	lyxscale 30
 	display color
 	width 30col%
@@ -902,7 +914,7 @@ collapsed false
 вставить содержание.
 \layout Section
 
-Рисунки
+Изображения (Рисунки)
 \layout Standard
 
 Вставленный в текст рисунок может иметь порядковый номер и название.
@@ -937,12 +949,7 @@ collapsed false
 \bar default 
 лавающий\SpecialChar ~
 объект\SpecialChar \menuseparator
-
-\bar under 
-П
-\bar default 
-лавающий\SpecialChar ~
-рисунок
+Изображение
 \family default 
  вставить плавающий рисунок;
 \layout Перечисление
@@ -995,78 +1002,16 @@ collapsed true
 В
 \bar default 
 ставить\SpecialChar \menuseparator
-
-\bar under 
-Р
-\bar default 
-исунок...;
+Изображение...;
 \layout Перечисление
 
 в появившемся окне
 \family sans 
- Вставить\SpecialChar ~
-рисунок 
+ Изображение
 \family default 
-установите требуемый флажок (см.
- рисунок 
-\begin_inset LatexCommand \ref{OknoVstavitRisunok}
-
-\end_inset 
-
-);
-\layout Standard
-
-
-\begin_inset Float figure
-placement htbp
-wide false
-collapsed false
-
-\layout Standard
-\align center 
-
-\begin_inset Graphics
-	filename img/OknoVstavitRisunok.png
-	display color
-	width 50col%
-	rotateOrigin center
-
-\end_inset 
-
-
-\layout ПодписьКРисунку
-
-
-\begin_inset LatexCommand \label{OknoVstavitRisunok}
-
-\end_inset 
-
-Окно 
-\family sans 
-Вставить\SpecialChar ~
-рисунок
-\end_inset 
-
-
-\layout Перечисление
-
-нажмите кнопку 
-\family sans 
-OK;
-\layout Перечисление
-
-в появившемся диалоговом окне 
-\family sans 
-Рисунок
-\family default 
- (см.
- рисунок\SpecialChar ~
-
-\begin_inset LatexCommand \ref{OknoRisunok}
-
-\end_inset 
-
-), нажав кнопку обзор, найти требуемый объект;
+ выбрать нужный файл, нажав кнопку 
+\family typewriter 
+Выбрать.
 \layout Standard
 
 
@@ -1107,19 +1052,12 @@ collapsed false
 
 На рисунке\SpecialChar ~
 
-\begin_inset LatexCommand \ref{PlavRisunok}
-
-\end_inset 
-
- показано, что примерно появится в исходном тексте в результате выполнения
- вышеуказанных действий.
- При печати, этот же рисунок будет выглядеть как показано на рисунке\SpecialChar ~
-
 \begin_inset LatexCommand \ref{platypus}
 
 \end_inset 
 
-.
+показано, что примерно появится в исходном тексте в результате выполнения
+ вышеуказанных действий.
 \layout Standard
 
 
@@ -1163,7 +1101,7 @@ collapsed false
 \align center 
 
 \begin_inset Graphics
-	filename img/platypus.eps
+	filename img/platypus.png
 	display color
 	width 4cm
 	height 2cm
@@ -1614,7 +1552,17 @@ collapsed false
 \layout Standard
 
 После небольшой практики вы сможете создавать формулы наподобие указанной
- ниже.
+ ниже
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+В версиях LyX 1.3.3 и выше, в сборке с интерфейсом Qt, возможны проблемы с
+ отображением некоторых математических символов.
+\end_inset 
+
+.
 \layout Standard
 
 
@@ -1811,6 +1759,18 @@ math:plotnost
 \layout Section
 
 Разное
+\layout Standard
+
+Более полную информацию вы можете получить из встроенной в 
+\family sans 
+LyX
+\family default 
+ документации, открываемой из меню 
+\family sans 
+Помощь
+\family default 
+.
+ На данный момент она практически вся переведена на русский.
 \layout Subsection
 
 Минус, тире, дефис, знак переноса
@@ -2092,16 +2052,16 @@ addcontentsline{toc}{section}{Введение}
 \layout Section
 
 Вопросы на доработку
-\layout Пункт
+\layout Перечисление
 
-Раздел начинающийся после рисунка может не начаться с новой страницы.
-\layout Пункт
+Раздел, начинающийся после рисунка, может не начаться с новой страницы.
+\layout Перечисление
 
 Пояснить, что если рисунок не появился в ожидаемом месте, его надо искать
- в конце документа.
- А для исправления ситуации необходимо изменить размер рисунка.
-\layout Пункт
+ в конце документа, а для исправления ситуации необходимо изменить размер
+ рисунка.
+\layout Перечисление
 
 Пояснить, что при установке размера рисунка по высоте 100%, может не поместиться
- подрисуночная надпись.
+ подрисуночная надпись, если рисунок занимает всю страницу.
 \the_end

@@ -1,0 +1,212 @@
+#LyX 1.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 218
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\end_preamble
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\paperfontsize 12
+\spacing single 
+\papersize a4paper
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\leftmargin 20mm
+\topmargin 0mm
+\rightmargin 15mm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+
+\layout Standard
+\align center 
+
+\size larger 
+Основные идеи, которыми необходимо проникнуться, 
+\newline 
+чтобы освоить и грамотно использовать LyX/LaTeX.
+\layout Standard
+\align center 
+
+\size large 
+Виталий Липатов (08.12.01)
+\layout Standard
+
+
+\latex latex 
+
+\backslash 
+begin{multicols}{2}
+\layout Itemize
+
+Документы, созданные в LyX, далее подготавливаются для печати издательской
+ системой LaTeX, являющейся стандартом de facto в научно-технических издательств
+ах, не имеющей равных в качестве полиграфического оформления документа.
+ TeX --- надёжная система, алгоритмы которой отлажены за десятки лет функциониро
+вания.
+ 
+\layout Itemize
+
+Перевести в LyX документы с сохранением форматирования из таких форматов
+ документов как Microsoft Word Document, в общем случае невозможно, так
+ как формат 
+\series bold 
+doc
+\series default 
+ ориентирован на ручное оформление внешнего вида документа, а не на описание
+ его логической структуры.
+ Впрочем, через меню 
+\family sans 
+Файл\SpecialChar \menuseparator
+Импорт
+\family default 
+ возможно импортировать файл в формате 
+\series bold 
+doc
+\series default 
+.
+\layout Itemize
+
+LyX только 
+\emph on 
+примерно
+\emph default 
+ показывает, как выглядит ваш текст, показывая и выделяя его структуру.
+ Как будет выглядеть текст на бумаге вы можете увидеть при предварительном
+ просмотре (меню 
+\family sans 
+Просмотр\SpecialChar \menuseparator
+Postscript
+\family default 
+).
+\layout Itemize
+
+При написании текста следует заботиться о его структуре, а о том, как он
+ будет выглядеть, позаботится система.
+ Необходимо лишь указать, где в тексте раздел, где пункт, где перечисление.
+ Это можно сделать мышкой в меню стилей (самое левое в панели инструментов
+ программы).
+ Соответственно, не следует пытаться вручную нумеровать пункты, или расставлять
+ значки в перечислениях, формировать отступы абзацев пробелами и пр.
+\layout Itemize
+
+Не следует обращать особого внимания на отступы и интервалы в тексте.
+ В большинстве случаев все будет оформлено правильно автоматически.
+\layout Itemize
+
+Информацию табличного характера следует давать в виде таблиц.
+\layout Itemize
+
+При необходимости сменить оформление (поля документа, параметры абзаца или
+ шрифта), это можно сделать в меню 
+\family sans 
+Формат
+\family default 
+, где первые три строчки меню именно за это и отвечают.
+ При работе с классом ГОСТ вам 
+\emph on 
+не должно
+\emph default 
+ требоваться изменять оформление.
+ Оно уже соответствует ГОСТ.
+\layout Itemize
+
+Вставка в текст таких элементов как сноски, заметки, перекрёстные ссылки,
+ рисунки, таблицы, осуществляется через логичное меню 
+\family sans 
+Вставить
+\family default 
+.
+ 
+\layout Itemize
+
+Особо следует отметить, что содержание документа формируется автоматически,
+ достаточно вставить его в документ.
+\layout Itemize
+
+Для переключения между открытыми документами используйте меню 
+\family sans 
+Документы
+\family default 
+.
+\layout Itemize
+
+Для значительного повышения производительности труда следует изучить горячие
+ клавиши --- для начала, что комбинации Shift--стрелочки используются для
+ выделение текста, Ctrl-X --- вырезать, Ctrl-C --- скопировать, Ctrl-V ---
+ вставить.
+\layout Itemize
+
+Обратите внимание на то, что для ввода знака тире 
+\begin_inset Quotes eld
+\end_inset 
+
+---
+\begin_inset Quotes erd
+\end_inset 
+
+ необходимо ввести 3 минуса подряд: 
+\begin_inset Quotes eld
+\end_inset 
+
+-
+\latex latex 
+
+\backslash 
+/
+\latex default 
+-
+\latex latex 
+
+\backslash 
+/
+\latex default 
+-
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ Чтобы получить знак номера 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\latex latex 
+
+\backslash 
+No
+\latex default 
+
+\begin_inset Quotes erd
+\end_inset 
+
+, введите 
+\backslash 
+No{}.
+\layout Itemize
+
+Существует документ на русском языке HOW-TO-LyX.
+ В нем освещены некоторые вопросы, возникающие при работе с LyX/LaTeX.
+\layout Standard
+
+
+\latex latex 
+
+\backslash 
+end{multicols}
+\layout Standard
+
+В путь, и больше экспериментов.
+ Вскоре вы заметите, что работать в LyX удобно и надёжно, и при этом получаются
+ красивые, хорошо структурированные документы.
+\the_end

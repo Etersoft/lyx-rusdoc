@@ -8,5 +8,6 @@ OUTFILE=$BASENAME.out.ps
 OUTFILE1=$BASENAME.out1.ps
 OUTFILE2=$BASENAME.out2.ps
 cat "$1" | psbook | psnup -2 -Pa5 -pa4  > $OUTFILE
+# %%Orientation: Landscape
 psselect -o <$OUTFILE >$OUTFILE1
 psselect -e -r <$OUTFILE >$OUTFILE2
