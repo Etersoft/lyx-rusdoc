@@ -1,248 +1,310 @@
-#LyX 1.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 221
+#LyX 1.5.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 276
+\begin_document
+\begin_header
 \textclass gost
 \begin_preamble
 \renewcommand{\gostnewpage}{}
 \end_preamble
 \language russian
 \inputencoding koi8-r
-\fontscheme default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
 \graphics default
 \float_placement !h
 \paperfontsize 12
-\spacing single 
+\spacing single
 \papersize a4paper
-\paperpackage a4
-\use_geometry 0
-\use_amsmath 0
-\use_natbib 0
-\use_numerical_citations 0
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
 \paperorientation portrait
 \secnumdepth 4
 \tocdepth 4
 \paragraph_separation indent
 \defskip medskip
 \quotes_language english
-\quotes_times 2
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
 
-\layout НаимОрганизации
+\begin_body
 
-Балабанов Б.А.
+\begin_layout п²п╟п╦п╪п·я─пЁп╟п╫п╦п╥п╟я├п╦п╦
+п▒п╟п╩п╟п╠п╟п╫п╬п╡ п▒.п░.
  <bb@etersoft.ru>
-\newline 
-Липатов В.А.
+\newline
+п⌡п╦п©п╟я┌п╬п╡ п▓.п░.
  <lav@etersoft.ru>
-\begin_inset Note
-collapsed false
+\begin_inset Note Note
+status open
 
-\layout Standard
+\begin_layout Standard
+п·п©п╦я│п╟п╫п╦п╣ п©п╬п╨п╟ п╫п╣ п╟п╢п╟п©я┌п╦я─п╬п╡п╟п╫п╬ п©п╬п╢ п╡п╣я─я│п╦я▌ LyX 1.5.x
+\end_layout
 
-Описание адаптировано под современные версии LyX.
-\end_inset 
+\begin_layout Standard
+п²я┐п╤п╫п╬ п╬п╠п╫п╬п╡п╦я┌я▄ я│п╨я─п╦п╫я┬п╬я┌я▀, п©я─п╬п╡п╣я─п╦я┌я▄ п╫п╬п╡я▀п╣ п╡п╬п╥п╪п╬п╤п╫п╬я│я┌п╦.
+\end_layout
+
+\end_inset
 
 
-\layout НаимИзделия
+\end_layout
 
-
+\begin_layout п²п╟п╦п╪п≤п╥п╢п╣п╩п╦я▐
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-С ЧЕГО НАЧИНАЕТСЯ LyX?
+п║ п╖п∙п⌠п· п²п░п╖п≤п²п░п∙п╒п║п╞ LyX?
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 
-\layout НаимДокумента
+\end_layout
 
-Вводный курс по LyX
-\layout ДатаДокумента
+\begin_layout п²п╟п╦п╪п■п╬п╨я┐п╪п╣п╫я┌п╟
+п▓п╡п╬п╢п╫я▀п╧ п╨я┐я─я│ п©п╬ LyX
+\end_layout
 
-2001, 2004
-\layout Standard
+\begin_layout п■п╟я┌п╟п■п╬п╨я┐п╪п╣п╫я┌п╟
+2001, 2004, 2007
+\end_layout
+
+\begin_layout Standard
+\begin_inset LatexCommand tableofcontents
+
+\end_inset
 
 
-\begin_inset LatexCommand \tableofcontents{}
+\end_layout
 
-\end_inset 
-
-
-\layout Section*
-
-Введение
+\begin_layout Section*
+п▓п╡п╣п╢п╣п╫п╦п╣
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
-
-\backslash 
-addcontentsline{toc}{section}{Введение}
-\end_inset 
+\begin_layout Standard
 
 
-\layout Standard
+\backslash
+addcontentsline{toc}{section}{п▓п╡п╣п╢п╣п╫п╦п╣}
+\end_layout
 
-Здравствуй, потенциальный пользователь LyX'а! Рекомендую сохранить в памяти
- это мгновение.
- В дальнейшем, ты не раз его вспомнишь.
- С этого момента русло твоей работы повернется в сторону эффективного, оптимальн
-ого использования временных и трудовых ресурсов.
- Ведь LyX собирается возложить на свои плечи всю рутинную оформительскую
- часть при создании текстовой документации, а тебе --- предоставить возможность
- сосредоточиться на содержании.
-\layout Standard
-
-Итак, начнём с самого главного\SpecialChar \ldots{}
-
-\layout Section
-
-Начало работы
-\layout Subsection
-
-Запуск LyX
-\layout Standard
+\end_inset
 
 
-\begin_inset Note
-collapsed true
+\end_layout
 
-\layout Standard
+\begin_layout Standard
+п≈п╢я─п╟п╡я│я┌п╡я┐п╧, п©п╬я┌п╣п╫я├п╦п╟п╩я▄п╫я▀п╧ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩я▄ LyX'п╟! п═п╣п╨п╬п╪п╣п╫п╢я┐я▌ я│п╬я┘я─п╟п╫п╦я┌я▄ п╡ п©п╟п╪я▐я┌п╦
+ я█я┌п╬ п╪пЁп╫п╬п╡п╣п╫п╦п╣, п╡ п╢п╟п╩я▄п╫п╣п╧я┬п╣п╪ п╬п╫п╬ п╫п╣ я─п╟п╥ п╣я┴я▒ п╡я│п©п╬п╪п╫п╦я┌я│я▐.
+ п║ я█я┌п╬пЁп╬ п╪п╬п╪п╣п╫я┌п╟ я─я┐я│п╩п╬ я┌п╡п╬п╣п╧ я─п╟п╠п╬я┌я▀ п©п╬п╡п╣я─п╫я▒я┌я│я▐ п╡ я│я┌п╬я─п╬п╫я┐ я█я└я└п╣п╨я┌п╦п╡п╫п╬пЁп╬, п╬п©я┌п╦п╪п╟п╩я▄п╫
+п╬пЁп╬ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦я▐ п╡я─п╣п╪п╣п╫п╫
+\begin_inset ERT
+status collapsed
 
-По сути своей LyX не самостоятельный текстовый процессор, а графическая
- надстройка над широко известной издательской системой TeX (в варианте TeX
- --- LaTeX).
-\layout Standard
+\begin_layout Standard
 
-Для запуска LyX необходимо набрать lyx в командной строке графической оболочки
+
+\backslash
+'
+\end_layout
+
+\end_inset
+
+я▀я┘ п╦ я┌я─я┐п╢п╬п╡я▀я┘ я─п╣я│я┐я─я│п╬п╡.
+ п▓п╣п╢я▄ LyX я│п╬п╠п╦я─п╟п╣я┌я│я▐ п╡п╬п╥п╩п╬п╤п╦я┌я▄ п╫п╟ я│п╡п╬п╦ п©п╩п╣я┤п╦ п╡я│я▌ я─я┐я┌п╦п╫п╫я┐я▌ п╬я└п╬я─п╪п╦я┌п╣п╩я▄я│п╨я┐я▌
+ я┤п╟я│я┌я▄ п©я─п╦ я│п╬п╥п╢п╟п╫п╦п╦ я┌п╣п╨я│я┌п╬п╡п╬п╧ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦, п╟ я┌п╣п╠п╣ --- п©я─п╣п╢п╬я│я┌п╟п╡п╦я┌я▄ п╡п╬п╥п╪п╬п╤п╫п╬я│я┌я▄
+ я│п╬я│я─п╣п╢п╬я┌п╬я┤п╦я┌я▄я│я▐ п╫п╟ я│п╬п╢п╣я─п╤п╟п╫п╦п╦.
+\end_layout
+
+\begin_layout Standard
+п≤я┌п╟п╨, п╫п╟я┤п╫я▒п╪ я│ я│п╟п╪п╬пЁп╬ пЁп╩п╟п╡п╫п╬пЁп╬\SpecialChar \ldots{}
+
+\end_layout
+
+\begin_layout Section
+п²п╟я┤п╟п╩п╬ я─п╟п╠п╬я┌я▀
+\end_layout
+
+\begin_layout Subsection
+п≈п╟п©я┐я│п╨ LyX
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+п÷п╬ я│я┐я┌п╦ я│п╡п╬п╣п╧ LyX п╫п╣ я│п╟п╪п╬я│я┌п╬я▐я┌п╣п╩я▄п╫я▀п╧ я┌п╣п╨я│я┌п╬п╡я▀п╧ п©я─п╬я├п╣я│я│п╬я─, п╟ пЁя─п╟я└п╦я┤п╣я│п╨п╟я▐
+ п╫п╟п╢я│я┌я─п╬п╧п╨п╟ п╫п╟п╢ я┬п╦я─п╬п╨п╬ п╦п╥п╡п╣я│я┌п╫п╬п╧ п╦п╥п╢п╟я┌п╣п╩я▄я│п╨п╬п╧ я│п╦я│я┌п╣п╪п╬п╧ TeX (п╒п╣я┘) (п╡ п╡п╟я─п╦п╟п╫я┌п╣
+ TeX --- LaTeX (п⌡п╟я┌п╣я┘)).
+\end_layout
+
+\begin_layout Standard
+п■п╩я▐ п╥п╟п©я┐я│п╨п╟ LyX п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╫п╟п╠я─п╟я┌я▄ lyx п╡ п╨п╬п╪п╟п╫п╢п╫п╬п╧ я│я┌я─п╬п╨п╣ пЁя─п╟я└п╦я┤п╣я│п╨п╬п╧ п╬п╠п╬п╩п╬я┤п╨п╦
  X Window.
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Standard
+\end_layout
 
-Как правило кнопка вызова меню программ в любой графической оболочке находится
- в левом нижнем углу экрана и выглядит как небольшая картинка.
- Нажмите на неё мышкой, выберите раздел 
-\family sans 
-Офис (
+\begin_layout Standard
+п п╟п╨ п©я─п╟п╡п╦п╩п╬ п╨п╫п╬п©п╨п╟ п╡я▀п╥п╬п╡п╟ п╪п╣п╫я▌ п©я─п╬пЁя─п╟п╪п╪ п╡ п╩я▌п╠п╬п╧ пЁя─п╟я└п╦я┤п╣я│п╨п╬п╧ п╬п╠п╬п╩п╬я┤п╨п╣ п╫п╟я┘п╬п╢п╦я┌я│я▐
+ п╡ п╩п╣п╡п╬п╪ п╫п╦п╤п╫п╣п╪ я┐пЁп╩я┐ я█п╨я─п╟п╫п╟ п╦ п╡я▀пЁп╩я▐п╢п╦я┌ п╨п╟п╨ п╫п╣п╠п╬п╩я▄я┬п╟я▐ п╨п╟я─я┌п╦п╫п╨п╟.
+ п²п╟п╤п╪п╦я┌п╣ п╫п╟ п╫п╣я▒ п╪я▀я┬п╨п╬п╧, п╡я▀п╠п╣я─п╦я┌п╣ я─п╟п╥п╢п╣п╩ 
+\family sans
+п·я└п╦я│ (
 \lang english
 Office
 \lang russian
 )
-\family default 
-, и в нём выберите LyX.
-\layout Subsection
+\family default
+, п╦ п╡ п╫я▒п╪ п╡я▀п╠п╣я─п╦я┌п╣ LyX.
+\end_layout
 
-Окно LyX
-\layout Standard
+\begin_layout Subsection
+п·п╨п╫п╬ LyX
+\end_layout
 
-После запуска вы увидите окно программы LyX, которое при создании нового
- документа будет выглядеть так, как показано на рисунке 
-\begin_inset LatexCommand \ref{InterfaceLyX}
+\begin_layout Standard
+п÷п╬я│п╩п╣ п╥п╟п©я┐я│п╨п╟ п╡я▀ я┐п╡п╦п╢п╦я┌п╣ п╬п╨п╫п╬ п©я─п╬пЁя─п╟п╪п╪я▀ LyX, п╨п╬я┌п╬я─п╬п╣ п©я─п╦ я│п╬п╥п╢п╟п╫п╦п╦ п╫п╬п╡п╬пЁп╬
+ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╠я┐п╢п╣я┌ п╡я▀пЁп╩я▐п╢п╣я┌я▄ я┌п╟п╨, п╨п╟п╨ п©п╬п╨п╟п╥п╟п╫п╬ п╫п╟ я─п╦я│я┐п╫п╨п╣ 
+\begin_inset LatexCommand ref
+reference "InterfaceLyX"
 
-\end_inset 
+\end_inset
 
 .
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/InterfaceLyX.png
 	display color
 	width 90col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "InterfaceLyX"
+
+\end_inset
+
+п·п╨п╫п╬ LyX
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{InterfaceLyX}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п·п╨п╫п╬ LyX я│п╬я│я┌п╬п╦я┌ п╦п╥ я│п╩п╣п╢я┐я▌я┴п╦я┘ я█п╩п╣п╪п╣п╫я┌п╬п╡:
+\end_layout
 
-Окно LyX
-\end_inset 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п║я┌я─п╬п╨п╟ п╪п╣п╫я▌ п©я─п╣п╢п╬я│я┌п╟п╡п╩я▐п╣я┌ п╢п╬я│я┌я┐п© п╨п╬ п╡я│п╣п╪ я└я┐п╫п╨я├п╦я▐п╪, п╫п╣п╬п╠я┘п╬п╢п╦п╪я▀п╪ п╢п╩я▐ я─п╟п╠п╬я┌я▀
+ я│ LyX.
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п÷п╟п╫п╣п╩я▄ п╦п╫я│я┌я─я┐п╪п╣п╫я┌п╬п╡ п©я─п╣п╢п╫п╟п╥п╫п╟я┤п╣п╫п╟ п╢п╩я▐ п╠я▀я│я┌я─п╬пЁп╬ п╢п╬я│я┌я┐п©п╟ п╨ п╫п╣п╨п╬я┌п╬я─я▀п╪ п╫п╟п╦п╠п╬п╩п╣п╣
+ я┤п╟я│я┌п╬ п╦я│п©п╬п╩я▄п╥я┐п╣п╪я▀п╪ п╨п╬п╪п╟п╫п╢п╟п╪ LyX.
+\end_layout
 
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п·п╠п╩п╟я│я┌я▄ я─п╣п╢п╟п╨я┌п╦я─п╬п╡п╟п╫п╦я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+\end_layout
 
-Окно LyX состоит из следующих элементов:
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п║я┌я─п╬п╨п╟ я│п╬я│я┌п╬я▐п╫п╦я▐ п╬я┌п╬п╠я─п╟п╤п╟п╣я┌ я┌п╣п╨я┐я┴п╣п╣ я│п╬я│я┌п╬я▐п╫п╦п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+\end_layout
 
-Строка меню предоставляет доступ ко всем функциям, необходимым для работы
- с LyX.
-\layout Перечисление
+\begin_layout Section
+п▒п╟п╥п╬п╡я▀п╣ п╬п©п╣я─п╟я├п╦п╦ п©я─п╦ я─п╟п╠п╬я┌п╣ я│ я┌п╣п╨я│я┌п╬п╡я▀п╪ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╪
+\end_layout
 
-Панель инструментов предназначена для быстрого доступа к некоторым наиболее
- часто используемым командам LyX.
-\layout Перечисление
+\begin_layout Subsection
+п║п╬п╥п╢п╟п╫п╦п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╦ п╣пЁп╬ п╨п╩п╟я│я│
+\end_layout
 
-Область редактирования документа.
-\layout Перечисление
-
-Строка состояния отображает текущее состояние документа.
-\layout Section
-
-Базовые операции при работе с текстовым документом
-\layout Subsection
-
-Создание документа и его класс
-\layout Standard
-
-При создании нового документа необходимо установить его класс.
- Под классом понимается общий стиль оформления документа.
- Это может быть служебная записка, письмо, ГОСТ
+\begin_layout Standard
+п÷я─п╦ я│п╬п╥п╢п╟п╫п╦п╦ п╫п╬п╡п╬пЁп╬ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ п╣пЁп╬ п╨п╩п╟я│я│.
+ п÷п╬п╢ п╨п╩п╟я│я│п╬п╪ п©п╬п╫п╦п╪п╟п╣я┌я│я▐ п╬п╠я┴п╦п╧ я│я┌п╦п╩я▄ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+ п╜я┌п╬ п╪п╬п╤п╣я┌ п╠я▀я┌я▄ я│п╩я┐п╤п╣п╠п╫п╟я▐ п╥п╟п©п╦я│п╨п╟, п©п╦я│я▄п╪п╬, п⌠п·п║п╒
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п╒п╣п╨я│я┌п╬п╡я▀п╧ п╢п╬п╨я┐п╪п╣п╫я┌, п╬я└п╬я─п╪п╩п╣п╫п╫я▀п╧ я│ я┐я┤п╣я┌п╬п╪ я┌я─п╣п╠п╬п╡п╟п╫п╦п╧ п⌠п·п║п╒ 2.105-95
+\end_layout
 
-Текстовый документ, оформленный с учетом требований ГОСТ 2.105-95
-\end_inset 
+\end_inset
 
- и т.д.
-\layout Standard
+ п╦ я┌.п╢.
+\end_layout
 
-Данное руководство ориентировано на класс ГОСТ.
- Но основные принципы работы являются общими для документов различных классов.
+\begin_layout Standard
+п■п╟п╫п╫п╬п╣ я─я┐п╨п╬п╡п╬п╢я│я┌п╡п╬ п╬я─п╦п╣п╫я┌п╦я─п╬п╡п╟п╫п╬ п╫п╟ п╨п╩п╟я│я│ п⌠п·п║п╒.
+ п²п╬ п╬я│п╫п╬п╡п╫я▀п╣ п©я─п╦п╫я├п╦п©я▀ я─п╟п╠п╬я┌я▀ я▐п╡п╩я▐я▌я┌я│я▐ п╬п╠я┴п╦п╪п╦ п╢п╩я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╡ я─п╟п╥п╩п╦я┤п╫я▀я┘ п╨п╩п╟я│я│п╬п╡.
  
-\layout Standard
+\end_layout
 
-При выборе класса ГОСТ в документ автоматически будут вставлены рамки с
- соответствующими основными надписями для титульного, второго и последующих
- листов (см.
- рисунок 
-\begin_inset LatexCommand \ref{Ramki}
+\begin_layout Standard
+п÷я─п╦ п╡я▀п╠п╬я─п╣ п╨п╩п╟я│я│п╟ п⌠п·п║п╒ п╡ п╢п╬п╨я┐п╪п╣п╫я┌ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ п╠я┐п╢я┐я┌ п╡я│я┌п╟п╡п╩п╣п╫я▀ я─п╟п╪п╨п╦ я│
+ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴п╦п╪п╦ п╬я│п╫п╬п╡п╫я▀п╪п╦ п╫п╟п╢п©п╦я│я▐п╪п╦ п╢п╩я▐ я┌п╦я┌я┐п╩я▄п╫п╬пЁп╬, п╡я┌п╬я─п╬пЁп╬ п╦ п©п╬я│п╩п╣п╢я┐я▌я┴п╦я┘
+ п╩п╦я│я┌п╬п╡ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨ 
+\begin_inset LatexCommand ref
+reference "Ramki"
 
-\end_inset 
+\end_inset
 
 ).
- Будут установлены в соответствии с требованиями ГОСТ 2.105-95 поля документа,
- отступы, шрифты, межстрочные расстояния.
-\layout Standard
+ п▒я┐п╢я┐я┌ я┐я│я┌п╟п╫п╬п╡п╩п╣п╫я▀ п╡ я│п╬п╬я┌п╡п╣я┌я│я┌п╡п╦п╦ я│ я┌я─п╣п╠п╬п╡п╟п╫п╦я▐п╪п╦ п⌠п·п║п╒ 2.105-95 п©п╬п╩я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟,
+ п╬я┌я│я┌я┐п©я▀, я┬я─п╦я└я┌я▀, п╪п╣п╤я│я┌я─п╬я┤п╫я▀п╣ я─п╟я│я│я┌п╬я▐п╫п╦я▐.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
+\begin_layout Standard
+\align center
 
-\hfill 
+\hfill
 
 \begin_inset Graphics
 	filename /usr/share/lyx/clipart/gost_frame1.eps
@@ -251,10 +313,10 @@ collapsed false
 	width 30col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\hfill 
+\hfill
 
 \begin_inset Graphics
 	filename /usr/share/lyx/clipart/gost_frame2.eps
@@ -263,10 +325,10 @@ collapsed false
 	width 30col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\hfill 
+\hfill
 
 \begin_inset Graphics
 	filename /usr/share/lyx/clipart/gost_frame3.eps
@@ -275,831 +337,919 @@ collapsed false
 	width 30col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\hfill 
+\hfill
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "Ramki"
+
+\end_inset
+
+п═п╟п╪п╨п╦ я│ п╬я│п╫п╬п╡п╫я▀п╪п╦ п╫п╟п╢п©п╦я│я▐п╪п╦ п©п╬ п⌠п·п║п╒ 2.105-95
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{Ramki}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п■п╩я▐ я│п╬п╥п╢п╟п╫п╦я▐ п╫п╬п╡п╬пЁп╬ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╦ я┐я│я┌п╟п╫п╬п╡п╨п╦ п╣пЁп╬ п╨п╩п╟я│я│п╟ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п©я─п╬п╦п╥п╡п╣я│я┌п╦
+ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╢п╣п╧я│я┌п╡п╦я▐:
+\end_layout
 
-Рамки с основными надписями по ГОСТ 2.105-95
-\end_inset 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-
-\layout Standard
-
-Для создания нового документа и установки его класса необходимо произвести
- следующие действия:
-\layout Перечисление
-
-через меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
-
-\bar under 
-Н
-\bar default 
-овый
-\family default 
+\bar under
+п²
+\bar default
+п╬п╡я▀п╧
+\family default
 ...
-\begin_inset Note
-collapsed true
+\begin_inset Note Note
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п·я│п╫п╬п╡п╫я▀п╪ п©я┐п╫п╨я┌п╟п╪ п╪п╣п╫я▌ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┌ п╦п╨п╬п╫п╨п╦, п╡я▀п╫п╣я│п╣п╫п╫я▀п╣ п╫п╟ п©п╟п╫п╣п╩я▄ п╦п╫я│я┌я─я┐п╪п╣п╫я┌п╬п╡.
+\end_layout
 
-Основным пунктам меню соответствуют иконки, вынесенные на панель инструментов.
-\end_inset 
+\end_inset
 
- создайте новый документ;
-\layout Перечисление
+ я│п╬п╥п╢п╟п╧я┌п╣ п╫п╬п╡я▀п╧ п╢п╬п╨я┐п╪п╣п╫я┌;
+\end_layout
 
-вызовите диалоговое окно 
-\family sans 
-Формат\SpecialChar ~
-документа 
-\family default 
-(см.
- рисунок 
-\begin_inset LatexCommand \ref{FormatDokumentaClass}
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡я▀п╥п╬п╡п╦я┌п╣ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ 
+\family sans
+п╓п╬я─п╪п╟я┌\InsetSpace ~
+п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\family default
+ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨ 
+\begin_inset LatexCommand ref
+reference "FormatDokumentaClass"
 
-\end_inset 
+\end_inset
 
-) воспользовавшись меню
-\family sans 
-\bar under 
- Ф
-\bar default 
-ормат\SpecialChar \menuseparator
+) п╡п╬я│п©п╬п╩я▄п╥п╬п╡п╟п╡я┬п╦я│я▄ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╬я─п╪п╟я┌\SpecialChar \menuseparator
 
-\bar under 
-Д
-\bar default 
-окумент...;
-\layout Перечисление
+\bar under
+п■
+\bar default
+п╬п╨я┐п╪п╣п╫я┌...;
+\end_layout
 
-в поле 
-\family sans 
-Класс 
-\family default 
-закладки 
-\family sans 
-Документы
-\family default 
- выберите из разворачивающегося списка требуемый класс документа;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡ п©п╬п╩п╣ 
+\family sans
+п п╩п╟я│я│
+\family default
+ п╥п╟п╨п╩п╟п╢п╨п╦ 
+\family sans
+п■п╬п╨я┐п╪п╣п╫я┌я▀
+\family default
+ п╡я▀п╠п╣я─п╦я┌п╣ п╦п╥ я─п╟п╥п╡п╬я─п╟я┤п╦п╡п╟я▌я┴п╣пЁп╬я│я▐ я│п©п╦я│п╨п╟ я┌я─п╣п╠я┐п╣п╪я▀п╧ п╨п╩п╟я│я│ п╢п╬п╨я┐п╪п╣п╫я┌п╟;
+\end_layout
 
-ответьте на заданный вопрос об использовании некоторых установок по умолчанию
-\family sans 
- Да;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╬я┌п╡п╣я┌я▄я┌п╣ п╫п╟ п╥п╟п╢п╟п╫п╫я▀п╧ п╡п╬п©я─п╬я│ п╬п╠ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╦ п╫п╣п╨п╬я┌п╬я─я▀я┘ я┐я│я┌п╟п╫п╬п╡п╬п╨ п©п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌
+ 
+\family sans
+п■п╟;
+\end_layout
 
-нажмите кнопку 
-\family sans 
-Закрыть
-\family default 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╫п╟п╤п╪п╦я┌п╣ п╨п╫п╬п©п╨я┐ 
+\family sans
+п≈п╟п╨я─я▀я┌я▄
+\family default
 .
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/FormatDokumentaClass.png
 	display color
 	width 75col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "FormatDokumentaClass"
+
+\end_inset
+
+п■п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ п╬п╠я┴п╦я┘ я┐я│я┌п╟п╫п╬п╡п╬п╨ п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{FormatDokumentaClass}
+\end_layout
 
-\end_inset 
+\begin_layout Subsection
+п╗п╟п╠п╩п╬п╫
+\end_layout
 
-Диалоговое окно общих установок документа
-\end_inset 
-
-
-\layout Subsection
-
-Шаблон
-\layout Standard
-
-При создании однотипных документов очень удобно использовать шаблоны.
- Это избавит вас, уважаемый пользователь LyX'а, от многоразового набора
- и форматирования одной и той же информации.
+\begin_layout Standard
+п÷я─п╦ я│п╬п╥п╢п╟п╫п╦п╦ п╬п╢п╫п╬я┌п╦п©п╫я▀я┘ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╡ п╬я┤п╣п╫я▄ я┐п╢п╬п╠п╫п╬ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ я┬п╟п╠п╩п╬п╫я▀.
+ п╜я┌п╬ п╦п╥п╠п╟п╡п╦я┌ п╡п╟я│, я┐п╡п╟п╤п╟п╣п╪я▀п╧ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩я▄ LyX'п╟, п╬я┌ п╪п╫п╬пЁп╬я─п╟п╥п╬п╡п╬пЁп╬ п╫п╟п╠п╬я─п╟
+ п╦ я└п╬я─п╪п╟я┌п╦я─п╬п╡п╟п╫п╦я▐ п╬п╢п╫п╬п╧ п╦ я┌п╬п╧ п╤п╣ п╦п╫я└п╬я─п╪п╟я├п╦п╦.
  
-\layout Standard
+\end_layout
 
-Создание документа на основе шаблона осуществляется посредством меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
+\begin_layout Standard
+п║п╬п╥п╢п╟п╫п╦п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╫п╟ п╬я│п╫п╬п╡п╣ я┬п╟п╠п╩п╬п╫п╟ п╬я│я┐я┴п╣я│я┌п╡п╩я▐п╣я┌я│я▐ п©п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-\bar under 
-Н
-\bar default 
-овый\SpecialChar ~
-из\SpecialChar ~
-шаблона.
+\bar under
+п²
+\bar default
+п╬п╡я▀п╧\InsetSpace ~
+п╦п╥\InsetSpace ~
+я┬п╟п╠п╩п╬п╫п╟.
 
-\family default 
- Далее, из предложенного списка шаблонов (см.
- рисунок 
-\begin_inset LatexCommand \ref{Shablon}
+\family default
+ п■п╟п╩п╣п╣, п╦п╥ п©я─п╣п╢п╩п╬п╤п╣п╫п╫п╬пЁп╬ я│п©п╦я│п╨п╟ я┬п╟п╠п╩п╬п╫п╬п╡ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨ 
+\begin_inset LatexCommand ref
+reference "Shablon"
 
-\end_inset 
+\end_inset
 
-) нужно выбрать необходимый.
-\layout Standard
+) п╫я┐п╤п╫п╬ п╡я▀п╠я─п╟я┌я▄ п╫п╣п╬п╠я┘п╬п╢п╦п╪я▀п╧.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/Shablon.png
 	display color
 	width 72col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "Shablon"
+
+\end_inset
+
+п·п╨п╫п╬ п╡я▀п╠п╬я─п╟ я┬п╟п╠п╩п╬п╫п╟ п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{Shablon}
+\end_layout
 
-\end_inset 
-
-Окно выбора шаблона документа
-\end_inset 
-
-
-\layout Standard
-
-Например, при использовании шаблона 
-\family typewriter 
-ГОСТ.lyx
-\family default 
- вам не придется заниматься созданием титульного листа, а просто заполнить
- необходимые поля в уже готовом листе (название документа, обозначение и
- т.д.), выполненном по ГОСТ 2.105-95.
+\begin_layout Standard
+п²п╟п©я─п╦п╪п╣я─, п©я─п╦ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╦ я┬п╟п╠п╩п╬п╫п╟ 
+\family typewriter
+п⌠п·п║п╒.lyx
+\family default
+ п╡п╟п╪ п╫п╣ п©я─п╦п╢п╣я┌я│я▐ п╥п╟п╫п╦п╪п╟я┌я▄я│я▐ я│п╬п╥п╢п╟п╫п╦п╣п╪ я┌п╦я┌я┐п╩я▄п╫п╬пЁп╬ п╩п╦я│я┌п╟, п╟ п©я─п╬я│я┌п╬ п╥п╟п©п╬п╩п╫п╦я┌я▄
+ п╫п╣п╬п╠я┘п╬п╢п╦п╪я▀п╣ п©п╬п╩я▐ п╡ я┐п╤п╣ пЁп╬я┌п╬п╡п╬п╪ п╩п╦я│я┌п╣ (п╫п╟п╥п╡п╟п╫п╦п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟, п╬п╠п╬п╥п╫п╟я┤п╣п╫п╦п╣ п╦
+ я┌.п╢.), п╡я▀п©п╬п╩п╫п╣п╫п╫п╬п╪ п©п╬ п⌠п·п║п╒ 2.105-95.
  
-\layout Subsection
+\end_layout
 
-Основные операции с файлом документа
-\layout Standard
+\begin_layout Subsection
+п·я│п╫п╬п╡п╫я▀п╣ п╬п©п╣я─п╟я├п╦п╦ я│ я└п╟п╧п╩п╬п╪ п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\end_layout
 
-В меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл
-\family default 
- содержаться следующие основные команды для работы с файлами:
-\layout Перечисление
+\begin_layout Standard
+п▓ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩
+\family default
+ я│п╬п╢п╣я─п╤п╟я┌я▄я│я▐ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╬я│п╫п╬п╡п╫я▀п╣ п╨п╬п╪п╟п╫п╢я▀ п╢п╩я▐ я─п╟п╠п╬я┌я▀ я│ я└п╟п╧п╩п╟п╪п╦:
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-О
-\bar default 
-ткрыть
-\layout Перечисление
+\family sans
+\bar under
+п·
+\bar default
+я┌п╨я─я▀я┌я▄
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-З
-\bar default 
-акрыть
-\layout Перечисление
+\family sans
+\bar under
+п≈
+\bar default
+п╟п╨я─я▀я┌я▄
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-С
-\bar default 
-охранить
-\layout Перечисление
+\family sans
+\bar under
+п║
+\bar default
+п╬я┘я─п╟п╫п╦я┌я▄
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-С
-\bar default 
-охранить как
-\layout Перечисление
+\family sans
+\bar under
+п║
+\bar default
+п╬я┘я─п╟п╫п╦я┌я▄ п╨п╟п╨
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-В
-\bar default 
-ернуться к сохранённому
-\layout Перечисление
+\family sans
+\bar under
+п▓
+\bar default
+п╣я─п╫я┐я┌я▄я│я▐ п╨ я│п╬я┘я─п╟п╫я▒п╫п╫п╬п╪я┐
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-Р
-\bar default 
-аспечатать...
-\layout Перечисление
+\family sans
+\bar under
+п═
+\bar default
+п╟я│п©п╣я┤п╟я┌п╟я┌я▄...
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
 
-\family sans 
-\bar under 
-В
-\bar default 
-ыйти
-\layout Standard
+\family sans
+\bar under
+п▓
+\bar default
+я▀п╧я┌п╦
+\end_layout
 
-Команды 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
+\begin_layout Standard
+п п╬п╪п╟п╫п╢я▀ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-\bar under 
-О
-\bar default 
-ткрыть,
-\bar under 
- Ф
-\bar default 
-айл\SpecialChar \menuseparator
+\bar under
+п·
+\bar default
+я┌п╨я─я▀я┌я▄,
+\family default
+ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-\bar under 
-С
-\bar default 
-охранить 
-\family default 
-и
-\family sans 
-\bar under 
- Ф
-\bar default 
-айл\SpecialChar \menuseparator
+\bar under
+п║
+\bar default
+п╬я┘я─п╟п╫п╦я┌я▄
+\family default
+ п╦ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-\bar under 
-С
-\bar default 
-охранить\SpecialChar ~
-как 
-\family default 
-являются стандартными для большинства программ и несут ту же функциональную
- нагрузку.
- Поэтому не будем останавливаться на их рассмотрении.
-\layout Standard
+\bar under
+п║
+\bar default
+п╬я┘я─п╟п╫п╦я┌я▄\InsetSpace ~
+п╨п╟п╨
+\family default
+ я▐п╡п╩я▐я▌я┌я│я▐ я│я┌п╟п╫п╢п╟я─я┌п╫я▀п╪п╦ п╢п╩я▐ п╠п╬п╩я▄я┬п╦п╫я│я┌п╡п╟ п©я─п╬пЁя─п╟п╪п╪ п╦ п╫п╣я│я┐я┌ я┌я┐ п╤п╣ я└я┐п╫п╨я├п╦п╬п╫п╟п╩я▄п╫я┐я▌
+ п╫п╟пЁя─я┐п╥п╨я┐.
+ п÷п╬я█я┌п╬п╪я┐ п╫п╣ п╠я┐п╢п╣п╪ п╬я│я┌п╟п╫п╟п╡п╩п╦п╡п╟я┌я▄я│я▐ п╫п╟ п╦я┘ я─п╟я│я│п╪п╬я┌я─п╣п╫п╦п╦.
+\end_layout
 
-Команда 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
+\begin_layout Standard
+п п╬п╪п╟п╫п╢п╟ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-\bar under 
-В
-\bar default 
-ернуться\SpecialChar ~
-к\SpecialChar ~
-сохранённому
-\family default 
- используется когда несколько человек одновременно работают с одним и тем
- же документом.
- Она просто перезагрузит документ с диска.
- Также эта команда используется, когда внесенные в документ изменения не
- устраивают и необходимо вернуться к последней сохраненной версии документа.
-\layout Standard
+\bar under
+п▓
+\bar default
+п╣я─п╫я┐я┌я▄я│я▐\InsetSpace ~
+п╨\InsetSpace ~
+я│п╬я┘я─п╟п╫я▒п╫п╫п╬п╪я┐
+\family default
+ п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ п╨п╬пЁп╢п╟ п╫п╣я│п╨п╬п╩я▄п╨п╬ я┤п╣п╩п╬п╡п╣п╨ п╬п╢п╫п╬п╡я─п╣п╪п╣п╫п╫п╬ я─п╟п╠п╬я┌п╟я▌я┌ я│ п╬п╢п╫п╦п╪ п╦ я┌п╣п╪
+ п╤п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╪.
+ п·п╫п╟ п©я─п╬я│я┌п╬ п©п╣я─п╣п╥п╟пЁя─я┐п╥п╦я┌ п╢п╬п╨я┐п╪п╣п╫я┌ я│ п╢п╦я│п╨п╟.
+ п╒п╟п╨п╤п╣ я█я┌п╟ п╨п╬п╪п╟п╫п╢п╟ п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐, п╨п╬пЁп╢п╟ п╡п╫п╣я│п╣п╫п╫я▀п╣ п╡ п╢п╬п╨я┐п╪п╣п╫я┌ п╦п╥п╪п╣п╫п╣п╫п╦я▐ п╫п╣
+ я┐я│я┌я─п╟п╦п╡п╟я▌я┌ п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡п╣я─п╫я┐я┌я▄я│я▐ п╨ п©п╬я│п╩п╣п╢п╫п╣п╧ я│п╬я┘я─п╟п╫п╣п╫п╫п╬п╧ п╡п╣я─я│п╦п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+\end_layout
 
-Посредством команды 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
+\begin_layout Standard
+п÷п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╨п╬п╪п╟п╫п╢я▀ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-\bar under 
-Р
-\bar default 
-аспечатать 
-\family default 
-осуществляется распечатка документа.
- Непосредственно перед распечаткой появится диалоговое окно показанное на
- рисунке\SpecialChar ~
+\bar under
+п═
+\bar default
+п╟я│п©п╣я┤п╟я┌п╟я┌я▄
+\family default
+ п╬я│я┐я┴п╣я│я┌п╡п╩я▐п╣я┌я│я▐ я─п╟я│п©п╣я┤п╟я┌п╨п╟ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+ п²п╣п©п╬я│я─п╣п╢я│я┌п╡п╣п╫п╫п╬ п©п╣я─п╣п╢ я─п╟я│п©п╣я┤п╟я┌п╨п╬п╧ п©п╬я▐п╡п╦я┌я│я▐ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ п©п╬п╨п╟п╥п╟п╫п╫п╬п╣ п╫п╟
+ я─п╦я│я┐п╫п╨п╣\InsetSpace ~
 
-\begin_inset LatexCommand \ref{Pechat}
+\begin_inset LatexCommand ref
+reference "Pechat"
 
-\end_inset 
+\end_inset
 
 .
- При печати на принтер, необходимо указать его имя в соответствующем поле.
- Воспользовавшись меню 
-\family sans 
-\bar under 
-П
-\bar default 
-росмотреть\SpecialChar \menuseparator
+ п÷я─п╦ п©п╣я┤п╟я┌п╦ п╫п╟ п©я─п╦п╫я┌п╣я─, п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ я┐п╨п╟п╥п╟я┌я▄ п╣пЁп╬ п╦п╪я▐ п╡ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴п╣п╪ п©п╬п╩п╣.
+ п▓п╬я│п©п╬п╩я▄п╥п╬п╡п╟п╡я┬п╦я│я▄ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п÷
+\bar default
+я─п╬я│п╪п╬я┌я─п╣я┌я▄\SpecialChar \menuseparator
 
-\bar under 
+\bar under
 P
-\bar default 
+\bar default
 ostscript
-\family default 
- можно посмотреть как будет выглядеть документ при печати.
-\layout Standard
+\family default
+ п╪п╬п╤п╫п╬ п©п╬я│п╪п╬я┌я─п╣я┌я▄ п╨п╟п╨ п╠я┐п╢п╣я┌ п╡я▀пЁп╩я▐п╢п╣я┌я▄ п╢п╬п╨я┐п╪п╣п╫я┌ п©я─п╦ п©п╣я┤п╟я┌п╦.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/Pechat.png
 	display color
 	width 55.5col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "Pechat"
+
+\end_inset
+
+п■п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ п©я─п╦ п©п╣я┤п╟я┌п╦
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{Pechat}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п п╬п╪п╟п╫п╢п╟ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
-Диалоговое окно при печати
-\end_inset 
+\bar under
+п≈
+\bar default
+п╟п╨я─я▀я┌я▄
+\family default
+ п╥п╟п╨я─я▀п╡п╟п╣я┌ я└п╟п╧п╩ я┌п╣п╨я┐я┴п╣пЁп╬ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+ п п╬п╪п╟п╫п╢п╟ 
+\family sans
+\bar under
+п╓
+\bar default
+п╟п╧п╩\SpecialChar \menuseparator
 
+\bar under
+п▓
+\bar default
+я▀я┘п╬п╢
+\family default
+ п╥п╟п╨я─я▀п╡п╟п╣я┌ п╬п╨п╫п╬ LyX.
+ п÷я─п╦ п©п╬п©я▀я┌п╨п╣ п╥п╟п╨я─я▀я┌я▄ п╢п╬п╨я┐п╪п╣п╫я┌ я│ п╫п╣я│п╬я┘я─п╟п╫п╣п╫п╫я▀п╪п╦ п╦п╥п╪п╣п╫п╣п╫п╦я▐п╪п╦ LyX п©я─п╬п╦п╫я└п╬я─п╪п╦я─я┐п╣я┌
+ п╬п╠ я█я┌п╬п╪ п╦ п©я─п╣п╢п╩п╬п╤п╦я┌ п©я─п╬п╦п╥п╡п╣я│я┌п╦ я│п╬я┘я─п╟п╫п╣п╫п╦п╣ (я┌п╬ п╤п╣ п©я─п╬п╦п╥п╬п╧п╢п╣я┌ п©я─п╦ п©п╬п©я▀я┌п╨п╣
+ п╥п╟п╨я─я▀я┌я▄ LyX).
+\end_layout
 
-\layout Standard
+\begin_layout Section
+п║я┌я─я┐п╨я┌я┐я─п╟ п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\end_layout
 
-Команда 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
-
-\bar under 
-З
-\bar default 
-акрыть
-\family default 
- закрывает файл текущего документа.
- Команда 
-\family sans 
-\bar under 
-Ф
-\bar default 
-айл\SpecialChar \menuseparator
-
-\bar under 
-В
-\bar default 
-ыход
-\family default 
- закрывает окно LyX.
- При попытке закрыть документ с несохраненными изменениями LyX проинформирует
- об этом и предложит произвести сохранение (то же произойдет при попытке
- закрыть LyX).
-\layout Section
-
-Структура документа
-\layout Standard
-
-Документ состоит из различных частей, имеющих разное назначение.
- Эти логически обособленные части документа называются 
-\emph on 
-окружениями
-\emph default 
+\begin_layout Standard
+п■п╬п╨я┐п╪п╣п╫я┌ я│п╬я│я┌п╬п╦я┌ п╦п╥ я─п╟п╥п╩п╦я┤п╫я▀я┘ я┤п╟я│я┌п╣п╧, п╦п╪п╣я▌я┴п╦я┘ я─п╟п╥п╫п╬п╣ п╫п╟п╥п╫п╟я┤п╣п╫п╦п╣.
+ п╜я┌п╦ п╩п╬пЁп╦я┤п╣я│п╨п╦ п╬п╠п╬я│п╬п╠п╩п╣п╫п╫я▀п╣ я┤п╟я│я┌п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╫п╟п╥я▀п╡п╟я▌я┌я│я▐ 
+\emph on
+п╬п╨я─я┐п╤п╣п╫п╦я▐п╪п╦
+\emph default
  (environments).
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
-\emph on 
-Окружение\SpecialChar ~
-абзаца
-\emph default 
- (paragraph environment) определяет такие свойства абзаца как стиль шрифта,
- отступы, схема нумерации и т.д.
+\emph on
+п·п╨я─я┐п╤п╣п╫п╦п╣\InsetSpace ~
+п╟п╠п╥п╟я├п╟
+\emph default
+ (paragraph environment) п╬п©я─п╣п╢п╣п╩я▐п╣я┌ я┌п╟п╨п╦п╣ я│п╡п╬п╧я│я┌п╡п╟ п╟п╠п╥п╟я├п╟ п╨п╟п╨ я│я┌п╦п╩я▄ я┬я─п╦я└я┌п╟,
+ п╬я┌я│я┌я┐п©я▀, я│я┘п╣п╪п╟ п╫я┐п╪п╣я─п╟я├п╦п╦ п╦ я┌.п╢.
  
-\layout Standard
+\end_layout
 
-Название окружения
-\emph on 
+\begin_layout Standard
+п²п╟п╥п╡п╟п╫п╦п╣ п╬п╨я─я┐п╤п╣п╫п╦я▐ п╟п╠п╥п╟я├п╟, п╡ п╨п╬я┌п╬я─п╬п╪ п╫п╟я┘п╬п╢п╦я┌я│я▐ п╨я┐я─я│п╬я─, п©п╬п╨п╟п╥я▀п╡п╟п╣я┌я│я▐ я│п╩п╣п╡п╟
+ п╫п╟ п©п╟п╫п╣п╩п╦ п╦п╫я│я┌я─я┐п╪п╣п╫я┌п╬п╡.
+ п≈п╢п╣я│я▄ п╤п╣ п╣пЁп╬ п╪п╬п╤п╫п╬ п╦п╥п╪п╣п╫п╦я┌я▄ п╫п╟ п╢я─я┐пЁп╬п╣.
+ п■п╩я▐ я█я┌п╬пЁп╬ п╫я┐п╤п╫п╬ я─п╟п╥п╡п╣я─п╫я┐я┌я▄ я│п©п╦я│п╬п╨ п╬п╨я─я┐п╤п╣п╫п╦п╧ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨ 
+\begin_inset LatexCommand ref
+reference "SpisokOkr"
+
+\end_inset
+
+), п╨п╩п╦п╨п╫я┐п╡ п╪я▀я┬п╨п╬п╧ п╫п╟ я│я┌я─п╣п╩п╨п╣, п╦ п╡я▀п╠я─п╟я┌я▄ п╫п╬п╡п╬п╣ п╢п╩я▐ я┌п╣п╨я┐я┴п╣пЁп╬ п╟п╠п╥п╟я├п╟.
  
-\emph default 
-абзаца, в котором находится курсор, показывается слева на панели инструментов.
- Здесь же его можно изменить на другое.
- Для этого нужно развернуть список окружений (см.
- рисунок 
-\begin_inset LatexCommand \ref{SpisokOkr}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п°п╬п╤п╫п╬ п╪п╣п╫я▐я┌я▄ п╬п╨я─я┐п╤п╣п╫п╦п╣ я│я─п╟п╥я┐ п╫п╣я│п╨п╬п╩я▄п╨п╦я┘ п╟п╠п╥п╟я├п╣п╡, п╣я│п╩п╦ п╦я┘ п©я─п╣п╢п╡п╟я─п╦я┌п╣п╩я▄п╫п╬
+ п╡я▀п╢п╣п╩п╦я┌я▄.
+\end_layout
 
-), кликнув мышкой на стрелке, и выбрать новое для текущего абзаца.
- 
-\layout Standard
+\begin_layout Standard
+п≤п╥ п╫п╟п╥п╡п╟п╫п╦п╧ п╬п╨я─я┐п╤п╣п╫п╦п╧ (я─п╟п╥п╢п╣п╩, п©п╬п╢я─п╟п╥п╢п╣п╩, п©п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣ п╦ я┌.п╢.) п╦п╫я┌я┐п╦я┌п╦п╡п╫п╬
+ п╪п╬п╤п╫п╬ п©п╬п╫я▐я┌я▄ п╦я┘ п╫п╟п╥п╫п╟я┤п╣п╫п╦п╣.
+ п÷п╬я█я┌п╬п╪я┐ п╫п╣ п╠я┐п╢п╣п╪ п╬я│я┌п╟п╫п╟п╡п╩п╦п╡п╟я┌я▄я│я▐ п╫п╟ я█я┌п╬п╪ п╦ п©п╬п╢я─п╬п╠п╫п╬ я─п╟я│я│п╪п╟я┌я─п╦п╡п╟я┌я▄ п╨п╟п╤п╢п╬п╣
+ п╦п╥ п╫п╦я┘.
+\end_layout
 
-Можно менять окружение сразу нескольких абзацев, если их предварительно
- выделить.
-\layout Standard
-
-Из названий окружений (раздел, подраздел, перечисление и т.д.) интуитивно
- можно понять их назначение.
- Поэтому не будем останавливаться на этом и подробно рассматривать каждое
- из них.
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/SpisokOkr.png
 	display color
 	width 25.5col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "SpisokOkr"
+
+\end_inset
+
+Cп©п╦я│п╬п╨ п╬п╨я─я┐п╤п╣п╫п╦п╧
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{SpisokOkr}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п╔п╬я┌я▐, я│п╢п╣п╩п╟п╣п╪ п╦я│п╨п╩я▌я┤п╣п╫п╦п╣ п╢п╩я▐ пЁя─я┐п©п©я▀ п╬п╨я─я┐п╤п╣п╫п╦п╧ п╨п╩п╟я│я│п╟ п⌠п·п║п╒ п╬я┌п╪п╣я┤п╣п╫п╫я▀я┘ п╥п╡п╣п╥п╢п╬я┤п╨п╬п╧:
+ п═п╟п╥п╢п╣п╩*, п÷п╬п╢я─п╟п╥п╢п╣п╩*, п÷п╬п╢п©п╬п╢я─п╟п╥п╢п╣п╩*.
+ п·я┌п╩п╦я┤п╟п╣я┌ п╦я┘ п╬я┌ п╬п╢п╫п╬п╦п╪п╣п╫п╫я▀я┘ п╬п╨я─я┐п╤п╣п╫п╦п╧ п╠п╣п╥ п╥п╡п╣п╥п╢п╬я┤п╨п╦ я│п╩п╣п╢я┐я▌я┴п╣п╣:
+\end_layout
 
-Cписок окружений
-\end_inset 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╫п╣ я│я┌п╟п╡п╦я┌я│я▐ п©п╬я─я▐п╢п╨п╬п╡я▀п╧ п╫п╬п╪п╣я─;
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+я┌п╣п╨я│я┌ п╟п╠п╥п╟я├п╟ п╫п╣ п╡п╫п╬я│п╦я┌я│я▐ п╡ я│п╬п╢п╣я─п╤п╟п╫п╦п╣.
+\end_layout
 
-\layout Standard
-
-Хотя, сделаем исключение для группы окружений класса ГОСТ отмеченных звездочкой:
- Раздел*, Подраздел*, Подподраздел*.
- Отличает их от одноименных окружений без звездочки следующее:
-\layout Перечисление
-
-не ставится порядковый номер;
-\layout Перечисление
-
-текст абзаца не вносится в содержание.
-\layout Standard
-
-Как только вы установите окружение абзаца, LyX автоматически оформит его
- в соответствии с ГОСТ 2.105-95, т.е.
- не нужно писать слово раздел, ставить порядковый номер, подбирать отступы
- и т.д.
+\begin_layout Standard
+п п╟п╨ я┌п╬п╩я▄п╨п╬ п╡я▀ я┐я│я┌п╟п╫п╬п╡п╦я┌п╣ п╬п╨я─я┐п╤п╣п╫п╦п╣ п╟п╠п╥п╟я├п╟, LyX п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ п╬я└п╬я─п╪п╦я┌ п╣пЁп╬
+ п╡ я│п╬п╬я┌п╡п╣я┌я│я┌п╡п╦п╦ я│ п⌠п·п║п╒ 2.105-95, я┌.п╣.
+ п╫п╣ п╫я┐п╤п╫п╬ п©п╦я│п╟я┌я▄ я│п╩п╬п╡п╬ я─п╟п╥п╢п╣п╩, я│я┌п╟п╡п╦я┌я▄ п©п╬я─я▐п╢п╨п╬п╡я▀п╧ п╫п╬п╪п╣я─, п©п╬п╢п╠п╦я─п╟я┌я▄ п╬я┌я│я┌я┐п©я▀
+ п╦ я┌.п╢.
  
-\layout Standard
+\end_layout
 
-По умолчанию установлено окружение абзаца 
-\family sans 
-Обычный
-\family default 
+\begin_layout Standard
+п÷п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌ я┐я│я┌п╟п╫п╬п╡п╩п╣п╫п╬ п╬п╨я─я┐п╤п╣п╫п╦п╣ п╟п╠п╥п╟я├п╟ 
+\family sans
+п·п╠я▀я┤п╫я▀п╧
+\family default
 .
-\layout Section
+\end_layout
 
-Содержание
-\layout Standard
+\begin_layout Section
+п║п╬п╢п╣я─п╤п╟п╫п╦п╣
+\end_layout
 
-LyX автоматически формирует содержание из названий разделов и подразделов
+\begin_layout Standard
+LyX п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ я└п╬я─п╪п╦я─я┐п╣я┌ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╦п╥ п╫п╟п╥п╡п╟п╫п╦п╧ я─п╟п╥п╢п╣п╩п╬п╡ п╦ п©п╬п╢я─п╟п╥п╢п╣п╩п╬п╡
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п÷п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌, п╡ п╢п╬п╨я┐п╪п╣п╫я┌п╣ п╨п╩п╟я│я│п╟ п⌠п·п║п╒ пЁп╩я┐п╠п╦п╫п╟ я│п╬п╢п╣я─п╤п╟п╫п╦я▐ п╬пЁя─п╟п╫п╦я┤п╦п╡п╟п╣я┌я│я▐
+ п╢п╡я┐п╪я▐ я┐я─п╬п╡п╫я▐п╪п╦
+\end_layout
 
-По умолчанию, в документе класса ГОСТ глубина содержания ограничивается
- двумя уровнями
-\end_inset 
+\end_inset
 
 .
- В документе класса ГОСТ оно формируется в соответствии с ГОСТ 2.105-95.
+ п▓ п╢п╬п╨я┐п╪п╣п╫я┌п╣ п╨п╩п╟я│я│п╟ п⌠п·п║п╒ п╬п╫п╬ я└п╬я─п╪п╦я─я┐п╣я┌я│я▐ п╡ я│п╬п╬я┌п╡п╣я┌я│я┌п╡п╦п╦ я│ п⌠п·п║п╒ 2.105-95.
  
-\layout Standard
+\end_layout
 
-Пример такого содержания приведен на втором листе сего документа.
- В исходном тексте содержание выглядит так: 
+\begin_layout Standard
+п÷я─п╦п╪п╣я─ я┌п╟п╨п╬пЁп╬ я│п╬п╢п╣я─п╤п╟п╫п╦я▐ п©я─п╦п╡п╣п╢п╣п╫ п╫п╟ п╡я┌п╬я─п╬п╪ п╩п╦я│я┌п╣ я│п╣пЁп╬ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+ п▓ п╦я│я┘п╬п╢п╫п╬п╪ я┌п╣п╨я│я┌п╣ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╡я▀пЁп╩я▐п╢п╦я┌ я┌п╟п╨: 
 \begin_inset Graphics
 	filename img/Soderzhanie.png
 	display color
 	width 13col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 .
- Кликнув на нем мышкой можно вызвать диалоговое окно 
-\family sans 
-Содержание
-\family default 
- (см.
- рисунок\SpecialChar ~
+ п²п╟п╤п╟п╡ п╫п╟ п╫я▒п╪ п╪я▀я┬п╨п╬п╧, п╪п╬п╤п╫п╬ п╡я▀п╥п╡п╟я┌я▄ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ 
+\family sans
+п║п╬п╢п╣я─п╤п╟п╫п╦п╣
+\family default
+ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨\InsetSpace ~
 
-\begin_inset LatexCommand \ref{OknoSoderzhanie}
+\begin_inset LatexCommand ref
+reference "OknoSoderzhanie"
 
-\end_inset 
+\end_inset
 
-), с помощью которого можно переместиться в любой подраздел документа.
-\layout Standard
+), я│ п©п╬п╪п╬я┴я▄я▌ п╨п╬я┌п╬я─п╬пЁп╬ п╪п╬п╤п╫п╬ п©п╣я─п╣п╪п╣я│я┌п╦я┌я▄я│я▐ п╡ п╩я▌п╠п╬п╧ п©п╬п╢я─п╟п╥п╢п╣п╩ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/OknoSoderzhanie.png
 	display color
 	width 68.5col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "OknoSoderzhanie"
+
+\end_inset
+
+п║п╬п╢п╣я─п╤п╟п╫п╦п╣
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{OknoSoderzhanie}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п∙я│п╩п╦ п╡ я┌п╣п╨я│я┌п╣ п╫п╣ п╡я│я┌я─п╣я┌п╦я┌я│я▐ п╫п╦ п╬п╢п╫п╬пЁп╬ п╟п╠п╥п╟я├п╟ я│ п╬п╨я─я┐п╤п╣п╫п╦п╣п╪ п═п╟п╥п╢п╣п╩, я│п╬п╢п╣я─п╤п╟п╫п╦п╣
+ п╬п╨п╟п╤п╣я┌я│я▐ п©я┐я│я┌я▀п╪.
+\end_layout
 
-Содержание
-\end_inset 
+\begin_layout Standard
+п╗п╟п╠п╩п╬п╫ п⌠п·п║п╒ я┐п╤п╣ я│п╬п╢п╣я─п╤п╦я┌ я│п╬п╢п╣я─п╤п╟п╫п╦п╣.
+\end_layout
 
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ я│п╬п╥п╢п╟я┌я▄ п╦ п╡я│я┌п╟п╡п╦я┌я▄ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╡ п╢п╬п╨я┐п╪п╣п╫я┌ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п©я─п╬п╦п╥п╡п╣я│я┌п╦
+ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╢п╣п╧я│я┌п╡п╦я▐:
+\end_layout
 
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╬п╪п╣я│я┌п╦я┌я▄ п╨я┐я─я│п╬я─ п╡ п╪п╣я│я┌п╬ п╡я│я┌п╟п╡п╨п╦;
+\end_layout
 
-Если в тексте не встретится ни одного абзаца с окружением Раздел, содержание
- окажется пустым.
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-Шаблон ГОСТ уже содержит содержание.
-\layout Standard
+\bar under
+п║
+\bar default
+п©п╦я│п╨п╦\InsetSpace ~
+п╦\InsetSpace ~
+я│п╬п╢п╣я─п╤п╟п╫п╦я▐...\SpecialChar \menuseparator
 
-Для того, чтобы создать и вставить содержание в документ необходимо произвести
- следующие действия:
-\layout Перечисление
+\bar under
+п║
+\bar default
+п╬п╢п╣я─п╤п╟п╫п╦п╣
+\family default
+ п╡я│я┌п╟п╡п╦я┌я▄ я│п╬п╢п╣я─п╤п╟п╫п╦п╣.
+\end_layout
 
-поместить курсор в место вставки;
-\layout Перечисление
+\begin_layout Section
+п≤п╥п╬п╠я─п╟п╤п╣п╫п╦я▐ (п═п╦я│я┐п╫п╨п╦)
+\end_layout
 
-через меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
+\begin_layout Standard
+п▓я│я┌п╟п╡п╩п╣п╫п╫я▀п╧ п╡ я┌п╣п╨я│я┌ я─п╦я│я┐п╫п╬п╨ п╪п╬п╤п╣я┌ п╦п╪п╣я┌я▄ п©п╬я─я▐п╢п╨п╬п╡я▀п╧ п╫п╬п╪п╣я─ п╦ п╫п╟п╥п╡п╟п╫п╦п╣.
+ п╒п╟п╨п╤п╣ п╬п╫ п╪п╬п╤п╣я┌ п╠я▀я┌я▄ п╫п╣п©п╬п╢п©п╦я│п╟п╫п╫я▀п╪.
+\end_layout
 
-\bar under 
-С
-\bar default 
-писки\SpecialChar ~
-и\SpecialChar ~
-содержания...\SpecialChar \menuseparator
+\begin_layout Standard
+п╖я┌п╬п╠я▀ я─п╦я│я┐п╫п╬п╨ п╠я▀п╩ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ п©я─п╬п╫я┐п╪п╣я─п╬п╡п╟п╫ п╦ п╦п╪п╣п╩ п╫п╟п╥п╡п╟п╫п╦п╣, п╣пЁп╬ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬
+ п╡я│я┌п╟п╡п╦я┌я▄ п╡ 
+\emph on
+п©п╩п╟п╡п╟я▌я┴п╦п╧
+\emph default
+\InsetSpace ~
 
-\bar under 
-С
-\bar default 
-одержание 
-\family default 
-вставить содержание.
-\layout Section
+\emph on
+п╬п╠я┼п╣п╨я┌
+\emph default
+, п╢п╩я▐ я█я┌п╬пЁп╬ п╫я┐п╤п╫п╬ п╡я▀п©п╬п╩п╫п╦я┌я▄ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╢п╣п╧я│я┌п╡п╦я▐:
+\end_layout
 
-Изображения (Рисунки)
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╣я─п╣п╪п╣я│я┌п╦я┌я▄ п╨я┐я─я│п╬я─ п╡ п╪п╣я│я┌п╬ п╡я│я┌п╟п╡п╨п╦ я─п╦я│я┐п╫п╨п╟;
+\end_layout
 
-Вставленный в текст рисунок может иметь порядковый номер и название.
- Также он может быть неподписанным.
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-Чтобы рисунок был автоматически пронумерован и имел название, его необходимо
- вставить в 
-\emph on 
-плавающий
-\emph default 
-\SpecialChar ~
+\bar under
+п÷
+\bar default
+п╩п╟п╡п╟я▌я┴п╦п╧\InsetSpace ~
+п╬п╠я┼п╣п╨я┌\SpecialChar \menuseparator
+п≤п╥п╬п╠я─п╟п╤п╣п╫п╦п╣
+\family default
+ п╡я│я┌п╟п╡п╦я┌я▄ п©п╩п╟п╡п╟я▌я┴п╦п╧ я─п╦я│я┐п╫п╬п╨;
+\end_layout
 
-\emph on 
-объект
-\emph default 
-, для этого нужно выполнить следующие действия:
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡п╡п╣я│я┌п╦ п╫п╟п╥п╡п╟п╫п╦п╣ я─п╦я│я┐п╫п╨п╟; 
+\end_layout
 
-переместить курсор в место вставки рисунка;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╢п╩я▐ я├п╣п╫я┌я─п╦я─п╬п╡п╟п╫п╦я▐ п╫п╟п╥п╡п╟п╫п╦я▐ п╫п╟п╢п╬ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╬я─п╪п╟я┌\SpecialChar \menuseparator
 
-через меню
-\family sans 
-\bar under 
- В
-\bar default 
-ставить\SpecialChar \menuseparator
+\bar under
+п░
+\bar default
+п╠п╥п╟я├...
 
-\bar under 
-П
-\bar default 
-лавающий\SpecialChar ~
-объект\SpecialChar \menuseparator
-Изображение
-\family default 
- вставить плавающий рисунок;
-\layout Перечисление
+\family default
+ п╡ п©п╬п╩п╣ 
+\family sans
+п▓я▀я─п╬п╡п╫я▐я┌я▄
+\family default
+ я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ я└п╩п╟п╤п╬п╨ 
+\family sans
+п÷п╬\InsetSpace ~
+я├п╣п╫я┌я─я┐;
+\end_layout
 
-ввести название рисунка; 
-\layout Перечисление
-
-для центрирования названия надо через меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-ормат\SpecialChar \menuseparator
-
-\bar under 
-А
-\bar default 
-бзац...
-
-\family default 
- в поле 
-\family sans 
-Выровнять 
-\family default 
-установить флажок 
-\family sans 
-По\SpecialChar ~
-центру;
-\layout Перечисление
-
-поместив курсор в начало названия рисунка нужно нажать клавишу 
-\family sans 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╬п╪п╣я│я┌п╦п╡ п╨я┐я─я│п╬я─ п╡ п╫п╟я┤п╟п╩п╬ п╫п╟п╥п╡п╟п╫п╦я▐ я─п╦я│я┐п╫п╨п╟ п╫я┐п╤п╫п╬ п╫п╟п╤п╟я┌я▄ п╨п╩п╟п╡п╦я┬я┐ 
+\family sans
 Enter
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ п╫п╟п╥п╡п╟п╫п╦п╣ п╬п╨п╟п╥п╟п╩п╬я│я▄ п©п╬п╢ я─п╦я│я┐п╫п╨п╬п╪
+\end_layout
 
-Для того, чтобы название оказалось под рисунком
-\end_inset 
+\end_inset
 
 
-\family default 
+\family default
 ;
-\layout Перечисление
+\end_layout
 
-вставить соответствующий рисунок через меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
-Изображение...;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡я│я┌п╟п╡п╦я┌я▄ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴п╦п╧ я─п╦я│я┐п╫п╬п╨ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
+п≤п╥п╬п╠я─п╟п╤п╣п╫п╦п╣...;
+\end_layout
 
-в появившемся окне
-\family sans 
- Изображение
-\family default 
- выбрать нужный файл, нажав кнопку 
-\family typewriter 
-Выбрать.
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡ п©п╬я▐п╡п╦п╡я┬п╣п╪я│я▐ п╬п╨п╫п╣ 
+\family sans
+п≤п╥п╬п╠я─п╟п╤п╣п╫п╦п╣
+\family default
+ п╡я▀п╠я─п╟я┌я▄ п╫я┐п╤п╫я▀п╧ я└п╟п╧п╩, п╫п╟п╤п╟п╡ п╨п╫п╬п©п╨я┐ 
+\family typewriter
+п▓я▀п╠я─п╟я┌я▄.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/OknoRisunok.png
 	display color
 	width 70col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "OknoRisunok"
+
+\end_inset
+
+п■п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ 
+\family sans
+п═п╦я│я┐п╫п╬п╨
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{OknoRisunok}
+\end_layout
 
-\end_inset 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡ я┌п╬п╪ п╤п╣ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╪ п╬п╨п╫п╣ п╪п╬п╤п╫п╬ п╥п╟п╢п╟я┌я▄ я─п╟п╥п╪п╣я─ я─п╦я│я┐п╫п╨п╟.
+\end_layout
 
-Диалоговое окно 
-\family sans 
-Рисунок
-\end_inset 
+\begin_layout Standard
+п²п╟ я─п╦я│я┐п╫п╨п╣\InsetSpace ~
 
+\begin_inset LatexCommand ref
+reference "platypus"
 
-\layout Перечисление
+\end_inset
 
-в том же диалоговом окне можно задать размер рисунка.
-\layout Standard
+п©п╬п╨п╟п╥п╟п╫п╬, я┤я┌п╬ п©я─п╦п╪п╣я─п╫п╬ п©п╬я▐п╡п╦я┌я│я▐ п╡ п╦я│я┘п╬п╢п╫п╬п╪ я┌п╣п╨я│я┌п╣ п╡ я─п╣п╥я┐п╩я▄я┌п╟я┌п╣ п╡я▀п©п╬п╩п╫п╣п╫п╦я▐
+ п╡я▀я┬п╣я┐п╨п╟п╥п╟п╫п╫я▀я┘ п╢п╣п╧я│я┌п╡п╦п╧.
+\end_layout
 
-На рисунке\SpecialChar ~
-
-\begin_inset LatexCommand \ref{platypus}
-
-\end_inset 
-
-показано, что примерно появится в исходном тексте в результате выполнения
- вышеуказанных действий.
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/PlavRisunok.png
 	display color
 	width 100col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "PlavRisunok"
+
+\end_inset
+
+п÷п╩п╟п╡п╟я▌я┴п╦п╧ я─п╦я│я┐п╫п╬п╨
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{PlavRisunok}
+\end_layout
 
-\end_inset 
-
-Плавающий рисунок
-\end_inset 
-
-
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/platypus.png
 	display color
@@ -1107,265 +1257,301 @@ collapsed false
 	height 2cm
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "platypus"
+
+\end_inset
+
+п²п╣п╦п╥п╡п╣я│я┌п╫п╬п╣ п╫п╟я┐п╨п╣ я│я┐я┴п╣я│я┌п╡п╬
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{platypus}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п╒п╟п╨п╦п╪ п╬п╠я─п╟п╥п╬п╪ п╡я│я┌п╟п╡п╩п╣п╫п╫я▀п╧ я─п╦я│я┐п╫п╬п╨ п╠я┐п╢п╣я┌ п╬я└п╬я─п╪п╩п╣п╫ п©п╬ п⌠п·п║п╒ 2.105-95.
+\end_layout
 
-Неизвестное науке существо
-\end_inset 
+\begin_layout Standard
+п■п╬п©п╬п╩п╫п╦я┌п╣п╩я▄п╫я▀п╣ п╫п╟я│я┌я─п╬п╧п╨п╦ п╬я│я┐я┴п╣я│я┌п╡п╩я▐я▌я┌я│я▐ я┤п╣я─п╣п╥ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ 
+\family sans
+п═п╦я│я┐п╫п╬п╨
+\family default
+ п╡я▀п╥я▀п╡п╟п╣п╪п╬п╣ п╫п╟п╤п╟я┌п╦п╣п╪ п╩п╣п╡п╬п╧ п╨п╫п╬п©п╨п╦ п╪я▀я┬п╦ п╫п╟ я┌я─п╣п╠я┐п╣п╪п╬п╪ я─п╦я│я┐п╫п╨п╣.
+\end_layout
 
+\begin_layout Standard
+п∙я│п╩п╦ п╬п╠я┼п╣п╨я┌, п╨п╬я┌п╬я─я▀п╧ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡я│я┌п╟п╡п╦я┌я▄ п╡ я┌п╣п╨я│я┌, п╫п╣ п╦п╪п╣п╣я┌ п╫п╟п╥п╡п╟п╫п╦я▐ п╦п╩п╦
+ п©п╬п╢п©п╦я│п╦, я┌п╬ п╪п╬п╤п╫п╬ п╬п╠п╬п╧я┌п╦я│я▄ п╠п╣п╥ п©п╩п╟п╡п╟я▌я┴п╦я┘ п╬п╠я┼п╣п╨я┌п╬п╡.
+\end_layout
 
-\layout Standard
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ п©п╩п╟п╡п╟я▌я┴п╦п╧ п╬п╠я┼п╣п╨я┌ п╬п╨п╟п╥п╟п╩я│я▐ п╦п╪п╣п╫п╫п╬ п╡ я┌п╬п╪ п╪п╣я│я┌п╣ я┌п╣п╨я│я┌п╟, п╡ п╨п╬я┌п╬я─п╬п╣
+ п╡я▀ п╣пЁп╬ п©п╬п╪п╣я│я┌п╦п╩п╦, п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╬я─п╪п╟я┌\SpecialChar \menuseparator
 
-Таким образом вставленный рисунок будет оформлен по ГОСТ 2.105-95.
-\layout Standard
+\bar under
+п■
+\bar default
+п╬п╨я┐п╪п╣п╫я┌...
 
-Дополнительные настройки осуществляются через диалоговое окно 
-\family sans 
-Рисунок
-\family default 
- вызываемое нажатием левой кнопки мыши на требуемом рисунке.
-\layout Standard
-
-Если объект, который необходимо вставить в текст, не имеет названия или
- подписи, то можно обойтись без плавающих объектов.
-\layout Standard
-
-Для того, чтобы плавающий объект оказался именно в том месте текста, в которое
- вы его поместили, необходимо через меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-ормат\SpecialChar \menuseparator
-
-\bar under 
-Д
-\bar default 
-окумент...
-
-\family default 
- в поле 
-\family sans 
-Размещение\SpecialChar ~
-плавающих\SpecialChar ~
-объектов 
-\family default 
-закладки 
-\family sans 
-Дополнительно
-\family default 
- вписать символ 
-\family typewriter 
+\family default
+ п╡ п©п╬п╩п╣ 
+\family sans
+п═п╟п╥п╪п╣я┴п╣п╫п╦п╣\InsetSpace ~
+п©п╩п╟п╡п╟я▌я┴п╦я┘\InsetSpace ~
+п╬п╠я┼п╣п╨я┌п╬п╡
+\family default
+ п╥п╟п╨п╩п╟п╢п╨п╦ 
+\family sans
+п■п╬п©п╬п╩п╫п╦я┌п╣п╩я▄п╫п╬
+\family default
+ п╡п©п╦я│п╟я┌я▄ я│п╦п╪п╡п╬п╩ 
+\family typewriter
 h
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п÷я─п╦ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╦ я┬п╟п╠п╩п╬п╫п╟ п⌠п·п║п╒ я█я┌п╬ я│п╢п╣п╩п╟п╫п╬ п©п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌
+\end_layout
 
-При использовании шаблона ГОСТ это сделано по умолчанию
-\end_inset 
+\end_inset
 
 
-\family default 
+\family default
 .
-\layout Section
+\end_layout
 
-Таблицы
-\layout Standard
+\begin_layout Section
+п╒п╟п╠п╩п╦я├я▀
+\end_layout
 
-Вставленная в текст таблица может иметь порядковый номер и название.
- Также она может быть неподписанной.
-\layout Standard
+\begin_layout Standard
+п▓я│я┌п╟п╡п╩п╣п╫п╫п╟я▐ п╡ я┌п╣п╨я│я┌ я┌п╟п╠п╩п╦я├п╟ п╪п╬п╤п╣я┌ п╦п╪п╣я┌я▄ п©п╬я─я▐п╢п╨п╬п╡я▀п╧ п╫п╬п╪п╣я─ п╦ п╫п╟п╥п╡п╟п╫п╦п╣.
+ п╒п╟п╨п╤п╣ п╬п╫п╟ п╪п╬п╤п╣я┌ п╠я▀я┌я▄ п╫п╣п©п╬п╢п©п╦я│п╟п╫п╫п╬п╧.
+\end_layout
 
-Чтобы таблица была автоматически пронумерована и имела название, её необходимо
- вставить в 
-\emph on 
-плавающий\SpecialChar ~
-объект
-\emph default 
-, для этого нужно выполнить следующие действия:
-\layout Перечисление
+\begin_layout Standard
+п╖я┌п╬п╠я▀ я┌п╟п╠п╩п╦я├п╟ п╠я▀п╩п╟ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ п©я─п╬п╫я┐п╪п╣я─п╬п╡п╟п╫п╟ п╦ п╦п╪п╣п╩п╟ п╫п╟п╥п╡п╟п╫п╦п╣, п╣я▒ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬
+ п╡я│я┌п╟п╡п╦я┌я▄ п╡ 
+\emph on
+п©п╩п╟п╡п╟я▌я┴п╦п╧\InsetSpace ~
+п╬п╠я┼п╣п╨я┌
+\emph default
+, п╢п╩я▐ я█я┌п╬пЁп╬ п╫я┐п╤п╫п╬ п╡я▀п©п╬п╩п╫п╦я┌я▄ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╢п╣п╧я│я┌п╡п╦я▐:
+\end_layout
 
-переместить курсор в место вставки таблицы;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╣я─п╣п╪п╣я│я┌п╦я┌я▄ п╨я┐я─я│п╬я─ п╡ п╪п╣я│я┌п╬ п╡я│я┌п╟п╡п╨п╦ я┌п╟п╠п╩п╦я├я▀;
+\end_layout
 
-через меню
-\family sans 
-\bar under 
- В
-\bar default 
-ставить\SpecialChar \menuseparator
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\bar under 
-П
-\bar default 
-лавающий\SpecialChar ~
-объект\SpecialChar \menuseparator
+\bar under
+п÷
+\bar default
+п╩п╟п╡п╟я▌я┴п╦п╧\InsetSpace ~
+п╬п╠я┼п╣п╨я┌\SpecialChar \menuseparator
 
-\bar under 
-П
-\bar default 
-лавающую\SpecialChar ~
-таблицу
-\family default 
- вставить плавающую таблицу;
-\layout Перечисление
+\bar under
+п÷
+\bar default
+п╩п╟п╡п╟я▌я┴я┐я▌\InsetSpace ~
+я┌п╟п╠п╩п╦я├я┐
+\family default
+ п╡я│я┌п╟п╡п╦я┌я▄ п©п╩п╟п╡п╟я▌я┴я┐я▌ я┌п╟п╠п╩п╦я├я┐;
+\end_layout
 
-ввести название таблицы и нажать Enter
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡п╡п╣я│я┌п╦ п╫п╟п╥п╡п╟п╫п╦п╣ я┌п╟п╠п╩п╦я├я▀ п╦ п╫п╟п╤п╟я┌я▄ Enter
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ я┌п╟п╠п╩п╦я├п╟ п╬п╨п╟п╥п╟п╩п╟я│я▄ п©п╬п╢ п╫п╟п╥п╡п╟п╫п╦п╣п╪
+\end_layout
 
-Для того, чтобы таблица оказалась под названием
-\end_inset 
+\end_inset
 
 ;
-\layout Перечисление
+\end_layout
 
-вставить соответствующую таблицу через меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡я│я┌п╟п╡п╦я┌я▄ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴я┐я▌ я┌п╟п╠п╩п╦я├я┐ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\bar under 
-Т
-\bar default 
-аблицу...;
-\layout Перечисление
+\bar under
+п╒
+\bar default
+п╟п╠п╩п╦я├я┐...;
+\end_layout
 
-в появившемся диалоговом окне 
-\family sans 
-Вставить\SpecialChar ~
-таблицу
-\family default 
- (см.
- рисунок\SpecialChar ~
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡ п©п╬я▐п╡п╦п╡я┬п╣п╪я│я▐ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╪ п╬п╨п╫п╣ 
+\family sans
+п▓я│я┌п╟п╡п╦я┌я▄\InsetSpace ~
+я┌п╟п╠п╩п╦я├я┐
+\family default
+ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨\InsetSpace ~
 
-\begin_inset LatexCommand \ref{OknoTable}
+\begin_inset LatexCommand ref
+reference "OknoTable"
 
-\end_inset 
+\end_inset
 
-) установить количество строк и столбцов таблицы;
-\layout Перечисление
+) я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ п╨п╬п╩п╦я┤п╣я│я┌п╡п╬ я│я┌я─п╬п╨ п╦ я│я┌п╬п╩п╠я├п╬п╡ я┌п╟п╠п╩п╦я├я▀;
+\end_layout
 
-нажмите кнопку 
-\family sans 
-OK 
-\family default 
-в появившемся окне
-\family sans 
- Вставить\SpecialChar ~
-таблицу.
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╫п╟п╤п╪п╦я┌п╣ п╨п╫п╬п©п╨я┐ 
+\family sans
+OK
+\family default
+ п╡ п©п╬я▐п╡п╦п╡я┬п╣п╪я│я▐ п╬п╨п╫п╣ 
+\family sans
+п▓я│я┌п╟п╡п╦я┌я▄\InsetSpace ~
+я┌п╟п╠п╩п╦я├я┐.
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/OknoTable.png
 	display color
 	width 40col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "OknoTable"
+
+\end_inset
+
+п·п╨п╫п╬ п▓я│я┌п╟п╡п╦я┌я▄\InsetSpace ~
+я┌п╟п╠п╩п╦я├я┐
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{OknoTable}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п²п╟ я─п╦я│я┐п╫п╨п╣\InsetSpace ~
 
-Окно Вставить\SpecialChar ~
-таблицу
-\end_inset 
+\begin_inset LatexCommand ref
+reference "PlavTable"
 
+\end_inset
 
-\layout Standard
+ п©п╬п╨п╟п╥п╟п╫п╬, я┤я┌п╬ п©я─п╦п╪п╣я─п╫п╬ п©п╬я▐п╡п╦я┌я│я▐ п╡ п╦я│я┘п╬п╢п╫п╬п╪ я┌п╣п╨я│я┌п╣ п╡ я─п╣п╥я┐п╩я▄я┌п╟я┌п╣ п╡я▀п©п╬п╩п╫п╣п╫п╦я▐
+ п╡я▀я┬п╣я┐п╨п╟п╥п╟п╫п╫я▀я┘ п╢п╣п╧я│я┌п╡п╦п╧.
+ п÷я─п╦ п©п╣я┤п╟я┌п╦, я█я┌п╟ п╤п╣ я┌п╟п╠п╩п╦я├п╟ п╠я┐п╢п╣я┌ п╡я▀пЁп╩я▐п╢п╣я┌я▄ п╨п╟п╨ я┌п╟п╠п╩п╦я├п╟\InsetSpace ~
 
-На рисунке\SpecialChar ~
+\begin_inset LatexCommand ref
+reference "tarif"
 
-\begin_inset LatexCommand \ref{PlavTable}
-
-\end_inset 
-
- показано, что примерно появится в исходном тексте в результате выполнения
- вышеуказанных действий.
- При печати, эта же таблица будет выглядеть как таблица\SpecialChar ~
-
-\begin_inset LatexCommand \ref{tarif}
-
-\end_inset 
+\end_inset
 
 .
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/PlavTable.png
 	display color
 	width 100col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "PlavTable"
+
+\end_inset
+
+п÷п╩п╟п╡п╟я▌я┴п╟я▐ я┌п╟п╠п╩п╦я├п╟
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{PlavTable}
+\end_layout
 
-\end_inset 
-
-Плавающая таблица
-\end_inset 
-
-
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset Float table
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Caption
+\begin_layout Standard
+\begin_inset Caption
+
+\begin_layout Standard
+\begin_inset LatexCommand label
+name "tarif"
+
+\end_inset
+
+п╒п╟я─п╦я└я▀
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{tarif}
+\end_layout
 
-\end_inset 
-
-Тарифы
-\layout Standard
-
-
-\begin_inset  Tabular
+\begin_layout Standard
+\begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="3">
 <features>
 <column alignment="block" valignment="top" leftline="true" width="4cm">
@@ -1375,366 +1561,405 @@ collapsed false
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
+п■п╣п╫я▄, я├п╣п╫я┌
+\end_layout
 
-День, цент
-\end_inset 
+\end_inset
 </cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
+п▓п╣я┤п╣я─, я├п╣п╫я┌
+\end_layout
 
-Вечер, цент
-\end_inset 
+\end_inset
 </cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
+п²п╬я┤я▄, я├п╣п╫я┌
+\end_layout
 
-Ночь, цент
-\end_inset 
+\end_inset
 </cell>
 </row>
 <row topline="true" bottomline="true">
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 30
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 18
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 6
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 </row>
 </lyxtabular>
 
-\end_inset 
+\end_inset
 
 
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Standard
+\end_layout
 
-Для того чтобы между шапкой таблицы и таблицей не было зазора необходимо
- сделать следующее:
-\layout Перечисление
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬ я┤я┌п╬п╠я▀ п╪п╣п╤п╢я┐ я┬п╟п©п╨п╬п╧ я┌п╟п╠п╩п╦я├я▀ п╦ я┌п╟п╠п╩п╦я├п╣п╧ п╫п╣ п╠я▀п╩п╬ п╥п╟п╥п╬я─п╟ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬
+ я│п╢п╣п╩п╟я┌я▄ я│п╩п╣п╢я┐я▌я┴п╣п╣:
+\end_layout
 
-поместите курсор в первую строку таблицы и нажмите правую кнопку мыши для
- вызова окна 
-\family sans 
-Формат\SpecialChar ~
-таблицы;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╬п╪п╣я│я┌п╦я┌п╣ п╨я┐я─я│п╬я─ п╡ п©п╣я─п╡я┐я▌ я│я┌я─п╬п╨я┐ я┌п╟п╠п╩п╦я├я▀ п╦ п╫п╟п╤п╪п╦я┌п╣ п©я─п╟п╡я┐я▌ п╨п╫п╬п©п╨я┐ п╪я▀я┬п╦ п╢п╩я▐
+ п╡я▀п╥п╬п╡п╟ п╬п╨п╫п╟ 
+\family sans
+п╓п╬я─п╪п╟я┌\InsetSpace ~
+я┌п╟п╠п╩п╦я├я▀;
+\end_layout
 
-в поле 
-\family sans 
-Линия 
-\family default 
-закладки 
-\family sans 
-Колонка/Строка 
-\family default 
-снимите флажок 
-\family sans 
-Снизу.
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡ п©п╬п╩п╣ 
+\family sans
+п⌡п╦п╫п╦я▐
+\family default
+ п╥п╟п╨п╩п╟п╢п╨п╦ 
+\family sans
+п п╬п╩п╬п╫п╨п╟/п║я┌я─п╬п╨п╟
+\family default
+ я│п╫п╦п╪п╦я┌п╣ я└п╩п╟п╤п╬п╨ 
+\family sans
+п║п╫п╦п╥я┐.
+\end_layout
 
-Таким образом вставленная таблица будет оформлена по ГОСТ 2.105-95.
-\layout Standard
+\begin_layout Standard
+п╒п╟п╨п╦п╪ п╬п╠я─п╟п╥п╬п╪ п╡я│я┌п╟п╡п╩п╣п╫п╫п╟я▐ я┌п╟п╠п╩п╦я├п╟ п╠я┐п╢п╣я┌ п╬я└п╬я─п╪п╩п╣п╫п╟ п©п╬ п⌠п·п║п╒ 2.105-95.
+\end_layout
 
-Дополнительные настройки осуществляются через диалоговое окно 
-\family sans 
-Формат\SpecialChar ~
-таблицы
-\family default 
- вызываемое нажатием правой кнопки мыши на требуемой таблице.
-\layout Section
+\begin_layout Standard
+п■п╬п©п╬п╩п╫п╦я┌п╣п╩я▄п╫я▀п╣ п╫п╟я│я┌я─п╬п╧п╨п╦ п╬я│я┐я┴п╣я│я┌п╡п╩я▐я▌я┌я│я▐ я┤п╣я─п╣п╥ п╢п╦п╟п╩п╬пЁп╬п╡п╬п╣ п╬п╨п╫п╬ 
+\family sans
+п╓п╬я─п╪п╟я┌\InsetSpace ~
+я┌п╟п╠п╩п╦я├я▀
+\family default
+ п╡я▀п╥я▀п╡п╟п╣п╪п╬п╣ п╫п╟п╤п╟я┌п╦п╣п╪ п©я─п╟п╡п╬п╧ п╨п╫п╬п©п╨п╦ п╪я▀я┬п╦ п╫п╟ я┌я─п╣п╠я┐п╣п╪п╬п╧ я┌п╟п╠п╩п╦я├п╣.
+\end_layout
 
-Длинные таблицы
-\layout Section
+\begin_layout Section
+п■п╩п╦п╫п╫я▀п╣ я┌п╟п╠п╩п╦я├я▀
+\end_layout
 
-Формулы
-\layout Standard
+\begin_layout Section
+п╓п╬я─п╪я┐п╩я▀
+\end_layout
 
-Вставка и создание математических формул осуществляется при помощи меню
+\begin_layout Standard
+п▓я│я┌п╟п╡п╨п╟ п╦ я│п╬п╥п╢п╟п╫п╦п╣ п╪п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨п╦я┘ я└п╬я─п╪я┐п╩ п╬я│я┐я┴п╣я│я┌п╡п╩я▐п╣я┌я│я▐ п©я─п╦ п©п╬п╪п╬я┴п╦ п╪п╣п╫я▌
  
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\bar under 
-М
-\bar default 
-атематическую\SpecialChar ~
-формулу\SpecialChar ~
-на отдельной строке
-\family default 
+\bar under
+п°
+\bar default
+п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨я┐я▌\InsetSpace ~
+я└п╬я─п╪я┐п╩я┐\InsetSpace ~
+п╫п╟ п╬я┌п╢п╣п╩я▄п╫п╬п╧ я│я┌я─п╬п╨п╣
+\family default
 .
  
-\layout Standard
+\end_layout
 
-Вызвать математическую панель (см.
- рисунок\SpecialChar ~
+\begin_layout Standard
+п▓я▀п╥п╡п╟я┌я▄ п╪п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨я┐я▌ п©п╟п╫п╣п╩я▄ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨\InsetSpace ~
 
-\begin_inset LatexCommand \ref{MatPanel}
+\begin_inset LatexCommand ref
+reference "MatPanel"
 
-\end_inset 
+\end_inset
 
-) для выбора необходимого знака можно через меню 
-\family sans 
-\bar under 
-П
-\bar default 
-равка\SpecialChar \menuseparator
+) п╢п╩я▐ п╡я▀п╠п╬я─п╟ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬пЁп╬ п╥п╫п╟п╨п╟ п╪п╬п╤п╫п╬ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п÷
+\bar default
+я─п╟п╡п╨п╟\SpecialChar \menuseparator
 
-\bar under 
-М
-\bar default 
-атематическая
-\family default 
-\SpecialChar ~
+\bar under
+п°
+\bar default
+п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨п╟я▐
+\family default
+\InsetSpace ~
 
-\family sans 
-панель
-\family default 
+\family sans
+п©п╟п╫п╣п╩я▄
+\family default
 .
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/MatPanel.png
 	display color
 	width 45col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "MatPanel"
+
+\end_inset
+
+п°п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨п╟я▐ п©п╟п╫п╣п╩я▄
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{MatPanel}
+\end_layout
 
-\end_inset 
-
-Математическая панель
-\end_inset 
-
-
-\layout Standard
-
-После небольшой практики вы сможете создавать формулы наподобие указанной
- ниже
+\begin_layout Standard
+п÷п╬я│п╩п╣ п╫п╣п╠п╬п╩я▄я┬п╬п╧ п©я─п╟п╨я┌п╦п╨п╦ п╡я▀ я│п╪п╬п╤п╣я┌п╣ я│п╬п╥п╢п╟п╡п╟я┌я▄ я└п╬я─п╪я┐п╩я▀ п╫п╟п©п╬п╢п╬п╠п╦п╣ я┐п╨п╟п╥п╟п╫п╫п╬п╧
+ п╫п╦п╤п╣
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п▓ п╡п╣я─я│п╦я▐я┘ LyX 1.3.3 п╦ п╡я▀я┬п╣, п╡ я│п╠п╬я─п╨п╣ я│ п╦п╫я┌п╣я─я└п╣п╧я│п╬п╪ Qt, п╡п╬п╥п╪п╬п╤п╫я▀ п©я─п╬п╠п╩п╣п╪я▀ я│
+ п╬я┌п╬п╠я─п╟п╤п╣п╫п╦п╣п╪ п╫п╣п╨п╬я┌п╬я─я▀я┘ п╪п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨п╦я┘ я│п╦п╪п╡п╬п╩п╬п╡.
+\end_layout
 
-В версиях LyX 1.3.3 и выше, в сборке с интерфейсом Qt, возможны проблемы с
- отображением некоторых математических символов.
-\end_inset 
+\end_inset
 
 .
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Formula \[
 \mathbf{A}=\left(\begin{array}{ccccc}
 \frac{\varphi\cdot X_{n,1}}{\varphi_{1}\times\varepsilon_{1}} & (x+\varepsilon_{2})^{2} & \cdots & (x+\varepsilon_{n-1})^{n-1} & (x+\varepsilon_{n})^{n}\\
 \frac{\varphi\cdot X_{n,1}}{\varphi_{2}\times\varepsilon_{1}} & \frac{\varphi\cdot X_{n,2}}{\varphi_{2}\times\varepsilon_{2}} & \cdots & (x+\varepsilon_{n-1})^{n-1} & (x+\varepsilon_{n})^{n}\\
 \frac{\varphi\cdot X_{n,1}}{\varphi_{n}\times\varepsilon_{1}} & \frac{\varphi\cdot X_{n,2}}{\varphi_{n}\times\varepsilon_{2}} & \cdots & \frac{\varphi\cdot X_{n,n-1}}{\varphi_{n}\times\varepsilon_{n-1}} & \frac{\varphi\cdot X_{n,n}}{\varphi_{n}\times\varepsilon_{n}}\end{array}\right)+\mathbf{I}_{n}\]
 
-\end_inset 
+\end_inset
 
 
-\layout Section
+\end_layout
 
-Ссылки и метки
-\layout Standard
+\begin_layout Section
+п║я│я▀п╩п╨п╦ п╦ п╪п╣я┌п╨п╦
+\end_layout
 
-Ссылаться можно только на объекты, имеющие метки.
-\layout Standard
+\begin_layout Standard
+п║я│я▀п╩п╟я┌я▄я│я▐ п╪п╬п╤п╫п╬ я┌п╬п╩я▄п╨п╬ п╫п╟ п╬п╠я┼п╣п╨я┌я▀, п╦п╪п╣я▌я┴п╦п╣ п╪п╣я┌п╨п╦.
+\end_layout
 
-Для создания метки необходимо произвести следующие действия:
-\layout Перечисление
+\begin_layout Standard
+п■п╩я▐ я│п╬п╥п╢п╟п╫п╦я▐ п╪п╣я┌п╨п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п©я─п╬п╦п╥п╡п╣я│я┌п╦ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╢п╣п╧я│я┌п╡п╦я▐:
+\end_layout
 
-поместить курсор в исходную формулу, в абзац названия рисунка, в абзац названия
- таблицы и т.п.;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╬п╪п╣я│я┌п╦я┌я▄ п╨я┐я─я│п╬я─ п╡ п╦я│я┘п╬п╢п╫я┐я▌ я└п╬я─п╪я┐п╩я┐, п╡ п╟п╠п╥п╟я├ п╫п╟п╥п╡п╟п╫п╦я▐ я─п╦я│я┐п╫п╨п╟, п╡ п╟п╠п╥п╟я├ п╫п╟п╥п╡п╟п╫п╦я▐
+ я┌п╟п╠п╩п╦я├я▀ п╦ я┌.п©.;
+\end_layout
 
-ввести название метки посредством меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡п╡п╣я│я┌п╦ п╫п╟п╥п╡п╟п╫п╦п╣ п╪п╣я┌п╨п╦ п©п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\bar under 
-М
-\bar default 
-етку...
+\bar under
+п°
+\bar default
+п╣я┌п╨я┐...
 
-\family default 
- (см.
- рисунок
-\family sans 
-\SpecialChar ~
+\family default
+ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨
+\family sans
+\InsetSpace ~
 
-\begin_inset LatexCommand \ref{MetkaPanel}
+\begin_inset LatexCommand ref
+reference "MetkaPanel"
 
-\end_inset 
+\end_inset
 
 ).
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/MetkaPanel.png
 	display color
 	width 55col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "MetkaPanel"
+
+\end_inset
+
+п·п╨п╫п╬ п╡п╡п╬п╢п╟ п╪п╣я┌п╨п╦
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{MetkaPanel}
+\end_layout
 
-\end_inset 
+\begin_layout Standard
+п■п╩я▐ я│я│я▀п╩п╨п╦ п╫п╟ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴п╦п╧ п╬п╠я┼п╣п╨я┌ п╫я┐п╤п╫п╬ п╡я▀п©п╬п╩п╫п╦я┌я▄ я│п╩п╣п╢я┐я▌я┴п╦п╣ п╢п╣п╧я│я┌п╡п╦я▐:
+\end_layout
 
-Окно ввода метки
-\end_inset 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╬п╪п╣я│я┌п╦я┌я▄ п╨я┐я─я│п╬я─ п╡ я┌я─п╣п╠я┐п╣п╪п╬п╣ п╪п╣я│я┌п╬;
+\end_layout
 
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+я┐п╨п╟п╥п╟я┌я▄ п╪п╣я┌п╨я┐ я┌я─п╣п╠я┐п╣п╪п╬пЁп╬ п╬п╠я┼п╣п╨я┌п╟ п©п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\layout Standard
+\bar under
+п÷
+\bar default
+п╣я─п╣п╨я─п╣я│я┌п╫я┐я▌\InsetSpace ~
+я│я│я▀п╩п╨я┐...
 
-Для ссылки на соответствующий объект нужно выполнить следующие действия:
-\layout Перечисление
+\family default
+ (я│п╪.
+ я─п╦я│я┐п╫п╬п╨\InsetSpace ~
 
-поместить курсор в требуемое место;
-\layout Перечисление
+\begin_inset LatexCommand ref
+reference "SsylkaPanel"
 
-указать метку требуемого объекта посредством меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
-
-\bar under 
-П
-\bar default 
-ерекрестную\SpecialChar ~
-ссылку...
- 
-\family default 
-(см.
- рисунок\SpecialChar ~
-
-\begin_inset LatexCommand \ref{SsylkaPanel}
-
-\end_inset 
+\end_inset
 
 )
-\family sans 
+\family sans
 .
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Float figure
 placement htbp
 wide false
-collapsed false
+sideways false
+status open
 
-\layout Standard
-\align center 
-
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename img/SsylkaPanel.png
 	display color
 	width 55col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 
-\layout ПодписьКРисунку
+\end_layout
+
+\begin_layout п÷п╬п╢п©п╦я│я▄п п═п╦я│я┐п╫п╨я┐
+\begin_inset LatexCommand label
+name "SsylkaPanel"
+
+\end_inset
+
+п·п╨п╫п╬ п╡я▀п╠п╬я─п╟ п╪п╣я┌п╨п╦
+\end_layout
+
+\end_inset
 
 
-\begin_inset LatexCommand \label{SsylkaPanel}
+\end_layout
 
-\end_inset 
-
-Окно выбора метки
-\end_inset 
-
-
-\layout Standard
-
-Названия меток произвольные, но латинскими буквами.
- Метки формул следует начинать с
-\emph on 
- 
-\family typewriter 
-\emph default 
+\begin_layout Standard
+п²п╟п╥п╡п╟п╫п╦я▐ п╪п╣я┌п╬п╨ п©я─п╬п╦п╥п╡п╬п╩я▄п╫я▀п╣, п╫п╬ п╩п╟я┌п╦п╫я│п╨п╦п╪п╦ п╠я┐п╨п╡п╟п╪п╦.
+ п°п╣я┌п╨п╦ я└п╬я─п╪я┐п╩ я│п╩п╣п╢я┐п╣я┌ п╫п╟я┤п╦п╫п╟я┌я▄ я│ 
+\family typewriter
 math:
-\family default 
+\family default
  .
-\layout Standard
+\end_layout
 
-Пример --- Метка формулы для вычисления плотности: 
-\emph on 
+\begin_layout Standard
+п÷я─п╦п╪п╣я─ --- п°п╣я┌п╨п╟ я└п╬я─п╪я┐п╩я▀ п╢п╩я▐ п╡я▀я┤п╦я│п╩п╣п╫п╦я▐ п©п╩п╬я┌п╫п╬я│я┌п╦: 
+\emph on
 math:plotnost
-\layout Standard
+\end_layout
 
-
+\begin_layout Standard
 \begin_inset Formula \begin{equation}
 \rho=\frac{m}{V}\label{math:plotnost}\end{equation}
 
-\end_inset 
+\end_inset
 
 
-\layout Standard
+\end_layout
 
-Вот как выглядит ссылка на формулу для вычисления плотности в исходном тексте:
+\begin_layout Standard
+п▓п╬я┌ п╨п╟п╨ п╡я▀пЁп╩я▐п╢п╦я┌ я│я│я▀п╩п╨п╟ п╫п╟ я└п╬я─п╪я┐п╩я┐ п╢п╩я▐ п╡я▀я┤п╦я│п╩п╣п╫п╦я▐ п©п╩п╬я┌п╫п╬я│я┌п╦ п╡ п╦я│я┘п╬п╢п╫п╬п╪ я┌п╣п╨я│я┌п╣:
  
 \begin_inset Graphics
 	filename img/Ssylka.png
@@ -1742,326 +1967,368 @@ math:plotnost
 	width 18col%
 	rotateOrigin center
 
-\end_inset 
+\end_inset
 
 .
- При печати она будет выглядеть так --- 
-\begin_inset LatexCommand \ref{math:plotnost}
+ п÷я─п╦ п©п╣я┤п╟я┌п╦ п╬п╫п╟ п╠я┐п╢п╣я┌ п╡я▀пЁп╩я▐п╢п╣я┌я▄ я┌п╟п╨ --- 
+\begin_inset LatexCommand ref
+reference "math:plotnost"
 
-\end_inset 
+\end_inset
 
 .
-\layout Standard
+\end_layout
 
-В документе класса ГОСТ ссылки на объекты оформляются в соответствии с ГОСТ\SpecialChar ~
+\begin_layout Standard
+п▓ п╢п╬п╨я┐п╪п╣п╫я┌п╣ п╨п╩п╟я│я│п╟ п⌠п·п║п╒ я│я│я▀п╩п╨п╦ п╫п╟ п╬п╠я┼п╣п╨я┌я▀ п╬я└п╬я─п╪п╩я▐я▌я┌я│я▐ п╡ я│п╬п╬я┌п╡п╣я┌я│я┌п╡п╦п╦ я│ п⌠п·п║п╒\InsetSpace ~
 2.105-
-95 автоматически.
-\layout Section
+95 п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦.
+\end_layout
 
-Разное
-\layout Standard
+\begin_layout Section
+п═п╟п╥п╫п╬п╣
+\end_layout
 
-Более полную информацию вы можете получить из встроенной в 
-\family sans 
+\begin_layout Standard
+п▒п╬п╩п╣п╣ п©п╬п╩п╫я┐я▌ п╦п╫я└п╬я─п╪п╟я├п╦я▌ п╡я▀ п╪п╬п╤п╣я┌п╣ п©п╬п╩я┐я┤п╦я┌я▄ п╦п╥ п╡я│я┌я─п╬п╣п╫п╫п╬п╧ п╡ 
+\family sans
 LyX
-\family default 
- документации, открываемой из меню 
-\family sans 
-Помощь
-\family default 
+\family default
+ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦, п╬я┌п╨я─я▀п╡п╟п╣п╪п╬п╧ п╦п╥ п╪п╣п╫я▌ 
+\family sans
+п÷п╬п╪п╬я┴я▄
+\family default
 .
- На данный момент она практически вся переведена на русский.
-\layout Subsection
+ п²п╟ п╢п╟п╫п╫я▀п╧ п╪п╬п╪п╣п╫я┌ п╬п╫п╟ п©я─п╟п╨я┌п╦я┤п╣я│п╨п╦ п╡я│я▐ п©п╣я─п╣п╡п╣п╢п╣п╫п╟ п╫п╟ я─я┐я│я│п╨п╦п╧.
+\end_layout
 
-Минус, тире, дефис, знак переноса
-\layout Standard
+\begin_layout Subsection
+п°п╦п╫я┐я│, я┌п╦я─п╣, п╢п╣я└п╦я│, п╥п╫п╟п╨ п©п╣я─п╣п╫п╬я│п╟
+\end_layout
 
-Все эти определения не являются разными названиями одного и того же знака.
- Всех их следует различать и использовать именно тот знак, который необходим
- в данной ситуации.
+\begin_layout Standard
+п▓я│п╣ я█я┌п╦ п╬п©я─п╣п╢п╣п╩п╣п╫п╦я▐ п╫п╣ я▐п╡п╩я▐я▌я┌я│я▐ я─п╟п╥п╫я▀п╪п╦ п╫п╟п╥п╡п╟п╫п╦я▐п╪п╦ п╬п╢п╫п╬пЁп╬ п╦ я┌п╬пЁп╬ п╤п╣ п╥п╫п╟п╨п╟.
+ п▓я│п╣я┘ п╦я┘ я│п╩п╣п╢я┐п╣я┌ я─п╟п╥п╩п╦я┤п╟я┌я▄ п╦ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ п╦п╪п╣п╫п╫п╬ я┌п╬я┌ п╥п╫п╟п╨, п╨п╬я┌п╬я─я▀п╧ п╫п╣п╬п╠я┘п╬п╢п╦п╪
+ п╡ п╢п╟п╫п╫п╬п╧ я│п╦я┌я┐п╟я├п╦п╦.
  
-\layout Standard
+\end_layout
 
-Для указывания знака 
+\begin_layout Standard
+п■п╩я▐ я┐п╨п╟п╥я▀п╡п╟п╫п╦я▐ п╥п╫п╟п╨п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-тире
+я┌п╦я─п╣
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
  (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 ---
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
-) используется три поставленных знака 
+) п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ я┌я─п╦ п©п╬я│я┌п╟п╡п╩п╣п╫п╫я▀я┘ п╥п╫п╟п╨п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-минуса
+п╪п╦п╫я┐я│п╟
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
  (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 -
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 /
-\end_inset 
+\end_layout
+
+\end_inset
 
 -
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 /
-\end_inset 
+\end_layout
+
+\end_inset
 
 -
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
-) подряд --- вот так.
-\layout Standard
+) п©п╬п╢я─я▐п╢ --- п╡п╬я┌ я┌п╟п╨.
+\end_layout
 
-Если вы пишете что-то типа 
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ п©п╦я┬п╣я┌п╣ я┤я┌п╬-я┌п╬ я┌п╦п©п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-я приду через 15--20 минут
+я▐ п©я─п╦п╢я┐ я┤п╣я─п╣п╥ 15--20 п╪п╦п╫я┐я┌
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- --- ставьте два знака 
+ --- я│я┌п╟п╡я▄я┌п╣ п╢п╡п╟ п╥п╫п╟п╨п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-минус
+п╪п╦п╫я┐я│
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- подряд (
+ п©п╬п╢я─я▐п╢ (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+
 -
-\backslash 
+\backslash
 /-
-\end_inset 
+\end_layout
+
+\end_inset
 
 
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 ).
-\layout Standard
+\end_layout
 
-Если вы просто что-то пишете, и перед 
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ п©я─п╬я│я┌п╬ я┤я┌п╬-я┌п╬ п©п╦я┬п╣я┌п╣, п╦ п©п╣я─п╣п╢ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-то
+я┌п╬
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- нужно поставить чёрточку (дефис), ставьте один 
+ п╫я┐п╤п╫п╬ п©п╬я│я┌п╟п╡п╦я┌я▄ я┤я▒я─я┌п╬я┤п╨я┐ (п╢п╣я└п╦я│), я│я┌п╟п╡я▄я┌п╣ п╬п╢п╦п╫ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-минус
+п╪п╦п╫я┐я│
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
  (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 -
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 ).
-\layout Subsection
+\end_layout
 
-Перенос строки
-\layout Standard
+\begin_layout Subsection
+п÷п╣я─п╣п╫п╬я│ я│я┌я─п╬п╨п╦
+\end_layout
 
-Иногда требуется перенос текста на следующую строку, в пределах абзаца.
- Для этого необходимо нажать не ENTER, а CTRL+ENTER.
-\layout Standard
+\begin_layout Standard
+п≤п╫п╬пЁп╢п╟ я┌я─п╣п╠я┐п╣я┌я│я▐ п©п╣я─п╣п╫п╬я│ я┌п╣п╨я│я┌п╟ п╫п╟ я│п╩п╣п╢я┐я▌я┴я┐я▌ я│я┌я─п╬п╨я┐, п╡ п©я─п╣п╢п╣п╩п╟я┘ п╟п╠п╥п╟я├п╟.
+ п■п╩я▐ я█я┌п╬пЁп╬ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╫п╟п╤п╟я┌я▄ п╫п╣ ENTER, п╟ CTRL+ENTER.
+\end_layout
 
-Также это можно осуществить посредством меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
+\begin_layout Standard
+п╒п╟п╨п╤п╣ я█я┌п╬ п╪п╬п╤п╫п╬ п╬я│я┐я┴п╣я│я┌п╡п╦я┌я▄ п©п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\bar under 
-С
-\bar default 
-пециальный\SpecialChar ~
-символ...\SpecialChar \menuseparator
+\bar under
+п║
+\bar default
+п©п╣я├п╦п╟п╩я▄п╫я▀п╧\InsetSpace ~
+я│п╦п╪п╡п╬п╩...\SpecialChar \menuseparator
 
-\bar under 
-Р
-\bar default 
-азрыв\SpecialChar ~
-строки.
+\bar under
+п═
+\bar default
+п╟п╥я─я▀п╡\InsetSpace ~
+я│я┌я─п╬п╨п╦.
 
-\family default 
+\family default
  
-\layout Subsection
+\end_layout
 
-Вставка специальных символов
-\layout Standard
+\begin_layout Subsection
+п▓я│я┌п╟п╡п╨п╟ я│п©п╣я├п╦п╟п╩я▄п╫я▀я┘ я│п╦п╪п╡п╬п╩п╬п╡
+\end_layout
 
-Вставка специальных символов осуществляется посредством меню 
-\family sans 
-\bar under 
-В
-\bar default 
-ставить\SpecialChar \menuseparator
+\begin_layout Standard
+п▓я│я┌п╟п╡п╨п╟ я│п©п╣я├п╦п╟п╩я▄п╫я▀я┘ я│п╦п╪п╡п╬п╩п╬п╡ п╬я│я┐я┴п╣я│я┌п╡п╩я▐п╣я┌я│я▐ п©п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п▓
+\bar default
+я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
 
-\bar under 
-С
-\bar default 
-пециальный\SpecialChar ~
-символ...
+\bar under
+п║
+\bar default
+п©п╣я├п╦п╟п╩я▄п╫я▀п╧\InsetSpace ~
+я│п╦п╪п╡п╬п╩...
 
-\family default 
- Далее необходимо выбрать интересующий символ.
-\layout Subsection
+\family default
+ п■п╟п╩п╣п╣ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡я▀п╠я─п╟я┌я▄ п╦п╫я┌п╣я─п╣я│я┐я▌я┴п╦п╧ я│п╦п╪п╡п╬п╩.
+\end_layout
 
-Новая страница
-\layout Standard
+\begin_layout Subsection
+п²п╬п╡п╟я▐ я│я┌я─п╟п╫п╦я├п╟
+\end_layout
 
-Как правило, вам не нужно заботиться о разбиении своего текста на страницы.
- Но в случае необходимости начать абзац с новой страницы можно следующим
- образом:
-\layout Перечисление
+\begin_layout Standard
+п п╟п╨ п©я─п╟п╡п╦п╩п╬, п╡п╟п╪ п╫п╣ п╫я┐п╤п╫п╬ п╥п╟п╠п╬я┌п╦я┌я▄я│я▐ п╬ я─п╟п╥п╠п╦п╣п╫п╦п╦ я│п╡п╬п╣пЁп╬ я┌п╣п╨я│я┌п╟ п╫п╟ я│я┌я─п╟п╫п╦я├я▀.
+ п²п╬ п╡ я│п╩я┐я┤п╟п╣ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬я│я┌п╦ п╫п╟я┤п╟я┌я▄ п╟п╠п╥п╟я├ я│ п╫п╬п╡п╬п╧ я│я┌я─п╟п╫п╦я├я▀ п╪п╬п╤п╫п╬ я│п╩п╣п╢я┐я▌я┴п╦п╪
+ п╬п╠я─п╟п╥п╬п╪:
+\end_layout
 
-поместите курсор в исходный абзац;
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п©п╬п╪п╣я│я┌п╦я┌п╣ п╨я┐я─я│п╬я─ п╡ п╦я│я┘п╬п╢п╫я▀п╧ п╟п╠п╥п╟я├;
+\end_layout
 
-войдите в меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-ормат\SpecialChar \menuseparator
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡п╬п╧п╢п╦я┌п╣ п╡ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╬я─п╪п╟я┌\SpecialChar \menuseparator
 
-\bar under 
-А
-\bar default 
-бзац...
-\family default 
+\bar under
+п░
+\bar default
+п╠п╥п╟я├...
+\family default
 ;
-\layout Перечисление
+\end_layout
 
-в поле 
-\family sans 
-Разрыв\SpecialChar ~
-страницы
-\family default 
- установите флажок 
-\family sans 
-Перед\SpecialChar ~
-абзацем.
-\layout Standard
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п╡ п©п╬п╩п╣ 
+\family sans
+п═п╟п╥я─я▀п╡\InsetSpace ~
+я│я┌я─п╟п╫п╦я├я▀
+\family default
+ я┐я│я┌п╟п╫п╬п╡п╦я┌п╣ я└п╩п╟п╤п╬п╨ 
+\family sans
+п÷п╣я─п╣п╢\InsetSpace ~
+п╟п╠п╥п╟я├п╣п╪.
+\end_layout
 
-По умолчанию в классе ГОСТ каждый раздел начинается с новой страницы.
- Для отмены такого поведения необходимо в преамбуле документа (меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-ормат\SpecialChar \menuseparator
+\begin_layout Standard
+п÷п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌ п╡ п╨п╩п╟я│я│п╣ п⌠п·п║п╒ п╨п╟п╤п╢я▀п╧ я─п╟п╥п╢п╣п╩ п╫п╟я┤п╦п╫п╟п╣я┌я│я▐ я│ п╫п╬п╡п╬п╧ я│я┌я─п╟п╫п╦я├я▀.
+ п■п╩я▐ п╬я┌п╪п╣п╫я▀ я┌п╟п╨п╬пЁп╬ п©п╬п╡п╣п╢п╣п╫п╦я▐ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡ п©я─п╣п╟п╪п╠я┐п╩п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟ (п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╬я─п╪п╟я┌\SpecialChar \menuseparator
 
-\bar under 
-П
-\bar default 
-реамбула\SpecialChar ~
+\bar under
+п÷
+\bar default
+я─п╣п╟п╪п╠я┐п╩п╟\InsetSpace ~
 LaTeX
-\family default 
-) написать
-\layout Standard
+\family default
+) п╫п╟п©п╦я│п╟я┌я▄
+\end_layout
 
+\begin_layout Standard
 
-\family typewriter 
+\family typewriter
 
-\backslash 
+\backslash
 renewcommand{
-\backslash 
+\backslash
 gostnewpage}{}
-\layout Subsection
+\end_layout
 
-Введение
-\layout Standard
+\begin_layout Subsection
+п▓п╡п╣п╢п╣п╫п╦п╣
+\end_layout
 
-В случае, если необходимо добавить пункт Введение (или Послесловие), который
- не должен иметь нумерации, но должен быть отражен в содержании, применяется
- команда 
-\layout LyX-Code
+\begin_layout Standard
+п▓ я│п╩я┐я┤п╟п╣, п╣я│п╩п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╢п╬п╠п╟п╡п╦я┌я▄ п©я┐п╫п╨я┌ п▓п╡п╣п╢п╣п╫п╦п╣ (п╦п╩п╦ п÷п╬я│п╩п╣я│п╩п╬п╡п╦п╣), п╨п╬я┌п╬я─я▀п╧
+ п╫п╣ п╢п╬п╩п╤п╣п╫ п╦п╪п╣я┌я▄ п╫я┐п╪п╣я─п╟я├п╦п╦, п╫п╬ п╢п╬п╩п╤п╣п╫ п╠я▀я┌я▄ п╬я┌я─п╟п╤п╣п╫ п╡ я│п╬п╢п╣я─п╤п╟п╫п╦п╦, п©я─п╦п╪п╣п╫я▐п╣я┌я│я▐
+ п╨п╬п╪п╟п╫п╢п╟ 
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
-addcontentsline{toc}{section}{Название пункта}
-\layout Standard
+\backslash
+addcontentsline{toc}{section}{п²п╟п╥п╡п╟п╫п╦п╣ п©я┐п╫п╨я┌п╟}
+\end_layout
 
-Причем её нужно указывать в тексте раздела, сразу после названия раздела.
- Также ее необходимо выделить и посредством меню 
-\family sans 
-\bar under 
-Ф
-\bar default 
-ормат\SpecialChar \menuseparator
+\begin_layout Standard
+п÷я─п╦я┤п╣п╪ п╣я▒ п╫я┐п╤п╫п╬ я┐п╨п╟п╥я▀п╡п╟я┌я▄ п╡ я┌п╣п╨я│я┌п╣ я─п╟п╥п╢п╣п╩п╟, я│я─п╟п╥я┐ п©п╬я│п╩п╣ п╫п╟п╥п╡п╟п╫п╦я▐ я─п╟п╥п╢п╣п╩п╟.
+ п╒п╟п╨п╤п╣ п╣п╣ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡я▀п╢п╣п╩п╦я┌я▄ п╦ п©п╬я│я─п╣п╢я│я┌п╡п╬п╪ п╪п╣п╫я▌ 
+\family sans
+\bar under
+п╓
+\bar default
+п╬я─п╪п╟я┌\SpecialChar \menuseparator
 
-\bar under 
-Р
-\bar default 
-ежим\SpecialChar ~
-команд\SpecialChar ~
+\bar under
+п═
+\bar default
+п╣п╤п╦п╪\InsetSpace ~
+п╨п╬п╪п╟п╫п╢\InsetSpace ~
 LaTeX
-\family default 
- указать, что это команда LaTeX'а.
- Например:
-\layout LyX-Code
+\family default
+ я┐п╨п╟п╥п╟я┌я▄, я┤я┌п╬ я█я┌п╬ п╨п╬п╪п╟п╫п╢п╟ LaTeX'п╟.
+ п²п╟п©я─п╦п╪п╣я─:
+\end_layout
 
-Введение 
-\backslash 
-addcontentsline{toc}{section}{Введение}
-\layout Section
+\begin_layout LyX-Code
+п▓п╡п╣п╢п╣п╫п╦п╣ 
+\backslash
+addcontentsline{toc}{section}{п▓п╡п╣п╢п╣п╫п╦п╣}
+\end_layout
 
-Вопросы на доработку
-\layout Перечисление
+\begin_layout Section
+п▓п╬п©я─п╬я│я▀ п╫п╟ п╢п╬я─п╟п╠п╬я┌п╨я┐
+\end_layout
 
-Раздел, начинающийся после рисунка, может не начаться с новой страницы.
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п═п╟п╥п╢п╣п╩, п╫п╟я┤п╦п╫п╟я▌я┴п╦п╧я│я▐ п©п╬я│п╩п╣ я─п╦я│я┐п╫п╨п╟, п╪п╬п╤п╣я┌ п╫п╣ п╫п╟я┤п╟я┌я▄я│я▐ я│ п╫п╬п╡п╬п╧ я│я┌я─п╟п╫п╦я├я▀.
+\end_layout
 
-Пояснить, что если рисунок не появился в ожидаемом месте, его надо искать
- в конце документа, а для исправления ситуации необходимо изменить размер
- рисунка.
-\layout Перечисление
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п÷п╬я▐я│п╫п╦я┌я▄, я┤я┌п╬ п╣я│п╩п╦ я─п╦я│я┐п╫п╬п╨ п╫п╣ п©п╬я▐п╡п╦п╩я│я▐ п╡ п╬п╤п╦п╢п╟п╣п╪п╬п╪ п╪п╣я│я┌п╣, п╣пЁп╬ п╫п╟п╢п╬ п╦я│п╨п╟я┌я▄
+ п╡ п╨п╬п╫я├п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟, п╟ п╢п╩я▐ п╦я│п©я─п╟п╡п╩п╣п╫п╦я▐ я│п╦я┌я┐п╟я├п╦п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╦п╥п╪п╣п╫п╦я┌я▄ я─п╟п╥п╪п╣я─
+ я─п╦я│я┐п╫п╨п╟.
+\end_layout
 
-Пояснить, что при установке размера рисунка по высоте 100%, может не поместиться
- подрисуночная надпись, если рисунок занимает всю страницу.
-\the_end
+\begin_layout п÷п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣
+п÷п╬я▐я│п╫п╦я┌я▄, я┤я┌п╬ п©я─п╦ я┐я│я┌п╟п╫п╬п╡п╨п╣ я─п╟п╥п╪п╣я─п╟ я─п╦я│я┐п╫п╨п╟ п©п╬ п╡я▀я│п╬я┌п╣ 100%, п╪п╬п╤п╣я┌ п╫п╣ п©п╬п╪п╣я│я┌п╦я┌я▄я│я▐
+ п©п╬п╢я─п╦я│я┐п╫п╬я┤п╫п╟я▐ п╫п╟п╢п©п╦я│я▄, п╣я│п╩п╦ я─п╦я│я┐п╫п╬п╨ п╥п╟п╫п╦п╪п╟п╣я┌ п╡я│я▌ я│я┌я─п╟п╫п╦я├я┐.
+\end_layout
+
+\end_body
+\end_document

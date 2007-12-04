@@ -1,0 +1,2499 @@
+head	1.3;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.3
+date	2002.06.30.18.43.41;	author lav;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.06.13.21.16.01;	author lav;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.06.13.21.15.35;	author lav;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@исправлен утерянный стиль
+@
+text
+@#LyX 1.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 220
+\textclass gost
+\begin_preamble
+
+\end_preamble
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\float_placement H
+\paperfontsize 12
+\spacing single 
+\papersize a4paper
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+
+\layout НаимОрганизации
+
+ФГУП 
+\begin_inset Quotes eld
+\end_inset 
+
+ЦНИИ СЭТ
+\begin_inset Quotes erd
+\end_inset 
+
+
+\layout ГрифСогласовано
+
+СОГЛАСОВАНО
+\newline 
+Гл.
+ конструктор
+\layout ГрифУтверждения
+
+УТВЕРЖДЕНО
+\newline 
+Первый заместитель директора
+\layout НаимИзделия
+
+ЕДИНАЯ СИСТЕМА КОНСТРУКТОРСКОЙ ДОКУМЕНТАЦИИ
+\layout НаимДокумента
+
+Общие требования к текстовым документам
+\layout Обозначение
+
+КЛГИ.111111.000ОТ
+\layout Разработал
+
+Балабанов
+\layout Проверил
+
+Васин
+\layout Обычный
+
+Большакова
+\layout Утвердил
+
+Самсыгин
+\layout ДатаДокумента
+
+2002
+\layout Обычный
+
+
+\begin_inset LatexCommand \tableofcontents{}
+
+\end_inset 
+
+
+\layout Раздел*
+
+Введение
+\layout Обычный
+
+В данном документе приведены наиболее важные выдержки из ГОСТ 2.105-95 
+\begin_inset Quotes eld
+\end_inset 
+
+Общие требования к текстовым документам
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ В конце каждого пункта в скобках указаны номера пунктов ГОСТ, из которых
+ взяты соответствующие строки.
+\layout Раздел
+
+Общие требования
+\layout Пункт
+
+Текстовый документ выполняют шрифтом высотой не менее 2.5\SpecialChar ~
+мм.
+ (3.3)
+\layout Пункт
+
+Расстояние от рамки формы до границ текста слева и справа --- не менее 3\SpecialChar ~
+мм.
+ Расстояние от рамки до текста сверху и снизу --- не менее 10\SpecialChar ~
+мм (3.6)
+\layout Пункт
+
+Абзацы в тексте начинают отступом, равным 15-17\SpecialChar ~
+мм.
+ (3.6)
+\layout Пункт
+
+В тексте документа не допускается: (4.2.3)
+\layout Перечисление
+
+применять обороты разговорной речи, техницизмы, профессионализмы;
+\layout Перечисление
+
+применять для обозначения одного и того же понятия синонимы, а также иностранные
+ слова при наличии равнозначных слов и терминов в русском языке.
+ 
+\layout Пункт
+
+В тексте документа, за исключением формул, таблиц и рисунков, не допускается:
+ (4.2.4)
+\layout Перечисление
+
+применять знак минус (-) перед отрицательными значениями (следует писать
+ слово 
+\begin_inset Quotes eld
+\end_inset 
+
+минус
+\begin_inset Quotes erd
+\end_inset 
+
+);
+\layout Перечисление
+
+применять знак 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\begin_inset Formula $\oslash $
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+ для обозначения диаметра (следует писать слово 
+\begin_inset Quotes eld
+\end_inset 
+
+диаметр
+\begin_inset Quotes erd
+\end_inset 
+
+);
+\layout Перечисление
+
+применять без числовых обозначений математические знаки, например 
+\begin_inset Formula $>$
+\end_inset 
+
+\SpecialChar ~
+(больше), 
+\begin_inset Formula $<$
+\end_inset 
+
+\SpecialChar ~
+(меньше), а также знаки 
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+
+\backslash 
+No{}
+\end_inset 
+
+\SpecialChar ~
+(номер), %\SpecialChar ~
+(процент).
+\layout Пункт
+
+Если в документе приводятся поясняющие надписи, наносимые непосредственно
+ на изготовляемое изделие (например, планки, таблички и т.п.), их выделяют
+ шрифтом (без кавычек), например ВКЛ., ОТКЛ., или кавычками --- если надпись
+ состоит из цифр и (или) знаков.
+ (4.2.5)
+\layout Пункт
+
+Наименование команд, режимов, сигналов, и т.п.
+ в тексте следует выделять кавычками, например 
+\begin_inset Quotes eld
+\end_inset 
+
+Сигнал +27 включен
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ (4.2.5)
+\layout Раздел
+
+Разделы, подразделы
+\layout Пункт
+
+Разделы должны иметь порядковые номера в пределах всего документа, обозначенные
+ арабскими цифрами без точки и записанные с абзацного отступа.
+ (4.1.2)
+\layout Пункт
+
+Внутри пунктов или подпунктов могут быть приведены перечисления.
+ Перед каждой позицией перечисления следует ставить дефис или при необходимости
+ ссылки в тексте документа на одно из перечислений, строчную букву со скобкой.
+ Для дальнейшей детализации используются арабские цифры со скобкой, а запись
+ производится с абзацного отступа (4.1.7).
+ 
+\layout Обычный
+
+Пример
+\layout ПеречислениеНум
+
+Пример
+\begin_deeper 
+\layout ПеречислениеНум
+
+Пример
+\layout ПеречислениеНум
+
+Пример
+\end_deeper 
+\layout ПеречислениеНум
+
+Пример
+\layout Пункт
+
+Разделы, подразделы должны иметь заголовки.
+ Пункты, как правило, заголовков не имеют.
+ Заголовки следует печатать с прописной буквы без точки в конце, не подчеркивая.
+ Переносы слов не допускаются.
+ (4.1.9)
+\layout Пункт
+
+Расстояние между заголовком и текстом --- 15\SpecialChar ~
+мм.
+ Расстояние между заголовком раздела и подраздела --- 8\SpecialChar ~
+мм.
+ (4.1.9)
+\layout Пункт
+
+Каждый раздел текстового документа рекомендуется начинать с новой страницы.
+ (4.1.10)
+\layout Раздел
+
+Содержание, список литературы и др.
+\layout Пункт
+
+Слово 
+\begin_inset Quotes eld
+\end_inset 
+
+Содержание
+\begin_inset Quotes erd
+\end_inset 
+
+ записывают в виде заголовка (по центру) с прописной буквы.
+ (4.1.11)
+\layout Пункт
+
+В конце текстового документа перед листом регистрации изменений допускается
+ приводить список литературы.
+ Список литературы включают в содержание документа.
+ (4.1.12)
+\layout Пункт
+
+Если в документе принята специфическая терминология, то в конце его (перед
+ списком литературы) должен быть перечень принятых терминов с соответствующими
+ разъяснениями.
+ Перечень включают в содержание документа.
+ (4.2.2)
+\layout Раздел
+
+Формулы
+\layout Пункт
+
+Дробные числа необходимо приводить в виде десятичных дробей.
+ При невозможности выразить числовое значение в виде десятичной дроби, допускает
+ся записывать в виде простой дроби в одну строчку через косую черту, например,
+ 5/32;\SpecialChar ~
+(50A--4C)/(40B+20).\SpecialChar ~
+(4.2.14)
+\layout Пункт
+
+Пояснения символов и числовых коэффициентов, входящих в формулу, если они
+ не пояснены ранее в тексте, должны быть приведены непосредственно под формулой.
+ Пояснения каждого символа следует давать с новой строки в той последовательност
+и, в которой символы приведены в формуле.
+ Первая строка пояснения должна начинаться со слова 
+\begin_inset Quotes eld
+\end_inset 
+
+где
+\begin_inset Quotes erd
+\end_inset 
+
+ без двоеточия после него.
+ 
+\layout Обычный
+
+Пример - Плотность каждого образца 
+\begin_inset Formula $\rho $
+\end_inset 
+
+, кг/м
+\begin_inset Formula $^{3}$
+\end_inset 
+
+, вычисляют по формуле
+\begin_inset Formula \begin{equation}
+\rho =\frac{m}{V},\label{math:plotnost1}\end{equation}
+
+\end_inset 
+
+
+\layout Обычный
+
+где m --- масса образца, кг;
+\layout Обычный
+
+V --- объем образца, м
+\begin_inset Formula $^{3}$
+\end_inset 
+
+.
+\layout Пункт
+
+Формулы, следующие одна за другой и не разделенные текстом, разделяют запятой.
+ (4.2.15)
+\layout Пункт
+
+Переносить формулы на следующую строку допускается только на знаках выполняемых
+ операций, причем знак в начале следующей строки повторяют.
+ При переносе формулы на знаке умножения применяют знак 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\begin_inset Formula $\times $
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+
+\layout Пункт
+
+Ссылки в тексте на порядковые номера формул дают в скобках, например, ...
+ в формуле (1.1).
+ Формулы, помещаемые в приложениях, должны нумероваться отдельной нумерацией
+ арабскими цифрами в пределах каждого приложения с добавлением перед каждой
+ цифрой обозначения приложения, например формула (В.1).
+ (4.2.18)
+\layout Пункт
+
+Тренироваться со ссылками будем на формуле 
+\begin_inset LatexCommand \ref{math:plotnost1}
+
+\end_inset 
+
+.
+\layout Раздел
+
+Примечания
+\layout Пункт
+
+Примечания следует помещать непосредственно после текстового, графического
+ материала или в таблице, к которым относятся эти примечания, и печатать
+ с прописной буквы с абзаца.
+ Если примечание одно, то после слова 
+\begin_inset Quotes eld
+\end_inset 
+
+Примечание
+\begin_inset Quotes erd
+\end_inset 
+
+ ставится тире и примечание печатается тоже с прописной буквы.
+ Одно примечание не нумеруют.
+ Несколько примечаний нумеруют по порядку арабскими цифрами.
+ Примечание к таблице помещают в конце таблице над линией, обозначающей
+ окончание таблицы.
+\layout Обычный
+
+Примеры
+\layout Обычный
+
+Примечание --- Размеры, заключенные в ...
+\layout Обычный
+
+Примечания
+\layout Обычный
+
+1 Размеры, заключенные в 1 ...
+ 
+\layout Обычный
+
+2 Размеры, заключенные в 2 ...
+\layout Обычный
+
+3 Размеры, заключенные в 3 ...
+ (4.2.21)
+\layout Раздел
+
+Рисунки
+\layout Пункт
+
+Ссылаться следует на документ в целом или его разделы и приложения.
+ Ссылки на подразделы, пункты, таблицы и иллюстрации не допускаются, за
+ исключением подразделов, пунктов, таблиц и иллюстрациий данного документа.
+ (4.2.22)
+\layout Пункт
+
+Иллюстрации, за исключением иллюстраций приложений, следует нумеровать арабскими
+ цифрами сквозной нумерацией.
+ Если рисунок один, то он обозначается 
+\begin_inset Quotes eld
+\end_inset 
+
+Рисунок 1
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ 
+\layout Пункт
+
+Иллюстрации каждого приложения обозначают отдельной нумерацией арабскими
+ цифрами с добавлением перед цифрой обозначения приложения.
+ Например --- Рисунок А.3.
+\layout Пункт
+
+Допускается нумеровать иллюстрации в пределах раздела.
+ В этом случае номер иллюстрации состоит из номера раздела и порядкового
+ номера иллюстрации, разделенных точкой.
+ Например --- Рисунок 1.1.
+\layout Пункт
+
+При ссылках на иллюстрации следует писать 
+\begin_inset Quotes eld
+\end_inset 
+
+...
+ в соответствии с рисунком 2
+\begin_inset Quotes erd
+\end_inset 
+
+ при сквозной нумерации и 
+\begin_inset Quotes eld
+\end_inset 
+
+...
+ в соответствии с рисунком 1.2
+\begin_inset Quotes erd
+\end_inset 
+
+ при нумерации в пределах раздела.
+ 
+\layout Пункт
+
+Иллюстрации, при необходимости, могут иметь наименование и пояснительные
+ данные (подрисуночный текст).
+ Слово 
+\begin_inset Quotes eld
+\end_inset 
+
+Рисунок
+\begin_inset Quotes erd
+\end_inset 
+
+ и наименование помещают после пояснительных данных и располагают следующим
+ образом: Рисунок 1 --- Детали прибора.
+ (4.3.1)
+\layout Обычный
+
+
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	display color
+	subcaptionText "лорлтилть"
+	size_type 1
+	width 5cm
+	height 3cm
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 141pt
+	lyxheight 85pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+Пример
+\end_inset 
+
+
+\layout Раздел
+
+Приложения
+\layout Пункт
+
+Приложения оформляют как продолжение данного документа на последующих его
+ листах или выпускают в виде самостоятельного документа.
+ (4.3.4)
+\layout Пункт
+
+В тексте документа на все приложения должны быть даны ссылки.
+ Приложения располагают в порядке ссылок на них в тексте документа, за исключени
+ем информационного приложения 
+\begin_inset Quotes eld
+\end_inset 
+
+Библиография
+\begin_inset Quotes erd
+\end_inset 
+
+, которое располагают последним.
+ (4.3.6)
+\layout Пункт
+
+Каждое приложение следует начинать с новой страницы с указанием наверху
+ посередине страницы слова 
+\begin_inset Quotes eld
+\end_inset 
+
+Приложение
+\begin_inset Quotes erd
+\end_inset 
+
+ и его обозначения, а под ним в скобках для обязательного приложения пишут
+ слово 
+\begin_inset Quotes eld
+\end_inset 
+
+обязательное 
+\begin_inset Quotes erd
+\end_inset 
+
+, а для информационного -- 
+\begin_inset Quotes eld
+\end_inset 
+
+рекомендуемое
+\begin_inset Quotes erd
+\end_inset 
+
+ или 
+\begin_inset Quotes eld
+\end_inset 
+
+справочное
+\begin_inset Quotes erd
+\end_inset 
+
+.
+\layout Пункт
+
+Приложение должно иметь заголовок, который записывают симметрично относительно
+ текста с прописной буквы отдельной строкой.
+ (4.3.7)
+\layout Пункт
+
+Приложения обозначают заглавными буквами русского алфавита, начиная с А,
+ за исключением букв Ё, З, Й, О, Ч, Ь, Ы, Ъ.
+ После слова 
+\begin_inset Quotes eld
+\end_inset 
+
+Приложение
+\begin_inset Quotes erd
+\end_inset 
+
+ следует буква, обозначающая его последовательность.
+\layout Пункт
+
+Допускается обозначение приложений буквами латинского алфавита, за исключением
+ букв I и O.
+\layout Пункт
+
+В случае полного использования букв русского и латинского алфавитов допускается
+ обозначать приложения арабскими цифрами.
+\layout Пункт
+
+Если в документе одно приложение, оно обозначается 
+\begin_inset Quotes eld
+\end_inset 
+
+Приложение А
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ (4.3.8)
+\layout Пункт
+
+Текст каждого приложения, при необходимости, может быть разделен на разделы,
+ подразделы, пункты, подпункты, которые нумеруют в пределах каждого приложения.
+ Перед номером ставится обозначение этого приложения.
+\layout Пункт
+
+Приложения должны иметь общую с остальной частью документа сквозную нумерацию
+ страниц.
+ (4.3.10)
+\layout Пункт
+
+Все приложения должны быть перечислены в содержании документа (при наличии)
+ с указанием их номеров и заголовков.
+ (4.3.11)
+\layout Раздел
+
+Таблицы
+\layout Пункт
+
+Название, при его наличии, следует помещать над таблицей.
+\layout Обычный
+
+
+\begin_inset Float table
+placement htbp
+wide false
+collapsed false
+
+\layout ПодписьКТаблице
+
+Перечень элементов
+\layout Обычный
+
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features>
+<column alignment="left" valignment="top" leftline="true" width="10mm">
+<column alignment="left" valignment="top" leftline="true" width="40mm">
+<column alignment="left" valignment="top" leftline="true" width="8mm">
+<column alignment="left" valignment="top" leftline="true" rightline="true" width="30mm">
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Поз.
+ обозначение
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Наименование
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Кол-во
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Примечание
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\end_inset 
+
+
+\layout Пункт
+
+При переносе части таблицы на ту же или другие страницы название помещают
+ только над первой частью таблицы.
+ (4.4.1)
+\layout Пункт
+
+Таблицы, за исключением таблиц приложений, следует нумеровать арабскими
+ цифрами сквозной нумерацией.
+\layout Пункт
+
+Таблицы каждого приложения обозначают отдельной нумерацией арабскими цифрами
+ с добавлением перед цифрой обозначения приложения.
+ Если в документе одна таблица, она должна быть обозначена 
+\begin_inset Quotes eld
+\end_inset 
+
+Таблица 1
+\begin_inset Quotes erd
+\end_inset 
+
+ или 
+\begin_inset Quotes eld
+\end_inset 
+
+Таблица В.1
+\begin_inset Quotes erd
+\end_inset 
+
+, если она приведена в приложении В.
+ 
+\layout Пункт
+
+Допускается нумеровать таблицы в пределах раздела.
+ В этом случае номер таблицы состоит из номера раздела и порядкового номера
+ таблицы, разделенных точкой.
+ (4.4.2)
+\layout Пункт
+
+На все таблицы документа
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+текст первой сноски
+\end_inset 
+
+ должны быть приведены ссылки в тексте документа, при ссылке следует писать
+ слово 
+\begin_inset Quotes eld
+\end_inset 
+
+таблица
+\begin_inset Quotes erd
+\end_inset 
+
+ с указанием ее номера.
+ (4.4.3)
+\layout Пункт
+
+Заголовки граф и строк таблицы следует писать с прописной буквы, а подзаголовки
+ граф --- со строчной буквы, если они составляют одно предложение с заголовком,
+ или с прописной буквы, если они имеют самостоятельное значение.
+ В конце заголовков и подзаголовков таблиц точки не ставят.
+ Заголовки и подзаголовки граф указывают в единственном числе.
+ (4.4.4)
+\layout Пункт
+
+При необходимости допускается перпендикулярное расположение заголовков граф.
+\layout Пункт
+
+Высота строк таблицы должна быть не менее 8 мм.
+ (4.4.5)
+\layout Пункт
+
+При разбивке таблицы, слово 
+\begin_inset Quotes eld
+\end_inset 
+
+таблица
+\begin_inset Quotes erd
+\end_inset 
+
+ указывают один раз слева над первой частью таблицы, над другими частями
+ пишут слова 
+\begin_inset Quotes eld
+\end_inset 
+
+Продолжение таблицы
+\begin_inset Quotes erd
+\end_inset 
+
+ с указанием номера (обозначения) таблицы.
+\layout Пункт
+
+Если в конце страницы таблица прерывается и ее продолжение будет на следующей
+ странице, в первой части таблицы нижнюю горизонтальную линию, ограничивающую
+ таблицу, не проводят.
+ (4.4.7)
+\layout Раздел
+
+Примеры секционирования
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Пункт
+
+Пункт
+\layout Подраздел
+
+Подраздел
+\layout Подподраздел
+
+Подподраздел
+\layout Подподраздел
+
+Подподраздел
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Подраздел
+
+Подраздел
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Пункт
+
+Пункт
+\layout Раздел
+\start_of_appendix 
+Сноски
+\layout Пункт
+
+Сноски в тексте располагают с абзацного отступа в конце страницы, на которой
+ они обозначены, и отделяют от текста короткой тонкой горизонтальной линией
+ с левой стороны, а к данным расположенным в таблице, в конце таблицы над
+ линией, обозначающей окончание таблицы.
+ (4.5.1)
+\layout Пункт
+
+Знак сноски ставят непосредственно после того слова, числа, символа, предложения
+, к которому дается пояснение, и перед текстом пояснения.
+ (4.5.2)
+\layout Пункт
+
+Знак сноски выполняют арабскими
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+текст первой сноски
+\end_inset 
+
+ цифрами со скобкой и помещают
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+текст второй сноски
+\end_inset 
+
+ на уровне верхнего
+\begin_inset Foot
+collapsed true
+
+\layout Обычный
+
+текст третьей сноски 
+\end_inset 
+
+ обреза шрифта.
+\layout Пункт
+
+Нумерация сносок отдельная для каждой страницы.
+\layout Пункт
+
+Допускается вместо цифр выполнять сноски звездочками: * Применять более
+ четырех звездочек не рекомендуется.
+ (4.5.3)
+\layout Раздел
+
+Примеры
+\layout Обычный
+
+Примеры размещают, нумеруют и оформляют так же, как и примечания по (4.2.21).
+ (4.6.2)
+\layout Обычный
+
+Далее будут приведены примеры размещения и наименования рисунков, таблиц
+ и формул в приложениях.
+\layout Подраздел
+
+Рисунок
+\layout Обычный
+
+Ниже приведен пример расположения рисунка и названия оного.
+\begin_inset Float figure
+placement htbp
+wide false
+collapsed false
+
+\layout Обычный
+\align center 
+
+\begin_inset Graphics FormatVersion 1
+	display color
+	subcaptionText "лорлтилть"
+	size_type 1
+	width 5cm
+	height 3cm
+	rotateOrigin center
+	lyxsize_type 1
+	lyxwidth 141pt
+	lyxheight 85pt
+\end_inset 
+
+
+\layout ПодписьКРисунку
+
+Пример
+\end_inset 
+
+
+\layout Подраздел
+
+Таблица
+\layout Обычный
+
+Ниже приведен пример расположения таблицы и названия оной.
+\begin_inset Float table
+placement htbp
+wide false
+collapsed false
+
+\layout ПодписьКТаблице
+
+Резисторы
+\layout Обычный
+
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" width="0pt">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Поз.
+ обозначение
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Наименование
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Кол-во
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Примечание
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+R1
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Резистор С2--25--1
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+8
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+R2
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Резистор С2--5--1
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+3
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\end_inset 
+
+
+\layout Подраздел
+
+Формулы
+\layout Обычный
+
+Пример - Плотность каждого образца 
+\begin_inset Formula $\rho $
+\end_inset 
+
+, кг/м
+\begin_inset Formula $^{3}$
+\end_inset 
+
+, вычисляют по формуле
+\layout Обычный
+
+
+\begin_inset Formula \begin{equation}
+\rho =\frac{m}{V},\label{math:plotnost2}\end{equation}
+
+\end_inset 
+
+
+\layout Обычный
+
+где m --- масса образца, кг;
+\layout Обычный
+
+V --- объем образца, м
+\begin_inset Formula $^{3}$
+\end_inset 
+
+.
+\layout Обычный
+
+Формулы, следующие одна за другой и не разделенные текстом, разделяют запятой.
+ (4.2.15)
+\layout Обычный
+
+Переносить формулы на следующую строку допускается только на знаках выполняемых
+ операций, причем знак в начале следующей строки повторяют.
+ При переносе формулы на знаке умножения применяют знак 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\begin_inset Formula $\times $
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+
+\layout Обычный
+
+Ссылки в тексте на порядковые номера формул дают в скобках, например, ...
+ в формуле (1.1).
+ Формулы, помещаемые в приложениях, должны нумероваться отдельной нумерацией
+ арабскими цифрами в пределах каждого приложения с добавлением перед каждой
+ цифрой обозначения приложения, например формула (В.1).
+ (4.2.18)
+\layout Обычный
+
+Тренироваться со ссылками будем на формуле 
+\begin_inset LatexCommand \ref{math:plotnost2}
+
+\end_inset 
+
+.
+\layout Подраздел
+
+Длинная таблица.
+\layout Обычный
+
+Ниже приведен пример расположения длинной таблицы и названия оной.
+\layout Обычный
+
+
+\begin_inset  Tabular
+<lyxtabular version="3" rows="21" columns="3">
+<features islongtable="true" lastFootEmpty="true">
+<column alignment="left" valignment="top" leftline="true" rightline="true" width="3cm">
+<column alignment="left" valignment="top" rightline="true" width="7cm">
+<column alignment="left" valignment="top" rightline="true" width="3cm">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+
+\backslash 
+caption{
+\end_inset 
+
+
+\begin_inset LatexCommand \label{tab1}
+
+\end_inset 
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+Перечень документов}
+\backslash 
+rem{
+\end_inset 
+
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Обычный
+}
+\end_inset 
+
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Обозначение документа
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Наименование документа1
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Примечание
+\end_inset 
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Продолжение таблицы 
+\begin_inset LatexCommand \ref{tab1}
+
+\end_inset 
+
+
+\end_inset 
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Примечание
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Обозначение документа
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Наименование документа2
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Примечание
+\end_inset 
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Подвал
+\end_inset 
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Общесоюзные нормы допускаемых индустриальных помех
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 14254
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Оболочки.
+ Степень защиты.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 15150
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Машины, приборы и другие электротехнические изделия.
+ Исполнение для различных климатических районов.
+ Категории, условия эксплуатации, хранения и транспортирования в части воздейств
+ия климатических факторов внешней среды.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 15543.1-89
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Общие требования в части стойкости к климатическим внешним воздействующим
+ факторам.
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 16962.1-89
+\end_inset 
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Методы испытаний на устойчивость к климатическим внешним воздействующим
+ факторам.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 16962.2-90
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Методы испытаний на стойкость к механическим внешним воздействующим факторам.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 17516.1
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Условия эксплуатации в части воздействия механических факторов внешней
+ среды
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 20.57.406-81
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Комплексная система контроля качества.
+ Изделия электронной техники, квантовой электроники и электротехнические.
+ Методы испытаний.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 23216
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Хранение, транспортирование, консервация, упаковка.
+ Общие требования и методы испытаний
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 27.002-89
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Надежность в технике.
+ Основные понятия.
+ Термины и определения.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 27.003-90
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Надежность в технике.
+ Состав и общие правила заданий требований по надежности.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ 9.014
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Временная противокоррозионная защита изделий.
+ Общие технические требования
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ12.1.004-91ССБТ.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Пожарная безопасность.
+ Общие требования.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ14192-96
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Межгосударственный стандарт.
+ Маркировка грузов.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row topline="true" bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ16842
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Радиопомехи индустриальные.
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+<row bottomline="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+ГОСТ18620-86
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+Изделия электротехнические.
+ Требования к маркировке
+\end_inset 
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\layout Обычный
+
+\end_inset 
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset 
+
+
+\layout Раздел
+
+Примеры секционирования в приложении
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Пункт
+
+Пункт
+\layout Подраздел
+
+Подраздел
+\layout Подподраздел
+
+Подподраздел
+\layout Подподраздел
+
+Подподраздел
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Подраздел
+
+Подраздел
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Пункт
+
+Пункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Подпункт
+
+Подпункт
+\layout Пункт
+
+Пункт
+\the_end
+@
+
+
+1.2
+log
+@Исправление для LyX 1.2.0 и нового класса GOST
+@
+text
+@d42 1
+a42 1
+\layout Обычный
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 2
+a2 2
+#LyX 1.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 218
+d18 2
+d42 1
+a42 1
+\layout ГрифСогласовано
+d59 1
+a59 1
+\layout КЛГИ
+d68 1
+a68 1
+\layout Нормоконтролер
+d154 1
+a154 1
+\begin_inset Formula \( \oslash  \)
+d173 1
+a173 1
+\begin_inset Formula \( > \)
+d178 1
+a178 1
+\begin_inset Formula \( < \)
+d183 4
+a186 1
+\latex latex 
+d190 2
+a191 1
+\latex default 
+d324 1
+a324 1
+\begin_inset Formula \( \rho  \)
+d328 1
+a328 1
+\begin_inset Formula \( ^{3} \)
+d333 1
+a333 3
+\label{math:plotnost1}
+\rho =\frac{m}{V},
+\end{equation}
+d344 1
+a344 1
+\begin_inset Formula \( ^{3} \)
+d361 1
+a361 1
+\begin_inset Formula \( \times  \)
+d499 6
+a504 1
+\begin_float fig 
+d508 12
+a519 5
+\begin_inset Figure size 141 85
+subcaption лорлтилть
+width 1 5
+height 1 3
+flags 9
+d521 3
+a526 4
+\layout Caption
+\align center 
+Пример
+\end_float 
+d647 7
+a653 2
+\begin_float tab 
+\layout Caption
+d660 8
+a667 8
+<lyxtabular version="2" rows="5" columns="4">
+<features rotate="false" islongtable="false" endhead="2" endfirsthead="4" endfoot="5" endlastfoot="5">
+<column alignment="left" valignment="top" leftline="true" rightline="false" width="10mm" special="">
+<column alignment="left" valignment="top" leftline="true" rightline="false" width="40mm" special="">
+<column alignment="left" valignment="top" leftline="true" rightline="false" width="8mm" special="">
+<column alignment="left" valignment="top" leftline="true" rightline="true" width="30mm" special="">
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d676 1
+a676 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d684 1
+a684 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d692 1
+a692 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d701 2
+a702 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d709 1
+a709 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d716 1
+a716 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d723 1
+a723 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d731 2
+a732 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d739 1
+a739 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d746 1
+a746 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d753 1
+a753 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d761 2
+a762 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d769 1
+a769 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d776 1
+a776 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d783 1
+a783 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d791 2
+a792 2
+<row topline="true" bottomline="true" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d799 1
+a799 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d806 1
+a806 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d813 1
+a813 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d826 3
+a828 1
+\end_float 
+d869 3
+a871 1
+\begin_float footnote 
+d875 2
+a876 1
+\end_float 
+d1016 3
+a1018 1
+\begin_float footnote 
+d1022 2
+a1023 1
+\end_float 
+d1025 3
+a1027 1
+\begin_float footnote 
+d1031 2
+a1032 1
+\end_float 
+d1034 3
+a1036 1
+\begin_float footnote 
+d1040 2
+a1041 1
+\end_float 
+d1068 5
+a1072 1
+\begin_float fig 
+d1076 14
+a1089 5
+\begin_inset Figure size 141 85
+subcaption лорлтилть
+width 1 5
+height 1 3
+flags 9
+d1091 1
+a1094 4
+\layout Caption
+\align center 
+Пример
+\end_float 
+d1101 6
+a1106 2
+\begin_float tab 
+\layout Caption
+d1113 8
+a1120 8
+<lyxtabular version="2" rows="3" columns="4">
+<features rotate="false" islongtable="false" endhead="0" endfirsthead="0" endfoot="0" endlastfoot="0">
+<column alignment="center" valignment="top" leftline="true" rightline="false" width="" special="">
+<column alignment="center" valignment="top" leftline="true" rightline="false" width="" special="">
+<column alignment="center" valignment="top" leftline="true" rightline="false" width="" special="">
+<column alignment="center" valignment="top" leftline="true" rightline="true" width="" special="">
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1129 1
+a1129 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1137 1
+a1137 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1145 1
+a1145 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1154 2
+a1155 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1163 1
+a1163 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1171 1
+a1171 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1179 1
+a1179 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1187 2
+a1188 2
+<row topline="true" bottomline="true" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1196 1
+a1196 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1204 1
+a1204 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1212 1
+a1212 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1225 3
+a1227 1
+\end_float 
+d1234 1
+a1234 1
+\begin_inset Formula \( \rho  \)
+d1238 1
+a1238 1
+\begin_inset Formula \( ^{3} \)
+d1246 1
+a1246 3
+\label{math:plotnost2}
+\rho =\frac{m}{V},
+\end{equation}
+d1257 1
+a1257 1
+\begin_inset Formula \( ^{3} \)
+d1274 1
+a1274 1
+\begin_inset Formula \( \times  \)
+d1308 7
+a1314 7
+<lyxtabular version="2" rows="21" columns="3">
+<features rotate="false" islongtable="true" endhead="4" endfirsthead="2" endfoot="5" endlastfoot="5">
+<column alignment="left" valignment="top" leftline="true" rightline="true" width="3cm" special="">
+<column alignment="left" valignment="top" leftline="false" rightline="true" width="7cm" special="">
+<column alignment="left" valignment="top" leftline="false" rightline="true" width="3cm" special="">
+<row topline="false" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="left" valignment="top" topline="false" bottomline="false" leftline="false" rightline="false" rotate="false" usebox="none" width="" special="">
+d1320 4
+a1323 1
+\latex latex 
+d1327 3
+d1334 5
+d1343 3
+d1347 1
+a1347 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1354 1
+a1354 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1360 4
+a1363 1
+\latex latex 
+d1366 3
+d1371 2
+a1372 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="left" valignment="top" topline="false" bottomline="false" leftline="false" rightline="false" rotate="false" usebox="none" width="" special="">
+d1380 1
+a1380 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1388 1
+a1388 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1397 2
+a1398 2
+<row topline="false" bottomline="false" newpage="false">
+<cell multicolumn="1" alignment="left" valignment="top" topline="false" bottomline="false" leftline="false" rightline="false" rotate="false" usebox="none" width="" special="">
+d1411 1
+a1411 1
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1418 1
+a1418 1
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1427 2
+a1428 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="left" valignment="top" topline="false" bottomline="false" leftline="false" rightline="false" rotate="false" usebox="none" width="" special="">
+d1436 1
+a1436 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1444 1
+a1444 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1453 2
+a1454 2
+<row topline="false" bottomline="false" newpage="false">
+<cell multicolumn="1" alignment="left" valignment="top" topline="false" bottomline="false" leftline="false" rightline="false" rotate="false" usebox="none" width="" special="">
+d1462 1
+a1462 1
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1469 1
+a1469 1
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1477 2
+a1478 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1485 1
+a1485 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1493 1
+a1493 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1501 2
+a1502 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1510 1
+a1510 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1520 1
+a1520 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1528 2
+a1529 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1537 1
+a1537 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1548 1
+a1548 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1556 2
+a1557 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1565 1
+a1565 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1575 1
+a1575 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1583 2
+a1584 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1592 1
+a1592 1
+<cell multicolumn="0" alignment="left" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1602 1
+a1602 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1610 2
+a1611 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1619 1
+a1619 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1628 1
+a1628 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1636 2
+a1637 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1645 1
+a1645 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1655 1
+a1655 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1663 2
+a1664 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1672 1
+a1672 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1682 1
+a1682 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1690 2
+a1691 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1699 1
+a1699 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1709 1
+a1709 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1717 2
+a1718 2
+<row topline="true" bottomline="true" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1726 1
+a1726 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1736 1
+a1736 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1744 2
+a1745 2
+<row topline="false" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1753 1
+a1753 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1762 1
+a1762 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1770 2
+a1771 2
+<row topline="true" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1779 1
+a1779 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1788 1
+a1788 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1796 2
+a1797 2
+<row topline="true" bottomline="true" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1805 1
+a1805 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1814 1
+a1814 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1822 2
+a1823 2
+<row topline="false" bottomline="false" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1831 1
+a1831 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1840 1
+a1840 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1848 2
+a1849 2
+<row topline="true" bottomline="true" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1857 1
+a1857 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1865 1
+a1865 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+d1873 2
+a1874 2
+<row topline="false" bottomline="true" newpage="false">
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1882 1
+a1882 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="false" rotate="false" usebox="none" width="" special="">
+d1891 1
+a1891 1
+<cell multicolumn="0" alignment="center" valignment="top" topline="true" bottomline="false" leftline="true" rightline="true" rotate="false" usebox="none" width="" special="">
+@

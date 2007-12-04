@@ -1,12 +1,12 @@
 Name: lyx-rusdoc
-Version: 1.3.4
+Version: 1.5.0
 Release: alt1
 
 Summary: The documentation for LyX and GOST text class
 Summary(ru_RU.KOI8-R): Русская документация по LyX и классу текста GOST
 License: GPL
 Group: Office
-URL: http://www.etersoft.ru
+Url: http://www.etersoft.ru
 
 Packager: Vitaly Lipatov <lav@altlinux.ru>
 
@@ -25,38 +25,23 @@ for LyX, and the documentation for LyX/LaTeX class GOST.
 предназначенного для подготовки технической текстовой документации
 в соответствии с ГОСТ 2.105-95.
 
-
 %prep
-%setup -q
+%setup
 
 %install
-
-cd doc
-for i in *.lyx
+for i in doc/*.sh
 do
-	install -D -m644 $i ${RPM_BUILD_ROOT}/%_datadir/doc/%name-%version/$i
+	install -D -m755 $i %buildroot%_bindir/`basename $i .sh`
 done
-for i in *.sh
-do
-	install -D -m755 $i ${RPM_BUILD_ROOT}/%_bindir/`basename $i .sh`
-done
-cd -
-
-cp -rp GOST-LyX/* ${RPM_BUILD_ROOT}/%_datadir/doc/%name-%version/
-
-cd lyx-ug
-for i in *
-do
-	install -D -m644 $i ${RPM_BUILD_ROOT}/%_datadir/doc/%name-%version/LyX-UG/$i
-done
-cd -
 
 %files
-%docdir %_datadir/doc/%name-%version
-%_datadir/doc/%name-%version
+%doc GOST-LyX/* lyx-ug/* doc/*.lyx
 %_bindir/*
 
 %changelog
+* Wed Dec 05 2007 Vitaly Lipatov <lav@altlinux.ru> 1.5.0-alt1
+- cleanup spec, convert docs to new lyx format
+
 * Fri Jun 18 2004 Vitaly Lipatov <lav@altlinux.ru> 1.3.4-alt1
 - update LyX-GOST for last LyX features
 - rename scripts and set execute permission on it

@@ -1,0 +1,1426 @@
+head	1.8;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2004.01.04.19.46.46;	author lav;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2002.03.02.13.15.57;	author lav;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.03.02.12.05.54;	author lav;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.03.01.12.23.25;	author lav;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.02.28.21.51.20;	author lav;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.02.28.15.44.09;	author lav;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.02.27.21.50.59;	author lav;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.02.27.17.05.29;	author lav;	state Exp;
+branches;
+next	;
+
+
+desc
+@(нет первоначального описания)
+@
+
+
+1.8
+log
+@сохранено в 1.3.3
+@
+text
+@#LyX 1.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 221
+\textclass article
+\language russian
+\inputencoding koi8-r
+\fontscheme default
+\graphics default
+\float_placement h
+\paperfontsize 10
+\spacing single 
+\papersize a4paper
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+
+\layout Title
+
+Процессор документов LyX
+\begin_inset Foot
+collapsed false
+
+\layout Standard
+
+Речь идёт о версии 1.6.x
+\end_inset 
+
+
+\layout Author
+
+Виталий Липатов <lav@@altlinux.ru>
+\layout Section*
+
+Введение
+\layout Standard
+
+LyX
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+Произносится как 
+\begin_inset Quotes eld
+\end_inset 
+
+ликс
+\begin_inset Quotes erd
+\end_inset 
+
+
+\end_inset 
+
+ --- это система подготовки документов, работающая в среде
+\series bold 
+ X-Window
+\series default 
+.
+ LyX может быть использован как для написания короткого письма, так и для
+ работы над объёмной книгой в тысячи страниц.
+\layout Standard
+
+В обычных текстовых процессорах используется концепция 
+\emph on 
+визуального проектирования ---
+\emph default 
+ WYSIWYG (что видите, то и получите).
+ При этом во время набора текста документ выглядит на экране дисплея так
+ (или почти так), как он будет выглядеть на бумаге.
+ Вам приходится об этом заботиться: выбирать шрифт, указывать его размер
+ и начертание.
+ И так для каждого абзаца.
+ LyX берёт на себя всю эту рутинную оформительскую часть, а вам предоставляет
+ возможность сосредоточиться на содержании и структуре документа.
+ При этом больше не нужно нажимать пробел несколько раз подряд, нажатием
+ 
+\family typewriter 
+Enter 
+\family default 
+увеличивать интервал между абзацами, двигать мышкой непослушные рисунки.
+ 
+\layout Standard
+
+LyX использует концепцию 
+\emph on 
+логического проектирования
+\emph default 
+.
+ Вы указываете 
+\emph on 
+класс
+\emph default 
+ печатного документа, оформляете ваш текст структурно, указывая для каждого
+ элемента текста (
+\emph on 
+абзаца
+\emph default 
+) соответствующий 
+\emph on 
+стиль
+\emph default 
+: 
+\series bold 
+Раздел
+\series default 
+, 
+\series bold 
+Перечисление
+\series default 
+, 
+\series bold 
+Нумерованный
+\series default 
+ 
+\series bold 
+список
+\series default 
+ и так далее.
+ 
+\layout Standard
+
+Для подготовки документа к печати он передаётся издательской системе LaTeX
+\begin_inset Foot
+collapsed true
+
+\layout Standard
+
+Произносится как 
+\begin_inset Quotes eld
+\end_inset 
+
+лат
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+'
+\end_inset 
+
+ех
+\begin_inset Quotes erd
+\end_inset 
+
+
+\end_inset 
+
+, которая оформляет его в соответствии с выбранным 
+\emph on 
+классом 
+\emph default 
+документа.
+ Использование LaTeX определяет многие достоинства LyX, при этом вам совсем
+ не обязательно знать команды LaTeX --- большинство оформительских задач
+ можно решить через меню в LyX.
+\layout Standard
+
+Созданный вами документ обычно проходит следующие преобразования: LyX\SpecialChar \menuseparator
+LaTeX\SpecialChar \menuseparator
+DVI\SpecialChar \menuseparator
+Pos
+tScript
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+textregistered{}
+\end_inset 
+
+, прежде чем будет передан системе печати.
+ К счастью, это преобразование осуществляется в автоматическом режиме.
+\layout Standard
+
+Если вы хотите печатать из LyX, вам понадобиться установить пакеты 
+\family typewriter 
+tetex, tetex-latex, tetex-dvips
+\family default 
+.
+
+\family typewriter 
+ 
+\family default 
+Для предварительного просмотра вам понадобится пакет
+\family typewriter 
+ gv
+\family default 
+ или 
+\family typewriter 
+ggv
+\family default 
+.
+ Если вы установите эти пакеты уже после установки LyX, вам может понадобится
+ переконфигурировать LyX (для пользователя через меню 
+\family sans 
+Правка\SpecialChar \menuseparator
+Переконфигурировать
+\family default 
+, для изменения глобальных настроек --- запустить с правами администратора
+ скрипт 
+\family typewriter 
+/usr/share/lyx/configure
+\family default 
+).
+\layout Standard
+
+Для возможности проверки правописания должен быть установлен пакет из серии
+ 
+\family typewriter 
+ispell-ru
+\family default 
+-* или 
+\family typewriter 
+aspell-ru-*
+\family default 
+.
+ Если вы его установите после LyX, также может потребоваться переконфигурировани
+е.
+\layout Standard
+
+LyX поставляется с замечательной документацией, описывающей все аспекты
+ работы с ним.
+ К сожалению, на настоящий момент её перевод на русский язык ещё не завершён.
+ Некоторую русскоязычную документацию вы можете найти в пакете 
+\family typewriter 
+lyx-rusdoc
+\family default 
+.
+\layout Standard
+
+Некоторое неудобство вызывает поддержка только формата EPS (
+\lang english
+Encapsulated PostScript
+\lang russian
+) для рисунков.
+ Чтобы вставить растровый рисунок, необходимо преобразовать его в EPS командой
+ 
+\family typewriter 
+convert 
+\family default 
+из пакета 
+\family typewriter 
+ImageMagic
+\family default 
+, например так: 
+\family typewriter 
+$ convert myfile.png myfile.eps
+\family default 
+.
+\layout Standard
+
+Вы должны быть готовы к тому, что окажетесь в непривычной и неудобной среде.
+ Так вам будет казаться.
+ Но освоившись, вы обязательно поймёте, что LyX в сочетании с LaTeX является
+ удобным и мощным инструментом, позволяющим создавать красивые, хорошо структури
+рованные документы.
+\layout Section
+
+Основные достоинства и возможности LyX:
+\layout Itemize
+
+Мощный аппарат сносок и перекрёстных ссылок;
+\layout Itemize
+
+Непревзойдённое оформление математических формул любой сложности;
+\layout Itemize
+
+Оформление различного рода списков и перечислений;
+\layout Itemize
+
+Вставка таблиц и рисунков, в том числе в виде 
+\emph on 
+плавающих объектов
+\emph default 
+, имеющих автоматическую нумерацию и автоматически располагающихся в нужном
+ месте страницы;
+\layout Itemize
+
+Поддержка различных языков в одном документе;
+\layout Itemize
+
+Работа с библиографией;
+\layout Itemize
+
+Поддержка вложенных документов;
+\layout Itemize
+
+Проверка правописания;
+\layout Itemize
+
+Контроль версий документа;
+\layout Itemize
+
+Скромные требования к ресурсам компьютера;
+\layout Itemize
+
+Экспорт и импорт из различных форматов;
+\begin_deeper 
+\layout Standard
+
+С помощью LyX можно воплотить в жизнь концепцию 
+\begin_inset Quotes eld
+\end_inset 
+
+одного исходника
+\begin_inset Quotes erd
+\end_inset 
+
+ --- один и тот же исходный документ в LyX может быть сохранён в формате
+ PostScript
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+textregistered{}
+\end_inset 
+
+ для высококачественной печати на принтере, HTML --- для публикации в сети
+ Интернет, PDF --- для переноса документа на другие компьютерные платформы.
+\end_deeper 
+\layout Itemize
+
+Аварийное сохранение;
+\begin_deeper 
+\layout Standard
+
+Авторы LyX заботятся о том, чтобы их программа работала стабильно, а чтобы
+ совсем исключить потерю данных, предусмотрено аварийное сохранение редактируемы
+х документов при возникновении ошибки в программе.
+\end_deeper 
+\layout Itemize
+
+Простой формат документа LyX, представляющий из себя текстовый файл.
+\layout Section
+
+Работа с LyX
+\layout Standard
+
+Так выглядит LyX в процессе работы:
+\layout Standard
+\align center 
+
+\begin_inset Graphics
+	filename user-text-demolyx.png
+	display color
+	width 90col%
+	rotateOrigin center
+
+\end_inset 
+
+
+\layout Subsection
+
+Создание нового документа
+\layout Standard
+
+Для создания нового документа и установки его класса необходимо произвести
+ следующие действия:
+\layout Itemize
+
+через меню 
+\family sans 
+Файл\SpecialChar \menuseparator
+Создать
+\family default 
+...
+\begin_inset Note
+collapsed true
+
+\layout Standard
+
+Основным пунктам меню соответствуют иконки, вынесенные на панель инструментов.
+\end_inset 
+
+ создать новый документ;
+\layout Itemize
+
+вызвать диалоговое окно 
+\family sans 
+Формат\SpecialChar ~
+документа
+\family default 
+ воспользовавшись меню
+\family sans 
+\bar under 
+ 
+\bar default 
+Формат\SpecialChar \menuseparator
+Документ...;
+\layout Itemize
+
+в поле 
+\family sans 
+Класс 
+\family default 
+закладки 
+\family sans 
+Документы
+\family default 
+ выбрать из разворачивающегося списка требуемый класс документа;
+\layout Itemize
+
+ответить на заданный вопрос об использовании некоторых установок по умолчанию
+\family sans 
+ Да;
+\layout Itemize
+
+нажать кнопку 
+\family sans 
+Закрыть
+\family default 
+.
+\layout Subsection
+
+Структура документа
+\layout Standard
+
+Документ LyX состоит из различных частей, имеющих разное назначение.
+ Эти логически обособленные части документа называются 
+\emph on 
+окружениями
+\emph default 
+ (environments).
+ Каждое окружение включает в себя один или несколько абзацев.
+ Совокупность таких 
+\emph on 
+окружений 
+\emph default 
+(возможно, вам более привычно название 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\emph on 
+стиль
+\begin_inset Quotes erd
+\end_inset 
+
+
+\emph default 
+), который вы можете выбрать для своего документа, называется 
+\emph on 
+классом документа
+\emph default 
+.
+\layout Standard
+
+
+\emph on 
+Окружение\SpecialChar ~
+абзаца
+\emph default 
+ определяет такие свойства абзаца как стиль шрифта, отступы, схема нумерации
+ и т.д.
+ Название окружения
+\emph on 
+ 
+\emph default 
+абзаца, в котором находится курсор, показывается слева на панели инструментов.
+ Здесь же его можно изменить на другое.
+ 
+\layout Section
+
+Некоторые советы
+\layout Enumerate
+
+Перевести в LyX документы с сохранением форматирования из таких форматов
+ как Microsoft Word Document, в общем случае невозможно, поскольку они ориентиро
+ваны на ручное оформление внешнего вида текста, а не на описание его логической
+ структуры.
+ Впрочем, через меню 
+\family sans 
+Файл\SpecialChar \menuseparator
+Импорт
+\family default 
+ возможно импортировать текст файла в формате 
+\series bold 
+doc
+\series default 
+ (при установленном пакете 
+\family typewriter 
+lyx-gost
+\family default 
+).
+\layout Enumerate
+
+LyX только 
+\emph on 
+примерно
+\emph default 
+ показывает, как выглядит ваш текст, показывая и выделяя его структуру.
+ Как будет выглядеть текст на бумаге вы можете увидеть при предварительном
+ просмотре (меню 
+\family sans 
+Просмотр\SpecialChar \menuseparator
+Postscript
+\family default 
+).
+\layout Enumerate
+
+Не следует пытаться вручную нумеровать пункты, или расставлять значки в
+ перечислениях, формировать отступы абзацев пробелами, обращать особое внимания
+ на отступы и интервалы в тексте.
+ В большинстве случаев всё будет оформлено правильно автоматически.
+\layout Enumerate
+
+При необходимости изменить оформление (поля документа, параметры абзаца
+ или шрифта), это можно сделать в меню 
+\family sans 
+Формат
+\family default 
+, где первые три строчки меню именно за это и отвечают.
+ 
+\layout Enumerate
+
+Вставка в текст таких элементов как сноски, заметки, перекрёстные ссылки,
+ рисунки, таблицы, осуществляется через логичное меню 
+\family sans 
+Вставить
+\family default 
+.
+ 
+\layout Enumerate
+
+Для русскоязычных пользователей будут представлять интерес шаблоны 
+\family typewriter 
+GOST
+\family default 
+ (для оформления документов согласно 
+\series bold 
+ГОСТ
+\series default 
+) и 
+\family typewriter 
+delop
+\family default 
+ (для оформления документа по традициям делопроизводства в России).
+ Они будут доступны при установке пакета 
+\family typewriter 
+lyx-gost,
+\family default 
+ содержащего класс 
+\family typewriter 
+GOST
+\family default 
+, предназначенный для оформления технической документации по 
+\series bold 
+ГОСТ 2.105-95
+\series default 
+ 
+\begin_inset Quotes eld
+\end_inset 
+
+Общие требования к текстовым документам
+\begin_inset Quotes erd
+\end_inset 
+
+, с рамками и основными надписями.
+\begin_deeper 
+\layout Standard
+
+Создание документа на основе шаблона осуществляется посредством меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+Создать\SpecialChar ~
+из\SpecialChar ~
+шаблона.
+
+\family default 
+ Далее из предложенного списка шаблонов нужно выбрать необходимый.
+ 
+\end_deeper 
+\layout Enumerate
+
+Для значительного повышения производительности труда следует изучить горячие
+ клавиши --- для начала, что комбинации 
+\family typewriter 
+Shift
+\family default 
+--стрелочки используются для выделение текста, 
+\family typewriter 
+Ctrl-X
+\family default 
+ --- вырезать, 
+\family typewriter 
+Ctrl-C
+\family default 
+ --- скопировать, 
+\family typewriter 
+Ctrl-V
+\family default 
+ --- вставить.
+\layout Enumerate
+
+Обратите внимание на то, что для ввода знака тире 
+\begin_inset Quotes eld
+\end_inset 
+
+---
+\begin_inset Quotes erd
+\end_inset 
+
+ необходимо ввести 3 минуса подряд: 
+\begin_inset Quotes eld
+\end_inset 
+
+-
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+/
+\end_inset 
+
+-
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+/
+\end_inset 
+
+-
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ Чтобы получить знак номера 
+\begin_inset Quotes eld
+\end_inset 
+
+
+\begin_inset ERT
+status Collapsed
+
+\layout Standard
+
+\backslash 
+No
+\end_inset 
+
+
+\begin_inset Quotes erd
+\end_inset 
+
+, введите 
+\family typewriter 
+
+\backslash 
+No{}
+\family default 
+.
+\layout Section
+
+Ближайшие перспективы
+\begin_inset Foot
+collapsed false
+
+\layout Standard
+
+речь шла о версии 1.2.0
+\end_inset 
+
+
+\layout Standard
+
+В настоящее время командой LyX\SpecialChar ~
+Team --- разработчиками LyX --- ведётся подготовка
+ к выпуску следующей версии LyX, в которой будут следующие усовершенствования:
+\layout Itemize
+
+Существенно переработан и расширен ввод математических формул;
+\layout Itemize
+
+Осуществлена поддержка рисунков любого формата;
+\layout Itemize
+
+Улучшена работа с таблицами, в том числе с длинными таблицами;
+\layout Itemize
+
+Улучшено управление плавающими объектами;
+\layout Itemize
+
+Наглядная поддержка мини-страниц, позволяющих более гибко управлять размещением
+ текста на странице.
+\layout Standard
+
+Вскоре будет завершена возможность LyX работать с таким же интерфейсом пользоват
+еля, какой имеют программы, написанные KDE и GNOME.
+\the_end
+@
+
+
+1.7
+log
+@Последние изменения перед отправкой.
+@
+text
+@d1 2
+a2 2
+#LyX 1.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 218
+d15 2
+d31 12
+d49 3
+a51 1
+\begin_float footnote 
+d63 2
+a64 1
+\end_float 
+d134 3
+a136 1
+\begin_float footnote 
+d144 4
+a147 1
+\latex latex 
+d151 2
+a152 1
+\latex default 
+d158 2
+a159 1
+\end_float 
+d175 4
+a178 1
+\latex latex 
+d182 2
+a183 1
+\latex default 
+d324 4
+a327 1
+\latex latex 
+d331 2
+a332 1
+\latex default 
+d358 5
+a362 4
+\begin_inset Figure size 267 223
+file DemoLyX.eps
+width 4 90
+flags 11
+d382 5
+a386 1
+\begin_inset Info
+d519 1
+a519 1
+ В большинстве случаев все будет оформлено правильно автоматически.
+d626 4
+a629 1
+\latex latex 
+d633 2
+a634 1
+\latex default 
+d636 4
+a639 1
+\latex latex 
+d643 2
+a644 1
+\latex default 
+d655 4
+a658 1
+\latex latex 
+d662 2
+a663 1
+\latex default 
+d678 9
+@
+
+
+1.6
+log
+@изменения за 1 марта
+@
+text
+@d326 1
+a326 1
+\begin_inset Figure size 267 229
+d403 1
+a403 1
+ Набор таких 
+d642 4
+a645 1
+Улучшенная поддержка длинных таблиц;
+d653 1
+a653 3
+еля, какой имеют KDE и GNOME.
+\layout Standard
+
+@
+
+
+1.5
+log
+@Внесены добавления и изменена структура
+@
+text
+@d64 3
+a66 5
+ Создавая свой документ, вы обязательно заботитесь, 
+\emph on 
+как 
+\emph default 
+он будет выглядеть: выбираете шрифт, указываете его размер и начертание.
+d74 1
+a74 1
+увеличивать интервал между абзацами, бегать мышкой за ускользающими рисунками.
+d88 9
+a96 1
+ элемента текста соответствующий стиль: 
+d116 1
+a116 1
+LyX использует издательскую систему LaTeX
+d136 5
+a140 1
+ для подготовки документа к печати.
+d157 1
+a157 1
+ К счастью, преобразование осуществляется в автоматическом режиме.
+d162 6
+a167 1
+tetex, tetex-latex, tetex-dvips 
+d169 1
+a169 1
+Для предварительного просмотра вам понадобиться пакет
+d178 1
+a178 1
+ Если вы установите эти пакеты уже после установки LyX, вам может понадобиться
+d184 2
+a185 1
+, для всех --- запустить с правами администратора скрипт 
+d199 1
+a199 1
+aspell-ru*
+d221 2
+a222 2
+ Поэтому чтобы вставить растровый рисунок, необходимо преобразовать его
+ в EPS командой 
+d230 4
+d240 2
+a241 1
+ удобным и мощным инструментом.
+d345 1
+a345 4
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+d359 1
+a359 1
+документа 
+d361 1
+a361 8
+(см.
+ рисунок\SpecialChar ~
+
+\begin_inset LatexCommand \ref{FormatDokumentaClass}
+
+\end_inset 
+
+) воспользовавшись меню
+d364 1
+a364 1
+ Ф
+d366 2
+a367 6
+ормат\SpecialChar \menuseparator
+
+\bar under 
+Д
+\bar default 
+окумент...;
+d386 1
+a386 1
+нажмите кнопку 
+a390 23
+\layout Standard
+
+\begin_float fig 
+\layout Standard
+\align center 
+
+\begin_inset Figure size 223 223
+file FormatDokumentaClass.eps
+width 4 75
+flags 11
+
+\end_inset 
+
+
+\layout Caption
+\align center 
+
+\begin_inset LatexCommand \label{FormatDokumentaClass}
+
+\end_inset 
+
+Диалоговое окно общих установок документа
+\end_float 
+d402 1
+d431 3
+a433 6
+ (paragraph environment) определяет такие свойства абзаца как стиль шрифта,
+ отступы, схема нумерации и т.д.
+ 
+\layout Standard
+
+Название окружения
+a438 2
+ Для этого нужно развернуть список окружений, нажав мышкой на стрелке, и
+ выбрать новое для текущего абзаца.
+d446 3
+a448 7
+ документов как Microsoft Word Document, в общем случае невозможно, так
+ как формат 
+\series bold 
+doc
+\series default 
+ ориентирован на ручное оформление внешнего вида документа, а не на описание
+ его логической структуры.
+d454 1
+a454 1
+ возможно импортировать файл в формате 
+d485 2
+a486 2
+При необходимости сменить оформление (поля документа, параметры абзаца или
+ шрифта), это можно сделать в меню 
+d516 21
+a625 20
+\layout Enumerate
+
+В пакете 
+\family typewriter 
+lyx-gost
+\family default 
+ содержится класс 
+\family typewriter 
+GOST
+\family default 
+, предназначенный для оформления технической документации по ГОСТ 2.105-95
+ 
+\begin_inset Quotes eld
+\end_inset 
+
+Общие требования к текстовым документам
+\begin_inset Quotes erd
+\end_inset 
+
+, с рамками и основными надписями.
+d642 1
+a642 1
+Улучшенная поддержка длинных таблицы;
+a652 3
+В путь, и больше экспериментов.
+ Вскоре вы заметите, что работать в LyX удобно и надёжно, и при этом получаются
+ красивые, хорошо структурированные документы.
+@
+
+
+1.4
+log
+@Изменён рисунок с окном LyX
+@
+text
+@d9 1
+a9 1
+\paperfontsize 11
+d53 2
+a54 2
+ LyX может быть использован как для написания письма, так и для объёмной
+ книги в тысячи страниц.
+d64 1
+a64 1
+ Создавая свой документ, вы должны заботиться, 
+d68 1
+a68 2
+будет выглядеть ваш документ: выбираете шрифт, указываете его размер и начертани
+е.
+d71 2
+a72 2
+ В это трудно поверить, но больше не нужно нажимать пробел несколько раз
+ подряд, нажатием 
+d90 17
+a106 2
+ элемента текста соответствующий стиль: Раздел, Перечисление, Нумерованный
+ список и так далее.
+d131 3
+a133 2
+ При этом вам совсем не обязательно знать команды LaTeX.
+ 
+d150 27
+a176 1
+Использование LaTeX определяет многие достоинства LyX.
+d178 10
+d190 33
+d229 1
+a229 1
+Непревзойдённое оформление математических формул;
+d235 8
+d258 1
+a258 1
+Минимальные требования к ресурсам компьютера;
+d281 1
+a281 1
+ Интернет, PDF --- для переноса документа на другие платформы.
+a295 48
+\layout Standard
+
+Если вы хотите печатать из LyX, вам понадобиться установить пакеты 
+\family typewriter 
+tetex, tetex-latex, tetex-dvips,
+\family default 
+ 
+\family typewriter 
+gv
+\family default 
+.
+ Если вы их установите уже после установки LyX, вам может понадобиться переконфи
+гурировать LyX (для пользователя через меню 
+\family sans 
+Правка\SpecialChar \menuseparator
+Переконфигурировать
+\family default 
+, для всех --- запустить с правами администратора скрипт 
+\family typewriter 
+/usr/share/lyx/configure
+\family default 
+).
+\layout Standard
+
+Для возможности проверки правописания должен быть установлен один из пакетов
+ 
+\family typewriter 
+ispell-ru
+\family default 
+.
+ Если вы его установите после LyX, также может потребоваться переконфигурировани
+е.
+\layout Standard
+
+LyX поставляется с замечательной документацией, описывающей все аспекты
+ работы с ним.
+ К сожалению, на настоящий момент её перевод на русский язык ещё не завершён.
+ Некоторую русскоязычную документацию вы можете найти в пакете 
+\family typewriter 
+lyx-rusdoc
+\family default 
+.
+\layout Standard
+
+Вы должны быть готовы к тому, что окажетесь в непривычной и неудобной среде.
+ Но это всё только первое время.
+ Освоившись, вы обязательно поймёте, что LyX в сочетании с LaTeX является
+ удобным и мощным инструментом.
+d298 1
+a298 1
+Окно LyX
+d301 1
+a301 10
+После запуска вы увидите окно программы LyX, которое при создании нового
+ документа будет выглядеть так, как показано на рисунке 
+\begin_inset LatexCommand \ref{InterfaceLyX}
+
+\end_inset 
+
+.
+\layout Standard
+
+\begin_float fig 
+d313 1
+a313 2
+\layout Caption
+\align center 
+d315 1
+a315 9
+\begin_inset LatexCommand \label{InterfaceLyX}
+
+\end_inset 
+
+Окно LyX
+\end_float 
+\layout Section
+
+Создание документа и его класс
+d335 1
+a335 1
+ создайте новый документ;
+d338 1
+a338 1
+вызовите диалоговое окно 
+d344 2
+a345 1
+ рисунок 
+d371 1
+a371 1
+ выберите из разворачивающегося списка требуемый класс документа;
+d374 1
+a374 1
+ответьте на заданный вопрос об использовании некоторых установок по умолчанию
+d407 1
+a407 27
+\layout Section
+
+Шаблон
+\layout Standard
+
+При создании однотипных документов очень удобно использовать шаблоны.
+ Это избавит вас от многоразового набора и форматирования одной и той же
+ информации, например, шапки письма.
+ 
+\layout Standard
+
+Создание документа на основе шаблона осуществляется посредством меню 
+\family sans 
+\bar under 
+Ф
+\bar default 
+айл\SpecialChar \menuseparator
+Создать\SpecialChar ~
+из\SpecialChar ~
+шаблона.
+
+\family default 
+ Далее, из предложенного списка шаблонов нужно выбрать необходимый.
+ Для русскоязычных пользователей будут представлять интерес шаблоны GOST
+ (для оформления документов согласно ГОСТ) и delop (для оформления документа
+ по традициям делопроизводства в России).
+\layout Section
+d412 1
+a412 1
+Документ состоит из различных частей, имеющих разное назначение.
+d422 13
+a434 2
+(ещё их называют стилями), который вы можете выбрать для своего документа,
+ называется 
+d460 1
+a460 1
+\layout Section*
+d482 5
+a486 1
+.
+a508 3
+Информацию табличного характера следует давать в виде таблиц.
+\layout Enumerate
+
+d527 32
+d649 3
+d654 7
+a660 4
+В путь, и больше экспериментов.
+ Вскоре вы заметите, что работать в LyX удобно и надёжно, и при этом получаются
+ красивые, хорошо структурированные документы.
+\layout Standard
+d662 2
+d665 2
+a666 6
+\begin_inset Formula \[
+\mathbf{A}=\left( \begin{array}{ccccc}
+\frac{\varphi \cdot X_{n,1}}{\varphi _{1}\times \varepsilon _{1}} & (x+\varepsilon _{2})^{2} & \cdots  & (x+\varepsilon _{n-1})^{n-1} & (x+\varepsilon _{n})^{n}\\
+\frac{\varphi \cdot X_{n,1}}{\varphi _{2}\times \varepsilon _{1}} & \frac{\varphi \cdot X_{n,2}}{\varphi _{2}\times \varepsilon _{2}} & \cdots  & (x+\varepsilon _{n-1})^{n-1} & (x+\varepsilon _{n})^{n}\\
+\frac{\varphi \cdot X_{n,1}}{\varphi _{n}\times \varepsilon _{1}} & \frac{\varphi \cdot X_{n,2}}{\varphi _{n}\times \varepsilon _{2}} & \cdots  & \frac{\varphi \cdot X_{n,n-1}}{\varphi _{n}\times \varepsilon _{n-1}} & \frac{\varphi \cdot X_{n,n}}{\varphi _{n}\times \varepsilon _{n}}
+\end{array}\right) +\mathbf{I}_{n}\]
+d668 3
+a670 1
+\end_inset 
+d672 3
+d676 3
+@
+
+
+1.3
+log
+@Последние исправления
+@
+text
+@d270 2
+a271 2
+\begin_inset Figure size 267 148
+file InterfaceLyX.eps
+d609 13
+@
+
+
+1.2
+log
+@Первая редакция
+@
+text
+@d9 1
+a9 1
+\paperfontsize 12
+d13 1
+a13 1
+\use_geometry 0
+d22 1
+a22 1
+\papercolumns 1
+d28 1
+a28 1
+Система подготовки документов LyX
+d34 23
+d70 1
+a70 3
+\layout Standard
+
+LyX берёт на себя всю эту рутинную оформительскую часть, а вам предоставляет
+d78 4
+a81 1
+ LyX использует концепцию 
+d96 26
+a121 3
+LyX использует издательскую систему LaTeX для подготовки документа к печати.
+ При этом с созданный вами документ обычно проходит следующие преобразования:
+ LyX\SpecialChar \menuseparator
+d124 2
+a125 1
+PostScript
+d131 5
+a135 2
+.
+ Использование LaTeX определяет основные достоинства LyX.
+a141 3
+Набор готовых классов для оформления документа;
+\layout Itemize
+
+d151 3
+d157 3
+d166 3
+d170 21
+d238 10
+d250 2
+a251 2
+ Освоившись, понимаешь, что LyX в сочетании с LaTeX является удобным и мощным
+ инструментом.
+d363 1
+a363 1
+\begin_inset Figure size 223 224
+d405 1
+a405 1
+ по традициям делопроизводства).
+d445 2
+a446 2
+ Для этого нужно развернуть список окружений, кликнув мышкой на стрелке,
+ и выбрать новое для текущего абзаца.
+a447 4
+\layout Standard
+
+Можно менять окружение сразу нескольких абзацев, если их предварительно
+ выделить.
+d450 1
+a450 1
+То, что нужно знать про LyX
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d29 3
+d34 13
+a46 6
+Несмотря на внешне неказистый интерфейс, LyX представляет из себя мощную
+ систему, которая может существенно облегчить вам работу.
+ LyX берёт на себя всю рутинную оформительскую часть при создании текстовой
+ документации, а вам предоставляет возможность сосредоточиться на содержании
+ документа.
+ 
+d49 9
+a57 2
+Если точнее, то LyX --- это WISYWIM-система, принципом которой является
+ то, что вы указываете, 
+d59 1
+a59 1
+что
+d61 2
+a62 1
+ у вас за часть текста, а не 
+d64 1
+a64 1
+как
+d66 12
+a77 2
+ она должна выглядеть.
+ Для печати LyX формирует код на LaTeX, который преобразуется в PostScript
+d84 1
+d86 38
+a123 1
+\layout Section
+d125 1
+a125 1
+Запуск LyX
+d128 11
+a138 3
+Как правило кнопка вызова меню программ в любом оконном менеджере находится
+ в левом нижнем углу экрана.
+ Нажмите на неё мышкой, выберите раздел 
+d140 6
+a145 5
+Офис (
+\lang english
+Office
+\lang russian
+)
+d147 17
+a163 1
+, и в нём выберите LyX.
+d298 2
+a299 2
+ Это избавит вас, уважаемый пользователь LyX'а, от многоразового набора
+ и форматирования одной и той же информации.
+d315 3
+d329 10
+d364 1
+a364 1
+\layout Section
+d403 3
+a405 10
+При написании текста следует заботиться о его структуре, а о том, как он
+ будет выглядеть, позаботится система.
+ Необходимо лишь указать, где в тексте раздел, где пункт, где перечисление.
+ Это можно сделать мышкой в меню стилей (самое левое в панели инструментов
+ программы).
+ Соответственно, не следует пытаться вручную нумеровать пункты, или расставлять
+ значки в перечислениях, формировать отступы абзацев пробелами и пр.
+\layout Enumerate
+
+Не следует обращать особого внимания на отступы и интервалы в тексте.
+a429 4
+Особо следует отметить, что содержание документа формируется автоматически,
+ достаточно вставить его в документ.
+\layout Enumerate
+
+d431 17
+a447 3
+ клавиши --- для начала, что комбинации Shift--стрелочки используются для
+ выделение текста, Ctrl-X --- вырезать, Ctrl-C --- скопировать, Ctrl-V ---
+ вставить.
+d494 2
+d497 3
+a499 1
+No{}.
+d502 10
+a511 2
+В пакете lyx-gost содержится класс GOST, предназначенный для оформления
+ технической документации по ГОСТ 2.105-95 
+@

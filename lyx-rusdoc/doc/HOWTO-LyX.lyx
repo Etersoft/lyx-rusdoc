@@ -1,5 +1,7 @@
-#LyX 1.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 221
+#LyX 1.5.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 276
+\begin_document
+\begin_header
 \textclass article
 \begin_preamble
 \usepackage{multicol}
@@ -12,1065 +14,1226 @@
 \end_preamble
 \language russian
 \inputencoding koi8-r
-\fontscheme default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
 \graphics default
 \paperfontsize 12
-\spacing single 
-\papersize Default
-\paperpackage a4
-\use_geometry 0
-\use_amsmath 0
-\use_natbib 0
-\use_numerical_citations 0
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
 \paperorientation portrait
 \secnumdepth 3
 \tocdepth 2
 \paragraph_separation indent
 \defskip medskip
 \quotes_language english
-\quotes_times 2
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
 
-\layout Title
+\begin_body
 
-Полезные советы по LyX
-\layout Date
+\begin_layout Title
+п÷п╬п╩п╣п╥п╫я▀п╣ я│п╬п╡п╣я┌я▀ п©п╬ LyX
+\end_layout
 
-30.06.01, 14.06.02, 05.01.04
-\layout Author
+\begin_layout Date
+30.06.01, 14.06.02, 05.01.04, 05.12.07
+\end_layout
 
+\begin_layout Author
 Russian LyX User Group (lav@etersoft.ru)
-\layout Abstract
+\end_layout
 
-Мы хотели бы собирать здесь советы, как делать в LyX некоторые вещи оптимальным
- образом, а так же рассмотреть вопросы, возникающие у новоначального пользовател
-я.
- В поле 
+\begin_layout Abstract
+п°я▀ я┘п╬я┌п╣п╩п╦ п╠я▀ я│п╬п╠п╦я─п╟я┌я▄ п╥п╢п╣я│я▄ я│п╬п╡п╣я┌я▀, п╨п╟п╨ п╢п╣п╩п╟я┌я▄ п╡ LyX п╫п╣п╨п╬я┌п╬я─я▀п╣ п╡п╣я┴п╦ п╬п©я┌п╦п╪п╟п╩я▄п╫я▀п╪
+ п╬п╠я─п╟п╥п╬п╪, п╟ я┌п╟п╨ п╤п╣ я─п╟я│я│п╪п╬я┌я─п╣я┌я▄ п╡п╬п©я─п╬я│я▀, п╡п╬п╥п╫п╦п╨п╟я▌я┴п╦п╣ я┐ п╫п╬п╡п╬п╫п╟я┤п╟п╩я▄п╫п╬пЁп╬ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩
+я▐.
+ п▓ п©п╬п╩п╣ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-Недостатки
+п²п╣п╢п╬я│я┌п╟я┌п╨п╦
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- указываются те особенности реализации, которые, на взгляд авторов, следовало
- бы устранить.
-\layout Section
+ я┐п╨п╟п╥я▀п╡п╟я▌я┌я│я▐ я┌п╣ п╬я│п╬п╠п╣п╫п╫п╬я│я┌п╦ я─п╣п╟п╩п╦п╥п╟я├п╦п╦, п╨п╬я┌п╬я─я▀п╣, п╫п╟ п╡п╥пЁп╩я▐п╢ п╟п╡я┌п╬я─п╬п╡, я│п╩п╣п╢п╬п╡п╟п╩п╬
+ п╠я▀ я┐я│я┌я─п╟п╫п╦я┌я▄.
+\end_layout
 
-Благодарности
-\layout Standard
+\begin_layout Section
+п▒п╩п╟пЁп╬п╢п╟я─п╫п╬я│я┌п╦
+\end_layout
 
-Во многом при написании этих советов мне помогли LyXTips, созданные Herbert
- Voss 
-\layout Section
+\begin_layout Standard
+п▓п╬ п╪п╫п╬пЁп╬п╪ п©я─п╦ п╫п╟п©п╦я│п╟п╫п╦п╦ я█я┌п╦я┘ я│п╬п╡п╣я┌п╬п╡ п╫п╟п╪ п©п╬п╪п╬пЁп╩п╦ LyXTips, я│п╬п╥п╢п╟п╫п╫я▀п╣ Herbert
+ Voss.
+\end_layout
 
+\begin_layout Section
+\begin_inset LatexCommand label
+name "п·п╠я┴п╦п╣п║п╡п╣п╢п╣п╫п╦я▐"
 
-\begin_inset LatexCommand \label{ОбщиеСведения}
+\end_inset
 
-\end_inset 
+п·п╠я┴п╦п╣ я│п╡п╣п╢п╣п╫п╦я▐
+\end_layout
 
-Общие сведения
-\layout Standard
+\begin_layout Standard
+п╒п╟п╨ п╨п╟п╨ п╡ п©я─п╣п╢я▀п╢я┐я┴п╦я┘ п╡п╣я─я│п╦я▐я┘ LyX п╠я▀п╩п╬ п╪п╫п╬пЁп╬ п╫п╣п╢п╬я┤я▒я┌п╬п╡, п╨п╬я┌п╬я─я▀п╣ п╦я│п©я─п╟п╡п╩п╣п╫я▀
+ п╡ п©п╬я│п╩п╣п╢п╫п╦я┘ п╡п╣я─я│п╦я▐я┘ п©я─п╬пЁя─п╟п╪п╪я▀, п╪я▀ п╫п╟я│я┌п╬я▐я┌п╣п╩я▄п╫п╬ я─п╣п╨п╬п╪п╣п╫п╢я┐п╣п╪ п╡п╟п╪ п╡я▀п©п╬п╩п╫п╦я┌я▄
+ п╬п╠п╫п╬п╡п╩п╣п╫п╦п╣ LyX п╢п╬ п╡п╣я─я│п╦п╦ 1.5.2.
+ п▓я▀ п╪п╬п╤п╣я┌п╣ п©п╬п╩я┐я┤п╦я┌я▄ п╫п╬п╡я┐я▌ я│п╠п╬я─п╨я┐ п╡ п╬п╠п╫п╬п╡п╩п╣п╫п╦я▐я┘ п╬я┌ п╡п╟я┬п╣пЁп╬ п©п╬я│я┌п╟п╡я┴п╦п╨п╟ п╢п╦я│я┌я─п╦п╠я┐я┌п╦п╡п╟
+ п╬п©п╣я─п╟я├п╦п╬п╫п╫п╬п╧ я│п╦я│я┌п╣п╪я▀ п╦п╩п╦ я│ я│п╟п╧я┌п╟ 
+\begin_inset LatexCommand url
+target "www.lyx.org"
 
-Так как в предыдущих версиях LyX было много недочётов, которые исправлены
- в настоящей версии, мы настоятельно рекомендуем вам выполнить обновление
- LyX до версии 1.3.3.
- Вы можете получить новую сборку в обновлениях от вашего поставщика дистрибутива
- или с сайта 
-\begin_inset LatexCommand \url{www.lyx.org}
-
-\end_inset 
+\end_inset
 
 .
-\layout Standard
+\end_layout
 
-Команда TeX вводится как обыкновенный текст в документ, далее выделяется
- мышкой и нажимается красная кнопочка на панели инструментов с надписью
+\begin_layout Standard
+п▓ п╢п╟п╫п╫п╬п╧ п╡п╣я─я│п╦п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╟ я┐п╠я─п╟п╫я▀ п╫п╣ п╡я│п╣ я┐я│я┌п╟я─п╣п╡я┬п╦п╣ я│п╬п╡п╣я┌я▀, п╢п╬ п╨п╬п╫я├п╟ п╬п╫ п╫п╣
+ п╡я▀п╡п╣я─п╣п╫ я│п╬пЁп╩п╟я│п╫п╬ п╫п╬п╡п╬п╧ п╡п╣я─я│п╦п╦ LyX.
+\end_layout
+
+\begin_layout Standard
+п п╬п╪п╟п╫п╢п╟ TeX п╡п╡п╬п╢п╦я┌я│я▐ п╨п╟п╨ п╬п╠я▀п╨п╫п╬п╡п╣п╫п╫я▀п╧ я┌п╣п╨я│я┌ п╡ п╢п╬п╨я┐п╪п╣п╫я┌, п╢п╟п╩п╣п╣ п╡я▀п╢п╣п╩я▐п╣я┌я│я▐
+ п╪я▀я┬п╨п╬п╧ п╦ п╫п╟п╤п╦п╪п╟п╣я┌я│я▐ п╨я─п╟я│п╫п╟я▐ п╨п╫п╬п©п╬я┤п╨п╟ п╫п╟ п©п╟п╫п╣п╩п╦ п╦п╫я│я┌я─я┐п╪п╣п╫я┌п╬п╡ я│ п╫п╟п╢п©п╦я│я▄я▌
  TeX.
- При этом команда становится записанной красным шрифтом.
-\layout Standard
+ п÷я─п╦ я█я┌п╬п╪ п╨п╬п╪п╟п╫п╢п╟ я│я┌п╟п╫п╬п╡п╦я┌я│я▐ п╥п╟п©п╦я│п╟п╫п╫п╬п╧ п╨я─п╟я│п╫я▀п╪ я┬я─п╦я└я┌п╬п╪.
+\end_layout
 
-Чтобы подключить для использования тот или иной 
-\emph on 
-пакет
-\emph default 
-, необходимо в меню 
-\family sans 
-Формат\SpecialChar \menuseparator
-Преамбула\SpecialChar ~
-LaTeX (Формат\SpecialChar \menuseparator
-Документ,\SpecialChar ~
-Преамбула)
-\family default 
- вписать строчку 
-\family sans 
+\begin_layout Standard
+п╖я┌п╬п╠я▀ п©п╬п╢п╨п╩я▌я┤п╦я┌я▄ п╢п╩я▐ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦я▐ я┌п╬я┌ п╦п╩п╦ п╦п╫п╬п╧ 
+\emph on
+п©п╟п╨п╣я┌
+\emph default
+, п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡ п╪п╣п╫я▌ 
+\family sans
+п■п╬п╨я┐п╪п╣п╫я┌\SpecialChar \menuseparator
+п÷п╟я─п╟п╪п╣я┌я─я▀,\InsetSpace ~
+п÷я─п╣п╟п╪п╠я┐п╩п╟\InsetSpace ~
+LaTeX
+\family default
+ п╡п©п╦я│п╟я┌я▄ я│я┌я─п╬я┤п╨я┐ 
+\family sans
 
-\backslash 
-usepackage{имя_пакета}
-\family default 
+\backslash
+usepackage{п╦п╪я▐_п©п╟п╨п╣я┌п╟}
+\family default
 .
- Внимание! Клавиша 
-\family sans 
-Del
-\family default 
- при редактировании преамбулы стирает 
-\size large 
-\emph on 
-слева
-\size default 
-\emph default 
- от курсора.
-\layout Section
+\end_layout
 
-Документ
-\layout Standard
+\begin_layout Section
+п■п╬п╨я┐п╪п╣п╫я┌
+\end_layout
 
-В общем вид документа на печати зависит от примененного 
-\emph on 
-стиля
-\emph default 
- документа.
- Стиль может быть article (статья), report (отчет), book (книга).
- Для оформления текстовой документации по ГОСТ используется класс GOST,
- в оформлении которого учтены все требования ГОСТ к оформлению и нижеперечисленн
-ые советы практически не требуются.
- Вы можете получить класс GOST из пакета lyx-gost-koi8-r или lyx-gost-cp1251
- (Если вы используете ALT Linux), или найдя соответствующие пакеты, например,
- через 
-\begin_inset LatexCommand \url{filesearch.ru}
+\begin_layout Standard
+п▓ п╬п╠я┴п╣п╪ п╡п╦п╢ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╫п╟ п©п╣я┤п╟я┌п╦ п╥п╟п╡п╦я│п╦я┌ п╬я┌ п©я─п╦п╪п╣п╫я▒п╫п╫п╬пЁп╬ 
+\emph on
+я│я┌п╦п╩я▐
+\emph default
+ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+ п║я┌п╦п╩я▄ п╪п╬п╤п╣я┌ п╠я▀я┌я▄ article (я│я┌п╟я┌я▄я▐), report (п╬я┌я┤п╣я┌), book (п╨п╫п╦пЁп╟).
+ п■п╩я▐ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ я┌п╣п╨я│я┌п╬п╡п╬п╧ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦ п©п╬ п⌠п·п║п╒ п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ п╨п╩п╟я│я│ GOST,
+ п╡ п╬я└п╬я─п╪п╩п╣п╫п╦п╦ п╨п╬я┌п╬я─п╬пЁп╬ я┐я┤я┌п╣п╫я▀ п╡я│п╣ я┌я─п╣п╠п╬п╡п╟п╫п╦я▐ п⌠п·п║п╒ п╨ п╬я└п╬я─п╪п╩п╣п╫п╦я▌ п╦ п╫п╦п╤п╣п©п╣я─п╣я┤п╦я│п╩п╣п╫п╫
+я▀п╣ я│п╬п╡п╣я┌я▀ п©я─п╟п╨я┌п╦я┤п╣я│п╨п╦ п╫п╣ я┌я─п╣п╠я┐я▌я┌я│я▐.
+ п▓я▀ п╪п╬п╤п╣я┌п╣ п©п╬п╩я┐я┤п╦я┌я▄ п╨п╩п╟я│я│ GOST п╦п╥ п©п╟п╨п╣я┌п╟ lyx-gost (п∙я│п╩п╦ п╡я▀ п╦я│п©п╬п╩я▄п╥я┐п╣я┌п╣ ALT
+ Linux), п╦п╩п╦ п╫п╟п╧п╢я▐ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴п╦п╣ п©п╟п╨п╣я┌я▀, п╫п╟п©я─п╦п╪п╣я─, я┤п╣я─п╣п╥ 
+\begin_inset LatexCommand url
+target "filesearch.ru"
 
-\end_inset 
+\end_inset
 
 .
-\layout Subsection
+\end_layout
 
-Номер на странице
-\layout Standard
+\begin_layout Subsection
+п²п╬п╪п╣я─ п╫п╟ я│я┌я─п╟п╫п╦я├п╣
+\end_layout
 
-Чтобы убрать вывод номера на определённой странице, нужно в начале текста
- на странице написать команду TeX:
-\family typewriter 
- 
-\backslash 
+\begin_layout Standard
+п╖я┌п╬п╠я▀ я┐п╠я─п╟я┌я▄ п╡я▀п╡п╬п╢ п╫п╬п╪п╣я─п╟ п╫п╟ п╬п©я─п╣п╢п╣п╩я▒п╫п╫п╬п╧ я│я┌я─п╟п╫п╦я├п╣, п╫я┐п╤п╫п╬ п╡ п╫п╟я┤п╟п╩п╣ я┌п╣п╨я│я┌п╟
+ п╫п╟ я│я┌я─п╟п╫п╦я├п╣ п╫п╟п©п╦я│п╟я┌я▄ п╨п╬п╪п╟п╫п╢я┐ TeX: 
+\family typewriter
+
+\backslash
 thispagestyle{empty}
-\layout Standard
+\end_layout
 
-Чтобы не показывать номера вообще, необходимо вставить следующий код в преамбулу
+\begin_layout Standard
+п╖я┌п╬п╠я▀ п╫п╣ п©п╬п╨п╟п╥я▀п╡п╟я┌я▄ п╫п╬п╪п╣я─п╟ п╡п╬п╬п╠я┴п╣, п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡я│я┌п╟п╡п╦я┌я▄ я│п╩п╣п╢я┐я▌я┴п╦п╧ п╨п╬п╢ п╡ п©я─п╣п╟п╪п╠я┐п╩я┐
 :
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\size small 
+\size small
 
-\backslash 
+\backslash
 let
-\backslash 
+\backslash
 ps@plain
-\backslash 
+\backslash
 ps@empty 
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\size small 
+\size small
 
-\backslash 
+\backslash
 ps@empty
-\layout Standard
+\end_layout
 
-или применить пакет 
-\family typewriter 
+\begin_layout Standard
+п╦п╩п╦ п©я─п╦п╪п╣п╫п╦я┌я▄ п©п╟п╨п╣я┌ 
+\family typewriter
 nopageno
-\family default 
- (см.
- раздел 
-\begin_inset LatexCommand \vref{ОбщиеСведения}
+\family default
+ (я│п╪.
+ я─п╟п╥п╢п╣п╩ 
+\begin_inset LatexCommand vref
+reference "п·п╠я┴п╦п╣п║п╡п╣п╢п╣п╫п╦я▐"
 
-\end_inset 
+\end_inset
 
 )
-\family typewriter 
+\family typewriter
 .
-\layout Standard
+\end_layout
 
-Если вы хотите видеть нумерацию вида 
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ я┘п╬я┌п╦я┌п╣ п╡п╦п╢п╣я┌я▄ п╫я┐п╪п╣я─п╟я├п╦я▌ п╡п╦п╢п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-3 из 12
+3 п╦п╥ 12
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
-, примените пакет 
-\family typewriter 
+, п©я─п╦п╪п╣п╫п╦я┌п╣ п©п╟п╨п╣я┌ 
+\family typewriter
 lastpage
-\family default 
+\family default
 .
- В преамбуле:
-\layout LyX-Code
+ п▓ п©я─п╣п╟п╪п╠я┐п╩п╣:
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 usepackage{lastpage}
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand
-\backslash 
+\backslash
 thepage{
-\backslash 
-arabic{page} из 
-\backslash 
+\backslash
+arabic{page} п╦п╥ 
+\backslash
 pageref{LastPage}}
-\layout Subsection
+\end_layout
 
-Поля документа
-\layout Standard
+\begin_layout Subsection
+п÷п╬п╩я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\end_layout
 
-Поля меняются в меню 
-\family sans 
-Формат\SpecialChar \menuseparator
-Документ
-\family default 
-.
- Закладка 
-\family sans 
-Бумага.
-\layout Standard
+\begin_layout Standard
+п÷п╬п╩я▐ п╪п╣п╫я▐я▌я┌я│я▐ п╡ п╪п╣п╫я▌ 
+\family sans
+п■п╬п╨я┐п╪п╣п╫я┌\SpecialChar \menuseparator
+п÷п╟я─п╟п╪п╣я┌я─я▀
+\family default
+,\InsetSpace ~
 
-01.07.01, 08.12.01, 05.07.02 Lav
-\layout Subsection
+\family sans
+п÷п╬п╩я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+\end_layout
 
-Добавление строки в содержание
-\layout Standard
+\begin_layout Standard
+01.07.01, 08.12.01, 05.07.02, 05.12.07 Lav
+\end_layout
 
-По умолчанию в содержание добавляются только разделы, имеющие нумерацию
- (Section, SubSection и пр.
- --- те, которые без звездочек).
- Если необходимо добавить ещё пункт Введение или Послесловие, которые не
- должны иметь нумерации, но быть отражены в содержании, применяется команда
-\layout LyX-Code
+\begin_layout Subsection
+п■п╬п╠п╟п╡п╩п╣п╫п╦п╣ я│я┌я─п╬п╨п╦ п╡ я│п╬п╢п╣я─п╤п╟п╫п╦п╣
+\end_layout
 
+\begin_layout Standard
+п÷п╬ я┐п╪п╬п╩я┤п╟п╫п╦я▌ п╡ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╢п╬п╠п╟п╡п╩я▐я▌я┌я│я▐ я┌п╬п╩я▄п╨п╬ я─п╟п╥п╢п╣п╩я▀, п╦п╪п╣я▌я┴п╦п╣ п╫я┐п╪п╣я─п╟я├п╦я▌
+ (Section, SubSection п╦ п©я─.
+ --- я┌п╣, п╨п╬я┌п╬я─я▀п╣ п╠п╣п╥ п╥п╡п╣п╥п╢п╬я┤п╣п╨).
+ п∙я│п╩п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╢п╬п╠п╟п╡п╦я┌я▄ п╣я┴я▒ п©я┐п╫п╨я┌ п▓п╡п╣п╢п╣п╫п╦п╣ п╦п╩п╦ п÷п╬я│п╩п╣я│п╩п╬п╡п╦п╣, п╨п╬я┌п╬я─я▀п╣ п╫п╣
+ п╢п╬п╩п╤п╫я▀ п╦п╪п╣я┌я▄ п╫я┐п╪п╣я─п╟я├п╦п╦, п╫п╬ п╠я▀я┌я▄ п╬я┌я─п╟п╤п╣п╫я▀ п╡ я│п╬п╢п╣я─п╤п╟п╫п╦п╦, п©я─п╦п╪п╣п╫я▐п╣я┌я│я▐ п╨п╬п╪п╟п╫п╢п╟
+\end_layout
 
-\backslash 
-addcontentsline{toc}{section}{Название пункта}
-\layout Standard
+\begin_layout LyX-Code
 
-Причем её нужно указывать в тексте раздела, сразу после названия раздела.
- Например:
-\layout Section*
+\backslash
+addcontentsline{toc}{section}{п²п╟п╥п╡п╟п╫п╦п╣ п©я┐п╫п╨я┌п╟}
+\end_layout
 
-Введение
-\layout LyX-Code
+\begin_layout Standard
+п÷я─п╦я┤п╣п╪ п╣я▒ п╫я┐п╤п╫п╬ я┐п╨п╟п╥я▀п╡п╟я┌я▄ п╡ я┌п╣п╨я│я┌п╣ я─п╟п╥п╢п╣п╩п╟, я│я─п╟п╥я┐ п©п╬я│п╩п╣ п╫п╟п╥п╡п╟п╫п╦я▐ я─п╟п╥п╢п╣п╩п╟.
+ п²п╟п©я─п╦п╪п╣я─:
+\end_layout
 
+\begin_layout Section*
+п▓п╡п╣п╢п╣п╫п╦п╣
+\end_layout
 
-\backslash 
-addcontentsline{toc}{section}{Введение}
-\layout Standard
+\begin_layout LyX-Code
 
-Вместо section указывается окружение, в уровень которого нужно поместить
- указанную строку.
-\layout Subsection
+\backslash
+addcontentsline{toc}{section}{п▓п╡п╣п╢п╣п╫п╦п╣}
+\end_layout
 
-Проблемы с русским в LyX (LaTeX)
-\layout Standard
+\begin_layout Standard
+п▓п╪п╣я│я┌п╬ section я┐п╨п╟п╥я▀п╡п╟п╣я┌я│я▐ п╬п╨я─я┐п╤п╣п╫п╦п╣, п╡ я┐я─п╬п╡п╣п╫я▄ п╨п╬я┌п╬я─п╬пЁп╬ п╫я┐п╤п╫п╬ п©п╬п╪п╣я│я┌п╦я┌я▄
+ я┐п╨п╟п╥п╟п╫п╫я┐я▌ я│я┌я─п╬п╨я┐.
+\end_layout
 
-Для нормальной работы необходима правильная настройка раскладки клавиатуры
- в X, раскладки в LyX.
- Нужно подключить файл перекодирования lyx/bind/cyrillic.bind для использования
- LyX со стандартным переключением в X.
-\layout Standard
+\begin_layout Subsection
+п÷я─п╬п╠п╩п╣п╪я▀ я│ я─я┐я│я│п╨п╦п╪ п╡ LyX (LaTeX)
+\end_layout
 
-В общем, проблем с русским в LyX и LaTeX при использовании сборок от ALT
- Linux (
-\begin_inset LatexCommand \url{ftp://ftp.altlinux.ru}
+\begin_layout Standard
+п▓ п╫п╟я│я┌п╬я▐я┴п╦п╧ п╪п╬п╪п╣п╫я┌ п╫п╟п╪ п╫п╣п╦п╥п╡п╣я│я┌п╫п╬ п╬ п©я─п╬п╠п╩п╣п╪п╟я┘ я│ я─я┐я│я│п╨п╦п╪ я▐п╥я▀п╨п╬п╪ п╡ LyX п╦ LaTeX.
+\end_layout
 
-\end_inset 
+\begin_layout Subsection
+п п╬п╩п╬п╫п╨п╦ я┌п╣п╨я│я┌п╟
+\end_layout
 
-) не будет.
-\layout Subsection
+\begin_layout Subsubsection
+п≤я│п©п╬п╩я▄п╥я┐я▐ п©п╟п╨п╣я┌ multicol
+\end_layout
 
-Колонки текста
-\layout Subsubsection
-
-Используя пакет multicol
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset Marginal
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+п╜я┌п╟ я│я┌я─п╬п╨п╟ я│п©п╣я├п╦п╟п╩я▄п╫п╬ п╬я│я┌п╟п╡п╩п╣п╫п╟.
+\end_layout
 
-Эта строка специально оставлена.
-\end_inset 
+\end_inset
 
-Мы должны указать в преамбуле 
-\backslash 
+п°я▀ п╢п╬п╩п╤п╫я▀ я┐п╨п╟п╥п╟я┌я▄ п╡ п©я─п╣п╟п╪п╠я┐п╩п╣ 
+\backslash
 usepackage{multicol}.
- Ниже приведен пример, из которого должно быть всё понятно.
- Для указания, где начать новую колонку, используем 
-\size small 
+ п²п╦п╤п╣ п©я─п╦п╡п╣п╢п╣п╫ п©я─п╦п╪п╣я─, п╦п╥ п╨п╬я┌п╬я─п╬пЁп╬ п╢п╬п╩п╤п╫п╬ п╠я▀я┌я▄ п╡я│я▒ п©п╬п╫я▐я┌п╫п╬.
+ п■п╩я▐ я┐п╨п╟п╥п╟п╫п╦я▐, пЁп╢п╣ п╫п╟я┤п╟я┌я▄ п╫п╬п╡я┐я▌ п╨п╬п╩п╬п╫п╨я┐, п╦я│п©п╬п╩я▄п╥я┐п╣п╪ 
+\size small
 
-\backslash 
+\backslash
 columnbreak.
- Чтобы текст в колонках прижимался к верхнему краю, нужно указать 
-\backslash 
-raggedcolumns после
-\size default 
+ п╖я┌п╬п╠я▀ я┌п╣п╨я│я┌ п╡ п╨п╬п╩п╬п╫п╨п╟я┘ п©я─п╦п╤п╦п╪п╟п╩я│я▐ п╨ п╡п╣я─я┘п╫п╣п╪я┐ п╨я─п╟я▌, п╫я┐п╤п╫п╬ я┐п╨п╟п╥п╟я┌я▄ 
+\backslash
+raggedcolumns п©п╬я│п╩п╣
+\size default
 
-\begin_inset LatexCommand \label{overhead}
+\begin_inset LatexCommand label
+name "overhead"
 
-\end_inset 
+\end_inset
 
 
-\backslash 
+\backslash
 begin{multicols}{2}.
- Возможно, лучше после отменить действие 
-\size small 
+ п▓п╬п╥п╪п╬п╤п╫п╬, п╩я┐я┤я┬п╣ п©п╬я│п╩п╣ п╬я┌п╪п╣п╫п╦я┌я▄ п╢п╣п╧я│я┌п╡п╦п╣ 
+\size small
 
-\backslash 
-raggedcolumns с помощью 
-\backslash 
+\backslash
+raggedcolumns я│ п©п╬п╪п╬я┴я▄я▌ 
+\backslash
 flushcolumns.
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
 \lang english
-
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 begin{multicols}{2} 
-\backslash 
+\backslash
 raggedcolumns
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
-\size small 
+\size small
 \lang english
 It was in the spring of the year 1894 that all London was interested, and
  the fashionable world dismayed, by the murder of the Honourable Ronald
  Adair under most unusual and inexplicable circumstances.
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
-\size small 
+\size small
 \lang english
-
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 columnbreak
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
-\size small 
+\size small
 \lang english
 The public has already learned those particulars of the crime which came
  out in the police investigation, but a good deal was suppressed upon that
  occasion, since the case for the prosecution was so overwhelmingly strong
  that it was not necessary to bring forward all the facts.
  
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
 \lang english
-
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 end{multicols}
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Subsubsection
+\end_layout
 
-Используя мини-страницы 
-\layout Standard
+\begin_layout Subsubsection
+п≤я│п©п╬п╩я▄п╥я┐я▐ п╪п╦п╫п╦-я│я┌я─п╟п╫п╦я├я▀ 
+\end_layout
 
-Через меню 
-\family sans 
-Вставить
-\family default 
+\begin_layout Standard
+пёя│я┌п╟я─п╣п╩п╬:
+\end_layout
+
+\begin_layout Standard
+п╖п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+п▓я│я┌п╟п╡п╦я┌я▄
+\family default
 \SpecialChar \menuseparator
 
-\family sans 
-Мини-страницу
-\family default 
- вставляем необходимое количество мини-страниц.
- Нажав на заголовок рамки каждой мини-страницы правую кнопку мыши, указываем
- ширину в процентах (например, 45).
- Нажимаем
-\family sans 
- ОК 
-\family default 
-:).
+\family sans
+п°п╦п╫п╦-я│я┌я─п╟п╫п╦я├я┐
+\family default
+ п╡я│я┌п╟п╡п╩я▐п╣п╪ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬п╣ п╨п╬п╩п╦я┤п╣я│я┌п╡п╬ п╪п╦п╫п╦-я│я┌я─п╟п╫п╦я├.
+ п²п╟п╤п╟п╡ п╫п╟ п╥п╟пЁп╬п╩п╬п╡п╬п╨ я─п╟п╪п╨п╦ п╨п╟п╤п╢п╬п╧ п╪п╦п╫п╦-я│я┌я─п╟п╫п╦я├я▀ п©я─п╟п╡я┐я▌ п╨п╫п╬п©п╨я┐ п╪я▀я┬п╦, я┐п╨п╟п╥я▀п╡п╟п╣п╪
+ я┬п╦я─п╦п╫я┐ п╡ п©я─п╬я├п╣п╫я┌п╟я┘ (п╫п╟п©я─п╦п╪п╣я─, 45).
+ п²п╟п╤п╦п╪п╟п╣п╪ 
+\family sans
+п·п 
+\family default
+ :).
  
-\begin_inset LatexCommand \vpageref{minipage}
+\begin_inset LatexCommand vpageref
+reference "minipage"
 
-\end_inset 
+\end_inset
 
- --- пример.
-\layout Standard
+ --- п©я─п╦п╪п╣я─.
+\end_layout
 
-
-\begin_inset Minipage
-position 0
-inner_position 0
-height "0pt"
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
 width "49col%"
-collapsed false
+special "none"
+height "1pt"
+height_special "totalheight"
+status open
 
-\layout Enumerate
+\begin_layout Enumerate
+\begin_inset LatexCommand label
+name "minipage"
 
-
-\begin_inset LatexCommand \label{minipage}
-
-\end_inset 
+\end_inset
 
 1.
- Текст, который нам
-\layout Enumerate
+ п╒п╣п╨я│я┌, п╨п╬я┌п╬я─я▀п╧ п╫п╟п╪
+\end_layout
 
+\begin_layout Enumerate
 2.
- нужно расположить
-\end_inset 
+ п╫я┐п╤п╫п╬ я─п╟я│п©п╬п╩п╬п╤п╦я┌я▄
+\end_layout
+
+\end_inset
 
 
-\begin_inset Minipage
-position 0
-inner_position 0
-height "0pt"
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
 width "49col%"
-collapsed false
+special "none"
+height "1pt"
+height_special "totalheight"
+status open
 
-\layout Enumerate
-
+\begin_layout Enumerate
 3.
- А здесь уже другая колонка
-\layout Enumerate
+ п░ п╥п╢п╣я│я▄ я┐п╤п╣ п╢я─я┐пЁп╟я▐ п╨п╬п╩п╬п╫п╨п╟
+\end_layout
 
+\begin_layout Enumerate
 4.
- Продолжаем
-\layout Enumerate
+ п÷я─п╬п╢п╬п╩п╤п╟п╣п╪
+\end_layout
 
+\begin_layout Enumerate
 5.
- Ещё немного...
-\layout Enumerate
+ п∙я┴я▒ п╫п╣п╪п╫п╬пЁп╬...
+\end_layout
 
+\begin_layout Enumerate
 6.
- Вот и всё.
-\end_inset 
+ п▓п╬я┌ п╦ п╡я│я▒.
+\end_layout
+
+\end_inset
 
 
-\layout Subsection
+\end_layout
 
-Принудительный разрыв страницы 
-\layout Standard
+\begin_layout Subsection
+п÷я─п╦п╫я┐п╢п╦я┌п╣п╩я▄п╫я▀п╧ я─п╟п╥я─я▀п╡ я│я┌я─п╟п╫п╦я├я▀ 
+\end_layout
 
-Принудительный разрыв страницы осуществляется через меню 
-\family sans 
-Формат\SpecialChar \menuseparator
-Абзац
-\family default 
+\begin_layout Standard
+п÷я─п╦п╫я┐п╢п╦я┌п╣п╩я▄п╫я▀п╧ я─п╟п╥я─я▀п╡ я│я┌я─п╟п╫п╦я├я▀ п╬я│я┐я┴п╣я│я┌п╡п╩я▐п╣я┌я│я▐ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п░п╠п╥п╟я├
+\family default
 .
- А там отмечаете, выполнять разрыв страницы до и/или после абзаца.
-\layout Standard
+ п░ я┌п╟п╪ п╬я┌п╪п╣я┤п╟п╣я┌п╣, п╡я▀п©п╬п╩п╫я▐я┌я▄ я─п╟п╥я─я▀п╡ я│я┌я─п╟п╫п╦я├я▀ п╢п╬ п╦/п╦п╩п╦ п©п╬я│п╩п╣ п╟п╠п╥п╟я├п╟.
+\end_layout
 
-Если вы хотите получить отдельную титульную страницу, напишите titlepage
- в меню
-\family sans 
- Формат\SpecialChar \menuseparator
-Документ,
-\family default 
- закладка Документы, пункт Доп.параметры.
-\layout Section
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ я┘п╬я┌п╦я┌п╣ п©п╬п╩я┐я┤п╦я┌я▄ п╬я┌п╢п╣п╩я▄п╫я┐я▌ я┌п╦я┌я┐п╩я▄п╫я┐я▌ я│я┌я─п╟п╫п╦я├я┐, п╫п╟п©п╦я┬п╦я┌п╣ titlepage
+ п╡ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п■п╬п╨я┐п╪п╣п╫я┌,
+\family default
+ п╥п╟п╨п╩п╟п╢п╨п╟ п■п╬п╨я┐п╪п╣п╫я┌я▀, п©я┐п╫п╨я┌ п■п╬п©.п©п╟я─п╟п╪п╣я┌я─я▀.
+\end_layout
 
-Абзац
-\layout Subsection
+\begin_layout Section
+п░п╠п╥п╟я├
+\end_layout
 
-Продолжение нумерации
-\layout Standard
+\begin_layout Subsection
+п÷я─п╬п╢п╬п╩п╤п╣п╫п╦п╣ п╫я┐п╪п╣я─п╟я├п╦п╦
+\end_layout
 
-Часто бывает нужно написать нумерованный список, давая пояснения к некоторым
- пунктам.
- Например:
-\layout Standard
+\begin_layout Standard
+п╖п╟я│я┌п╬ п╠я▀п╡п╟п╣я┌ п╫я┐п╤п╫п╬ п╫п╟п©п╦я│п╟я┌я▄ п╫я┐п╪п╣я─п╬п╡п╟п╫п╫я▀п╧ я│п©п╦я│п╬п╨, п╢п╟п╡п╟я▐ п©п╬я▐я│п╫п╣п╫п╦я▐ п╨ п╫п╣п╨п╬я┌п╬я─я▀п╪
+ п©я┐п╫п╨я┌п╟п╪.
+ п²п╟п©я─п╦п╪п╣я─:
+\end_layout
 
+\begin_layout Standard
 
 \lang english
-
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 begin{multicols}{2}
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Enumerate
+\end_layout
 
-Пункт
-\layout Enumerate
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Пункт
-\layout Enumerate
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Пункт
-\layout Standard
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Если вы захотите добавить абзац во второй пункт, скорее всего, у вас получится
- вот так:
-\layout Enumerate
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ п╥п╟я┘п╬я┌п╦я┌п╣ п╢п╬п╠п╟п╡п╦я┌я▄ п╟п╠п╥п╟я├ п╡п╬ п╡я┌п╬я─п╬п╧ п©я┐п╫п╨я┌, я│п╨п╬я─п╣п╣ п╡я│п╣пЁп╬, я┐ п╡п╟я│ п©п╬п╩я┐я┤п╦я┌я│я▐
+ п╡п╬я┌ я┌п╟п╨:
+\end_layout
 
-Пункт
-\layout Enumerate
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Пункт
-\layout Standard
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Вот такой абзац.
-\layout Enumerate
+\begin_layout Standard
+п▓п╬я┌ я┌п╟п╨п╬п╧ п╟п╠п╥п╟я├.
+\end_layout
 
-Пункт
-\layout Standard
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
+\begin_layout Standard
 
-\size small 
+\size small
 \lang english
-
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 columnbreak
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\size default 
+\size default
 \lang russian
- При этом нумерация далее началась сначала.
- Но вам нужно просто изменить уровень окружения.
-\layout Enumerate
+ п÷я─п╦ я█я┌п╬п╪ п╫я┐п╪п╣я─п╟я├п╦я▐ п╢п╟п╩п╣п╣ п╫п╟я┤п╟п╩п╟я│я▄ я│п╫п╟я┤п╟п╩п╟.
+ п²п╬ п╡п╟п╪ п╫я┐п╤п╫п╬ п©я─п╬я│я┌п╬ п╦п╥п╪п╣п╫п╦я┌я▄ я┐я─п╬п╡п╣п╫я▄ п╬п╨я─я┐п╤п╣п╫п╦я▐.
+\end_layout
 
-Пункт
-\layout Enumerate
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Пункт
-\begin_deeper 
-\layout Standard
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
-Для этого нужно нажать Alt-Shift-стрелку вправо (или изменить глубину окружения
- через меню 
-\family sans 
-Формат
-\family default 
+\begin_deeper
+\begin_layout Standard
+п■п╩я▐ я█я┌п╬пЁп╬ п╫я┐п╤п╫п╬ п╫п╟п╤п╟я┌я▄ Alt-Shift-я│я┌я─п╣п╩п╨я┐ п╡п©я─п╟п╡п╬ (п╦п╩п╦ п╦п╥п╪п╣п╫п╦я┌я▄ пЁп╩я┐п╠п╦п╫я┐ п╬п╨я─я┐п╤п╣п╫п╦я▐
+ я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌
+\family default
 )
-\end_deeper 
-\layout Enumerate
+\end_layout
 
-Пункт
-\layout Standard
+\end_deeper
+\begin_layout Enumerate
+п÷я┐п╫п╨я┌
+\end_layout
 
+\begin_layout Standard
 
 \lang english
-
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 end{multicols}
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Subsection
+\end_layout
 
-Первый абзацный отступ
-\layout Standard
+\begin_layout Subsection
+п÷п╣я─п╡я▀п╧ п╟п╠п╥п╟я├п╫я▀п╧ п╬я┌я│я┌я┐п©
+\end_layout
 
-Для того, чтобы в первом абзаце после заголовка появился абзацный отступ,
- необходимо в преамбуле указать 
-\backslash 
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ п╡ п©п╣я─п╡п╬п╪ п╟п╠п╥п╟я├п╣ п©п╬я│п╩п╣ п╥п╟пЁп╬п╩п╬п╡п╨п╟ п©п╬я▐п╡п╦п╩я│я▐ п╟п╠п╥п╟я├п╫я▀п╧ п╬я┌я│я┌я┐п©,
+ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡ п©я─п╣п╟п╪п╠я┐п╩п╣ я┐п╨п╟п╥п╟я┌я▄ 
+\backslash
 usepackage{indentfirst}.
-\layout Subsection
+\end_layout
 
-Строки, по ширине не влезающие на страницу
-\layout Standard
+\begin_layout Subsection
+п║я┌я─п╬п╨п╦, п©п╬ я┬п╦я─п╦п╫п╣ п╫п╣ п╡п╩п╣п╥п╟я▌я┴п╦п╣ п╫п╟ я│я┌я─п╟п╫п╦я├я┐
+\end_layout
 
-При использовании в тексте длинных последовательностей символов, которые
- не могут переносится (длинное число или английское слово в русском тексте,
- про которое не указано, что оно на английском), строка может вылезать за
- поля страницы (см абзац в разделе 
-\begin_inset LatexCommand \vref{overhead}
+\begin_layout Standard
+п÷я─п╦ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╦ п╡ я┌п╣п╨я│я┌п╣ п╢п╩п╦п╫п╫я▀я┘ п©п╬я│п╩п╣п╢п╬п╡п╟я┌п╣п╩я▄п╫п╬я│я┌п╣п╧ я│п╦п╪п╡п╬п╩п╬п╡, п╨п╬я┌п╬я─я▀п╣
+ п╫п╣ п╪п╬пЁя┐я┌ п©п╣я─п╣п╫п╬я│п╦я┌я│я▐ (п╢п╩п╦п╫п╫п╬п╣ я┤п╦я│п╩п╬ п╦п╩п╦ п╟п╫пЁп╩п╦п╧я│п╨п╬п╣ я│п╩п╬п╡п╬ п╡ я─я┐я│я│п╨п╬п╪ я┌п╣п╨я│я┌п╣,
+ п©я─п╬ п╨п╬я┌п╬я─п╬п╣ п╫п╣ я┐п╨п╟п╥п╟п╫п╬, я┤я┌п╬ п╬п╫п╬ п╫п╟ п╟п╫пЁп╩п╦п╧я│п╨п╬п╪), я│я┌я─п╬п╨п╟ п╪п╬п╤п╣я┌ п╡я▀п╩п╣п╥п╟я┌я▄ п╥п╟
+ п©п╬п╩я▐ я│я┌я─п╟п╫п╦я├я▀ (я│п╪ п╟п╠п╥п╟я├ п╡ я─п╟п╥п╢п╣п╩п╣ 
+\begin_inset LatexCommand vref
+reference "overhead"
 
-\end_inset 
+\end_inset
 
 ).
- Это возникает из-за того, что при перенесении целиком этого проблемного
- слова между словами возникли бы слишком большие расстояния, что TeX не
- может позволить из соображений красоты.
- В общем, чтобы это не происходило, нужно указать 
-\family typewriter 
+ п╜я┌п╬ п╡п╬п╥п╫п╦п╨п╟п╣я┌ п╦п╥-п╥п╟ я┌п╬пЁп╬, я┤я┌п╬ п©я─п╦ п©п╣я─п╣п╫п╣я│п╣п╫п╦п╦ я├п╣п╩п╦п╨п╬п╪ я█я┌п╬пЁп╬ п©я─п╬п╠п╩п╣п╪п╫п╬пЁп╬
+ я│п╩п╬п╡п╟ п╪п╣п╤п╢я┐ я│п╩п╬п╡п╟п╪п╦ п╡п╬п╥п╫п╦п╨п╩п╦ п╠я▀ я│п╩п╦я┬п╨п╬п╪ п╠п╬п╩я▄я┬п╦п╣ я─п╟я│я│я┌п╬я▐п╫п╦я▐, я┤я┌п╬ TeX п╫п╣
+ п╪п╬п╤п╣я┌ п©п╬п╥п╡п╬п╩п╦я┌я▄ п╦п╥ я│п╬п╬п╠я─п╟п╤п╣п╫п╦п╧ п╨я─п╟я│п╬я┌я▀.
+ п▓ п╬п╠я┴п╣п╪, я┤я┌п╬п╠я▀ я█я┌п╬ п╫п╣ п©я─п╬п╦я│я┘п╬п╢п╦п╩п╬, п╫я┐п╤п╫п╬ я┐п╨п╟п╥п╟я┌я▄ 
+\family typewriter
 
-\backslash 
+\backslash
 sloppy
-\family default 
- в преамбуле, или ограничить проблемный абзац командами 
-\family typewriter 
+\family default
+ п╡ п©я─п╣п╟п╪п╠я┐п╩п╣, п╦п╩п╦ п╬пЁя─п╟п╫п╦я┤п╦я┌я▄ п©я─п╬п╠п╩п╣п╪п╫я▀п╧ п╟п╠п╥п╟я├ п╨п╬п╪п╟п╫п╢п╟п╪п╦ 
+\family typewriter
 \lang english
 
-\backslash 
+\backslash
 begin{sloppypar}
-\family default 
+\family default
 \lang russian
  \SpecialChar \ldots{}
  
-\family typewriter 
+\family typewriter
 \lang english
 
-\backslash 
+\backslash
 end{sloppypar}
-\family default 
+\family default
 \lang russian
 .
-\layout Subsection
+\end_layout
 
-Нумерация по-русски
-\layout Standard
+\begin_layout Subsection
+п²я┐п╪п╣я─п╟я├п╦я▐ п©п╬-я─я┐я│я│п╨п╦
+\end_layout
 
-Как заcтавить 
-\family typewriter 
+\begin_layout Standard
+п п╟п╨ п╥п╟cя┌п╟п╡п╦я┌я▄ 
+\family typewriter
 enumerate
-\family default 
- нyмеpовать 
-\family typewriter 
+\family default
+ п╫yп╪п╣pп╬п╡п╟я┌я▄ 
+\family typewriter
 
-\backslash 
+\backslash
 item
-\family default 
-'ы и приложения по-pyccки
-\layout Standard
+\family default
+'я▀ п╦ п©я─п╦п╩п╬п╤п╣п╫п╦я▐ п©п╬-pyccп╨п╦
+\end_layout
 
-Маленькие бyквы:
-\layout LyX-Code
+\begin_layout Standard
+п°п╟п╩п╣п╫я▄п╨п╦п╣ п╠yп╨п╡я▀:
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand{
-\backslash 
+\backslash
 theenumi}{
-\backslash 
+\backslash
 asbuk{enumi}}
-\layout Standard
+\end_layout
 
-Большие бyквы:
-\layout LyX-Code
+\begin_layout Standard
+п▒п╬п╩я▄я┬п╦п╣ п╠yп╨п╡я▀:
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand{
-\backslash 
+\backslash
 theenumi}{
-\backslash 
+\backslash
 Asbuk{enumi}}
-\layout Standard
+\end_layout
 
-Это на веpхнем ypовне вложенноcти.
- На cледyющем идyт enumii, enumiii, enumiv.
-\layout Standard
+\begin_layout Standard
+п╜я┌п╬ п╫п╟ п╡п╣pя┘п╫п╣п╪ ypп╬п╡п╫п╣ п╡п╩п╬п╤п╣п╫п╫п╬cя┌п╦.
+ п²п╟ cп╩п╣п╢yя▌я┴п╣п╪ п╦п╢yя┌ enumii, enumiii, enumiv.
+\end_layout
 
-А для нyмеpации пpиложений pyccкими бyквами (некотоpые как pаз любят латинcкие)
- можно напиcать
-\layout LyX-Code
+\begin_layout Standard
+п░ п╢п╩я▐ п╫yп╪п╣pп╟я├п╦п╦ п©pп╦п╩п╬п╤п╣п╫п╦п╧ pyccп╨п╦п╪п╦ п╠yп╨п╡п╟п╪п╦ (п╫п╣п╨п╬я┌п╬pя▀п╣ п╨п╟п╨ pп╟п╥ п╩я▌п╠я▐я┌ п╩п╟я┌п╦п╫cп╨п╦п╣)
+ п╪п╬п╤п╫п╬ п╫п╟п©п╦cп╟я┌я▄
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 makeatletter 
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand
-\backslash 
+\backslash
 appendix{
-\backslash 
+\backslash
 par 
-\backslash 
+\backslash
 setcounter{section}{0}% 
-\backslash 
+\backslash
 setcounter{subsection}{0}% 
-\backslash 
+\backslash
 gdef
-\backslash 
+\backslash
 thesection{
-\backslash 
+\backslash
 @Asbuk
-\backslash 
+\backslash
 c@section}} 
-\backslash 
+\backslash
 makeatother
-\layout Section
+\end_layout
 
-Символ
-\layout Subsection
+\begin_layout Section
+п║п╦п╪п╡п╬п╩
+\end_layout
 
-Какое тире ставить
-\layout Standard
+\begin_layout Subsection
+п п╟п╨п╬п╣ я┌п╦я─п╣ я│я┌п╟п╡п╦я┌я▄
+\end_layout
 
-Для указывания знака 
+\begin_layout Standard
+п■п╩я▐ я┐п╨п╟п╥я▀п╡п╟п╫п╦я▐ п╥п╫п╟п╨п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-тире
+я┌п╦я─п╣
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
  (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 ---
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
-) используется три поставленных знака 
+) п╦я│п©п╬п╩я▄п╥я┐п╣я┌я│я▐ я┌я─п╦ п©п╬я│я┌п╟п╡п╩п╣п╫п╫я▀я┘ п╥п╫п╟п╨п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-минуса
+п╪п╦п╫я┐я│п╟
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
  (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 -
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 /
-\end_inset 
+\end_layout
+
+\end_inset
 
 -
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 /
-\end_inset 
+\end_layout
+
+\end_inset
 
 -
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
-) подряд --- вот так.
-\layout Standard
+) п©п╬п╢я─я▐п╢ --- п╡п╬я┌ я┌п╟п╨.
+\end_layout
 
-Если вы пишете что-то типа 
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ п©п╦я┬п╣я┌п╣ я┤я┌п╬-я┌п╬ я┌п╦п©п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-я приду через 15--20 минут
+я▐ п©я─п╦п╢я┐ я┤п╣я─п╣п╥ 15--20 п╪п╦п╫я┐я┌
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- --- ставьте два знака 
+ --- я│я┌п╟п╡я▄я┌п╣ п╢п╡п╟ п╥п╫п╟п╨п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-минус
+п╪п╦п╫я┐я│
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- подряд (
+ п©п╬п╢я─я▐п╢ (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+
 -
-\backslash 
+\backslash
 /-
-\end_inset 
+\end_layout
+
+\end_inset
 
 
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 ).
-\layout Standard
+\end_layout
 
-Если вы просто что-то пишете, и перед 
+\begin_layout Standard
+п∙я│п╩п╦ п╡я▀ п©я─п╬я│я┌п╬ я┤я┌п╬-я┌п╬ п©п╦я┬п╣я┌п╣, п╦ п©п╣я─п╣п╢ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-то
+я┌п╬
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- нужно поставить чёрточку, ставьте один 
+ п╫я┐п╤п╫п╬ п©п╬я│я┌п╟п╡п╦я┌я▄ я┤я▒я─я┌п╬я┤п╨я┐, я│я┌п╟п╡я▄я┌п╣ п╬п╢п╦п╫ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-минус
+п╪п╦п╫я┐я│
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
  (
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 -
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 ).
-\layout Subsection
+\end_layout
 
-Знаки номера и температуры
-\layout Standard
+\begin_layout Subsection
+п≈п╫п╟п╨п╦ п╫п╬п╪п╣я─п╟ п╦ я┌п╣п╪п©п╣я─п╟я┌я┐я─я▀
+\end_layout
 
-Чтобы получить красивый номер, просто напишите 
+\begin_layout Standard
+п╖я┌п╬п╠я▀ п©п╬п╩я┐я┤п╦я┌я▄ п╨я─п╟я│п╦п╡я▀п╧ п╫п╬п╪п╣я─, п©я─п╬я│я┌п╬ п╫п╟п©п╦я┬п╦я┌п╣ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 
-\backslash 
+\backslash
 No
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- в режиме TeX, и получите знак: 
+ п╡ я─п╣п╤п╦п╪п╣ TeX, п╦ п©п╬п╩я┐я┤п╦я┌п╣ п╥п╫п╟п╨: 
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 No
-\end_inset 
+\end_layout
+
+\end_inset
 
 .
-\layout Standard
+\end_layout
 
-Для различных других символов существует пакет textcomp, который подключается
- в преамбуле
-\layout LyX-Code
+\begin_layout Standard
+п■п╩я▐ я─п╟п╥п╩п╦я┤п╫я▀я┘ п╢я─я┐пЁп╦я┘ я│п╦п╪п╡п╬п╩п╬п╡ я│я┐я┴п╣я│я┌п╡я┐п╣я┌ п©п╟п╨п╣я┌ textcomp, п╨п╬я┌п╬я─я▀п╧ п©п╬п╢п╨п╩я▌я┤п╟п╣я┌я│я▐
+ п╡ п©я─п╣п╟п╪п╠я┐п╩п╣
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 usepackage{textcomp}
-\layout Standard
+\end_layout
 
-Чтобы написать: 
+\begin_layout Standard
+п╖я┌п╬п╠я▀ п╫п╟п©п╦я│п╟я┌я▄: 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-сейчас 27
+я│п╣п╧я┤п╟я│ 27
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 textcelsius{}
-\end_inset 
+\end_layout
+
+\end_inset
 
 
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
-, вставьте в нужном месте 
-\family typewriter 
+, п╡я│я┌п╟п╡я▄я┌п╣ п╡ п╫я┐п╤п╫п╬п╪ п╪п╣я│я┌п╣ 
+\family typewriter
 
-\backslash 
+\backslash
 textcelsius
-\family default 
+\family default
 {}
-\family typewriter 
+\family typewriter
 .
-\layout Subsection
+\end_layout
 
-Знаки ударения
-\layout Standard
+\begin_layout Subsection
+п≈п╫п╟п╨п╦ я┐п╢п╟я─п╣п╫п╦я▐
+\end_layout
 
-Неизвестен способ, который позволяет ввести букву с ударением, кроме как
- сл
+\begin_layout Standard
+п²п╣п╦п╥п╡п╣я│я┌п╣п╫ я│п©п╬я│п╬п╠, п╨п╬я┌п╬я─я▀п╧ п©п╬п╥п╡п╬п╩я▐п╣я┌ п╡п╡п╣я│я┌п╦ п╠я┐п╨п╡я┐ я│ я┐п╢п╟я─п╣п╫п╦п╣п╪, п╨я─п╬п╪п╣ п╨п╟п╨
+ я│п╩
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 '
-\end_inset 
+\end_layout
 
-едующий: нужно ввести 
-\backslash 
-' в режиме команд LaTeX перед буквой, требующей ударения.
-\layout Subsection
+\end_inset
 
-Символы копирайта и пр.
-\layout Standard
+п╣п╢я┐я▌я┴п╦п╧: п╫я┐п╤п╫п╬ п╡п╡п╣я│я┌п╦ 
+\backslash
+' п╡ я─п╣п╤п╦п╪п╣ п╨п╬п╪п╟п╫п╢ LaTeX п©п╣я─п╣п╢ п╠я┐п╨п╡п╬п╧, я┌я─п╣п╠я┐я▌я┴п╣п╧ я┐п╢п╟я─п╣п╫п╦я▐.
+\end_layout
 
-Эти символы можно ввести с помощью команд LaTeX
-\layout Standard
+\begin_layout Subsection
+п║п╦п╪п╡п╬п╩я▀ п╨п╬п©п╦я─п╟п╧я┌п╟ п╦ п©я─.
+\end_layout
 
+\begin_layout Standard
+п╜я┌п╦ я│п╦п╪п╡п╬п╩я▀ п╪п╬п╤п╫п╬ п╡п╡п╣я│я┌п╦ я│ п©п╬п╪п╬я┴я▄я▌ п╨п╬п╪п╟п╫п╢ LaTeX
+\end_layout
 
-\backslash 
+\begin_layout Standard
+
+\backslash
 copyright --- 
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 copyright
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
-\backslash 
+\backslash
 textregistered --- 
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 textregistered
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\layout Section
+\end_layout
 
-Рисунки и таблицы
-\layout Subsection
+\begin_layout Section
+п═п╦я│я┐п╫п╨п╦ п╦ я┌п╟п╠п╩п╦я├я▀
+\end_layout
 
-Подписи рисунков и таблиц
-\layout Standard
+\begin_layout Subsection
+п÷п╬п╢п©п╦я│п╦ я─п╦я│я┐п╫п╨п╬п╡ п╦ я┌п╟п╠п╩п╦я├
+\end_layout
 
-Заменяем для pиcyнков ':' поcле номеpа pиcyнка на '.' 
-\layout Standard
+\begin_layout Standard
+п≈п╟п╪п╣п╫я▐п╣п╪ п╢п╩я▐ pп╦cyп╫п╨п╬п╡ ':' п©п╬cп╩п╣ п╫п╬п╪п╣pп╟ pп╦cyп╫п╨п╟ п╫п╟ '.' 
+\end_layout
 
-(т.e.
- 'Риc.1:' на 'Риc.1.')
-\layout LyX-Code
+\begin_layout Standard
+(я┌.e.
+ 'п═п╦c.1:' п╫п╟ 'п═п╦c.1.')
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 usepackage{caption2}%
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand{
-\backslash 
+\backslash
 captionlabeldelim}{.}
-\layout Standard
+\end_layout
 
-Для того, чтобы подписи не центрировались, а выравнивались по левому краю
-\layout LyX-Code
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ п©п╬п╢п©п╦я│п╦ п╫п╣ я├п╣п╫я┌я─п╦я─п╬п╡п╟п╩п╦я│я▄, п╟ п╡я▀я─п╟п╡п╫п╦п╡п╟п╩п╦я│я▄ п©п╬ п╩п╣п╡п╬п╪я┐ п╨я─п╟я▌
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand
-\backslash 
+\backslash
 captionmargin{1cm}
-\layout Standard
+\end_layout
 
-Вы можете посмотреть, как это решено в пакете GOST, или воспользоваться
- им для оформления своего документа.
-\layout Subsection
+\begin_layout Standard
+п▓я▀ п╪п╬п╤п╣я┌п╣ п©п╬я│п╪п╬я┌я─п╣я┌я▄, п╨п╟п╨ я█я┌п╬ я─п╣я┬п╣п╫п╬ п╡ п©п╟п╨п╣я┌п╣ GOST, п╦п╩п╦ п╡п╬я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄я│я▐
+ п╦п╪ п╢п╩я▐ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ я│п╡п╬п╣пЁп╬ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+\end_layout
 
-Длинные таблицы
-\layout Standard
+\begin_layout Subsection
+п■п╩п╦п╫п╫я▀п╣ я┌п╟п╠п╩п╦я├я▀
+\end_layout
 
-Для таблиц, имеющих длину более страницы, существует галочка 
-\family sans 
-Длинная таблица
-\family default 
- в меню 
-\family sans 
-Формат\SpecialChar \menuseparator
-Таблица.
+\begin_layout Standard
+п■п╩я▐ я┌п╟п╠п╩п╦я├, п╦п╪п╣я▌я┴п╦я┘ п╢п╩п╦п╫я┐ п╠п╬п╩п╣п╣ я│я┌я─п╟п╫п╦я├я▀, я│я┐я┴п╣я│я┌п╡я┐п╣я┌ пЁп╟п╩п╬я┤п╨п╟ 
+\family sans
+п■п╩п╦п╫п╫п╟я▐ я┌п╟п╠п╩п╦я├п╟
+\family default
+ п╡ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п╒п╟п╠п╩п╦я├п╟.
  
-\layout Standard
+\end_layout
 
-Важно! Длинная таблица 
-\emph on 
-не должна
-\emph default 
- быть плавающим объектом.
- Но при этом нельзя указать номера таблицы.
+\begin_layout Standard
+п▓п╟п╤п╫п╬! п■п╩п╦п╫п╫п╟я▐ я┌п╟п╠п╩п╦я├п╟ 
+\emph on
+п╫п╣ п╢п╬п╩п╤п╫п╟
+\emph default
+ п╠я▀я┌я▄ п©п╩п╟п╡п╟я▌я┴п╦п╪ п╬п╠я┼п╣п╨я┌п╬п╪.
+ п²п╬ п©я─п╦ я█я┌п╬п╪ п╫п╣п╩я▄п╥я▐ я┐п╨п╟п╥п╟я┌я▄ п╫п╬п╪п╣я─п╟ я┌п╟п╠п╩п╦я├я▀.
  
-\layout Standard
+\end_layout
 
-Некоторые строки таблицы надо пометить в меню 
-\family sans 
-Формат\SpecialChar \menuseparator
-Таблица, 
-\family default 
-закладка
-\family sans 
- Длинная\SpecialChar ~
-таблица.
-\layout Standard
+\begin_layout Standard
+п²п╣п╨п╬я┌п╬я─я▀п╣ я│я┌я─п╬п╨п╦ я┌п╟п╠п╩п╦я├я▀ п╫п╟п╢п╬ п©п╬п╪п╣я┌п╦я┌я▄ п╡ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п╒п╟п╠п╩п╦я├п╟,
+\family default
+ п╥п╟п╨п╩п╟п╢п╨п╟ 
+\family sans
+п■п╩п╦п╫п╫п╟я▐\InsetSpace ~
+я┌п╟п╠п╩п╦я├п╟.
+\end_layout
 
-Чтобы пронумеровать длинные таблицы, нужно прибегнуть к следующему рецепту:
-\family typewriter 
+\begin_layout Standard
+п╖я┌п╬п╠я▀ п©я─п╬п╫я┐п╪п╣я─п╬п╡п╟я┌я▄ п╢п╩п╦п╫п╫я▀п╣ я┌п╟п╠п╩п╦я├я▀, п╫я┐п╤п╫п╬ п©я─п╦п╠п╣пЁп╫я┐я┌я▄ п╨ я│п╩п╣п╢я┐я▌я┴п╣п╪я┐ я─п╣я├п╣п©я┌я┐:
  
-\layout Standard
+\end_layout
 
+\begin_layout Standard
 
-\family typewriter 
-В преамбулу вписать 
-\backslash 
+\family typewriter
+п▓ п©я─п╣п╟п╪п╠я┐п╩я┐ п╡п©п╦я│п╟я┌я▄ 
+\backslash
 newcommand{
-\backslash 
+\backslash
 rem}[1]{}
-\layout Standard
+\end_layout
 
-Первую ячейку таблицы оформить как показано в примере:
-\layout Standard
+\begin_layout Standard
+п÷п╣я─п╡я┐я▌ я▐я┤п╣п╧п╨я┐ я┌п╟п╠п╩п╦я├я▀ п╬я└п╬я─п╪п╦я┌я▄ п╨п╟п╨ п©п╬п╨п╟п╥п╟п╫п╬ п╡ п©я─п╦п╪п╣я─п╣:
+\end_layout
 
-
-\begin_inset  Tabular
+\begin_layout Standard
+\begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
 <features islongtable="true">
 <column alignment="center" valignment="top" leftline="true" width="0pt">
@@ -1082,365 +1245,438 @@ rem}[1]{}
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
 
-\backslash 
+
+\backslash
 caption{The caption}
-\backslash 
+\backslash
 rem{
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
-
+\begin_layout Standard
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Standard
+
 }
-\end_inset 
+\end_layout
+
+\end_inset
 
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 </row>
 <row topline="true">
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 1
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 
 \lang english
 2
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 
 \lang english
 3
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 
 \lang english
 4
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
-
+\begin_layout Standard
 
 \lang english
 5
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 </row>
 <row topline="true" bottomline="true">
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\layout Standard
+\begin_layout Standard
 
-\end_inset 
+\end_layout
+
+\end_inset
 </cell>
 </row>
 </lyxtabular>
 
-\end_inset 
+\end_inset
 
 
-\layout Subsection
+\end_layout
 
-Размещение таблиц
-\layout Standard
+\begin_layout Subsection
+п═п╟п╥п╪п╣я┴п╣п╫п╦п╣ я┌п╟п╠п╩п╦я├
+\end_layout
 
-Для того, чтобы таблицы произвольно не путешествовали по страницам, необходимо
- зайти в меню 
-\family sans 
-Формат\SpecialChar \menuseparator
-Документ
-\family default 
- и в поле 
-\family sans 
-Размещение плавающих объектов
-\family default 
- ввести h.
-\layout Subsection
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬п╠я▀ я┌п╟п╠п╩п╦я├я▀ п©я─п╬п╦п╥п╡п╬п╩я▄п╫п╬ п╫п╣ п©я┐я┌п╣я┬п╣я│я┌п╡п╬п╡п╟п╩п╦ п©п╬ я│я┌я─п╟п╫п╦я├п╟п╪, п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬
+ п╥п╟п╧я┌п╦ п╡ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п■п╬п╨я┐п╪п╣п╫я┌
+\family default
+ п╦ п╡ п©п╬п╩п╣ 
+\family sans
+п═п╟п╥п╪п╣я┴п╣п╫п╦п╣ п©п╩п╟п╡п╟я▌я┴п╦я┘ п╬п╠я┼п╣п╨я┌п╬п╡
+\family default
+ п╡п╡п╣я│я┌п╦ h.
+\end_layout
 
-Как вставить обтекаемый рисунок
-\layout Subsubsection
+\begin_layout Subsection
+п п╟п╨ п╡я│я┌п╟п╡п╦я┌я▄ п╬п╠я┌п╣п╨п╟п╣п╪я▀п╧ я─п╦я│я┐п╫п╬п╨
+\end_layout
 
-Через LyX
-\layout Standard
+\begin_layout Subsubsection
+п╖п╣я─п╣п╥ LyX
+\end_layout
 
-Для версии 1.3.3: Меню 
-\family sans 
-Вставить\SpecialChar \menuseparator
-Плавающий\SpecialChar ~
-объект\SpecialChar \menuseparator
-Плавающее изображение.
-\layout Standard
+\begin_layout Standard
+п■п╩я▐ п╡п╣я─я│п╦п╦ 1.3.3: п°п╣п╫я▌ 
+\family sans
+п▓я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
+п÷п╩п╟п╡п╟я▌я┴п╦п╧\InsetSpace ~
+п╬п╠я┼п╣п╨я┌\SpecialChar \menuseparator
+п÷п╩п╟п╡п╟я▌я┴п╣п╣ п╦п╥п╬п╠я─п╟п╤п╣п╫п╦п╣.
+\end_layout
 
-Описание для версии 1.1.6: Стандартным способом является описанный в документации.
- Обычным путём вставляете плавающий рисунок, далее нужно поставить курсор
- сразу 
-\emph on 
-перед 
-\emph default 
-рисунком, зайти в меню Формат\SpecialChar \menuseparator
-Абзац, в закладке Extra поставить галочку Плавающий
- кадр и указать правее его ширину.
- К сожалению, иногда рисунок обтекает только первый абзац, следующим сразу
- после рисунка.
- Следующие абзацы накладываются на рисунок.
-\layout Subsubsection
+\begin_layout Standard
+п·п©п╦я│п╟п╫п╦п╣ п╢п╩я▐ п╡п╣я─я│п╦п╦ 1.1.6: п║я┌п╟п╫п╢п╟я─я┌п╫я▀п╪ я│п©п╬я│п╬п╠п╬п╪ я▐п╡п╩я▐п╣я┌я│я▐ п╬п©п╦я│п╟п╫п╫я▀п╧ п╡ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦.
+ п·п╠я▀я┤п╫я▀п╪ п©я┐я┌я▒п╪ п╡я│я┌п╟п╡п╩я▐п╣я┌п╣ п©п╩п╟п╡п╟я▌я┴п╦п╧ я─п╦я│я┐п╫п╬п╨, п╢п╟п╩п╣п╣ п╫я┐п╤п╫п╬ п©п╬я│я┌п╟п╡п╦я┌я▄ п╨я┐я─я│п╬я─
+ я│я─п╟п╥я┐ 
+\emph on
+п©п╣я─п╣п╢
+\emph default
+ я─п╦я│я┐п╫п╨п╬п╪, п╥п╟п╧я┌п╦ п╡ п╪п╣п╫я▌ п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п░п╠п╥п╟я├, п╡ п╥п╟п╨п╩п╟п╢п╨п╣ Extra п©п╬я│я┌п╟п╡п╦я┌я▄ пЁп╟п╩п╬я┤п╨я┐
+ п÷п╩п╟п╡п╟я▌я┴п╦п╧ п╨п╟п╢я─ п╦ я┐п╨п╟п╥п╟я┌я▄ п©я─п╟п╡п╣п╣ п╣пЁп╬ я┬п╦я─п╦п╫я┐.
+ п  я│п╬п╤п╟п╩п╣п╫п╦я▌, п╦п╫п╬пЁп╢п╟ я─п╦я│я┐п╫п╬п╨ п╬п╠я┌п╣п╨п╟п╣я┌ я┌п╬п╩я▄п╨п╬ п©п╣я─п╡я▀п╧ п╟п╠п╥п╟я├, я│п╩п╣п╢я┐я▌я┴п╦п╪ я│я─п╟п╥я┐
+ п©п╬я│п╩п╣ я─п╦я│я┐п╫п╨п╟.
+ п║п╩п╣п╢я┐я▌я┴п╦п╣ п╟п╠п╥п╟я├я▀ п╫п╟п╨п╩п╟п╢я▀п╡п╟я▌я┌я│я▐ п╫п╟ я─п╦я│я┐п╫п╬п╨.
+\end_layout
 
-Используя пакет wrapfig
-\layout Standard
+\begin_layout Subsubsection
+п≤я│п©п╬п╩я▄п╥я┐я▐ п©п╟п╨п╣я┌ wrapfig
+\end_layout
 
-Указываем в преамбуле 
-\backslash 
+\begin_layout Standard
+пёп╨п╟п╥я▀п╡п╟п╣п╪ п╡ п©я─п╣п╟п╪п╠я┐п╩п╣ 
+\backslash
 usepackage{wrapfig}.
- Далее в тексте, там где надо поместить рисунок, пишем следующий TeX-код:
-\layout LyX-Code
+ п■п╟п╩п╣п╣ п╡ я┌п╣п╨я│я┌п╣, я┌п╟п╪ пЁп╢п╣ п╫п╟п╢п╬ п©п╬п╪п╣я│я┌п╦я┌я▄ я─п╦я│я┐п╫п╬п╨, п©п╦я┬п╣п╪ я│п╩п╣п╢я┐я▌я┴п╦п╧ TeX-п╨п╬п╢:
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 begin{wrapfigure}[]{o}[0pt]{6cm}
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\emph on 
-сюда вставляется рисунок (не плавающий)
-\layout LyX-Code
+\emph on
+я│я▌п╢п╟ п╡я│я┌п╟п╡п╩я▐п╣я┌я│я▐ я─п╦я│я┐п╫п╬п╨ (п╫п╣ п©п╩п╟п╡п╟я▌я┴п╦п╧)
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
-caption{ Здесь пишется название рисунка }
-\layout LyX-Code
+\backslash
+caption{ п≈п╢п╣я│я▄ п©п╦я┬п╣я┌я│я▐ п╫п╟п╥п╡п╟п╫п╦п╣ я─п╦я│я┐п╫п╨п╟ }
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 end{wrapfigure}
-\layout Standard
+\end_layout
 
-Параметр 6cm определяет ширину области, оставленной под рисунок.
- Подробнее о параметрах можно почитать в документации к wrapfig (поиск файла
- wrapfig.sty в /usr/share/texmf).
-\layout Section
+\begin_layout Standard
+п÷п╟я─п╟п╪п╣я┌я─ 6cm п╬п©я─п╣п╢п╣п╩я▐п╣я┌ я┬п╦я─п╦п╫я┐ п╬п╠п╩п╟я│я┌п╦, п╬я│я┌п╟п╡п╩п╣п╫п╫п╬п╧ п©п╬п╢ я─п╦я│я┐п╫п╬п╨.
+ п÷п╬п╢я─п╬п╠п╫п╣п╣ п╬ п©п╟я─п╟п╪п╣я┌я─п╟я┘ п╪п╬п╤п╫п╬ п©п╬я┤п╦я┌п╟я┌я▄ п╡ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦ п╨ wrapfig (п©п╬п╦я│п╨ я└п╟п╧п╩п╟
+ wrapfig.sty п╡ /usr/share/texmf).
+\end_layout
 
-Математические формулы
-\layout Subsection
+\begin_layout Section
+п°п╟я┌п╣п╪п╟я┌п╦я┤п╣я│п╨п╦п╣ я└п╬я─п╪я┐п╩я▀
+\end_layout
 
-Русские буквы в формулах
-\layout Standard
+\begin_layout Subsection
+п═я┐я│я│п╨п╦п╣ п╠я┐п╨п╡я▀ п╡ я└п╬я─п╪я┐п╩п╟я┘
+\end_layout
 
-Чтобы ввести формулы, можно нажать Alt-M.
- Чтобы ввести русские буквы, которые потом отобразятся в DVI/PS, нужно перейти
- в текстовый режим, нажав Alt-M, M.
- При этом с букв снимется синий цвет и курсив, но они будут видны.
-\layout Section
+\begin_layout Standard
+п╖я┌п╬п╠я▀ п╡п╡п╣я│я┌п╦ я└п╬я─п╪я┐п╩я▀, п╪п╬п╤п╫п╬ п╫п╟п╤п╟я┌я▄ Alt-M.
+ п╖я┌п╬п╠я▀ п╡п╡п╣я│я┌п╦ я─я┐я│я│п╨п╦п╣ п╠я┐п╨п╡я▀, п╨п╬я┌п╬я─я▀п╣ п©п╬я┌п╬п╪ п╬я┌п╬п╠я─п╟п╥я▐я┌я│я▐ п╡ DVI/PS, п╫я┐п╤п╫п╬ п©п╣я─п╣п╧я┌п╦
+ п╡ я┌п╣п╨я│я┌п╬п╡я▀п╧ я─п╣п╤п╦п╪, п╫п╟п╤п╟п╡ Alt-M, M.
+ п÷я─п╦ я█я┌п╬п╪ я│ п╠я┐п╨п╡ я│п╫п╦п╪п╣я┌я│я▐ я│п╦п╫п╦п╧ я├п╡п╣я┌ п╦ п╨я┐я─я│п╦п╡, п╫п╬ п╬п╫п╦ п╠я┐п╢я┐я┌ п╡п╦п╢п╫я▀.
+\end_layout
 
-Полезные клавиши
-\layout Description
+\begin_layout Section
+п÷п╬п╩п╣п╥п╫я▀п╣ п╨п╩п╟п╡п╦я┬п╦
+\end_layout
 
+\begin_layout Description
 C Ctrl
-\layout Description
+\end_layout
 
+\begin_layout Description
 M Alt
-\layout Description
+\end_layout
 
+\begin_layout Description
 S Shift
-\layout Description
+\end_layout
 
-C-e,b,u Соответственно, выделенный, жирный, подчеркнутый шрифт
-\layout Description
+\begin_layout Description
+C-e,b,u п║п╬п╬я┌п╡п╣я┌я│я┌п╡п╣п╫п╫п╬, п╡я▀п╢п╣п╩п╣п╫п╫я▀п╧, п╤п╦я─п╫я▀п╧, п©п╬п╢я┤п╣я─п╨п╫я┐я┌я▀п╧ я┬я─п╦я└я┌
+\end_layout
 
-M-c\SpecialChar ~
-m Перейти в режим написания формул
-\layout Description
+\begin_layout Description
+M-c\InsetSpace ~
+m п÷п╣я─п╣п╧я┌п╦ п╡ я─п╣п╤п╦п╪ п╫п╟п©п╦я│п╟п╫п╦я▐ я└п╬я─п╪я┐п╩
+\end_layout
 
-M-c\SpecialChar ~
-x где x может быть следующим (и действует на указанное слово или выделенный
- текст):
-\layout Description
+\begin_layout Description
+M-c\InsetSpace ~
+x пЁп╢п╣ x п╪п╬п╤п╣я┌ п╠я▀я┌я▄ я│п╩п╣п╢я┐я▌я┴п╦п╪ (п╦ п╢п╣п╧я│я┌п╡я┐п╣я┌ п╫п╟ я┐п╨п╟п╥п╟п╫п╫п╬п╣ я│п╩п╬п╡п╬ п╦п╩п╦ п╡я▀п╢п╣п╩п╣п╫п╫я▀п╧
+ я┌п╣п╨я│я┌):
+\end_layout
 
-b полужирный шрифт
-\layout Description
+\begin_layout Description
+b п©п╬п╩я┐п╤п╦я─п╫я▀п╧ я┬я─п╦я└я┌
+\end_layout
 
-e выделительный шрифт
-\layout Description
+\begin_layout Description
+e п╡я▀п╢п╣п╩п╦я┌п╣п╩я▄п╫я▀п╧ я┬я─п╦я└я┌
+\end_layout
 
-s стандартный (романский) шрифт
-\layout Description
+\begin_layout Description
+s я│я┌п╟п╫п╢п╟я─я┌п╫я▀п╧ (я─п╬п╪п╟п╫я│п╨п╦п╧) я┬я─п╦я└я┌
+\end_layout
 
-пробел снимает всё оформление с выделенного текста
-\layout Description
+\begin_layout Description
+п©я─п╬п╠п╣п╩ я│п╫п╦п╪п╟п╣я┌ п╡я│я▒ п╬я└п╬я─п╪п╩п╣п╫п╦п╣ я│ п╡я▀п╢п╣п╩п╣п╫п╫п╬пЁп╬ я┌п╣п╨я│я┌п╟
+\end_layout
 
-M-p\SpecialChar ~
-x где x --- тип окружения, как указано ниже, и далее по аналогии
-\begin_deeper 
-\layout Description
+\begin_layout Description
+M-p\InsetSpace ~
+x пЁп╢п╣ x --- я┌п╦п© п╬п╨я─я┐п╤п╣п╫п╦я▐, п╨п╟п╨ я┐п╨п╟п╥п╟п╫п╬ п╫п╦п╤п╣, п╦ п╢п╟п╩п╣п╣ п©п╬ п╟п╫п╟п╩п╬пЁп╦п╦
+\end_layout
 
+\begin_deeper
+\begin_layout Description
 c LyX-code
-\layout Description
+\end_layout
 
+\begin_layout Description
 s Standart
-\layout Description
+\end_layout
 
+\begin_layout Description
 2 Section
-\layout Description
+\end_layout
 
+\begin_layout Description
 3 Subsection
-\end_deeper 
-\layout Description
+\end_layout
 
-M-S-стрелки меняют уровень окружения (влево --- меньше, вправо --- больше)
-\layout Section
+\end_deeper
+\begin_layout Description
+M-S-я│я┌я─п╣п╩п╨п╦ п╪п╣п╫я▐я▌я┌ я┐я─п╬п╡п╣п╫я▄ п╬п╨я─я┐п╤п╣п╫п╦я▐ (п╡п╩п╣п╡п╬ --- п╪п╣п╫я▄я┬п╣, п╡п©я─п╟п╡п╬ --- п╠п╬п╩я▄я┬п╣)
+\end_layout
 
-Содержание
-\layout Subsection
+\begin_layout Section
+п║п╬п╢п╣я─п╤п╟п╫п╦п╣
+\end_layout
 
-Вставка содержания
-\layout Standard
+\begin_layout Subsection
+п▓я│я┌п╟п╡п╨п╟ я│п╬п╢п╣я─п╤п╟п╫п╦я▐
+\end_layout
 
-Для того, что бы вставить содержание выберите меню 
-\family sans 
-Вставить\SpecialChar \menuseparator
-Списки & Содержания \SpecialChar \menuseparator
-Содержание
-\layout Standard
+\begin_layout Standard
+п■п╩я▐ я┌п╬пЁп╬, я┤я┌п╬ п╠я▀ п╡я│я┌п╟п╡п╦я┌я▄ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╡я▀п╠п╣я─п╦я┌п╣ п╪п╣п╫я▌ 
+\family sans
+п▓я│я┌п╟п╡п╦я┌я▄\SpecialChar \menuseparator
+п║п©п╦я│п╨п╦ & п║п╬п╢п╣я─п╤п╟п╫п╦я▐ \SpecialChar \menuseparator
+п║п╬п╢п╣я─п╤п╟п╫п╦п╣
+\end_layout
 
-Если хотите изменить глубину содержания, 
-\family sans 
-Формат\SpecialChar \menuseparator
-Документ\SpecialChar \menuseparator
-Дополнительно 
-\family default 
-и изменяете уровень глубины.
-\layout Standard
+\begin_layout Standard
+п∙я│п╩п╦ я┘п╬я┌п╦я┌п╣ п╦п╥п╪п╣п╫п╦я┌я▄ пЁп╩я┐п╠п╦п╫я┐ я│п╬п╢п╣я─п╤п╟п╫п╦я▐, 
+\family sans
+п╓п╬я─п╪п╟я┌\SpecialChar \menuseparator
+п■п╬п╨я┐п╪п╣п╫я┌\SpecialChar \menuseparator
+п■п╬п©п╬п╩п╫п╦я┌п╣п╩я▄п╫п╬
+\family default
+ п╦ п╦п╥п╪п╣п╫я▐п╣я┌п╣ я┐я─п╬п╡п╣п╫я▄ пЁп╩я┐п╠п╦п╫я▀.
+\end_layout
 
-К примеру получится:
-\layout Standard
+\begin_layout Standard
+п  п©я─п╦п╪п╣я─я┐ п©п╬п╩я┐я┤п╦я┌я│я▐:
+\end_layout
 
+\begin_layout Standard
+\begin_inset LatexCommand tableofcontents
 
-\begin_inset LatexCommand \tableofcontents{}
-
-\end_inset 
-
-
-\layout Standard
-
-По Российским Гостам цифры нумерации должны находиться друг под другом :)
- чтож, это можно сделать.
-\layout LyX-Code
+\end_inset
 
 
-\backslash 
+\end_layout
+
+\begin_layout Standard
+п÷п╬ п═п╬я│я│п╦п╧я│п╨п╦п╪ п⌠п╬я│я┌п╟п╪ я├п╦я└я─я▀ п╫я┐п╪п╣я─п╟я├п╦п╦ п╢п╬п╩п╤п╫я▀ п╫п╟я┘п╬п╢п╦я┌я▄я│я▐ п╢я─я┐пЁ п©п╬п╢ п╢я─я┐пЁп╬п╪ :)
+ я┤я┌п╬п╤, я█я┌п╬ п╪п╬п╤п╫п╬ я│п╢п╣п╩п╟я┌я▄.
+\end_layout
+
+\begin_layout LyX-Code
+
+\backslash
 renewcommand{
-\backslash 
+\backslash
 l@subsection}{
-\backslash 
+\backslash
 @dottedtocline{1}{0em}{2.3em}}
-\layout LyX-Code
+\end_layout
 
+\begin_layout LyX-Code
 
-\backslash 
+\backslash
 renewcommand{
-\backslash 
+\backslash
 l@subsubsection}{
-\backslash 
+\backslash
 @dottedtocline{1}{0em}{3.2em}}
-\layout Standard
+\end_layout
 
-Обратите внимание на второй параметр {0em}.
- Этот параметр задает отступ справа (в данном случае ноль, значит отступа
- не будет), третий параметр задает ширину поля для цифр нумерации.
- Если у вас нет третьего уровня вложенности 
-\series bold 
-\noun on 
-subsubsection 
-\series default 
-\noun default 
-то вторую строчку не пишите.
-\the_end
+\begin_layout Standard
+п·п╠я─п╟я┌п╦я┌п╣ п╡п╫п╦п╪п╟п╫п╦п╣ п╫п╟ п╡я┌п╬я─п╬п╧ п©п╟я─п╟п╪п╣я┌я─ {0em}.
+ п╜я┌п╬я┌ п©п╟я─п╟п╪п╣я┌я─ п╥п╟п╢п╟п╣я┌ п╬я┌я│я┌я┐п© я│п©я─п╟п╡п╟ (п╡ п╢п╟п╫п╫п╬п╪ я│п╩я┐я┤п╟п╣ п╫п╬п╩я▄, п╥п╫п╟я┤п╦я┌ п╬я┌я│я┌я┐п©п╟
+ п╫п╣ п╠я┐п╢п╣я┌), я┌я─п╣я┌п╦п╧ п©п╟я─п╟п╪п╣я┌я─ п╥п╟п╢п╟п╣я┌ я┬п╦я─п╦п╫я┐ п©п╬п╩я▐ п╢п╩я▐ я├п╦я└я─ п╫я┐п╪п╣я─п╟я├п╦п╦.
+ п∙я│п╩п╦ я┐ п╡п╟я│ п╫п╣я┌ я┌я─п╣я┌я▄п╣пЁп╬ я┐я─п╬п╡п╫я▐ п╡п╩п╬п╤п╣п╫п╫п╬я│я┌п╦ 
+\series bold
+\noun on
+subsubsection
+\series default
+ 
+\noun default
+я┌п╬ п╡я┌п╬я─я┐я▌ я│я┌я─п╬я┤п╨я┐ п╫п╣ п©п╦я┬п╦я┌п╣.
+\end_layout
+
+\end_body
+\end_document

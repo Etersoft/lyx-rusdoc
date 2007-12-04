@@ -16,11 +16,12 @@ OUTFILE1=$BASE.out1.ps
 OUTFILE2=$BASE.out2.ps
 
 #cat "$INFILE" |pstops -pa4 "(-1cm,0)" | psbook | psnup -2 -Pa4 -pa4 | pstops "(0,-1.5cm)" > $OUTFILE
-cat "$INFILE" |pstops -pa4 "(-1cm,0)" | psbook | psnup -2 -Pa4 -pa4 | pstops "(0,-1cm)" > $OUTFILE
+#cat "$INFILE" |pstops -pa4 "(-1cm,0)" | psbook | psnup -2 -Pa4 -pa4 | pstops "(0,-1cm)" > $OUTFILE
+cat "$INFILE" |pstops -pa4 "(-0cm,0)" | psbook | psnup -2 -Pa4 -pa4 | pstops "(0,-0cm)" > $OUTFILE
 psselect -o <$OUTFILE >$OUTFILE1
 psselect -e -r <$OUTFILE >$OUTFILE2
 
-gv -seascape -scale 1 $OUTFILE1
-gv -seascape -scale 1 $OUTFILE2
+gv --orientation=seascape --scale 1 $OUTFILE1
+gv --orientation=seascape --scale 1 $OUTFILE2
 rm -f $OUTFILE
 rm -f $INFILE
