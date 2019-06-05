@@ -1,311 +1,454 @@
-#LyX 1.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 221
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
+\use_default_options false
+\maintain_unincluded_children false
 \language russian
+\language_package default
 \inputencoding koi8-r
-\fontscheme default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 12
-\spacing single 
+\spacing single
+\use_hyperref false
 \papersize a4paper
-\paperpackage a4
-\use_geometry 1
-\use_amsmath 0
-\use_natbib 0
-\use_numerical_citations 0
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index п÷я─п╣п╢п╪п╣я┌п╫я▀п╧ я┐п╨п╟п╥п╟я┌п╣п╩я▄
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
-\quotes_language english
-\quotes_times 2
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
 
-\layout Title
+\begin_body
 
-Почему мы используем LyX
-\layout Author
+\begin_layout Title
+п÷п╬я┤п╣п╪я┐ п╪я▀ п╦я│п©п╬п╩я▄п╥я┐п╣п╪ \SpecialChar LyX
 
-Виталий Липатов
-\layout Date
+\end_layout
 
+\begin_layout Author
+п▓п╦я┌п╟п╩п╦п╧ п⌡п╦п©п╟я┌п╬п╡
+\end_layout
+
+\begin_layout Date
 07.08.2001, 11.12.2001, 04.12.2002
-\layout Enumerate
+\end_layout
 
-LyX (произносится 
-\size large 
+\begin_layout Enumerate
+\SpecialChar LyX
+ (п©я─п╬п╦п╥п╫п╬я│п╦я┌я│я▐ 
+\size large
 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-ликс
+п╩п╦л│п╨я│
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 
-\size default 
-) --- это свободная программа со всеми вытекающими из свободы последствиями.
- Это свобода мыслить, свобода говорить, свобода печатать.
- LyX можно использовать с чистой совестью, не ожидая, что кто-то попросит
- номер лицензии на использования, или донесёт в Microsoft (Microsoft собирает
- доносы о нелегальном использовании её продуктов\SpecialChar ~
---- обращайтесь по адресу
- 
-\begin_inset LatexCommand \url{http://www.microsoft.com/rus/antipiracy/reporting/default.asp}
+\size default
+) Б─■ я█я┌п╬ я│п╡п╬п╠п╬п╢п╫п╟я▐ п©я─п╬пЁя─п╟п╪п╪п╟ я│п╬ п╡я│п╣п╪п╦ п╡я▀я┌п╣п╨п╟я▌я┴п╦п╪п╦ п╦п╥ я│п╡п╬п╠п╬п╢я▀ п©п╬я│п╩п╣п╢я│я┌п╡п╦я▐п╪п╦.
+ п╜я┌п╬ я│п╡п╬п╠п╬п╢п╟ п╪я▀я│п╩п╦я┌я▄, я│п╡п╬п╠п╬п╢п╟ пЁп╬п╡п╬я─п╦я┌я▄, я│п╡п╬п╠п╬п╢п╟ п©п╣я┤п╟я┌п╟я┌я▄.
+ \SpecialChar LyX
+ п╪п╬п╤п╫п╬ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ я│ я┤п╦я│я┌п╬п╧ я│п╬п╡п╣я│я┌я▄я▌, п╫п╣ п╬п╤п╦п╢п╟я▐, я┤я┌п╬ п╨я┌п╬-я┌п╬ п©п╬п©я─п╬я│п╦я┌ п╫п╬п╪п╣я─
+ п╩п╦я├п╣п╫п╥п╦п╦ п╫п╟ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦я▐, п╦п╩п╦ п╢п╬п╫п╣я│я▒я┌ п╡ Microsoft (Microsoft я│п╬п╠п╦я─п╟п╣я┌
+ п╢п╬п╫п╬я│я▀ п╬ п╫п╣п╩п╣пЁп╟п╩я▄п╫п╬п╪ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╦ п╣я▒ п©я─п╬п╢я┐п╨я┌п╬п╡
+\begin_inset space ~
+\end_inset
 
-\end_inset 
+Б─■ п╬п╠я─п╟я┴п╟п╧я┌п╣я│я▄ п©п╬ п╟п╢я─п╣я│я┐ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.microsoft.com/rus/antipiracy/reporting/default.asp
+\end_layout
+
+\end_inset
 
 ).
-\layout Enumerate
+\end_layout
 
-LyX использует для подготовки документа к печати LaTeX (произносится 
-\size large 
+\begin_layout Enumerate
+\SpecialChar LyX
+ п╦я│п©п╬п╩я▄п╥я┐п╣я┌ п╢п╩я▐ п©п╬п╢пЁп╬я┌п╬п╡п╨п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╟ п╨ п©п╣я┤п╟я┌п╦ \SpecialChar LaTeX
+ (п©я─п╬п╦п╥п╫п╬я│п╦я┌я│я▐ 
+\size large
 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-лат
+п╩п╟я┌
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Plain Layout
 
-\backslash 
+
+\backslash
 '
-\end_inset 
+\end_layout
 
-ех
+\end_inset
+
+п╣я┘
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Plain Layout
+п▓я▀ п©п╬п╩п╟пЁп╟п╣я┌п╣, я┤я┌п╬ п╡ Word п╪п╬п╤п╫п╬ я│я┌п╟п╡п╦я┌я▄ я┐п╢п╟я─п╣п╫п╦я▐? п░ п╡ п╨п╟п╨п╬п╧ п╡п╣я─я│п╦п╦?
+\end_layout
 
-Вы полагаете, что в Word можно ставить ударения? А в какой версии?
-\end_inset 
+\end_inset
 
 
-\size default 
-)\SpecialChar ~
---- профессиональную издательскую систему, разработка которой завершена
- многие годы назад, которая не имеет ошибок (поскольку не находится в стадии
- развития, как большинство программ), и воплощает в себя все механизмы,
- необходимые в издательском деле, при профессиональной подготовке издания
- к печати.
-\layout Enumerate
+\size default
+)
+\begin_inset space ~
+\end_inset
 
-LyX/LaTeX изначально разработаны для Unix-платформы.
- Для Linux (произносится 
-\size large 
+Б─■ п©я─п╬я└п╣я│я│п╦п╬п╫п╟п╩я▄п╫я┐я▌ п╦п╥п╢п╟я┌п╣п╩я▄я│п╨я┐я▌ я│п╦я│я┌п╣п╪я┐, я─п╟п╥я─п╟п╠п╬я┌п╨п╟ п╨п╬я┌п╬я─п╬п╧ п╥п╟п╡п╣я─я┬п╣п╫п╟ п╪п╫п╬пЁп╦п╣
+ пЁп╬п╢я▀ п╫п╟п╥п╟п╢, п╨п╬я┌п╬я─п╟я▐ п╫п╣ п╦п╪п╣п╣я┌ п╬я┬п╦п╠п╬п╨ (п©п╬я│п╨п╬п╩я▄п╨я┐ п╫п╣ п╫п╟я┘п╬п╢п╦я┌я│я▐ п╡ я│я┌п╟п╢п╦п╦ я─п╟п╥п╡п╦я┌п╦я▐,
+ п╨п╟п╨ п╠п╬п╩я▄я┬п╦п╫я│я┌п╡п╬ п©я─п╬пЁя─п╟п╪п╪), п╦ п╡п╬п©п╩п╬я┴п╟п╣я┌ п╡ я│п╣п╠я▐ п╡я│п╣ п╪п╣я┘п╟п╫п╦п╥п╪я▀, п╫п╣п╬п╠я┘п╬п╢п╦п╪я▀п╣
+ п╡ п╦п╥п╢п╟я┌п╣п╩я▄я│п╨п╬п╪ п╢п╣п╩п╣, п©я─п╦ п©я─п╬я└п╣я│я│п╦п╬п╫п╟п╩я▄п╫п╬п╧ п©п╬п╢пЁп╬я┌п╬п╡п╨п╣ п╦п╥п╢п╟п╫п╦я▐ п╨ п©п╣я┤п╟я┌п╦.
+\end_layout
+
+\begin_layout Enumerate
+\SpecialChar LyX
+/\SpecialChar LaTeX
+ п╦п╥п╫п╟я┤п╟п╩я▄п╫п╬ я─п╟п╥я─п╟п╠п╬я┌п╟п╫я▀ п╢п╩я▐ Unix-п©п╩п╟я┌я└п╬я─п╪я▀.
+ п■п╩я▐ Linux (п©я─п╬п╦п╥п╫п╬я│п╦я┌я│я▐ 
+\size large
 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-л
+п╩
 \begin_inset ERT
-status Collapsed
+status collapsed
 
-\layout Standard
+\begin_layout Plain Layout
 
-\backslash 
+
+\backslash
 '
-\end_inset 
+\end_layout
 
-инукс
+\end_inset
+
+п╦п╫я┐п╨я│
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 
-\size default 
-), который мы используем
+\size default
+), п╨п╬я┌п╬я─я▀п╧ п╪я▀ п╦я│п©п╬п╩я▄п╥я┐п╣п╪
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
-
-см.
- статью 
+\begin_layout Plain Layout
+я│п╪.
+ я│я┌п╟я┌я▄я▌ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-Почему мы используем Linux
+п÷п╬я┤п╣п╪я┐ п╪я▀ п╦я│п©п╬п╩я▄п╥я┐п╣п╪ Linux
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 
-\end_inset 
+\end_layout
 
- в качестве основной платформы для нашей работы, выбрать LyX для документировани
-я является естественным путём.
-\layout Enumerate
+\end_inset
 
-LyX и LaTeX --- надёжные и стабильные программы.
- Их используют в своей повседневной работе
+ п╡ п╨п╟я┤п╣я│я┌п╡п╣ п╬я│п╫п╬п╡п╫п╬п╧ п©п╩п╟я┌я└п╬я─п╪я▀ п╢п╩я▐ п╫п╟я┬п╣п╧ я─п╟п╠п╬я┌я▀, п╡я▀п╠я─п╟я┌я▄ \SpecialChar LyX
+ п╢п╩я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╦я─п╬п╡п╟п╫п╦я▐
+ я▐п╡п╩я▐п╣я┌я│я▐ п╣я│я┌п╣я│я┌п╡п╣п╫п╫я▀п╪ п©я┐я┌я▒п╪.
+\end_layout
+
+\begin_layout Enumerate
+\SpecialChar LyX
+ п╦ \SpecialChar LaTeX
+ Б─■ п╫п╟п╢я▒п╤п╫я▀п╣ п╦ я│я┌п╟п╠п╦п╩я▄п╫я▀п╣ п©я─п╬пЁя─п╟п╪п╪я▀.
+ п≤я┘ п╦я│п©п╬п╩я▄п╥я┐я▌я┌ п╡ я│п╡п╬п╣п╧ п©п╬п╡я│п╣п╢п╫п╣п╡п╫п╬п╧ я─п╟п╠п╬я┌п╣
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Plain Layout
+п я│я┌п╟я┌п╦, Unix Б─■ п╬я│п╫п╬п╡п╟ я┐п╫п╦п╡п╣я─я│п╦я┌п╣я┌я│п╨п╬пЁп╬ п╬п╠я─п╟п╥п╬п╡п╟п╫п╦я▐ п╡ п║п╗п░.
+\end_layout
 
-Кстати, Unix --- основа университетского образования в США.
-\end_inset 
+\end_inset
 
- математики, преподаватели, студенты и писатели.
+ п╪п╟я┌п╣п╪п╟я┌п╦п╨п╦, п©я─п╣п©п╬п╢п╟п╡п╟я┌п╣п╩п╦, я│я┌я┐п╢п╣п╫я┌я▀ п╦ п©п╦я│п╟я┌п╣п╩п╦.
  
-\layout Enumerate
+\end_layout
 
-LyX/LaTeX имеют определённую концепцию, которой авторы строго следовали,
- создавая свои программы.
-\layout Enumerate
+\begin_layout Enumerate
+\SpecialChar LyX
+/\SpecialChar LaTeX
+ п╦п╪п╣я▌я┌ п╬п©я─п╣п╢п╣п╩я▒п╫п╫я┐я▌ п╨п╬п╫я├п╣п©я├п╦я▌, п╨п╬я┌п╬я─п╬п╧ п╟п╡я┌п╬я─я▀ я│я┌я─п╬пЁп╬ я│п╩п╣п╢п╬п╡п╟п╩п╦, я│п╬п╥п╢п╟п╡п╟я▐
+ я│п╡п╬п╦ п©я─п╬пЁя─п╟п╪п╪я▀.
+\end_layout
 
-В LyX есть всё необходимое для написания документации, так почему его не
- использовать для этого?
-\layout Enumerate
+\begin_layout Enumerate
+п▓ \SpecialChar LyX
+ п╣я│я┌я▄ п╡я│я▒ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬п╣ п╢п╩я▐ п╫п╟п©п╦я│п╟п╫п╦я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦, я┌п╟п╨ п©п╬я┤п╣п╪я┐ п╣пЁп╬ п╫п╣ п╦я│п©п╬п╩я▄п╥п╬п╡п╟
+я┌я▄ п╢п╩я▐ я█я┌п╬пЁп╬?
+\end_layout
 
-LyX имеет отлично написанную документацию, целью которой является донести
- до пользователя сведения, а не получить за документацию деньги.
- Мы надеемся, что через несколько месяцев появится и русский вариант документаци
-и, и это сделает LyX ещё более доступным в России.
-\layout Enumerate
+\begin_layout Enumerate
+\SpecialChar LyX
+ п╦п╪п╣п╣я┌ п╬я┌п╩п╦я┤п╫п╬ п╫п╟п©п╦я│п╟п╫п╫я┐я▌ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦я▌, я├п╣п╩я▄я▌ п╨п╬я┌п╬я─п╬п╧ я▐п╡п╩я▐п╣я┌я│я▐ п╢п╬п╫п╣я│я┌п╦ п╢п╬
+ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩я▐ я│п╡п╣п╢п╣п╫п╦я▐, п╟ п╫п╣ п©п╬п╩я┐я┤п╦я┌я▄ п╥п╟ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦я▌ п╢п╣п╫я▄пЁп╦.
+ п°я▀ п╫п╟п╢п╣п╣п╪я│я▐, я┤я┌п╬ я┤п╣я─п╣п╥ п╫п╣я│п╨п╬п╩я▄п╨п╬ п╪п╣я│я▐я├п╣п╡ п©п╬я▐п╡п╦я┌я│я▐ п╦ я─я┐я│я│п╨п╦п╧ п╡п╟я─п╦п╟п╫я┌ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦
+п╦, п╦ я█я┌п╬ я│п╢п╣п╩п╟п╣я┌ \SpecialChar LyX
+ п╣я┴я▒ п╠п╬п╩п╣п╣ п╢п╬я│я┌я┐п©п╫я▀п╪ п╡ п═п╬я│я│п╦п╦.
+\end_layout
 
-LyX разрабатывается людьми для людей, отвечая их реальным потребностям,
- а не маркетинговым соображениям и условиям игры в бизнес.
- Каждый может внести свой вклад в разработку или участвовать в обсуждении
- тех или иных нововведений в программу.
-\layout Enumerate
+\begin_layout Enumerate
+\SpecialChar LyX
+ я─п╟п╥я─п╟п╠п╟я┌я▀п╡п╟п╣я┌я│я▐ п╩я▌п╢я▄п╪п╦ п╢п╩я▐ п╩я▌п╢п╣п╧, п╬я┌п╡п╣я┤п╟я▐ п╦я┘ я─п╣п╟п╩я▄п╫я▀п╪ п©п╬я┌я─п╣п╠п╫п╬я│я┌я▐п╪, п╟ п╫п╣
+ п╪п╟я─п╨п╣я┌п╦п╫пЁп╬п╡я▀п╪ я│п╬п╬п╠я─п╟п╤п╣п╫п╦я▐п╪ п╦ я┐я│п╩п╬п╡п╦я▐п╪ п╦пЁя─я▀ п╡ п╠п╦п╥п╫п╣я│.
+ п п╟п╤п╢я▀п╧ п╪п╬п╤п╣я┌ п╡п╫п╣я│я┌п╦ я│п╡п╬п╧ п╡п╨п╩п╟п╢ п╡ я─п╟п╥я─п╟п╠п╬я┌п╨я┐ п╦п╩п╦ я┐я┤п╟я│я┌п╡п╬п╡п╟я┌я▄ п╡ п╬п╠я│я┐п╤п╢п╣п╫п╦п╦
+ я┌п╣я┘ п╦п╩п╦ п╦п╫я▀я┘ п╫п╬п╡п╬п╡п╡п╣п╢п╣п╫п╦п╧ п╡ п©я─п╬пЁя─п╟п╪п╪я┐.
+\end_layout
 
-Любой вопрос по использованию LyX можно задать специалистам по LyX в список
- рассылки 
-\begin_inset LatexCommand \url{Lyx Users <lyx-users@lists.lyx.org>}
-
-\end_inset 
-
- и получить исчерпывающий ответ из Германии или Италии в течение нескольких
- часов.
+\begin_layout Enumerate
+п⌡я▌п╠п╬п╧ п╡п╬п©я─п╬я│ п©п╬ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦я▌ \SpecialChar LyX
+ п╪п╬п╤п╫п╬ п╥п╟п╢п╟я┌я▄ я│п©п╣я├п╦п╟п╩п╦я│я┌п╟п╪ п©п╬ \SpecialChar LyX
+ п╡ я│п©п╦я│п╬п╨ я─п╟я│я│я▀п╩п╨п╦
  
-\layout Enumerate
+\begin_inset Flex URL
+status collapsed
 
-LaTeX позволяет запрограммировать большинство правил оформления текста,
- в том числе и оформления текстовой документации согласно ГОСТ.
- Уже готова первая версия класса ГОСТ для LyX, выведенная по каждому пункту
+\begin_layout Plain Layout
+
+Lyx Users <lyx-users@lists.lyx.org>
+\end_layout
+
+\end_inset
+
+ п╦ п©п╬п╩я┐я┤п╦я┌я▄ п╦я│я┤п╣я─п©я▀п╡п╟я▌я┴п╦п╧ п╬я┌п╡п╣я┌ п╦п╥ п⌠п╣я─п╪п╟п╫п╦п╦ п╦п╩п╦ п≤я┌п╟п╩п╦п╦ п╡ я┌п╣я┤п╣п╫п╦п╣ п╫п╣я│п╨п╬п╩я▄п╨п╦я┘
+ я┤п╟я│п╬п╡.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\SpecialChar LaTeX
+ п©п╬п╥п╡п╬п╩я▐п╣я┌ п╥п╟п©я─п╬пЁя─п╟п╪п╪п╦я─п╬п╡п╟я┌я▄ п╠п╬п╩я▄я┬п╦п╫я│я┌п╡п╬ п©я─п╟п╡п╦п╩ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ я┌п╣п╨я│я┌п╟, п╡ я┌п╬п╪
+ я┤п╦я│п╩п╣ п╦ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ я┌п╣п╨я│я┌п╬п╡п╬п╧ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦ я│п╬пЁп╩п╟я│п╫п╬ п⌠п·п║п╒.
+ пёп╤п╣ пЁп╬я┌п╬п╡п╟ п©п╣я─п╡п╟я▐ п╡п╣я─я│п╦я▐ п╨п╩п╟я│я│п╟ п⌠п·п║п╒ п╢п╩я▐ \SpecialChar LyX
+, п╡я▀п╡п╣п╢п╣п╫п╫п╟я▐ п©п╬ п╨п╟п╤п╢п╬п╪я┐ п©я┐п╫п╨я┌я┐
  
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-Общих требований к текстовым документам
+п·п╠я┴п╦я┘ я┌я─п╣п╠п╬п╡п╟п╫п╦п╧ п╨ я┌п╣п╨я│я┌п╬п╡я▀п╪ п╢п╬п╨я┐п╪п╣п╫я┌п╟п╪
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 .
- Теперь 
-\emph on 
-каждый
-\emph default 
- сможет работать над документацией, не изучая досконально ГОСТ'ы и не переделыва
-я полностью документ после посещения нормоконтроля.
- Просто будет очень сложно написать что-либо не по ГОСТ'у.
-\begin_deeper 
-\layout Standard
+ п╒п╣п©п╣я─я▄ 
+\emph on
+п╨п╟п╤п╢я▀п╧
+\emph default
+ я│п╪п╬п╤п╣я┌ я─п╟п╠п╬я┌п╟я┌я▄ п╫п╟п╢ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╣п╧, п╫п╣ п╦п╥я┐я┤п╟я▐ п╢п╬я│п╨п╬п╫п╟п╩я▄п╫п╬ п⌠п·п║п╒'я▀ п╦ п╫п╣ п©п╣я─п╣п╢п╣п╩я▀п╡п╟
+я▐ п©п╬п╩п╫п╬я│я┌я▄я▌ п╢п╬п╨я┐п╪п╣п╫я┌ п©п╬я│п╩п╣ п©п╬я│п╣я┴п╣п╫п╦я▐ п╫п╬я─п╪п╬п╨п╬п╫я┌я─п╬п╩я▐.
+ п÷я─п╬я│я┌п╬ п╠я┐п╢п╣я┌ п╬я┤п╣п╫я▄ я│п╩п╬п╤п╫п╬ п╫п╟п©п╦я│п╟я┌я▄ я┤я┌п╬-п╩п╦п╠п╬ п╫п╣ п©п╬ п⌠п·п║п╒'я┐.
+\begin_inset Separator latexpar
+\end_inset
 
-Использование LyX позволит создать единый для организации 
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+п≤я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╣ \SpecialChar LyX
+ п©п╬п╥п╡п╬п╩п╦я┌ я│п╬п╥п╢п╟я┌я▄ п╣п╢п╦п╫я▀п╧ п╢п╩я▐ п╬я─пЁп╟п╫п╦п╥п╟я├п╦п╦ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-фирменный
+я└п╦я─п╪п╣п╫п╫я▀п╧
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- стиль оформления документации, безукоризненный как эстетически, так и в
- плане соответствия стандартам.
-\end_deeper 
-\layout Enumerate
+ я│я┌п╦п╩я▄ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦, п╠п╣п╥я┐п╨п╬я─п╦п╥п╫п╣п╫п╫я▀п╧ п╨п╟п╨ я█я│я┌п╣я┌п╦я┤п╣я│п╨п╦, я┌п╟п╨ п╦ п╡
+ п©п╩п╟п╫п╣ я│п╬п╬я┌п╡п╣я┌я│я┌п╡п╦я▐ я│я┌п╟п╫п╢п╟я─я┌п╟п╪.
+\end_layout
 
-Использование LyX для подготовки документации позволяет в дальнейшем перевести
- ее в 
-\emph on 
-любой 
-\emph default 
-формат
+\end_deeper
+\begin_layout Enumerate
+п≤я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╣ \SpecialChar LyX
+ п╢п╩я▐ п©п╬п╢пЁп╬я┌п╬п╡п╨п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦ п©п╬п╥п╡п╬п╩я▐п╣я┌ п╡ п╢п╟п╩я▄п╫п╣п╧я┬п╣п╪ п©п╣я─п╣п╡п╣я│я┌п╦
+ п╣п╣ п╡ 
+\emph on
+п╩я▌п╠п╬п╧
+\emph default
+ я└п╬я─п╪п╟я┌
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Plain Layout
+п²п╟п©я─п╦п╪п╣я─, HTML, PDF, \SpecialChar LaTeX
+, п÷я─п╬я│я┌п╬п╧ я┌п╣п╨я│я┌.
+\end_layout
 
-Например, HTML, PDF, LaTeX, Простой текст.
-\end_inset 
+\end_inset
 
- с 
-\emph on 
-минимальными 
-\emph default 
-потерями в оформлении.
- Также возможен импорт документов в LyX из таких форматов как Microsoft\SpecialChar ~
+ я│ 
+\emph on
+п╪п╦п╫п╦п╪п╟п╩я▄п╫я▀п╪п╦
+\emph default
+ п©п╬я┌п╣я─я▐п╪п╦ п╡ п╬я└п╬я─п╪п╩п╣п╫п╦п╦.
+ п╒п╟п╨п╤п╣ п╡п╬п╥п╪п╬п╤п╣п╫ п╦п╪п©п╬я─я┌ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╡ п╡ \SpecialChar LyX
+ п╦п╥ я┌п╟п╨п╦я┘ я└п╬я─п╪п╟я┌п╬п╡ п╨п╟п╨ Microsoft
+\begin_inset space ~
+\end_inset
+
 Word.
-\layout Enumerate
+\end_layout
 
-Мы хотим, чтобы тупую рутинную работу за нас выполнял компьютер, а мы думали
- головой.
- Использование программ, подобных LyX, развивает человека и ведёт к его
- совершенствованию во всех отношениях.
-\layout Enumerate
+\begin_layout Enumerate
+п°я▀ я┘п╬я┌п╦п╪, я┤я┌п╬п╠я▀ я┌я┐п©я┐я▌ я─я┐я┌п╦п╫п╫я┐я▌ я─п╟п╠п╬я┌я┐ п╥п╟ п╫п╟я│ п╡я▀п©п╬п╩п╫я▐п╩ п╨п╬п╪п©я▄я▌я┌п╣я─, п╟ п╪я▀ п╢я┐п╪п╟п╩п╦
+ пЁп╬п╩п╬п╡п╬п╧.
+ п≤я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦п╣ п©я─п╬пЁя─п╟п╪п╪, п©п╬п╢п╬п╠п╫я▀я┘ \SpecialChar LyX
+, я─п╟п╥п╡п╦п╡п╟п╣я┌ я┤п╣п╩п╬п╡п╣п╨п╟ п╦ п╡п╣п╢я▒я┌ п╨ п╣пЁп╬ я│п╬п╡п╣я─я┬п╣п╫я│я┌п╡
+п╬п╡п╟п╫п╦я▌ п╡п╬ п╡я│п╣я┘ п╬я┌п╫п╬я┬п╣п╫п╦я▐я┘.
+\end_layout
 
-Единственным
+\begin_layout Enumerate
+п∙п╢п╦п╫я│я┌п╡п╣п╫п╫я▀п╪
 \begin_inset Foot
-collapsed true
+status collapsed
 
-\layout Standard
+\begin_layout Plain Layout
+
+\emph on
+п·я┌ п╟п╡я┌п╬я─п╟:
+\emph default
+ п∙я│п╩п╦ п╡я▀ п╥п╫п╟п╣я┌п╣ п╣я┴я▒, я│п╬п╬п╠я┴п╦я┌п╣ п©п╬п╤п╟п╩я┐п╧я│я┌п╟, я▐ п╢п╬п©п╬п╩п╫я▌ п╫п╟я│я┌п╬я▐я┴п╦п╧ п╢п╬п╨я┐п╪п╣п╫я┌.
+\end_layout
+
+\end_inset
+
+ я│п╣я─я▄я▒п╥п╫я▀п╪ п╟я─пЁя┐п╪п╣п╫я┌п╬п╪ п©я─п╬я┌п╦п╡ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦я▐ \SpecialChar LyX
+ я▐п╡п╩я▐п╣я┌я│я▐ я┌п╬, я┤я┌п╬ п╬п╫ Б─■ п╫п╬п╡п╟я▐
+ п╢п╩я▐ п╫п╟я│ п©я─п╬пЁя─п╟п╪п╪п╟.
+ п²п╬ п╡п╣п╢я▄ п╨п╬пЁп╢п╟-я┌п╬ п╫п╟п╢п╬ п╬я┌п╨п╟п╥я▀п╡п╟я┌я▄я│я▐ п╬я┌ я│я┌п╟я─п╬пЁп╬ п╦ п╦п╢я┌п╦ п╡п©п╣я─я▒п╢.
+ п╒п╣я┘п╫п╦я┤п╣я│п╨п╦п╧ п©я─п╬пЁя─п╣я│я│ п╡ я┌п╣п╬я─п╦п╦ п╦п╪п╣п╣я┌ я│п╡п╬п╣п╧ я├п╣п╩я▄я▌ п©п╬п╡я▀я┬п╣п╫п╦п╣ п©я─п╬п╦п╥п╡п╬п╢п╦я┌п╣п╩я▄п╫п╬я│я┌п╦
+ я┌я─я┐п╢п╟ п╦ я┐п╩я┐я┤я┬п╣п╫п╦п╣ я┐я│п╩п╬п╡п╦п╧ я┌я─я┐п╢п╟.
+ п°я▀ я─п╟п╥п╡п╣ п╨ я█я┌п╬п╪я┐ п╫п╣ я│я┌я─п╣п╪п╦п╪я│я▐?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
 
 
-\emph on 
-От автора:
-\emph default 
- Если вы знаете ещё, сообщите пожалуйста, я дополню настоящий документ.
-\end_inset 
-
- серьёзным аргументом против использования LyX является то, что он --- новая
- для нас программа.
- Но ведь когда-то надо отказываться от старого и идти вперёд.
- Технический прогресс в теории имеет своей целью повышение производительности
- труда и улучшение условий труда.
- Мы разве к этому не стремимся?
-\layout Standard
-\added_space_top vfill 
-
-\shape smallcaps 
-\size larger 
+\shape smallcaps
+\size larger
 P.S.
 
-\shape default 
-\size default 
+\shape default
+\size default
  
-\newline 
-За то время, что я использовал LyX, я ознакомился с его достоинствами и
- недостатками (зачастую недостатками мнимыми), создал класс документа 
+\begin_inset Newline newline
+\end_inset
+
+п≈п╟ я┌п╬ п╡я─п╣п╪я▐, я┤я┌п╬ я▐ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╩ \SpecialChar LyX
+, я▐ п╬п╥п╫п╟п╨п╬п╪п╦п╩я│я▐ я│ п╣пЁп╬ п╢п╬я│я┌п╬п╦п╫я│я┌п╡п╟п╪п╦ п╦ п╫п╣п╢п╬я│я┌п╟я┌п╨п╟п╪
+п╦ (п╥п╟я┤п╟я│я┌я┐я▌ п╫п╣п╢п╬я│я┌п╟я┌п╨п╟п╪п╦ п╪п╫п╦п╪я▀п╪п╦), я│п╬п╥п╢п╟п╩ п╨п╩п╟я│я│ п╢п╬п╨я┐п╪п╣п╫я┌п╟ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
-ГОСТ
+п⌠п·п║п╒
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- для оформления документации, написал десятки документов, прочитал сотни
- писем, в которых пользователи LyX делятся своим опытом и своими проблемами,
- контактировал непосредственно с разработчиками и специалистами по LyX (например
-, с 
-\noun on 
+ п╢п╩я▐ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦п╦, п╫п╟п©п╦я│п╟п╩ п╢п╣я│я▐я┌п╨п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╡, п©я─п╬я┤п╦я┌п╟п╩ я│п╬я┌п╫п╦
+ п©п╦я│п╣п╪, п╡ п╨п╬я┌п╬я─я▀я┘ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩п╦ \SpecialChar LyX
+ п╢п╣п╩я▐я┌я│я▐ я│п╡п╬п╦п╪ п╬п©я▀я┌п╬п╪ п╦ я│п╡п╬п╦п╪п╦ п©я─п╬п╠п╩п╣п╪п╟п╪п╦,
+ п╨п╬п╫я┌п╟п╨я┌п╦я─п╬п╡п╟п╩ п╫п╣п©п╬я│я─п╣п╢я│я┌п╡п╣п╫п╫п╬ я│ я─п╟п╥я─п╟п╠п╬я┌я┤п╦п╨п╟п╪п╦ п╦ я│п©п╣я├п╦п╟п╩п╦я│я┌п╟п╪п╦ п©п╬ \SpecialChar LyX
+ (п╫п╟п©я─п╦п╪п╣я─,
+ я│ 
+\noun on
 Mike Ressler, Herbert Voss, John Weiss).
 
-\noun default 
- Полученные мною знания и опыт позволяют с уверенностью утверждать, что
- LyX --- это лучший вариант на сегодняшний день в наших условиях (и надеюсь,
- таким останется всегда в любых условиях).
- Конечно же, лучшим подтверждением сказанному будет изготовленная с использовани
-ем LyX документация.
- Так же LyX хорошо подходит для оформления дипломных работ, что подтверждается
- практикой.
-\the_end
+\noun default
+ п÷п╬п╩я┐я┤п╣п╫п╫я▀п╣ п╪п╫п╬я▌ п╥п╫п╟п╫п╦я▐ п╦ п╬п©я▀я┌ п©п╬п╥п╡п╬п╩я▐я▌я┌ я│ я┐п╡п╣я─п╣п╫п╫п╬я│я┌я▄я▌ я┐я┌п╡п╣я─п╤п╢п╟я┌я▄, я┤я┌п╬
+ \SpecialChar LyX
+ Б─■ я█я┌п╬ п╩я┐я┤я┬п╦п╧ п╡п╟я─п╦п╟п╫я┌ п╫п╟ я│п╣пЁп╬п╢п╫я▐я┬п╫п╦п╧ п╢п╣п╫я▄ п╡ п╫п╟я┬п╦я┘ я┐я│п╩п╬п╡п╦я▐я┘ (п╦ п╫п╟п╢п╣я▌я│я▄,
+ я┌п╟п╨п╦п╪ п╬я│я┌п╟п╫п╣я┌я│я▐ п╡я│п╣пЁп╢п╟ п╡ п╩я▌п╠я▀я┘ я┐я│п╩п╬п╡п╦я▐я┘).
+ п п╬п╫п╣я┤п╫п╬ п╤п╣, п╩я┐я┤я┬п╦п╪ п©п╬п╢я┌п╡п╣я─п╤п╢п╣п╫п╦п╣п╪ я│п╨п╟п╥п╟п╫п╫п╬п╪я┐ п╠я┐п╢п╣я┌ п╦п╥пЁп╬я┌п╬п╡п╩п╣п╫п╫п╟я▐ я│ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╦
+п╣п╪ \SpecialChar LyX
+ п╢п╬п╨я┐п╪п╣п╫я┌п╟я├п╦я▐.
+ п╒п╟п╨ п╤п╣ \SpecialChar LyX
+ я┘п╬я─п╬я┬п╬ п©п╬п╢я┘п╬п╢п╦я┌ п╢п╩я▐ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ п╢п╦п©п╩п╬п╪п╫я▀я┘ я─п╟п╠п╬я┌, я┤я┌п╬ п©п╬п╢я┌п╡п╣я─п╤п╢п╟п╣я┌я│я▐
+ п©я─п╟п╨я┌п╦п╨п╬п╧.
+\end_layout
+
+\end_body
+\end_document

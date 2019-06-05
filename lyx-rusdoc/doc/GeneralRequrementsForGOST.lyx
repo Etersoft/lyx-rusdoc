@@ -1,43 +1,82 @@
-#LyX 1.5.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 276
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass gost
 \begin_preamble
 
 \end_preamble
+\use_default_options false
+\maintain_unincluded_children false
 \language russian
+\language_package default
 \inputencoding koi8-r
-\font_roman default
-\font_sans default
-\font_typewriter default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \float_placement H
 \paperfontsize 12
 \spacing single
+\use_hyperref false
 \papersize a4paper
 \use_geometry true
-\use_amsmath 1
-\use_esint 0
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Предметный указатель
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 2
 \paragraph_separation indent
-\defskip medskip
-\quotes_language english
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -56,14 +95,18 @@
 
 \begin_layout ГрифСогласовано
 СОГЛАСОВАНО
-\newline
+\begin_inset Newline newline
+\end_inset
+
 Гл.
  конструктор
 \end_layout
 
 \begin_layout ГрифУтверждения
 УТВЕРЖДЕНО
-\newline
+\begin_inset Newline newline
+\end_inset
+
 Первый заместитель директора
 \end_layout
 
@@ -100,7 +143,8 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset LatexCommand tableofcontents
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
@@ -132,7 +176,8 @@
 \end_layout
 
 \begin_layout Standard
-Данная версия сконвертирована в формат LyX 1.5.0, но ещё не подвергалась проверке
+Данная версия сконвертирована в формат \SpecialChar LyX
+ 1.5.0, но ещё не подвергалась проверке
  (Lav: 05.12.2007 <lav@etersoft.ru>)
 \end_layout
 
@@ -141,20 +186,32 @@
 \end_layout
 
 \begin_layout Пункт
-Текстовый документ выполняют шрифтом высотой не менее 2.5\InsetSpace ~
+Текстовый документ выполняют шрифтом высотой не менее 2.5
+\begin_inset space ~
+\end_inset
+
 мм.
  (3.3)
 \end_layout
 
 \begin_layout Пункт
-Расстояние от рамки формы до границ текста слева и справа --- не менее 3\InsetSpace ~
+Расстояние от рамки формы до границ текста слева и справа — не менее 3
+\begin_inset space ~
+\end_inset
+
 мм.
- Расстояние от рамки до текста сверху и снизу --- не менее 10\InsetSpace ~
+ Расстояние от рамки до текста сверху и снизу — не менее 10
+\begin_inset space ~
+\end_inset
+
 мм (3.6)
 \end_layout
 
 \begin_layout Пункт
-Абзацы в тексте начинают отступом, равным 15-17\InsetSpace ~
+Абзацы в тексте начинают отступом, равным 15-17
+\begin_inset space ~
+\end_inset
+
 мм.
  (3.6)
 \end_layout
@@ -220,34 +277,33 @@
 \begin_inset Formula $>$
 \end_inset
 
-\InsetSpace ~
+
+\begin_inset space ~
+\end_inset
+
 (больше), 
 \begin_inset Formula $<$
 \end_inset
 
-\InsetSpace ~
-(меньше), а также знаки 
-\begin_inset ERT
-status collapsed
 
-\begin_layout Standard
-
-
-\backslash
-No{}
-\end_layout
-
+\begin_inset space ~
 \end_inset
 
-\InsetSpace ~
-(номер), %\InsetSpace ~
+(меньше), а также знаки №
+\begin_inset space ~
+\end_inset
+
+(номер), %
+\begin_inset space ~
+\end_inset
+
 (процент).
 \end_layout
 
 \begin_layout Пункт
 Если в документе приводятся поясняющие надписи, наносимые непосредственно
  на изготовляемое изделие (например, планки, таблички и т.п.), их выделяют
- шрифтом (без кавычек), например ВКЛ., ОТКЛ., или кавычками --- если надпись
+ шрифтом (без кавычек), например ВКЛ., ОТКЛ., или кавычками — если надпись
  состоит из цифр и (или) знаков.
  (4.2.5)
 \end_layout
@@ -291,6 +347,10 @@ No{}
 
 \begin_layout ПеречислениеНум
 Пример
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -316,9 +376,15 @@ No{}
 \end_layout
 
 \begin_layout Пункт
-Расстояние между заголовком и текстом --- 15\InsetSpace ~
+Расстояние между заголовком и текстом — 15
+\begin_inset space ~
+\end_inset
+
 мм.
- Расстояние между заголовком раздела и подраздела --- 8\InsetSpace ~
+ Расстояние между заголовком раздела и подраздела — 8
+\begin_inset space ~
+\end_inset
+
 мм.
  (4.1.9)
 \end_layout
@@ -368,8 +434,14 @@ No{}
 Дробные числа необходимо приводить в виде десятичных дробей.
  При невозможности выразить числовое значение в виде десятичной дроби, допускает
 ся записывать в виде простой дроби в одну строчку через косую черту, например,
- 5/32;\InsetSpace ~
-(50A--4C)/(40B+20).\InsetSpace ~
+ 5/32;
+\begin_inset space ~
+\end_inset
+
+(50A–4C)/(40B+20).
+\begin_inset space ~
+\end_inset
+
 (4.2.14)
 \end_layout
 
@@ -400,8 +472,10 @@ No{}
 \end_inset
 
 , вычисляют по формуле
-\begin_inset Formula \begin{equation}
-\rho=\frac{m}{V},\label{math:plotnost1}\end{equation}
+\begin_inset Formula 
+\begin{equation}
+\rho=\frac{m}{V},\label{math:plotnost1}
+\end{equation}
 
 \end_inset
 
@@ -409,11 +483,11 @@ No{}
 \end_layout
 
 \begin_layout Standard
-где m --- масса образца, кг;
+где m — масса образца, кг;
 \end_layout
 
 \begin_layout Standard
-V --- объем образца, м
+V — объем образца, м
 \begin_inset Formula $^{3}$
 \end_inset
 
@@ -454,7 +528,8 @@ V --- объем образца, м
 
 \begin_layout Пункт
 Тренироваться со ссылками будем на формуле 
-\begin_inset LatexCommand ref
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "math:plotnost1"
 
 \end_inset
@@ -490,7 +565,7 @@ reference "math:plotnost1"
 \end_layout
 
 \begin_layout Standard
-Примечание --- Размеры, заключенные в ...
+Примечание — Размеры, заключенные в ...
 \end_layout
 
 \begin_layout Standard
@@ -540,14 +615,14 @@ reference "math:plotnost1"
 \begin_layout Пункт
 Иллюстрации каждого приложения обозначают отдельной нумерацией арабскими
  цифрами с добавлением перед цифрой обозначения приложения.
- Например --- Рисунок А.3.
+ Например — Рисунок А.3.
 \end_layout
 
 \begin_layout Пункт
 Допускается нумеровать иллюстрации в пределах раздела.
  В этом случае номер иллюстрации состоит из номера раздела и порядкового
  номера иллюстрации, разделенных точкой.
- Например --- Рисунок 1.1.
+ Например — Рисунок 1.1.
 \end_layout
 
 \begin_layout Пункт
@@ -585,7 +660,7 @@ reference "math:plotnost1"
 \end_inset
 
  и наименование помещают после пояснительных данных и располагают следующим
- образом: Рисунок 1 --- Детали прибора.
+ образом: Рисунок 1 — Детали прибора.
  (4.3.1)
 \end_layout
 
@@ -596,14 +671,35 @@ wide false
 sideways false
 status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+лорлтилть
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	display color
 	width 5cm
 	height 3cm
 	rotateOrigin center
-	subcaptionText "лорлтилть"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -663,7 +759,7 @@ status open
 \begin_inset Quotes erd
 \end_inset
 
-, а для информационного -- 
+, а для информационного – 
 \begin_inset Quotes eld
 \end_inset
 
@@ -762,19 +858,19 @@ status open
 Перечень элементов
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="4">
-<features>
-<column alignment="block" valignment="top" leftline="true" width="10mm">
-<column alignment="block" valignment="top" leftline="true" width="40mm">
-<column alignment="block" valignment="top" leftline="true" width="8mm">
-<column alignment="block" valignment="top" leftline="true" rightline="true" width="30mm">
-<row topline="true">
+<features tabularvalignment="middle">
+<column alignment="block" valignment="top" width="10mm">
+<column alignment="block" valignment="top" width="40mm">
+<column alignment="block" valignment="top" width="8mm">
+<column alignment="block" valignment="top" width="30mm">
+<row>
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Поз.
  обозначение
 \end_layout
@@ -784,7 +880,7 @@ status open
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Наименование
 \end_layout
 
@@ -793,27 +889,27 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Кол-во
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Примечание
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -822,7 +918,7 @@ status open
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -831,27 +927,27 @@ status open
 <cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -860,7 +956,7 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -869,65 +965,27 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -936,7 +994,7 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -945,16 +1003,54 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1019,7 +1115,7 @@ status open
 \begin_inset Foot
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 текст первой сноски
 \end_layout
 
@@ -1040,7 +1136,7 @@ status collapsed
 
 \begin_layout Пункт
 Заголовки граф и строк таблицы следует писать с прописной буквы, а подзаголовки
- граф --- со строчной буквы, если они составляют одно предложение с заголовком,
+ граф — со строчной буквы, если они составляют одно предложение с заголовком,
  или с прописной буквы, если они имеют самостоятельное значение.
  В конце заголовков и подзаголовков таблиц точки не ставят.
  Заголовки и подзаголовки граф указывают в единственном числе.
@@ -1200,7 +1296,7 @@ status collapsed
 \begin_inset Foot
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 текст первой сноски
 \end_layout
 
@@ -1210,7 +1306,7 @@ status collapsed
 \begin_inset Foot
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 текст второй сноски
 \end_layout
 
@@ -1220,7 +1316,7 @@ status collapsed
 \begin_inset Foot
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 текст третьей сноски 
 \end_layout
 
@@ -1265,10 +1361,9 @@ wide false
 sideways false
 status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	display color
 	width 5cm
 	height 3cm
 	rotateOrigin center
@@ -1303,19 +1398,19 @@ status open
 Резисторы
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="4">
-<features>
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
-<row topline="true">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Поз.
  обозначение
 \end_layout
@@ -1325,7 +1420,7 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Наименование
 \end_layout
 
@@ -1334,7 +1429,7 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Кол-во
 \end_layout
 
@@ -1343,18 +1438,18 @@ status open
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Примечание
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 R1
 \end_layout
 
@@ -1363,8 +1458,8 @@ R1
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-Резистор С2--25--1
+\begin_layout Plain Layout
+Резистор С2–25–1
 \end_layout
 
 \end_inset
@@ -1372,7 +1467,7 @@ R1
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 8
 \end_layout
 
@@ -1381,45 +1476,45 @@ R1
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 R2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-Резистор С2--5--1
+\begin_layout Plain Layout
+Резистор С2–5–1
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 3
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1455,8 +1550,10 @@ R2
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula \begin{equation}
-\rho=\frac{m}{V},\label{math:plotnost2}\end{equation}
+\begin_inset Formula 
+\begin{equation}
+\rho=\frac{m}{V},\label{math:plotnost2}
+\end{equation}
 
 \end_inset
 
@@ -1464,11 +1561,11 @@ R2
 \end_layout
 
 \begin_layout Standard
-где m --- масса образца, кг;
+где m — масса образца, кг;
 \end_layout
 
 \begin_layout Standard
-V --- объем образца, м
+V — объем образца, м
 \begin_inset Formula $^{3}$
 \end_inset
 
@@ -1509,7 +1606,8 @@ V --- объем образца, м
 
 \begin_layout Standard
 Тренироваться со ссылками будем на формуле 
-\begin_inset LatexCommand ref
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "math:plotnost2"
 
 \end_inset
@@ -1528,19 +1626,19 @@ reference "math:plotnost2"
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="21" columns="3">
-<features islongtable="true">
-<column alignment="block" valignment="top" leftline="true" rightline="true" width="3cm">
-<column alignment="block" valignment="top" rightline="true" width="7cm">
-<column alignment="block" valignment="top" rightline="true" width="3cm">
-<row endfirsthead="true">
-<cell alignment="left" valignment="top" usebox="none">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="block" valignment="top" width="3cm">
+<column alignment="block" valignment="top" width="7cm">
+<column alignment="block" valignment="top" width="3cm">
+<row endfirsthead="true" caption="true">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1550,7 +1648,8 @@ caption{
 \end_inset
 
 
-\begin_inset LatexCommand label
+\begin_inset CommandInset label
+LatexCommand label
 name "tab1"
 
 \end_inset
@@ -1559,7 +1658,7 @@ name "tab1"
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 Перечень документов}
 \backslash
@@ -1573,23 +1672,23 @@ rem{
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1602,29 +1701,29 @@ status collapsed
 \end_inset
 </cell>
 </row>
-<row topline="true" endfirsthead="true">
-<cell alignment="left" valignment="top" usebox="none">
+<row endfirsthead="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Обозначение документа
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Наименование документа1
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Примечание
 \end_layout
 
@@ -1635,9 +1734,10 @@ status collapsed
 <cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Продолжение таблицы 
-\begin_inset LatexCommand ref
+\begin_inset CommandInset ref
+LatexCommand ref
 reference "tab1"
 
 \end_inset
@@ -1650,7 +1750,7 @@ reference "tab1"
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1659,36 +1759,36 @@ reference "tab1"
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Примечание
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" endhead="true">
-<cell alignment="left" valignment="top" usebox="none">
+<row endhead="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Обозначение документа
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Наименование документа2
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Примечание
 \end_layout
 
@@ -1699,7 +1799,7 @@ reference "tab1"
 <cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Подвал
 \end_layout
 
@@ -1708,7 +1808,7 @@ reference "tab1"
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1717,56 +1817,56 @@ reference "tab1"
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Общесоюзные нормы допускаемых индустриальных помех
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 14254
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Оболочки.
  Степень защиты.
@@ -1774,30 +1874,30 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 15150
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Машины, приборы и другие электротехнические изделия.
  Исполнение для различных климатических районов.
  Категории, условия эксплуатации, хранения и транспортирования в части воздейств
@@ -1806,30 +1906,30 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 15543.1-89
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Общие требования в части стойкости к климатическим внешним воздействующим
  факторам.
@@ -1837,30 +1937,30 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 16962.1-89
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Методы испытаний на устойчивость к климатическим внешним воздействующим
  факторам.
@@ -1868,60 +1968,60 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 16962.2-90
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Методы испытаний на стойкость к механическим внешним воздействующим факторам.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 17516.1
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Условия эксплуатации в части воздействия механических факторов внешней
  среды
@@ -1929,30 +2029,30 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 20.57.406-81
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Комплексная система контроля качества.
  Изделия электронной техники, квантовой электроники и электротехнические.
  Методы испытаний.
@@ -1960,30 +2060,30 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 23216
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Хранение, транспортирование, консервация, упаковка.
  Общие требования и методы испытаний
@@ -1991,30 +2091,30 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 27.002-89
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Надежность в технике.
  Основные понятия.
  Термины и определения.
@@ -2022,10 +2122,10 @@ reference "tab1"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2033,89 +2133,29 @@ reference "tab1"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ 27.003-90
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Надежность в технике.
  Состав и общие правила заданий требований по надежности.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-ГОСТ 9.014
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Временная противокоррозионная защита изделий.
- Общие технические требования
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-ГОСТ12.1.004-91ССБТ.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-Пожарная безопасность.
- Общие требования.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2123,88 +2163,148 @@ reference "tab1"
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
+ГОСТ 9.014
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Временная противокоррозионная защита изделий.
+ Общие технические требования
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ГОСТ12.1.004-91ССБТ.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Пожарная безопасность.
+ Общие требования.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 ГОСТ14192-96
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Межгосударственный стандарт.
  Маркировка грузов.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ16842
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Радиопомехи индустриальные.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 ГОСТ18620-86
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Изделия электротехнические.
  Требования к маркировке
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 

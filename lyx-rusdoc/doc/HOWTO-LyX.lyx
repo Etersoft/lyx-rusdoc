@@ -1,7 +1,9 @@
-#LyX 1.5.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 276
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage{multicol}
@@ -12,55 +14,95 @@
 \usepackage{textcomp}
 \newcommand{\rem}[1]{}
 \end_preamble
+\use_default_options false
+\maintain_unincluded_children false
 \language russian
+\language_package default
 \inputencoding koi8-r
-\font_roman default
-\font_sans default
-\font_typewriter default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 12
 \spacing single
+\use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Предметный указатель
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 2
 \paragraph_separation indent
-\defskip medskip
-\quotes_language english
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
 
 \begin_layout Title
-Полезные советы по LyX
+Полезные советы по \SpecialChar LyX
+
 \end_layout
 
 \begin_layout Date
-30.06.01, 14.06.02, 05.01.04, 05.12.07
+30.06.01, 14.06.02, 05.01.04, 05.12.07, 05.06.19
 \end_layout
 
 \begin_layout Author
-Russian LyX User Group (lav@etersoft.ru)
+Russian \SpecialChar LyX
+ User Group (lav@etersoft.ru)
 \end_layout
 
 \begin_layout Abstract
-Мы хотели бы собирать здесь советы, как делать в LyX некоторые вещи оптимальным
+Мы хотели бы собирать здесь советы, как делать в \SpecialChar LyX
+ некоторые вещи оптимальным
  образом, а так же рассмотреть вопросы, возникающие у новоначального пользовател
 я.
  В поле 
@@ -80,12 +122,14 @@ Russian LyX User Group (lav@etersoft.ru)
 \end_layout
 
 \begin_layout Standard
-Во многом при написании этих советов нам помогли LyXTips, созданные Herbert
+Во многом при написании этих советов нам помогли \SpecialChar LyX
+Tips, созданные Herbert
  Voss.
 \end_layout
 
 \begin_layout Section
-\begin_inset LatexCommand label
+\begin_inset CommandInset label
+LatexCommand label
 name "ОбщиеСведения"
 
 \end_inset
@@ -94,13 +138,20 @@ name "ОбщиеСведения"
 \end_layout
 
 \begin_layout Standard
-Так как в предыдущих версиях LyX было много недочётов, которые исправлены
- в последних версиях программы, мы настоятельно рекомендуем вам выполнить
- обновление LyX до версии 1.5.2.
+Так как в предыдущих версиях \SpecialChar LyX
+ было много недочётов, которые исправлены в
+ последних версиях программы, мы настоятельно рекомендуем вам выполнить
+ обновление \SpecialChar LyX
+ до версии 1.5.2.
  Вы можете получить новую сборку в обновлениях от вашего поставщика дистрибутива
  операционной системы или с сайта 
-\begin_inset LatexCommand url
-target "www.lyx.org"
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+www.lyx.org
+\end_layout
 
 \end_inset
 
@@ -109,13 +160,15 @@ target "www.lyx.org"
 
 \begin_layout Standard
 В данной версии документа убраны не все устаревшие советы, до конца он не
- выверен согласно новой версии LyX.
+ выверен согласно новой версии \SpecialChar LyX
+.
 \end_layout
 
 \begin_layout Standard
-Команда TeX вводится как обыкновенный текст в документ, далее выделяется
- мышкой и нажимается красная кнопочка на панели инструментов с надписью
- TeX.
+Команда \SpecialChar TeX
+ вводится как обыкновенный текст в документ, далее выделяется мышкой
+ и нажимается красная кнопочка на панели инструментов с надписью \SpecialChar TeX
+.
  При этом команда становится записанной красным шрифтом.
 \end_layout
 
@@ -126,10 +179,17 @@ target "www.lyx.org"
 \emph default
 , необходимо в меню 
 \family sans
-Документ\SpecialChar \menuseparator
-Параметры,\InsetSpace ~
-Преамбула\InsetSpace ~
-LaTeX
+Документ\SpecialChar menuseparator
+Параметры,
+\begin_inset space ~
+\end_inset
+
+Преамбула
+\begin_inset space ~
+\end_inset
+
+\SpecialChar LaTeX
+
 \family default
  вписать строчку 
 \family sans
@@ -156,8 +216,13 @@ usepackage{имя_пакета}
 ые советы практически не требуются.
  Вы можете получить класс GOST из пакета lyx-gost (Если вы используете ALT
  Linux), или найдя соответствующие пакеты, например, через 
-\begin_inset LatexCommand url
-target "filesearch.ru"
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+filesearch.ru
+\end_layout
 
 \end_inset
 
@@ -170,7 +235,8 @@ target "filesearch.ru"
 
 \begin_layout Standard
 Чтобы убрать вывод номера на определённой странице, нужно в начале текста
- на странице написать команду TeX: 
+ на странице написать команду \SpecialChar TeX
+: 
 \family typewriter
 
 \backslash
@@ -209,7 +275,8 @@ nopageno
 \family default
  (см.
  раздел 
-\begin_inset LatexCommand vref
+\begin_inset CommandInset ref
+LatexCommand vref
 reference "ОбщиеСведения"
 
 \end_inset
@@ -261,10 +328,13 @@ pageref{LastPage}}
 \begin_layout Standard
 Поля меняются в меню 
 \family sans
-Документ\SpecialChar \menuseparator
+Документ\SpecialChar menuseparator
 Параметры
 \family default
-,\InsetSpace ~
+,
+\begin_inset space ~
+\end_inset
+
 
 \family sans
 Поля документа.
@@ -281,7 +351,7 @@ pageref{LastPage}}
 \begin_layout Standard
 По умолчанию в содержание добавляются только разделы, имеющие нумерацию
  (Section, SubSection и пр.
- --- те, которые без звездочек).
+ — те, которые без звездочек).
  Если необходимо добавить ещё пункт Введение или Послесловие, которые не
  должны иметь нумерации, но быть отражены в содержании, применяется команда
 \end_layout
@@ -313,11 +383,15 @@ addcontentsline{toc}{section}{Введение}
 \end_layout
 
 \begin_layout Subsection
-Проблемы с русским в LyX (LaTeX)
+Проблемы с русским в \SpecialChar LyX
+ (\SpecialChar LaTeX
+)
 \end_layout
 
 \begin_layout Standard
-В настоящий момент нам неизвестно о проблемах с русским языком в LyX и LaTeX.
+В настоящий момент нам неизвестно о проблемах с русским языком в \SpecialChar LyX
+ и \SpecialChar LaTeX
+.
 \end_layout
 
 \begin_layout Subsection
@@ -332,7 +406,7 @@ addcontentsline{toc}{section}{Введение}
 \begin_inset Marginal
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Эта строка специально оставлена.
 \end_layout
 
@@ -352,7 +426,8 @@ columnbreak.
 raggedcolumns после
 \size default
 
-\begin_inset LatexCommand label
+\begin_inset CommandInset label
+LatexCommand label
 name "overhead"
 
 \end_inset
@@ -375,7 +450,7 @@ flushcolumns.
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -405,7 +480,7 @@ It was in the spring of the year 1894 that all London was interested, and
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -434,7 +509,7 @@ The public has already learned those particulars of the crime which came
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -459,7 +534,7 @@ end{multicols}
 \family sans
 Вставить
 \family default
-\SpecialChar \menuseparator
+\SpecialChar menuseparator
 
 \family sans
 Мини-страницу
@@ -473,12 +548,13 @@ end{multicols}
 \family default
  :).
  
-\begin_inset LatexCommand vpageref
+\begin_inset CommandInset ref
+LatexCommand vpageref
 reference "minipage"
 
 \end_inset
 
- --- пример.
+ — пример.
 \end_layout
 
 \begin_layout Standard
@@ -488,14 +564,21 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "49col%"
 special "none"
 height "1pt"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Enumerate
-\begin_inset LatexCommand label
+\begin_inset CommandInset label
+LatexCommand label
 name "minipage"
 
 \end_inset
@@ -518,10 +601,16 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "49col%"
 special "none"
 height "1pt"
 height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Enumerate
@@ -556,7 +645,7 @@ status open
 \begin_layout Standard
 Принудительный разрыв страницы осуществляется через меню 
 \family sans
-Формат\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
 Абзац
 \family default
 .
@@ -567,7 +656,7 @@ status open
 Если вы хотите получить отдельную титульную страницу, напишите titlepage
  в меню 
 \family sans
-Формат\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
 Документ,
 \family default
  закладка Документы, пункт Доп.параметры.
@@ -593,7 +682,7 @@ status open
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -645,7 +734,7 @@ begin{multicols}{2}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -667,6 +756,10 @@ columnbreak
 
 \begin_layout Enumerate
 Пункт
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -690,7 +783,7 @@ columnbreak
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -722,15 +815,17 @@ usepackage{indentfirst}.
  не могут переносится (длинное число или английское слово в русском тексте,
  про которое не указано, что оно на английском), строка может вылезать за
  поля страницы (см абзац в разделе 
-\begin_inset LatexCommand vref
+\begin_inset CommandInset ref
+LatexCommand vref
 reference "overhead"
 
 \end_inset
 
 ).
  Это возникает из-за того, что при перенесении целиком этого проблемного
- слова между словами возникли бы слишком большие расстояния, что TeX не
- может позволить из соображений красоты.
+ слова между словами возникли бы слишком большие расстояния, что \SpecialChar TeX
+ не может
+ позволить из соображений красоты.
  В общем, чтобы это не происходило, нужно указать 
 \family typewriter
 
@@ -745,7 +840,7 @@ sloppy
 begin{sloppypar}
 \family default
 \lang russian
- \SpecialChar \ldots{}
+ \SpecialChar ldots
  
 \family typewriter
 \lang english
@@ -864,7 +959,7 @@ makeatother
 \begin_inset Quotes eld
 \end_inset
 
----
+—
 \begin_inset Quotes erd
 \end_inset
 
@@ -884,7 +979,7 @@ makeatother
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -897,7 +992,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -910,7 +1005,7 @@ status collapsed
 \begin_inset Quotes erd
 \end_inset
 
-) подряд --- вот так.
+) подряд — вот так.
 \end_layout
 
 \begin_layout Standard
@@ -918,11 +1013,11 @@ status collapsed
 \begin_inset Quotes eld
 \end_inset
 
-я приду через 15--20 минут
+я приду через 15–20 минут
 \begin_inset Quotes erd
 \end_inset
 
- --- ставьте два знака 
+ — ставьте два знака 
 \begin_inset Quotes eld
 \end_inset
 
@@ -938,7 +1033,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 -
 \backslash
@@ -987,25 +1082,36 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-Чтобы получить красивый номер, просто напишите 
+Чтобы получить красивый номер
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Скорее всего, в настоящее время достаточно ввести знак № с клавиатуры.
+\end_layout
+
+\end_inset
+
+, напишите 
 \begin_inset Quotes eld
 \end_inset
 
 
 \backslash
-No
+textnumero{}
 \begin_inset Quotes erd
 \end_inset
 
- в режиме TeX, и получите знак: 
+ в режиме \SpecialChar TeX
+, и получите знак: 
 \begin_inset ERT
-status collapsed
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
-No
+textnumero{}
 \end_layout
 
 \end_inset
@@ -1014,8 +1120,8 @@ No
 \end_layout
 
 \begin_layout Standard
-Для различных других символов существует пакет textcomp, который подключается
- в преамбуле
+Для этого и различных других символов потребуется пакет textcomp, который
+ подключается в преамбуле
 \end_layout
 
 \begin_layout LyX-Code
@@ -1033,7 +1139,7 @@ usepackage{textcomp}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1062,12 +1168,22 @@ textcelsius
 \end_layout
 
 \begin_layout Standard
-Неизвестен способ, который позволяет ввести букву с ударением, кроме как
- сл
+Неизвестен способ
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+В настоящее время существуют типографские раскладки для Linux и Windows,
+ позволяющие вводить ударе́ние для букв.
+\end_layout
+
+\end_inset
+
+, который позволяет ввести букву с ударением, кроме как сл
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1078,7 +1194,8 @@ status collapsed
 
 едующий: нужно ввести 
 \backslash
-' в режиме команд LaTeX перед буквой, требующей ударения.
+' в режиме команд \SpecialChar LaTeX
+ перед буквой, требующей ударения.
 \end_layout
 
 \begin_layout Subsection
@@ -1086,17 +1203,18 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-Эти символы можно ввести с помощью команд LaTeX
+Эти символы можно ввести с помощью команд \SpecialChar LaTeX
+
 \end_layout
 
 \begin_layout Standard
 
 \backslash
-copyright --- 
+copyright — 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1111,11 +1229,11 @@ copyright
 \begin_layout Standard
 
 \backslash
-textregistered --- 
+textregistered — 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1186,7 +1304,7 @@ captionmargin{1cm}
 \family default
  в меню 
 \family sans
-Формат\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
 Таблица.
  
 \end_layout
@@ -1204,12 +1322,15 @@ captionmargin{1cm}
 \begin_layout Standard
 Некоторые строки таблицы надо пометить в меню 
 \family sans
-Формат\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
 Таблица,
 \family default
  закладка 
 \family sans
-Длинная\InsetSpace ~
+Длинная
+\begin_inset space ~
+\end_inset
+
 таблица.
 \end_layout
 
@@ -1235,21 +1356,21 @@ rem}[1]{}
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
-<features islongtable="true">
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" width="0pt">
-<column alignment="center" valignment="top" leftline="true" rightline="true" width="0pt">
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row endfirsthead="true" caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -1265,41 +1386,41 @@ rem{
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 }
 \end_layout
@@ -1312,11 +1433,11 @@ status collapsed
 \end_inset
 </cell>
 </row>
-<row topline="true">
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 1
 \end_layout
 
@@ -1325,7 +1446,7 @@ status collapsed
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \lang english
 2
@@ -1336,7 +1457,7 @@ status collapsed
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \lang english
 3
@@ -1347,7 +1468,7 @@ status collapsed
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \lang english
 4
@@ -1358,7 +1479,7 @@ status collapsed
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \lang english
 5
@@ -1367,47 +1488,47 @@ status collapsed
 \end_inset
 </cell>
 </row>
-<row topline="true" bottomline="true">
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -1429,7 +1550,7 @@ status collapsed
 Для того, чтобы таблицы произвольно не путешествовали по страницам, необходимо
  зайти в меню 
 \family sans
-Формат\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
 Документ
 \family default
  и в поле 
@@ -1444,15 +1565,19 @@ status collapsed
 \end_layout
 
 \begin_layout Subsubsection
-Через LyX
+Через \SpecialChar LyX
+
 \end_layout
 
 \begin_layout Standard
 Для версии 1.3.3: Меню 
 \family sans
-Вставить\SpecialChar \menuseparator
-Плавающий\InsetSpace ~
-объект\SpecialChar \menuseparator
+Вставить\SpecialChar menuseparator
+Плавающий
+\begin_inset space ~
+\end_inset
+
+объект\SpecialChar menuseparator
 Плавающее изображение.
 \end_layout
 
@@ -1463,7 +1588,7 @@ status collapsed
 \emph on
 перед
 \emph default
- рисунком, зайти в меню Формат\SpecialChar \menuseparator
+ рисунком, зайти в меню Формат\SpecialChar menuseparator
 Абзац, в закладке Extra поставить галочку
  Плавающий кадр и указать правее его ширину.
  К сожалению, иногда рисунок обтекает только первый абзац, следующим сразу
@@ -1479,7 +1604,8 @@ status collapsed
 Указываем в преамбуле 
 \backslash
 usepackage{wrapfig}.
- Далее в тексте, там где надо поместить рисунок, пишем следующий TeX-код:
+ Далее в тексте, там где надо поместить рисунок, пишем следующий \SpecialChar TeX
+-код:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1548,12 +1674,18 @@ C-e,b,u Соответственно, выделенный, жирный, под
 \end_layout
 
 \begin_layout Description
-M-c\InsetSpace ~
+M-c
+\begin_inset space ~
+\end_inset
+
 m Перейти в режим написания формул
 \end_layout
 
 \begin_layout Description
-M-c\InsetSpace ~
+M-c
+\begin_inset space ~
+\end_inset
+
 x где x может быть следующим (и действует на указанное слово или выделенный
  текст):
 \end_layout
@@ -1575,13 +1707,21 @@ s стандартный (романский) шрифт
 \end_layout
 
 \begin_layout Description
-M-p\InsetSpace ~
-x где x --- тип окружения, как указано ниже, и далее по аналогии
+M-p
+\begin_inset space ~
+\end_inset
+
+x где x — тип окружения, как указано ниже, и далее по аналогии
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-c LyX-code
+c \SpecialChar LyX
+-code
 \end_layout
 
 \begin_layout Description
@@ -1598,7 +1738,7 @@ s Standart
 
 \end_deeper
 \begin_layout Description
-M-S-стрелки меняют уровень окружения (влево --- меньше, вправо --- больше)
+M-S-стрелки меняют уровень окружения (влево — меньше, вправо — больше)
 \end_layout
 
 \begin_layout Section
@@ -1612,16 +1752,16 @@ M-S-стрелки меняют уровень окружения (влево --
 \begin_layout Standard
 Для того, что бы вставить содержание выберите меню 
 \family sans
-Вставить\SpecialChar \menuseparator
-Списки & Содержания \SpecialChar \menuseparator
+Вставить\SpecialChar menuseparator
+Списки & Содержания \SpecialChar menuseparator
 Содержание
 \end_layout
 
 \begin_layout Standard
 Если хотите изменить глубину содержания, 
 \family sans
-Формат\SpecialChar \menuseparator
-Документ\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
+Документ\SpecialChar menuseparator
 Дополнительно
 \family default
  и изменяете уровень глубины.
@@ -1632,7 +1772,8 @@ M-S-стрелки меняют уровень окружения (влево --
 \end_layout
 
 \begin_layout Standard
-\begin_inset LatexCommand tableofcontents
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 

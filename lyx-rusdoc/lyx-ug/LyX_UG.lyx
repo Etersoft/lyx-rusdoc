@@ -1,50 +1,90 @@
-#LyX 1.5.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 276
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
+\use_default_options false
+\maintain_unincluded_children false
 \language russian
+\language_package default
 \inputencoding koi8-r
-\font_roman default
-\font_sans default
-\font_typewriter default
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \float_placement h
 \paperfontsize 10
 \spacing single
+\use_hyperref false
 \papersize a4paper
 \use_geometry true
-\use_amsmath 1
-\use_esint 0
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Предметный указатель
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
-\quotes_language english
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 2
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
 
 \begin_layout Title
-Процессор документов LyX
+Процессор документов \SpecialChar LyX
+
 \begin_inset Foot
 status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Речь идёт о версии 1.3.6, документ не адаптирован для 1.5.x
 \end_layout
 
@@ -62,11 +102,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-LyX
+\SpecialChar LyX
+
 \begin_inset Foot
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Произносится как 
 \begin_inset Quotes eld
 \end_inset
@@ -80,19 +121,20 @@ status collapsed
 
 \end_inset
 
- --- это система подготовки документов, работающая в среде 
+ — это система подготовки документов, работающая в среде 
 \series bold
 X-Window
 \series default
 .
- LyX может быть использован как для написания короткого письма, так и для
- работы над объёмной книгой в тысячи страниц.
+ \SpecialChar LyX
+ может быть использован как для написания короткого письма, так и для работы
+ над объёмной книгой в тысячи страниц.
 \end_layout
 
 \begin_layout Standard
 В обычных текстовых процессорах используется концепция 
 \emph on
-визуального проектирования ---
+визуального проектирования —
 \emph default
  WYSIWYG (что видите, то и получите).
  При этом во время набора текста документ выглядит на экране дисплея так
@@ -100,7 +142,8 @@ X-Window
  Вам приходится об этом заботиться: выбирать шрифт, указывать его размер
  и начертание.
  И так для каждого абзаца.
- LyX берёт на себя всю эту рутинную оформительскую часть, а вам предоставляет
+ \SpecialChar LyX
+ берёт на себя всю эту рутинную оформительскую часть, а вам предоставляет
  возможность сосредоточиться на содержании и структуре документа.
  При этом больше не нужно нажимать пробел несколько раз подряд, нажатием
  
@@ -112,7 +155,8 @@ Enter
 \end_layout
 
 \begin_layout Standard
-LyX использует концепцию 
+\SpecialChar LyX
+ использует концепцию 
 \emph on
 логического проектирования
 \emph default
@@ -151,11 +195,12 @@ LyX использует концепцию
 \end_layout
 
 \begin_layout Standard
-Для подготовки документа к печати он передаётся издательской системе LaTeX
+Для подготовки документа к печати он передаётся издательской системе \SpecialChar LaTeX
+
 \begin_inset Foot
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Произносится как 
 \begin_inset Quotes eld
 \end_inset
@@ -164,7 +209,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -187,21 +232,26 @@ status collapsed
 классом
 \emph default
  документа.
- Использование LaTeX определяет многие достоинства LyX, при этом вам совсем
- не обязательно знать команды LaTeX --- большинство оформительских задач
- можно решить через меню в LyX.
+ Использование \SpecialChar LaTeX
+ определяет многие достоинства \SpecialChar LyX
+, при этом вам совсем не обязатель
+но знать команды \SpecialChar LaTeX
+ — большинство оформительских задач можно решить через
+ меню в \SpecialChar LyX
+.
 \end_layout
 
 \begin_layout Standard
-Созданный вами документ обычно проходит следующие преобразования: LyX\SpecialChar \menuseparator
-LaTeX\SpecialChar \menuseparator
-DVI\SpecialChar \menuseparator
-Pos
-tScript
+Созданный вами документ обычно проходит следующие преобразования: \SpecialChar LyX
+\SpecialChar menuseparator
+\SpecialChar LaTeX
+\SpecialChar menuseparator
+DVI\SpecialChar menuseparator
+PostScript
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -215,7 +265,8 @@ textregistered{}
 \end_layout
 
 \begin_layout Standard
-Если вы хотите печатать из LyX, вам понадобиться установить пакеты 
+Если вы хотите печатать из \SpecialChar LyX
+, вам понадобиться установить пакеты 
 \family typewriter
 tetex, tetex-latex, tetex-dvips
 \family default
@@ -229,13 +280,15 @@ gv
 ggv
 \family default
 .
- Если вы установите эти пакеты уже после установки LyX, вам может понадобится
- переконфигурировать LyX (для пользователя через меню 
+ Если вы установите эти пакеты уже после установки \SpecialChar LyX
+, вам может понадобится
+ переконфигурировать \SpecialChar LyX
+ (для пользователя через меню 
 \family sans
-Правка\SpecialChar \menuseparator
+Правка\SpecialChar menuseparator
 Переконфигурировать
 \family default
-, для изменения глобальных настроек --- запустить с правами администратора
+, для изменения глобальных настроек — запустить с правами администратора
  скрипт 
 \family typewriter
 /usr/share/lyx/configure
@@ -254,13 +307,14 @@ ispell-ru
 aspell-ru-*
 \family default
 .
- Если вы его установите после LyX, также может потребоваться переконфигурировани
-е.
+ Если вы его установите после \SpecialChar LyX
+, также может потребоваться переконфигурирование.
 \end_layout
 
 \begin_layout Standard
-LyX поставляется с замечательной документацией, описывающей все аспекты
- работы с ним.
+\SpecialChar LyX
+ поставляется с замечательной документацией, описывающей все аспекты работы
+ с ним.
  К сожалению, на настоящий момент её перевод на русский язык ещё не завершён.
  Некоторую русскоязычную документацию вы можете найти в пакете 
 \family typewriter
@@ -294,13 +348,16 @@ $ convert myfile.png myfile.eps
 \begin_layout Standard
 Вы должны быть готовы к тому, что окажетесь в непривычной и неудобной среде.
  Так вам будет казаться.
- Но освоившись, вы обязательно поймёте, что LyX в сочетании с LaTeX является
- удобным и мощным инструментом, позволяющим создавать красивые, хорошо структури
-рованные документы.
+ Но освоившись, вы обязательно поймёте, что \SpecialChar LyX
+ в сочетании с \SpecialChar LaTeX
+ является удобным
+ и мощным инструментом, позволяющим создавать красивые, хорошо структурированные
+ документы.
 \end_layout
 
 \begin_layout Section
-Основные достоинства и возможности LyX:
+Основные достоинства и возможности \SpecialChar LyX
+:
 \end_layout
 
 \begin_layout Itemize
@@ -350,11 +407,16 @@ $ convert myfile.png myfile.eps
 
 \begin_layout Itemize
 Экспорт и импорт из различных форматов;
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-С помощью LyX можно воплотить в жизнь концепцию 
+С помощью \SpecialChar LyX
+ можно воплотить в жизнь концепцию 
 \begin_inset Quotes eld
 \end_inset
 
@@ -362,12 +424,12 @@ $ convert myfile.png myfile.eps
 \begin_inset Quotes erd
 \end_inset
 
- --- один и тот же исходный документ в LyX может быть сохранён в формате
- PostScript
+ — один и тот же исходный документ в \SpecialChar LyX
+ может быть сохранён в формате PostScript
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -376,40 +438,51 @@ textregistered{}
 
 \end_inset
 
- для высококачественной печати на принтере, HTML --- для публикации в сети
- Интернет, PDF --- для переноса документа на другие компьютерные платформы.
+ для высококачественной печати на принтере, HTML — для публикации в сети
+ Интернет, PDF — для переноса документа на другие компьютерные платформы.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Аварийное сохранение;
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-Авторы LyX заботятся о том, чтобы их программа работала стабильно, а чтобы
+Авторы \SpecialChar LyX
+ заботятся о том, чтобы их программа работала стабильно, а чтобы
  совсем исключить потерю данных, предусмотрено аварийное сохранение редактируемы
 х документов при возникновении ошибки в программе.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Простой формат документа LyX, представляющий из себя текстовый файл.
+Простой формат документа \SpecialChar LyX
+, представляющий из себя текстовый файл.
 \end_layout
 
 \begin_layout Section
-Работа с LyX
+Работа с \SpecialChar LyX
+
 \end_layout
 
 \begin_layout Standard
-Так выглядит LyX в процессе работы:
+Так выглядит \SpecialChar LyX
+ в процессе работы:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Graphics
 	filename user-text-demolyx.png
-	display color
 	width 90col%
 	rotateOrigin center
 
@@ -430,14 +503,14 @@ textregistered{}
 \begin_layout Itemize
 через меню 
 \family sans
-Файл\SpecialChar \menuseparator
+Файл\SpecialChar menuseparator
 Создать
 \family default
 ...
 \begin_inset Note Note
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Основным пунктам меню соответствуют иконки, вынесенные на панель инструментов.
 \end_layout
 
@@ -449,12 +522,15 @@ status collapsed
 \begin_layout Itemize
 вызвать диалоговое окно 
 \family sans
-Формат\InsetSpace ~
+Формат
+\begin_inset space ~
+\end_inset
+
 документа
 \family default
  воспользовавшись меню 
 \family sans
-Формат\SpecialChar \menuseparator
+Формат\SpecialChar menuseparator
 Документ...;
 \end_layout
 
@@ -490,7 +566,8 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-Документ LyX состоит из различных частей, имеющих разное назначение.
+Документ \SpecialChar LyX
+ состоит из различных частей, имеющих разное назначение.
  Эти логически обособленные части документа называются 
 \emph on
 окружениями
@@ -523,7 +600,10 @@ status collapsed
 \begin_layout Standard
 
 \emph on
-Окружение\InsetSpace ~
+Окружение
+\begin_inset space ~
+\end_inset
+
 абзаца
 \emph default
  определяет такие свойства абзаца как стиль шрифта, отступы, схема нумерации
@@ -539,13 +619,14 @@ status collapsed
 \end_layout
 
 \begin_layout Enumerate
-Перевести в LyX документы с сохранением форматирования из таких форматов
- как Microsoft Word Document, в общем случае невозможно, поскольку они ориентиро
-ваны на ручное оформление внешнего вида текста, а не на описание его логической
+Перевести в \SpecialChar LyX
+ документы с сохранением форматирования из таких форматов как
+ Microsoft Word Document, в общем случае невозможно, поскольку они ориентированы
+ на ручное оформление внешнего вида текста, а не на описание его логической
  структуры.
  Впрочем, через меню 
 \family sans
-Файл\SpecialChar \menuseparator
+Файл\SpecialChar menuseparator
 Импорт
 \family default
  возможно импортировать текст файла в формате 
@@ -560,7 +641,8 @@ lyx-gost
 \end_layout
 
 \begin_layout Enumerate
-LyX только 
+\SpecialChar LyX
+ только 
 \emph on
 примерно
 \emph default
@@ -568,7 +650,7 @@ LyX только
  Как будет выглядеть текст на бумаге вы можете увидеть при предварительном
  просмотре (меню 
 \family sans
-Просмотр\SpecialChar \menuseparator
+Просмотр\SpecialChar menuseparator
 Postscript
 \family default
 ).
@@ -636,6 +718,10 @@ GOST
 \end_inset
 
 , с рамками и основными надписями.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -645,9 +731,15 @@ GOST
 \bar under
 Ф
 \bar default
-айл\SpecialChar \menuseparator
-Создать\InsetSpace ~
-из\InsetSpace ~
+айл\SpecialChar menuseparator
+Создать
+\begin_inset space ~
+\end_inset
+
+из
+\begin_inset space ~
+\end_inset
+
 шаблона.
 
 \family default
@@ -658,23 +750,23 @@ GOST
 \end_deeper
 \begin_layout Enumerate
 Для значительного повышения производительности труда следует изучить горячие
- клавиши --- для начала, что комбинации 
+ клавиши — для начала, что комбинации 
 \family typewriter
 Shift
 \family default
---стрелочки используются для выделение текста, 
+–стрелочки используются для выделение текста, 
 \family typewriter
 Ctrl-X
 \family default
- --- вырезать, 
+ — вырезать, 
 \family typewriter
 Ctrl-C
 \family default
- --- скопировать, 
+ — скопировать, 
 \family typewriter
 Ctrl-V
 \family default
- --- вставить.
+ — вставить.
 \end_layout
 
 \begin_layout Enumerate
@@ -682,7 +774,7 @@ Ctrl-V
 \begin_inset Quotes eld
 \end_inset
 
----
+—
 \begin_inset Quotes erd
 \end_inset
 
@@ -694,7 +786,7 @@ Ctrl-V
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -707,7 +799,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 
 \backslash
@@ -720,34 +812,6 @@ status collapsed
 \begin_inset Quotes erd
 \end_inset
 
-.
- Чтобы получить знак номера 
-\begin_inset Quotes eld
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-No
-\end_layout
-
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-, введите 
-\family typewriter
-
-\backslash
-No{}
-\family default
 .
 \end_layout
 
@@ -756,7 +820,7 @@ No{}
 \begin_inset Foot
 status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 речь шла о версии 1.2.0
 \end_layout
 
@@ -766,9 +830,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-В настоящее время командой LyX\InsetSpace ~
-Team --- разработчиками LyX --- ведётся подготовка
- к выпуску следующей версии LyX, в которой будут следующие усовершенствования:
+В настоящее время командой \SpecialChar LyX
+
+\begin_inset space ~
+\end_inset
+
+Team — разработчиками \SpecialChar LyX
+ — ведётся подготовка к выпуску следующей версии \SpecialChar LyX
+,
+ в которой будут следующие усовершенствования:
 \end_layout
 
 \begin_layout Itemize
@@ -793,8 +863,9 @@ Team --- разработчиками LyX --- ведётся подготовк�
 \end_layout
 
 \begin_layout Standard
-Вскоре будет завершена возможность LyX работать с таким же интерфейсом пользоват
-еля, какой имеют программы, написанные KDE и GNOME.
+Вскоре будет завершена возможность \SpecialChar LyX
+ работать с таким же интерфейсом пользователя
+, какой имеют программы, написанные KDE и GNOME.
 \end_layout
 
 \end_body

@@ -1,212 +1,313 @@
-#LyX 1.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 218
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage{multicol}
 \end_preamble
+\use_default_options false
+\maintain_unincluded_children false
 \language russian
-\inputencoding koi8-r
-\fontscheme default
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 12
-\spacing single 
+\spacing single
+\use_hyperref false
 \papersize a4paper
-\paperpackage a4
-\use_geometry 1
-\use_amsmath 0
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index п÷я─п╣п╢п╪п╣я┌п╫я▀п╧ я┐п╨п╟п╥п╟я┌п╣п╩я▄
+\shortcut idx
+\color #008000
+\end_index
 \leftmargin 20mm
-\topmargin 0mm
+\topmargin 12mm
 \rightmargin 15mm
+\bottommargin 10mm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
-\quotes_language english
-\quotes_times 2
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
 
-\layout Standard
-\align center 
+\begin_body
 
-\size larger 
-Основные идеи, которыми необходимо проникнуться, 
-\newline 
-чтобы освоить и грамотно использовать LyX/LaTeX.
-\layout Standard
-\align center 
+\begin_layout Standard
+\align center
 
-\size large 
-Виталий Липатов (08.12.01)
-\layout Standard
+\size larger
+п·я│п╫п╬п╡п╫я▀п╣ п╦п╢п╣п╦, п╨п╬я┌п╬я─я▀п╪п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п©я─п╬п╫п╦п╨п╫я┐я┌я▄я│я▐, 
+\begin_inset Newline newline
+\end_inset
+
+я┤я┌п╬п╠я▀ п╬я│п╡п╬п╦я┌я▄ п╦ пЁя─п╟п╪п╬я┌п╫п╬ п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄ \SpecialChar LyX
+/\SpecialChar LaTeX
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+п▓п╦я┌п╟п╩п╦п╧ п⌡п╦п©п╟я┌п╬п╡ (08.12.01)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
 
 
-\latex latex 
-
-\backslash 
+\backslash
 begin{multicols}{2}
-\layout Itemize
+\end_layout
 
-Документы, созданные в LyX, далее подготавливаются для печати издательской
- системой LaTeX, являющейся стандартом de facto в научно-технических издательств
-ах, не имеющей равных в качестве полиграфического оформления документа.
- TeX --- надёжная система, алгоритмы которой отлажены за десятки лет функциониро
-вания.
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+п■п╬п╨я┐п╪п╣п╫я┌я▀, я│п╬п╥п╢п╟п╫п╫я▀п╣ п╡ \SpecialChar LyX
+, п╢п╟п╩п╣п╣ п©п╬п╢пЁп╬я┌п╟п╡п╩п╦п╡п╟я▌я┌я│я▐ п╢п╩я▐ п©п╣я┤п╟я┌п╦ п╦п╥п╢п╟я┌п╣п╩я▄я│п╨п╬п╧
+ я│п╦я│я┌п╣п╪п╬п╧ \SpecialChar LaTeX
+, я▐п╡п╩я▐я▌я┴п╣п╧я│я▐ я│я┌п╟п╫п╢п╟я─я┌п╬п╪ de facto п╡ п╫п╟я┐я┤п╫п╬-я┌п╣я┘п╫п╦я┤п╣я│п╨п╦я┘ п╦п╥п╢п╟я┌п╣п╩я▄я│я┌п╡п╟я┘,
+ п╫п╣ п╦п╪п╣я▌я┴п╣п╧ я─п╟п╡п╫я▀я┘ п╡ п╨п╟я┤п╣я│я┌п╡п╣ п©п╬п╩п╦пЁя─п╟я└п╦я┤п╣я│п╨п╬пЁп╬ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟.
+ \SpecialChar TeX
+ Б─■ п╫п╟п╢я▒п╤п╫п╟я▐ я│п╦я│я┌п╣п╪п╟, п╟п╩пЁп╬я─п╦я┌п╪я▀ п╨п╬я┌п╬я─п╬п╧ п╬я┌п╩п╟п╤п╣п╫я▀ п╥п╟ п╢п╣я│я▐я┌п╨п╦ п╩п╣я┌ я└я┐п╫п╨я├п╦п╬п╫п╦я─п╬п╡п╟п╫п╦я▐.
  
-\layout Itemize
+\end_layout
 
-Перевести в LyX документы с сохранением форматирования из таких форматов
- документов как Microsoft Word Document, в общем случае невозможно, так
- как формат 
-\series bold 
+\begin_layout Itemize
+п÷п╣я─п╣п╡п╣я│я┌п╦ п╡ \SpecialChar LyX
+ п╢п╬п╨я┐п╪п╣п╫я┌я▀ я│ я│п╬я┘я─п╟п╫п╣п╫п╦п╣п╪ я└п╬я─п╪п╟я┌п╦я─п╬п╡п╟п╫п╦я▐ п╦п╥ я┌п╟п╨п╦я┘ я└п╬я─п╪п╟я┌п╬п╡ п╢п╬п╨я┐п╪п╣п╫я┌п╬п╡
+ п╨п╟п╨ Microsoft Word Document, п╡ п╬п╠я┴п╣п╪ я│п╩я┐я┤п╟п╣ п╫п╣п╡п╬п╥п╪п╬п╤п╫п╬, я┌п╟п╨ п╨п╟п╨ я└п╬я─п╪п╟я┌
+ 
+\series bold
 doc
-\series default 
- ориентирован на ручное оформление внешнего вида документа, а не на описание
- его логической структуры.
- Впрочем, через меню 
-\family sans 
-Файл\SpecialChar \menuseparator
-Импорт
-\family default 
- возможно импортировать файл в формате 
-\series bold 
+\series default
+ п╬я─п╦п╣п╫я┌п╦я─п╬п╡п╟п╫ п╫п╟ я─я┐я┤п╫п╬п╣ п╬я└п╬я─п╪п╩п╣п╫п╦п╣ п╡п╫п╣я┬п╫п╣пЁп╬ п╡п╦п╢п╟ п╢п╬п╨я┐п╪п╣п╫я┌п╟, п╟ п╫п╣ п╫п╟ п╬п©п╦я│п╟п╫п╦п╣
+ п╣пЁп╬ п╩п╬пЁп╦я┤п╣я│п╨п╬п╧ я│я┌я─я┐п╨я┌я┐я─я▀.
+ п▓п©я─п╬я┤п╣п╪, я┤п╣я─п╣п╥ п╪п╣п╫я▌ 
+\family sans
+п╓п╟п╧п╩\SpecialChar menuseparator
+п≤п╪п©п╬я─я┌
+\family default
+ п╡п╬п╥п╪п╬п╤п╫п╬ п╦п╪п©п╬я─я┌п╦я─п╬п╡п╟я┌я▄ я└п╟п╧п╩ п╡ я└п╬я─п╪п╟я┌п╣ 
+\series bold
 doc
-\series default 
+\series default
 .
-\layout Itemize
+\end_layout
 
-LyX только 
-\emph on 
-примерно
-\emph default 
- показывает, как выглядит ваш текст, показывая и выделяя его структуру.
- Как будет выглядеть текст на бумаге вы можете увидеть при предварительном
- просмотре (меню 
-\family sans 
-Просмотр\SpecialChar \menuseparator
+\begin_layout Itemize
+\SpecialChar LyX
+ я┌п╬п╩я▄п╨п╬ 
+\emph on
+п©я─п╦п╪п╣я─п╫п╬
+\emph default
+ п©п╬п╨п╟п╥я▀п╡п╟п╣я┌, п╨п╟п╨ п╡я▀пЁп╩я▐п╢п╦я┌ п╡п╟я┬ я┌п╣п╨я│я┌, п©п╬п╨п╟п╥я▀п╡п╟я▐ п╦ п╡я▀п╢п╣п╩я▐я▐ п╣пЁп╬ я│я┌я─я┐п╨я┌я┐я─я┐.
+ п п╟п╨ п╠я┐п╢п╣я┌ п╡я▀пЁп╩я▐п╢п╣я┌я▄ я┌п╣п╨я│я┌ п╫п╟ п╠я┐п╪п╟пЁп╣ п╡я▀ п╪п╬п╤п╣я┌п╣ я┐п╡п╦п╢п╣я┌я▄ п©я─п╦ п©я─п╣п╢п╡п╟я─п╦я┌п╣п╩я▄п╫п╬п╪
+ п©я─п╬я│п╪п╬я┌я─п╣ (п╪п╣п╫я▌ 
+\family sans
+п÷я─п╬я│п╪п╬я┌я─\SpecialChar menuseparator
 Postscript
-\family default 
+\family default
 ).
-\layout Itemize
+\end_layout
 
-При написании текста следует заботиться о его структуре, а о том, как он
- будет выглядеть, позаботится система.
- Необходимо лишь указать, где в тексте раздел, где пункт, где перечисление.
- Это можно сделать мышкой в меню стилей (самое левое в панели инструментов
- программы).
- Соответственно, не следует пытаться вручную нумеровать пункты, или расставлять
- значки в перечислениях, формировать отступы абзацев пробелами и пр.
-\layout Itemize
+\begin_layout Itemize
+п÷я─п╦ п╫п╟п©п╦я│п╟п╫п╦п╦ я┌п╣п╨я│я┌п╟ я│п╩п╣п╢я┐п╣я┌ п╥п╟п╠п╬я┌п╦я┌я▄я│я▐ п╬ п╣пЁп╬ я│я┌я─я┐п╨я┌я┐я─п╣, п╟ п╬ я┌п╬п╪, п╨п╟п╨ п╬п╫
+ п╠я┐п╢п╣я┌ п╡я▀пЁп╩я▐п╢п╣я┌я▄, п©п╬п╥п╟п╠п╬я┌п╦я┌я│я▐ я│п╦я│я┌п╣п╪п╟.
+ п²п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╩п╦я┬я▄ я┐п╨п╟п╥п╟я┌я▄, пЁп╢п╣ п╡ я┌п╣п╨я│я┌п╣ я─п╟п╥п╢п╣п╩, пЁп╢п╣ п©я┐п╫п╨я┌, пЁп╢п╣ п©п╣я─п╣я┤п╦я│п╩п╣п╫п╦п╣.
+ п╜я┌п╬ п╪п╬п╤п╫п╬ я│п╢п╣п╩п╟я┌я▄ п╪я▀я┬п╨п╬п╧ п╡ п╪п╣п╫я▌ я│я┌п╦п╩п╣п╧ (я│п╟п╪п╬п╣ п╩п╣п╡п╬п╣ п╡ п©п╟п╫п╣п╩п╦ п╦п╫я│я┌я─я┐п╪п╣п╫я┌п╬п╡
+ п©я─п╬пЁя─п╟п╪п╪я▀).
+ п║п╬п╬я┌п╡п╣я┌я│я┌п╡п╣п╫п╫п╬, п╫п╣ я│п╩п╣п╢я┐п╣я┌ п©я▀я┌п╟я┌я▄я│я▐ п╡я─я┐я┤п╫я┐я▌ п╫я┐п╪п╣я─п╬п╡п╟я┌я▄ п©я┐п╫п╨я┌я▀, п╦п╩п╦ я─п╟я│я│я┌п╟п╡п╩я▐я┌я▄
+ п╥п╫п╟я┤п╨п╦ п╡ п©п╣я─п╣я┤п╦я│п╩п╣п╫п╦я▐я┘, я└п╬я─п╪п╦я─п╬п╡п╟я┌я▄ п╬я┌я│я┌я┐п©я▀ п╟п╠п╥п╟я├п╣п╡ п©я─п╬п╠п╣п╩п╟п╪п╦ п╦ п©я─.
+\end_layout
 
-Не следует обращать особого внимания на отступы и интервалы в тексте.
- В большинстве случаев все будет оформлено правильно автоматически.
-\layout Itemize
+\begin_layout Itemize
+п²п╣ я│п╩п╣п╢я┐п╣я┌ п╬п╠я─п╟я┴п╟я┌я▄ п╬я│п╬п╠п╬пЁп╬ п╡п╫п╦п╪п╟п╫п╦я▐ п╫п╟ п╬я┌я│я┌я┐п©я▀ п╦ п╦п╫я┌п╣я─п╡п╟п╩я▀ п╡ я┌п╣п╨я│я┌п╣.
+ п▓ п╠п╬п╩я▄я┬п╦п╫я│я┌п╡п╣ я│п╩я┐я┤п╟п╣п╡ п╡я│п╣ п╠я┐п╢п╣я┌ п╬я└п╬я─п╪п╩п╣п╫п╬ п©я─п╟п╡п╦п╩я▄п╫п╬ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦.
+\end_layout
 
-Информацию табличного характера следует давать в виде таблиц.
-\layout Itemize
+\begin_layout Itemize
+п≤п╫я└п╬я─п╪п╟я├п╦я▌ я┌п╟п╠п╩п╦я┤п╫п╬пЁп╬ я┘п╟я─п╟п╨я┌п╣я─п╟ я│п╩п╣п╢я┐п╣я┌ п╢п╟п╡п╟я┌я▄ п╡ п╡п╦п╢п╣ я┌п╟п╠п╩п╦я├.
+\end_layout
 
-При необходимости сменить оформление (поля документа, параметры абзаца или
- шрифта), это можно сделать в меню 
-\family sans 
-Формат
-\family default 
-, где первые три строчки меню именно за это и отвечают.
- При работе с классом ГОСТ вам 
-\emph on 
-не должно
-\emph default 
- требоваться изменять оформление.
- Оно уже соответствует ГОСТ.
-\layout Itemize
+\begin_layout Itemize
+п÷я─п╦ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬я│я┌п╦ я│п╪п╣п╫п╦я┌я▄ п╬я└п╬я─п╪п╩п╣п╫п╦п╣ (п©п╬п╩я▐ п╢п╬п╨я┐п╪п╣п╫я┌п╟, п©п╟я─п╟п╪п╣я┌я─я▀ п╟п╠п╥п╟я├п╟ п╦п╩п╦
+ я┬я─п╦я└я┌п╟), я█я┌п╬ п╪п╬п╤п╫п╬ я│п╢п╣п╩п╟я┌я▄ п╡ п╪п╣п╫я▌ 
+\family sans
+п╓п╬я─п╪п╟я┌
+\family default
+, пЁп╢п╣ п©п╣я─п╡я▀п╣ я┌я─п╦ я│я┌я─п╬я┤п╨п╦ п╪п╣п╫я▌ п╦п╪п╣п╫п╫п╬ п╥п╟ я█я┌п╬ п╦ п╬я┌п╡п╣я┤п╟я▌я┌.
+ п÷я─п╦ я─п╟п╠п╬я┌п╣ я│ п╨п╩п╟я│я│п╬п╪ п⌠п·п║п╒ п╡п╟п╪ 
+\emph on
+п╫п╣ п╢п╬п╩п╤п╫п╬
+\emph default
+ я┌я─п╣п╠п╬п╡п╟я┌я▄я│я▐ п╦п╥п╪п╣п╫я▐я┌я▄ п╬я└п╬я─п╪п╩п╣п╫п╦п╣.
+ п·п╫п╬ я┐п╤п╣ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐п╣я┌ п⌠п·п║п╒.
+\end_layout
 
-Вставка в текст таких элементов как сноски, заметки, перекрёстные ссылки,
- рисунки, таблицы, осуществляется через логичное меню 
-\family sans 
-Вставить
-\family default 
+\begin_layout Itemize
+п▓я│я┌п╟п╡п╨п╟ п╡ я┌п╣п╨я│я┌ я┌п╟п╨п╦я┘ я█п╩п╣п╪п╣п╫я┌п╬п╡ п╨п╟п╨ я│п╫п╬я│п╨п╦, п╥п╟п╪п╣я┌п╨п╦, п©п╣я─п╣п╨я─я▒я│я┌п╫я▀п╣ я│я│я▀п╩п╨п╦,
+ я─п╦я│я┐п╫п╨п╦, я┌п╟п╠п╩п╦я├я▀, п╬я│я┐я┴п╣я│я┌п╡п╩я▐п╣я┌я│я▐ я┤п╣я─п╣п╥ п╩п╬пЁп╦я┤п╫п╬п╣ п╪п╣п╫я▌ 
+\family sans
+п▓я│я┌п╟п╡п╦я┌я▄
+\family default
 .
  
-\layout Itemize
+\end_layout
 
-Особо следует отметить, что содержание документа формируется автоматически,
- достаточно вставить его в документ.
-\layout Itemize
+\begin_layout Itemize
+п·я│п╬п╠п╬ я│п╩п╣п╢я┐п╣я┌ п╬я┌п╪п╣я┌п╦я┌я▄, я┤я┌п╬ я│п╬п╢п╣я─п╤п╟п╫п╦п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟ я└п╬я─п╪п╦я─я┐п╣я┌я│я▐ п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦,
+ п╢п╬я│я┌п╟я┌п╬я┤п╫п╬ п╡я│я┌п╟п╡п╦я┌я▄ п╣пЁп╬ п╡ п╢п╬п╨я┐п╪п╣п╫я┌.
+\end_layout
 
-Для переключения между открытыми документами используйте меню 
-\family sans 
-Документы
-\family default 
+\begin_layout Itemize
+п■п╩я▐ п©п╣я─п╣п╨п╩я▌я┤п╣п╫п╦я▐ п╪п╣п╤п╢я┐ п╬я┌п╨я─я▀я┌я▀п╪п╦ п╢п╬п╨я┐п╪п╣п╫я┌п╟п╪п╦ п╦я│п©п╬п╩я▄п╥я┐п╧я┌п╣ п╪п╣п╫я▌ 
+\family sans
+п■п╬п╨я┐п╪п╣п╫я┌я▀
+\family default
 .
-\layout Itemize
+\end_layout
 
-Для значительного повышения производительности труда следует изучить горячие
- клавиши --- для начала, что комбинации Shift--стрелочки используются для
- выделение текста, Ctrl-X --- вырезать, Ctrl-C --- скопировать, Ctrl-V ---
- вставить.
-\layout Itemize
+\begin_layout Itemize
+п■п╩я▐ п╥п╫п╟я┤п╦я┌п╣п╩я▄п╫п╬пЁп╬ п©п╬п╡я▀я┬п╣п╫п╦я▐ п©я─п╬п╦п╥п╡п╬п╢п╦я┌п╣п╩я▄п╫п╬я│я┌п╦ я┌я─я┐п╢п╟ я│п╩п╣п╢я┐п╣я┌ п╦п╥я┐я┤п╦я┌я▄ пЁп╬я─я▐я┤п╦п╣
+ п╨п╩п╟п╡п╦я┬п╦ Б─■ п╢п╩я▐ п╫п╟я┤п╟п╩п╟, я┤я┌п╬ п╨п╬п╪п╠п╦п╫п╟я├п╦п╦ ShiftБ─⌠я│я┌я─п╣п╩п╬я┤п╨п╦ п╦я│п©п╬п╩я▄п╥я┐я▌я┌я│я▐ п╢п╩я▐ п╡я▀п╢п╣п╩п╣п╫п╦п╣
+ я┌п╣п╨я│я┌п╟, Ctrl-X Б─■ п╡я▀я─п╣п╥п╟я┌я▄, Ctrl-C Б─■ я│п╨п╬п©п╦я─п╬п╡п╟я┌я▄, Ctrl-V Б─■ п╡я│я┌п╟п╡п╦я┌я▄.
+\end_layout
 
-Обратите внимание на то, что для ввода знака тире 
+\begin_layout Itemize
+п·п╠я─п╟я┌п╦я┌п╣ п╡п╫п╦п╪п╟п╫п╦п╣ п╫п╟ я┌п╬, я┤я┌п╬ п╢п╩я▐ п╡п╡п╬п╢п╟ п╥п╫п╟п╨п╟ я┌п╦я─п╣ 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
----
+Б─■
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
- необходимо ввести 3 минуса подряд: 
+ п╫п╣п╬п╠я┘п╬п╢п╦п╪п╬ п╡п╡п╣я│я┌п╦ 3 п╪п╦п╫я┐я│п╟ п©п╬п╢я─я▐п╢: 
 \begin_inset Quotes eld
-\end_inset 
+\end_inset
 
 -
-\latex latex 
+\begin_inset ERT
+status collapsed
 
-\backslash 
+\begin_layout Plain Layout
+
+
+\backslash
 /
-\latex default 
+\end_layout
+
+\end_inset
+
 -
-\latex latex 
+\begin_inset ERT
+status collapsed
 
-\backslash 
+\begin_layout Plain Layout
+
+
+\backslash
 /
-\latex default 
+\end_layout
+
+\end_inset
+
 -
 \begin_inset Quotes erd
-\end_inset 
+\end_inset
 
 .
- Чтобы получить знак номера 
-\begin_inset Quotes eld
-\end_inset 
+\end_layout
+
+\begin_layout Itemize
+п║я┐я┴п╣я│я┌п╡я┐п╣я┌ п╢п╬п╨я┐п╪п╣п╫я┌ п╫п╟ я─я┐я│я│п╨п╬п╪ я▐п╥я▀п╨п╣ HOW-TO-\SpecialChar LyX
+.
+ п▓ п╫п╣п╪ п╬я│п╡п╣я┴п╣п╫я▀ п╫п╣п╨п╬я┌п╬я─я▀п╣ п╡п╬п©я─п╬я│я▀, п╡п╬п╥п╫п╦п╨п╟я▌я┴п╦п╣ п©я─п╦ я─п╟п╠п╬я┌п╣ я│ \SpecialChar LyX
+/\SpecialChar LaTeX
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
 
 
-\latex latex 
-
-\backslash 
-No
-\latex default 
-
-\begin_inset Quotes erd
-\end_inset 
-
-, введите 
-\backslash 
-No{}.
-\layout Itemize
-
-Существует документ на русском языке HOW-TO-LyX.
- В нем освещены некоторые вопросы, возникающие при работе с LyX/LaTeX.
-\layout Standard
-
-
-\latex latex 
-
-\backslash 
+\backslash
 end{multicols}
-\layout Standard
+\end_layout
 
-В путь, и больше экспериментов.
- Вскоре вы заметите, что работать в LyX удобно и надёжно, и при этом получаются
- красивые, хорошо структурированные документы.
-\the_end
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+п▓ п©я┐я┌я▄, п╦ п╠п╬п╩я▄я┬п╣ я█п╨я│п©п╣я─п╦п╪п╣п╫я┌п╬п╡.
+ п▓я│п╨п╬я─п╣ п╡я▀ п╥п╟п╪п╣я┌п╦я┌п╣, я┤я┌п╬ я─п╟п╠п╬я┌п╟я┌я▄ п╡ \SpecialChar LyX
+ я┐п╢п╬п╠п╫п╬ п╦ п╫п╟п╢я▒п╤п╫п╬, п╦ п©я─п╦ я█я┌п╬п╪ п©п╬п╩я┐я┤п╟я▌я┌я│я▐
+ п╨я─п╟я│п╦п╡я▀п╣, я┘п╬я─п╬я┬п╬ я│я┌я─я┐п╨я┌я┐я─п╦я─п╬п╡п╟п╫п╫я▀п╣ п╢п╬п╨я┐п╪п╣п╫я┌я▀.
+\end_layout
+
+\end_body
+\end_document
